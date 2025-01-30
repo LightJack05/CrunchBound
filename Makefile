@@ -8,23 +8,30 @@ SDL3FLAGS=$(shell pkg-config sdl3 --cflags --libs)
 
 PROJ=proj
 
-SRCS=main.cpp
-OBJS=$(subst .cpp,.o,$(SRCS))
+SRCS=$(shell find . -name '*.cpp')
+OBJDIR=./obj
+BINDIR=./bin
+OBJS=$(patsubst ./%.cpp, $(OBJDIR)/%.o, $(SRCS))
 
-all: $(PROJ)
+all: $(BINDIR)/$(PROJ)
 
-$(PROJ): $(OBJS)
-	$(CXX) -Wall $(LDFLAGS) -o $(PROJ) $(OBJS) $(LDLIBS) $(SDL3FLAGS)
+$(BINDIR)/$(PROJ): $(OBJS)
+	@mkdir -p $(BINDIR)
+	$(CXX) -Wall $(LDFLAGS) -o $(BINDIR)/$(PROJ) $(OBJS) $(LDLIBS) $(SDL3FLAGS)
+
+$(OBJDIR)/%.o: %.cpp
+	@mkdir -p $(dir $@)
+	$(CXX) $(CPPFLAGS) -c $< -o $@
 
 depend: .depend
 
 .depend: $(SRCS)
 	$(RM) ./.depend
-	$(CXX) $(CPPFLAGS) -MM $^>>./.depend;
+	$(CXX) $(CPPFLAGS) -MM $^ | sed 's,\(\w\+\)\.o,$(OBJDIR)/\1.o,g' >> ./.depend
 
 clean:
 	$(RM) $(OBJS)
-	$(RM) $(PROJ) 
+	$(RM) $(BINDIR)/$(PROJ)
 
 distclean: clean
 	$(RM) *~ .depend
