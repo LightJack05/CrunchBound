@@ -1,4 +1,5 @@
 GameObject<T> {
+    enabled: bool
     posX: float
     posY: float
     scaleX: float
@@ -7,17 +8,27 @@ GameObject<T> {
     behaviors: Vector<GameObjectBehavior>
 }
 
-GameObjectBehavior {
-    virtual void ControllerTickActions(obj);
-}
-
-PhysicsBehavior: GameObjectBehavior {
+IPhysicsController {
     velX: float
     velY: float
     weight: float
 }
 
-CollisionController{
+KinematicGameObject<T>: GameObject<T>, IPhysicsController{
+        
+}
+
+
+GameObjectBehavior {
+    enabled: bool
+    virtual void OnTick(obj);
+    virtual void OnStart(obj);
+}
+
+PhysicsBehavior: GameObjectBehavior {
+}
+
+CollisionBehavior: PhysicsBehavior{
     collisionEnabled: bool
     respectWalls: bool
     colliderLayers: Vector<int>
@@ -34,4 +45,3 @@ GravityBehavior: PhysicsBehavior {
 }
 
 StaticBehavior: PhysicsBehavior {
-}
