@@ -1,26 +1,25 @@
+#include "engine/GameManagement.hpp"
+#include "engine/GameObject.hpp"
+#include "engine/components/renderers/RectangleRenderer.hpp"
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 #include <SDL3/SDL_pixels.h>
 #include <SDL3/SDL_rect.h>
 #include <SDL3/SDL_render.h>
 #include <SDL3/SDL_surface.h>
+#include <iostream>
+#include <memory>
 #include <stdbool.h>
-#include <stdio.h>
 #include <stdlib.h>
 
-void frame(SDL_Renderer *&ren, SDL_Event &e, bool &quit) {
-        SDL_SetRenderDrawColor(ren, 255, 0, 0, SDL_ALPHA_OPAQUE);
-        SDL_FRect *rect = new SDL_FRect();
-        rect->h = 300;
-        rect->w = 400;
-        rect->x = 500;
-        rect->y = 200;
-        SDL_RenderFillRect(ren, rect);
 
-        SDL_SetRenderDrawColor(ren, 0, 0, 0, 255);
+void frame(SDL_Renderer *&ren) {
+    UpdateObjects(ren);
 }
 
-void gameLoop(SDL_Renderer *&ren, SDL_Event &e, bool &quit) {
+void gameLoop(SDL_Renderer *&ren) {
+        SDL_Event e;
+        bool quit = false;
         while (!quit) {
                 while (SDL_PollEvent(&e)) {
                         if (e.type == SDL_EVENT_QUIT) {
@@ -28,11 +27,25 @@ void gameLoop(SDL_Renderer *&ren, SDL_Event &e, bool &quit) {
                         }
                 }
                 SDL_RenderClear(ren);
-                frame(ren, e, quit);
+                frame(ren);
                 SDL_RenderPresent(ren);
                 // avoid windows thinking the window has crashed.
                 SDL_Delay(100);
         }
+}
+
+void initializeGame(){
+    windowBackgroundColor.r = 255;
+    windowBackgroundColor.b = 255;
+    windowBackgroundColor.g = 255;
+    windowBackgroundColor.a = 255;
+
+    std::shared_ptr<GameObject> go = std::make_shared<GameObject>();
+    go->setPosition(std::make_shared<Vector2>(300, 300));
+    std::shared_ptr<RectangleRenderer> rr = std::make_shared<RectangleRenderer>(go.get(), 200,200);
+    rr->setColor(255, 0, 0, 255);
+    go->RegisterComponent(rr);
+    gameObjects.push_back(go);
 }
 
 int main() {
@@ -43,19 +56,18 @@ int main() {
 
         SDL_Window *win;
         SDL_Renderer *ren;
-        if (SDL_CreateWindowAndRenderer("Hello World!", 2000, 1200,
+        if (SDL_CreateWindowAndRenderer("", 2000, 1200,
                                         SDL_WINDOW_RESIZABLE, &win,
                                         &ren) == 0) {
-                fprintf(stderr, "SDL_CreateWindowAndRenderer Error: %s\n",
+                fprintf(stderr, "SDL_CreateWindowAndRenderer Error:%s\n",
                         SDL_GetError());
                 SDL_Quit();
                 return EXIT_FAILURE;
         }
 
-        SDL_Event e;
-        bool quit = false;
-        Uint32 startTime = SDL_GetTicks();
-        gameLoop(ren, e, quit);
+        initializeGame();
+
+        gameLoop(ren);
 
         SDL_DestroyRenderer(ren);
         SDL_DestroyWindow(win);

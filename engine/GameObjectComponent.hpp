@@ -1,8 +1,10 @@
 #ifndef GAMEOBJECTCOMPONENT_HPP
 #define GAMEOBJECTCOMPONENT_HPP
 
-#include "GameObject.hpp"
 #include <cstddef>
+
+#include "GameObject.hpp"
+
 class GameObjectComponent {
       protected:
         bool enabled = true;
@@ -11,6 +13,7 @@ class GameObjectComponent {
       public:
         bool getEnabled() const { return enabled; }
         void setEnabled(bool value) { enabled = value; }
+        void setParent(GameObject *value) { parent = value; }
 
         ~GameObjectComponent();
 
