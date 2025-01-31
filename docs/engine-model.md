@@ -1,31 +1,48 @@
-GameObject<T> {
-    enabled: bool
-    posX: float
-    posY: float
-    scaleX: float
-    scaleY: float
-    SdlRenderedObject: T
-    behaviors: Vector<GameObjectBehavior>
-}
-
 IPhysicsController {
     velX: float
     velY: float
     weight: float
 }
 
-KinematicGameObject<T>: GameObject<T>, IPhysicsController{
-        
+ITransform {
+    posX: float
+    posY: float
+    scaleX: float
+    scaleY: float
 }
 
+GameObject : ITransform, IPhysicsController{
+    enabled: bool
+    components: Vector<Component>
+}
 
-GameObjectBehavior {
+abstract Component {
     enabled: bool
     virtual void OnTick(obj);
     virtual void OnStart(obj);
 }
 
+
+abstract Renderer : Component {
+    virtual void render(renderer);
+}
+
+
+RectangleRenderer : Renderer {
+    rect: SDL_FRect
+    impl render(renderer);
+}
+
+/...
+
+
+
+abstract GameObjectBehavior : Component {
+
+}
+
 PhysicsBehavior: GameObjectBehavior {
+
 }
 
 CollisionBehavior: PhysicsBehavior{
@@ -36,12 +53,11 @@ CollisionBehavior: PhysicsBehavior{
     bounciness: float
 }
 
-ElasticBehavior: PhysicsBehavior {
-}
-
 GravityBehavior: PhysicsBehavior {
     gravityScale: float
     gravityEnabled: bool
 }
 
 StaticBehavior: PhysicsBehavior {
+
+}
