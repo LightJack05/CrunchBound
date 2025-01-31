@@ -16,24 +16,31 @@ OBJS=$(patsubst ./%.cpp, $(OBJDIR)/%.o, $(SRCS))
 all: $(BINDIR)/$(PROJ)
 
 $(BINDIR)/$(PROJ): $(OBJS)
+	@echo ""
+	@echo "Linking... "
 	@mkdir -p $(BINDIR)
 	$(CXX) -Wall $(LDFLAGS) -o $(BINDIR)/$(PROJ) $(OBJS) $(LDLIBS) $(SDL3FLAGS)
 
 $(OBJDIR)/%.o: %.cpp
 	@mkdir -p $(dir $@)
-	$(CXX) $(CPPFLAGS) -c $< -o $@
+	@$(CXX) $(CPPFLAGS) -c $< -o $@
+	@echo "    CXX $<"
 
 depend: .depend
 
 .depend: $(SRCS)
 	$(RM) ./.depend
 	$(CXX) $(CPPFLAGS) -MM $^ | sed 's,\(\w\+\)\.o,$(OBJDIR)/\1.o,g' >> ./.depend
+	@echo ""
 
 clean:
-	$(RM) $(OBJS)
-	$(RM) $(BINDIR)/$(PROJ)
+	@echo "RM $(OBJS)"
+	@$(RM) $(OBJS)
+	@echo "RM $(BINDIR)/$(PROJ)"
+	@$(RM) $(BINDIR)/$(PROJ)
 
 distclean: clean
-	$(RM) *~ .depend
+	@echo "RM .depend"
+	@$(RM) *~ .depend
 
 include .depend
