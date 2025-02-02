@@ -1,6 +1,7 @@
 CC=gcc
 CXX=g++
 RM=rm -f
+PROFILER=heaptrack
 CPPFLAGS=-g $(shell root-config --cflags)
 LDFLAGS=-g $(shell root-config --ldflags)
 LDLIBS=$(shell root-config --libs)
@@ -44,3 +45,11 @@ distclean: clean
 	@$(RM) *~ .depend
 
 include .depend
+
+run: all
+	$(BINDIR)/$(PROJ)
+
+profile: all
+	$(PROFILER) $(BINDIR)/$(PROJ)
+
+rebuild: distclean all
