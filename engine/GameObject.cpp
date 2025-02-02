@@ -1,6 +1,8 @@
 #include "GameObject.hpp"
 #include "GameObjectComponent.hpp"
 #include "Vector2.hpp"
+#include "exceptions/ComponentNotFoundException.hpp"
+#include <memory>
 
 GameObject::GameObject() {}
 
@@ -23,5 +25,15 @@ void GameObject::RegisterComponent(
     std::shared_ptr<GameObjectComponent> component) {
         this->components.push_back(component);
         component->setParent(this);
-        
+}
+
+void GameObject::RemoveComponent(std::shared_ptr<GameObjectComponent> component) {
+    for (int i = 0; i < this->components.size(); i++) {
+        if(components.at(i) == component){
+            components.erase(components.begin()+i);
+            return;
+        }    
+    }
+
+    throw ComponentNotFoundException(); 
 }

@@ -38,6 +38,7 @@ class GameObject {
         ~GameObject();
 
         void RegisterComponent(std::shared_ptr<GameObjectComponent> component);
+        void RemoveComponent(std::shared_ptr<GameObjectComponent> component);
 };
 
 #endif // GAMEOBJECT_HPP
