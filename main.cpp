@@ -8,6 +8,7 @@
 #include <SDL3/SDL_rect.h>
 #include <SDL3/SDL_render.h>
 #include <SDL3/SDL_surface.h>
+#include <cstdlib>
 #include <iostream>
 #include <memory>
 #include <stdbool.h>
@@ -18,11 +19,6 @@ unsigned long frameCounter = 0;
 void frame(SDL_Renderer *&ren) {
     UpdateObjects(ren);
     frameCounter++;
-    if(frameCounter == 600) {
-        std::shared_ptr<GameObject> go = gameObjects.at(0);
-        std::shared_ptr<GameObjectComponent> comp = go->components.at(0);
-        go->RemoveComponent(comp);
-    }
 }
 
 void gameLoop(SDL_Renderer *&ren) {
@@ -49,15 +45,19 @@ void initializeGame() {
     windowBackgroundColor.g = 255;
     windowBackgroundColor.a = 255;
 
-    std::shared_ptr<GameObject> go = std::make_shared<GameObject>();
-    go->setPosition(std::make_shared<Vector2>(300, 300));
+    for (int i = 0; i < 1000; i++) {
+        std::shared_ptr<GameObject> go = std::make_shared<GameObject>();
+        go->setPosition(std::make_shared<Vector2>(rand() % 800, rand() % 800));
 
-    std::shared_ptr<RectangleRenderer> rr =
-        std::make_shared<RectangleRenderer>(200, 200);
-    rr->setColor(255, 0, 0, 255);
-    go->RegisterComponent(rr);
+        std::shared_ptr<RectangleRenderer> rr =
+            std::make_shared<RectangleRenderer>(200, 200);
+        rr->setColor(255, 0, 0, 255);
+        go->RegisterComponent(rr);
 
-    RegisterGameObject(go);
+        RegisterGameObject(go);
+
+        gameObjects.erase(gameObjects.begin());
+    }
     OnGameStart();
 }
 

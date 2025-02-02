@@ -1,6 +1,6 @@
 #include "GameManagement.hpp"
 #include "GameObject.hpp"
-#include "GameObjectComponent.hpp"
+#include "components/GameObjectComponent.hpp"
 #include "components/renderers/Renderer.hpp"
 #include <SDL3/SDL_pixels.h>
 #include <SDL3/SDL_render.h>

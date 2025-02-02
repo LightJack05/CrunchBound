@@ -1,5 +1,5 @@
 #include "GameObject.hpp"
-#include "GameObjectComponent.hpp"
+#include "components/GameObjectComponent.hpp"
 #include "Vector2.hpp"
 #include "exceptions/ComponentNotFoundException.hpp"
 #include <memory>

@@ -3,7 +3,7 @@
 
 #include <cstddef>
 
-#include "GameObject.hpp"
+#include "../GameObject.hpp"
 
 class GameObjectComponent {
       protected:
