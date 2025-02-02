@@ -2,6 +2,6 @@
 #define TIME_HPP
 
 void UpdateDeltaTime();
-float GetDeltaTime();
+unsigned int GetDeltaTime();
 
 #endif // TIME_HPP

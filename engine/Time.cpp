@@ -1,12 +1,11 @@
 #include "Time.hpp"
 #include <SDL3/SDL.h>
 
-static float deltaTime = 1;
-static float lastFrameTime = 0;
+static unsigned int deltaTime = 1;
+static unsigned int lastFrameTime = 0;
 
-float GetDeltaTime() {
+unsigned int GetDeltaTime() {
     return deltaTime;
-
 }
 
 void UpdateDeltaTime() {

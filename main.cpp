@@ -1,5 +1,6 @@
 #include "engine/GameManagement.hpp"
 #include "engine/GameObject.hpp"
+#include "engine/Time.hpp"
 #include "engine/components/renderers/RectangleRenderer.hpp"
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
@@ -24,6 +25,7 @@ void gameLoop(SDL_Renderer *&ren) {
                         }
                 }
                 SDL_RenderClear(ren);
+                UpdateDeltaTime();
                 frame(ren);
                 SDL_RenderPresent(ren);
                 // avoid windows thinking the window has crashed.
