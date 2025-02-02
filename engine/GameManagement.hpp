@@ -13,5 +13,6 @@ extern SDL_Color windowBackgroundColor;
 void UpdateObjects(SDL_Renderer *renderer);
 
 void RegisterGameObject(std::shared_ptr<GameObject> object);
+void OnGameStart(); 
 
 #endif // GAMEMANAGEMENT_HPP

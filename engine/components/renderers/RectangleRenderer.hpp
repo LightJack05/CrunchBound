@@ -15,7 +15,7 @@ class RectangleRenderer : public Renderer {
         std::shared_ptr<SDL_Color> color = std::make_shared<SDL_Color>();
 
       public:
-        RectangleRenderer(GameObject *parent, float x, float y);
+        RectangleRenderer(float width, float height);
         ~RectangleRenderer();
 
         void setColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a);
