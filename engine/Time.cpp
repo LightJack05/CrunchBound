@@ -4,9 +4,7 @@
 static unsigned int deltaTime = 1;
 static unsigned int lastFrameTime = 0;
 
-unsigned int GetDeltaTime() {
-    return deltaTime;
-}
+unsigned int GetDeltaTime() { return deltaTime; }
 
 void UpdateDeltaTime() {
     unsigned int currentFrameTime = SDL_GetTicks();

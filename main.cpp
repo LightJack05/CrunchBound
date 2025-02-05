@@ -17,12 +17,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-unsigned long frameCounter = 0;
-
-void frame(SDL_Renderer *&ren) {
-    UpdateObjects(ren);
-    frameCounter++;
-}
+void frame(SDL_Renderer *&ren) { UpdateObjects(ren); }
 
 void gameLoop(SDL_Renderer *&ren) {
     SDL_Event e;
@@ -49,16 +44,17 @@ void initializeGame() {
     windowBackgroundColor.a = 255;
 
     std::shared_ptr<GameObject> go = std::make_shared<GameObject>();
-    go->setPosition(std::make_shared<Vector2>(100,800));
+    go->setPosition(std::make_shared<Vector2>(100, 800));
 
-    go->setVelocity(std::make_shared<Vector2>(1,-2));
+    go->setVelocity(std::make_shared<Vector2>(1, -2));
 
     std::shared_ptr<RectangleRenderer> rr =
         std::make_shared<RectangleRenderer>(200, 200);
     rr->setColor(255, 0, 0, 255);
     go->RegisterComponent(rr);
 
-    std::shared_ptr<KinematicBehavior> kb = std::make_shared<KinematicBehavior>();
+    std::shared_ptr<KinematicBehavior> kb =
+        std::make_shared<KinematicBehavior>();
     go->RegisterComponent(kb);
 
     std::shared_ptr<GravityBehavior> gb = std::make_shared<GravityBehavior>();
@@ -78,8 +74,8 @@ int main() {
 
     SDL_Window *win;
     SDL_Renderer *ren;
-    if (SDL_CreateWindowAndRenderer("", 2000, 1200, SDL_WINDOW_HIGH_PIXEL_DENSITY, &win,
-                                    &ren) == 0) {
+    if (SDL_CreateWindowAndRenderer(
+            "", 2000, 1200, SDL_WINDOW_HIGH_PIXEL_DENSITY, &win, &ren) == 0) {
         fprintf(stderr, "SDL_CreateWindowAndRenderer Error:%s\n",
                 SDL_GetError());
         SDL_Quit();

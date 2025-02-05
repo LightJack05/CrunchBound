@@ -3,8 +3,6 @@
 
 #include "../GameObjectComponent.hpp"
 
-class Behavior : public GameObjectComponent {
-
-};
+class Behavior : public GameObjectComponent {};
 
 #endif // BEHAVIOR_HPP

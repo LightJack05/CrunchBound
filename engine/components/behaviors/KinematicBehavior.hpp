@@ -3,9 +3,9 @@
 
 #include "Behavior.hpp"
 class KinematicBehavior : public Behavior {
-    public:
-        void OnTick() override;
-        void OnStart() override;
+  public:
+    void OnTick() override;
+    void OnStart() override;
 };
 
 #endif // KINEMATICBEHAVIOR_HPP

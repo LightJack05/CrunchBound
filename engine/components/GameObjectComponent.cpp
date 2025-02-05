@@ -1,5 +1,3 @@
 #include "GameObjectComponent.hpp"
 
-GameObjectComponent::~GameObjectComponent(){
-
-}
+GameObjectComponent::~GameObjectComponent() {}

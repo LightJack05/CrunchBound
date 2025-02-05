@@ -3,9 +3,8 @@
 
 #include <exception>
 class ComponentNotFoundException : public std::exception {
-    public:
-        const char *what();
-
+  public:
+    const char *what();
 };
 
 #endif // COMPONENTNOTFOUNDEXCEPTION_HPP
