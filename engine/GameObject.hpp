@@ -2,6 +2,7 @@
 #define GAMEOBJECT_HPP
 
 #include "Vector2.hpp"
+#include "exceptions/ComponentNotFoundException.hpp"
 #include <memory>
 #include <vector>
 
@@ -39,7 +40,17 @@ class GameObject {
     void RegisterComponent(std::shared_ptr<GameObjectComponent> component);
     void RemoveComponent(std::shared_ptr<GameObjectComponent> component);
 
-    template <typename T> T GetFirstComponent() {}
+    template <typename T> std::shared_ptr<T> GetFirstComponent() {
+        for (const std::shared_ptr<GameObjectComponent> component :
+             this->components) {
+
+            T *r = dynamic_cast<T *>(component.get());
+            if (r) {
+                return std::dynamic_pointer_cast<T>(component);
+            }
+        }
+        throw ComponentNotFoundException();
+    }
 };
 
 #endif // GAMEOBJECT_HPP
