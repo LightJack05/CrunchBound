@@ -4,6 +4,7 @@
 #include "Vector2.hpp"
 #include "exceptions/ComponentNotFoundException.hpp"
 #include <memory>
+#include <string>
 #include <vector>
 
 class GameObjectComponent;
@@ -15,9 +16,13 @@ class GameObject {
     std::shared_ptr<Vector2> position = std::make_shared<Vector2>();
     std::shared_ptr<Vector2> scale = std::make_shared<Vector2>();
     std::shared_ptr<Vector2> velocity = std::make_shared<Vector2>();
+    std::string tag = "";
 
   public:
     std::vector<std::shared_ptr<GameObjectComponent>> components;
+
+    const std::string getTag() const { return tag; }
+    void setTag(std::string value) { tag = value; }
 
     bool getEnabled() const { return enabled; };
     void setEnabled(bool value) { weight = value; };
