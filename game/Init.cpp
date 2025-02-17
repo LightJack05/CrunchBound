@@ -3,6 +3,7 @@
 #include "../engine/GameObject.hpp"
 #include "../engine/components/behaviors/GravityBehavior.hpp"
 #include "../engine/components/renderers/RectangleRenderer.hpp"
+#include "../engine/components/behaviors/KinematicBehavior.hpp"
 #include "Behaviors/PlayerBehavior.hpp"
 #include "Behaviors/PlayerCollisionBehavior.hpp"
 #include <memory>
@@ -16,6 +17,8 @@ void InitializeGame() {
     std::shared_ptr<GameObject> player = std::make_shared<GameObject>();
     player->setPosition(std::make_shared<Vector2>(100, 200));
     player->setTag("player");
+    std::shared_ptr<KinematicBehavior> playerKinematic = std::make_shared<KinematicBehavior>();
+    player->RegisterComponent(playerKinematic);
     std::shared_ptr<RectangleRenderer> playerRenderer =
         std::make_shared<RectangleRenderer>(100, 300);
     player->RegisterComponent(playerRenderer);

@@ -2,6 +2,4 @@
 #include <iostream>
 
 void PlayerBehavior::OnStart() {}
-void PlayerBehavior::OnTick() {
-    std::cout << this->parent->getPosition()->getY() << std::endl;
-}
+void PlayerBehavior::OnTick() {}
