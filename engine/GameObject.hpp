@@ -40,7 +40,7 @@ class GameObject {
     void setVelocity(std::shared_ptr<Vector2> value);
 
     GameObject();
-    ~GameObject();
+    virtual ~GameObject();
 
     void RegisterComponent(std::shared_ptr<GameObjectComponent> component);
     void RemoveComponent(std::shared_ptr<GameObjectComponent> component);

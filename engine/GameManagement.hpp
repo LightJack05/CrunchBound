@@ -9,6 +9,8 @@
 
 extern std::vector<std::shared_ptr<GameObject>> gameObjects;
 extern SDL_Color windowBackgroundColor;
+extern const int ScreenHeight;
+extern const int ScreenWidth;
 
 void UpdateObjects(SDL_Renderer *renderer);
 

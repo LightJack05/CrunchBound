@@ -15,7 +15,7 @@ class GameObjectComponent {
     void setEnabled(bool value) { enabled = value; }
     void setParent(GameObject *value) { parent = value; }
 
-    ~GameObjectComponent();
+    virtual ~GameObjectComponent();
 
     virtual void OnTick() = 0;
     virtual void OnStart() = 0;

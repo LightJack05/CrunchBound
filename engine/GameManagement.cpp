@@ -11,6 +11,9 @@ std::vector<std::shared_ptr<GameObject>> gameObjects =
 
 SDL_Color windowBackgroundColor;
 
+const int ScreenHeight = 1200;
+const int ScreenWidth = 1600;
+
 static void
 HandleComponentUpdate(std::shared_ptr<GameObjectComponent> component,
                       SDL_Renderer *renderer) {
@@ -23,10 +26,12 @@ HandleComponentUpdate(std::shared_ptr<GameObjectComponent> component,
 }
 
 void UpdateObjects(SDL_Renderer *renderer) {
+    
     for (const std::shared_ptr<GameObject> gameObject : gameObjects) {
         for (const std::shared_ptr<GameObjectComponent> component :
              gameObject->components) {
-            HandleComponentUpdate(component, renderer);
+            if (component->getEnabled())
+                HandleComponentUpdate(component, renderer);
         }
     }
     SDL_SetRenderDrawColor(renderer, windowBackgroundColor.r,

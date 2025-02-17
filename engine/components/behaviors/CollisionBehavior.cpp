@@ -2,9 +2,7 @@
 #include "../../GameManagement.hpp"
 #include "../../Time.hpp"
 #include <cstdio>
-#include <iostream>
 #include <memory>
-#include <ostream>
 
 CollisionBehavior::CollisionBehavior() {}
 
@@ -78,7 +76,4 @@ bool CollisionBehavior::IsPointInsideCollider(Vector2 position) {
 
 void CollisionBehavior::OnStart() {}
 
-void CollisionBehavior::BeforeCollision(std::shared_ptr<GameObject> other) {
-    std::cout << "Collision detected on: " << this->parent->getTag()
-              << std::endl;
-}
+void CollisionBehavior::BeforeCollision(std::shared_ptr<GameObject> other) {}
