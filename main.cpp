@@ -11,6 +11,7 @@
 #include <iostream>
 #include <stdbool.h>
 #include <stdlib.h>
+#include "engine/Events.hpp"
 #include "game/Init.hpp"
 
 void frame(SDL_Renderer *&ren) {
@@ -19,12 +20,9 @@ void frame(SDL_Renderer *&ren) {
 
 void gameLoop(SDL_Renderer *&ren) {
     SDL_Event e;
-    bool quit = false;
-    while (!quit) {
+    while (!QuitGame) {
         while (SDL_PollEvent(&e)) {
-            if (e.type == SDL_EVENT_QUIT) {
-                quit = true;
-            }
+            HandleEvent(e);
         }
         SDL_RenderClear(ren);
         UpdateDeltaTime();

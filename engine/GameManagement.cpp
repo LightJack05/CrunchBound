@@ -11,6 +11,7 @@ std::vector<std::shared_ptr<GameObject>> gameObjects =
 
 SDL_Color windowBackgroundColor;
 
+bool QuitGame = false;
 const int ScreenHeight = 1200;
 const int ScreenWidth = 1600;
 

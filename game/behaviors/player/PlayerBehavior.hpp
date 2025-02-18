@@ -1,7 +1,7 @@
 #ifndef PLAYERBEHAVIOR_HPP
 #define PLAYERBEHAVIOR_HPP
 
-#include "../../engine/components/behaviors/Behavior.hpp"
+#include "../../../engine/components/behaviors/Behavior.hpp"
 
 class PlayerBehavior : public Behavior {
   public:

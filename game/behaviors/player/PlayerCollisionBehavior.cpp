@@ -1,5 +1,5 @@
 #include "PlayerCollisionBehavior.hpp"
-#include "../../engine/components/behaviors/GravityBehavior.hpp"
+#include "../../../engine/components/behaviors/GravityBehavior.hpp"
 #include <iostream>
 #include <memory>
 

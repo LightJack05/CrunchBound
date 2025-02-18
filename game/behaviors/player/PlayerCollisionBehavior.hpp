@@ -1,7 +1,7 @@
 #ifndef PLAYERCOLLISIONBEHAVIOR_HPP
 #define PLAYERCOLLISIONBEHAVIOR_HPP
 
-#include "../../engine/components/behaviors/CollisionBehavior.hpp"
+#include "../../../engine/components/behaviors/CollisionBehavior.hpp"
 
 class PlayerCollisionBehavior : public CollisionBehavior {
   public:

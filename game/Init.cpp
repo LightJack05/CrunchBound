@@ -2,10 +2,11 @@
 #include "../engine/GameManagement.hpp"
 #include "../engine/GameObject.hpp"
 #include "../engine/components/behaviors/GravityBehavior.hpp"
-#include "../engine/components/renderers/RectangleRenderer.hpp"
 #include "../engine/components/behaviors/KinematicBehavior.hpp"
-#include "Behaviors/PlayerBehavior.hpp"
-#include "Behaviors/PlayerCollisionBehavior.hpp"
+#include "../engine/components/renderers/RectangleRenderer.hpp"
+#include "behaviors/player/PlayerBehavior.hpp"
+#include "behaviors/player/PlayerCollisionBehavior.hpp"
+#include "behaviors/player/PlayerKeyboardBehavior.hpp"
 #include <memory>
 
 void InitializeGame() {
@@ -17,7 +18,8 @@ void InitializeGame() {
     std::shared_ptr<GameObject> player = std::make_shared<GameObject>();
     player->setPosition(std::make_shared<Vector2>(100, 200));
     player->setTag("player");
-    std::shared_ptr<KinematicBehavior> playerKinematic = std::make_shared<KinematicBehavior>();
+    std::shared_ptr<KinematicBehavior> playerKinematic =
+        std::make_shared<KinematicBehavior>();
     player->RegisterComponent(playerKinematic);
     std::shared_ptr<RectangleRenderer> playerRenderer =
         std::make_shared<RectangleRenderer>(100, 300);
@@ -31,6 +33,9 @@ void InitializeGame() {
     std::shared_ptr<PlayerBehavior> playerBehavior =
         std::make_shared<PlayerBehavior>();
     player->RegisterComponent(playerBehavior);
+    std::shared_ptr<PlayerKeyboardBehavior> playerKeyboardBehavior =
+        std::make_shared<PlayerKeyboardBehavior>();
+    player->RegisterComponent(playerKeyboardBehavior);
 
     RegisterGameObject(player);
 
