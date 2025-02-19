@@ -1,7 +1,7 @@
 #ifndef INIT_HPP
 #define INIT_HPP
 
-void InitializeGame();
-void ResetGame();
+void CreateInitialGameObjects();
+void CreateGameManager();
 
 #endif // INIT_HPP

@@ -82,7 +82,7 @@ static void SpawnEnemy() {
     RegisterGameObject(enemy1);
 }
 
-static void CreateGameManager() {
+void CreateGameManager() {
     std::shared_ptr<GameObject> gameManager = std::make_shared<GameObject>();
 
     std::shared_ptr<GameManagerKeyboardBehavior> gmKeyboard =
@@ -92,7 +92,7 @@ static void CreateGameManager() {
     GameManager = gameManager;
 }
 
-static void CreateInitialGameObjects() {
+void CreateInitialGameObjects() {
     GameObjects.push_back(GameManager);
     SetupWindowbackground();
     SpawnEnemy();
@@ -101,14 +101,3 @@ static void CreateInitialGameObjects() {
     SpawnPlayer();
 }
 
-void InitializeGame() {
-    CreateGameManager();
-
-    CreateInitialGameObjects();
-}
-
-void ResetGame() {
-    std::cout << "Reset!" << std::endl;
-    GameObjects.clear();
-    CreateInitialGameObjects();
-}

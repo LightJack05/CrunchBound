@@ -1,6 +1,5 @@
 #include "GameManagerKeyboardHandler.hpp"
-#include "../../../engine/components/behaviors/GravityBehavior.hpp"
-#include "../../Init.hpp"
+#include "../../Lifecycle.hpp"
 #include <SDL3/SDL_events.h>
 #include <SDL3/SDL_keycode.h>
 

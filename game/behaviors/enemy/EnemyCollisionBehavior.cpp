@@ -1,12 +1,11 @@
 #include "EnemyCollisionBehavior.hpp"
-#include "../../../engine/components/behaviors/GravityBehavior.hpp"
-#include <iostream>
+#include "../../Lifecycle.hpp"
 #include <memory>
 
 void EnemyCollisionBehavior::BeforeCollision(
     std::shared_ptr<GameObject> other) {
     if (other->getTag() == "player") {
-        std::cout << "He's dead Jim." << std::endl;
+        GameOver();
     }
 }
 

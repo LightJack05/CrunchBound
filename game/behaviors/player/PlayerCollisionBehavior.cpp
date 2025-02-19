@@ -1,6 +1,6 @@
 #include "PlayerCollisionBehavior.hpp"
 #include "../../../engine/components/behaviors/GravityBehavior.hpp"
-#include <iostream>
+#include "../../Lifecycle.hpp"
 #include <memory>
 
 void PlayerCollisionBehavior::BeforeCollision(
@@ -10,6 +10,9 @@ void PlayerCollisionBehavior::BeforeCollision(
         this->parent->GetFirstComponent<GravityBehavior>()->setEnabled(false);
         this->parent->setPosition(std::make_shared<Vector2>(
             this->parent->getPosition()->getX(), other->getPosition()->getY() - this->parent->GetFirstComponent<CollisionBehavior>()->GetColliderSize()->getY()));
+    }
+    if (other->getTag() == "enemy") {
+        GameOver();
     }
 }
 

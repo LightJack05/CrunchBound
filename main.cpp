@@ -1,5 +1,7 @@
+#include "engine/Events.hpp"
 #include "engine/GameManagement.hpp"
 #include "engine/Time.hpp"
+#include "game/Lifecycle.hpp"
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 #include <SDL3/SDL_pixels.h>
@@ -11,12 +13,8 @@
 #include <iostream>
 #include <stdbool.h>
 #include <stdlib.h>
-#include "engine/Events.hpp"
-#include "game/Init.hpp"
 
-void frame(SDL_Renderer *&ren) {
-    UpdateObjects(ren); 
-}
+void frame(SDL_Renderer *&ren) { UpdateObjects(ren); }
 
 void gameLoop(SDL_Renderer *&ren) {
     SDL_Event e;
@@ -29,10 +27,9 @@ void gameLoop(SDL_Renderer *&ren) {
         frame(ren);
         SDL_RenderPresent(ren);
         // avoid windows thinking the window has crashed.
-        SDL_Delay(10);
+        SDL_Delay(1);
     }
 }
-
 
 int main() {
     if (SDL_Init(SDL_INIT_VIDEO) == 0) {
@@ -42,8 +39,8 @@ int main() {
 
     SDL_Window *win;
     SDL_Renderer *ren;
-    if (SDL_CreateWindowAndRenderer(
-            "", ScreenWidth, ScreenHeight, SDL_WINDOW_BORDERLESS, &win, &ren) == 0) {
+    if (SDL_CreateWindowAndRenderer("", ScreenWidth, ScreenHeight,
+                                    SDL_WINDOW_BORDERLESS, &win, &ren) == 0) {
         fprintf(stderr, "SDL_CreateWindowAndRenderer Error:%s\n",
                 SDL_GetError());
         SDL_Quit();

@@ -2,8 +2,6 @@
 #include "../../../engine/components/behaviors/GravityBehavior.hpp"
 #include <SDL3/SDL_events.h>
 #include <SDL3/SDL_keycode.h>
-#include <iostream>
-#include <memory>
 
 
 bool IsSpaceDown = false;
