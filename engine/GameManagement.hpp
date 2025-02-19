@@ -7,6 +7,7 @@
 #include <memory>
 #include <vector>
 
+extern std::shared_ptr<GameObject> GameManager;
 extern std::vector<std::shared_ptr<GameObject>> GameObjects;
 extern SDL_Color WindowBackgroundColor;
 extern const int ScreenHeight;

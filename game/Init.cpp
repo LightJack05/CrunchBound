@@ -5,9 +5,11 @@
 #include "../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../engine/components/renderers/RectangleRenderer.hpp"
 #include "behaviors/enemy/EnemyCollisionBehavior.hpp"
+#include "behaviors/gameManager/GameManagerKeyboardHandler.hpp"
 #include "behaviors/player/PlayerBehavior.hpp"
 #include "behaviors/player/PlayerCollisionBehavior.hpp"
 #include "behaviors/player/PlayerKeyboardBehavior.hpp"
+#include <iostream>
 #include <memory>
 
 static void SpawnPlayer() {
@@ -80,11 +82,33 @@ static void SpawnEnemy() {
     RegisterGameObject(enemy1);
 }
 
-void InitializeGame() {
+static void CreateGameManager() {
+    std::shared_ptr<GameObject> gameManager = std::make_shared<GameObject>();
 
+    std::shared_ptr<GameManagerKeyboardBehavior> gmKeyboard =
+        std::make_shared<GameManagerKeyboardBehavior>();
+    gameManager->RegisterComponent(gmKeyboard);
+
+    GameManager = gameManager;
+}
+
+static void CreateInitialGameObjects() {
+    GameObjects.push_back(GameManager);
     SetupWindowbackground();
     SpawnEnemy();
 
     CreateFloor();
     SpawnPlayer();
+}
+
+void InitializeGame() {
+    CreateGameManager();
+
+    CreateInitialGameObjects();
+}
+
+void ResetGame() {
+    std::cout << "Reset!" << std::endl;
+    GameObjects.clear();
+    CreateInitialGameObjects();
 }

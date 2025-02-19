@@ -9,6 +9,8 @@
 std::vector<std::shared_ptr<GameObject>> GameObjects =
     std::vector<std::shared_ptr<GameObject>>();
 
+std::shared_ptr<GameObject> GameManager;
+
 SDL_Color WindowBackgroundColor;
 
 bool QuitGame = false;
