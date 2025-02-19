@@ -4,17 +4,13 @@
 #include "../engine/components/behaviors/GravityBehavior.hpp"
 #include "../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../engine/components/renderers/RectangleRenderer.hpp"
+#include "behaviors/enemy/EnemyCollisionBehavior.hpp"
 #include "behaviors/player/PlayerBehavior.hpp"
 #include "behaviors/player/PlayerCollisionBehavior.hpp"
 #include "behaviors/player/PlayerKeyboardBehavior.hpp"
 #include <memory>
 
-void InitializeGame() {
-    windowBackgroundColor.r = 255;
-    windowBackgroundColor.b = 255;
-    windowBackgroundColor.g = 255;
-    windowBackgroundColor.a = 255;
-
+static void SpawnPlayer() {
     std::shared_ptr<GameObject> player = std::make_shared<GameObject>();
     player->setPosition(std::make_shared<Vector2>(100, 200));
     player->setTag("player");
@@ -38,7 +34,9 @@ void InitializeGame() {
     player->RegisterComponent(playerKeyboardBehavior);
 
     RegisterGameObject(player);
+}
 
+static void CreateFloor() {
     std::shared_ptr<GameObject> floor = std::make_shared<GameObject>();
     floor->setPosition(std::make_shared<Vector2>(0, ScreenHeight - 50));
     std::shared_ptr<RectangleRenderer> floorRenderer =
@@ -51,4 +49,42 @@ void InitializeGame() {
     floor->setTag("floor");
 
     RegisterGameObject(floor);
+}
+
+static void SetupWindowbackground() {
+    WindowBackgroundColor.r = 255;
+    WindowBackgroundColor.b = 255;
+    WindowBackgroundColor.g = 255;
+    WindowBackgroundColor.a = 255;
+}
+
+static void SpawnEnemy() {
+    std::shared_ptr<GameObject> enemy1 = std::make_shared<GameObject>();
+    enemy1->setTag("enemy");
+    enemy1->setPosition(std::make_shared<Vector2>(900, 900));
+    std::shared_ptr<EnemyCollisionBehavior> enemy1Collider =
+        std::make_shared<EnemyCollisionBehavior>(100, 100);
+    enemy1->RegisterComponent(enemy1Collider);
+
+    std::shared_ptr<RectangleRenderer> enemy1Renderer =
+        std::make_shared<RectangleRenderer>(100, 100);
+    enemy1Renderer->setColor(255, 0, 0, 255);
+    enemy1->RegisterComponent(enemy1Renderer);
+
+    std::shared_ptr<KinematicBehavior> enemy1Kinematics =
+        std::make_shared<KinematicBehavior>();
+    enemy1->RegisterComponent(enemy1Kinematics);
+
+    enemy1->getVelocity()->setX(-0.3);
+
+    RegisterGameObject(enemy1);
+}
+
+void InitializeGame() {
+
+    SetupWindowbackground();
+    SpawnEnemy();
+
+    CreateFloor();
+    SpawnPlayer();
 }

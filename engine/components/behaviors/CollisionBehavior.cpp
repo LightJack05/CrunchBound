@@ -12,7 +12,7 @@ CollisionBehavior::CollisionBehavior(int x, int y) {
 }
 
 void CollisionBehavior::OnTick() {
-    for (const std::shared_ptr<GameObject> other : gameObjects) {
+    for (const std::shared_ptr<GameObject> other : GameObjects) {
         if (other.get() == this->parent) {
             continue;
         }

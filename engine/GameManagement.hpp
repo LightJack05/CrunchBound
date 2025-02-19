@@ -7,8 +7,8 @@
 #include <memory>
 #include <vector>
 
-extern std::vector<std::shared_ptr<GameObject>> gameObjects;
-extern SDL_Color windowBackgroundColor;
+extern std::vector<std::shared_ptr<GameObject>> GameObjects;
+extern SDL_Color WindowBackgroundColor;
 extern const int ScreenHeight;
 extern const int ScreenWidth;
 extern bool QuitGame;

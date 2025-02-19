@@ -5,7 +5,7 @@
 #include <SDL3/SDL_events.h>
 
 void HandleKeyboardEvent(SDL_Event &e) {
-    for (const std::shared_ptr<GameObject> gameObject : gameObjects) {
+    for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
         for (const std::shared_ptr<GameObjectComponent> component :
              gameObject->components) {
             if (component->getEnabled()) {

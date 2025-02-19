@@ -6,10 +6,10 @@
 #include <SDL3/SDL_render.h>
 #include <memory>
 
-std::vector<std::shared_ptr<GameObject>> gameObjects =
+std::vector<std::shared_ptr<GameObject>> GameObjects =
     std::vector<std::shared_ptr<GameObject>>();
 
-SDL_Color windowBackgroundColor;
+SDL_Color WindowBackgroundColor;
 
 bool QuitGame = false;
 const int ScreenHeight = 1200;
@@ -27,25 +27,25 @@ HandleComponentUpdate(std::shared_ptr<GameObjectComponent> component,
 }
 
 void UpdateObjects(SDL_Renderer *renderer) {
-    
-    for (const std::shared_ptr<GameObject> gameObject : gameObjects) {
+
+    for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
         for (const std::shared_ptr<GameObjectComponent> component :
              gameObject->components) {
             if (component->getEnabled())
                 HandleComponentUpdate(component, renderer);
         }
     }
-    SDL_SetRenderDrawColor(renderer, windowBackgroundColor.r,
-                           windowBackgroundColor.g, windowBackgroundColor.b,
-                           windowBackgroundColor.a);
+    SDL_SetRenderDrawColor(renderer, WindowBackgroundColor.r,
+                           WindowBackgroundColor.g, WindowBackgroundColor.b,
+                           WindowBackgroundColor.a);
 }
 
 void RegisterGameObject(std::shared_ptr<GameObject> object) {
-    gameObjects.push_back(object);
+    GameObjects.push_back(object);
 }
 
 void OnGameStart() {
-    for (const std::shared_ptr<GameObject> gameObject : gameObjects) {
+    for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
         for (const std::shared_ptr<GameObjectComponent> component :
              gameObject->components) {
             component->OnStart();
