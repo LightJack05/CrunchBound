@@ -17,6 +17,8 @@ extern bool QuitGame;
 void UpdateObjects(SDL_Renderer *renderer);
 
 void RegisterGameObject(std::shared_ptr<GameObject> object);
+void EnqueueRegisterGameObject(std::shared_ptr<GameObject> object);
+void EnqueueGameReset();
 void OnGameStart();
 
 #endif // GAMEMANAGEMENT_HPP

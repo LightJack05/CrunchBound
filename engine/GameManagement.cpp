@@ -2,12 +2,16 @@
 #include "GameObject.hpp"
 #include "components/GameObjectComponent.hpp"
 #include "components/renderers/Renderer.hpp"
+#include "../game/Lifecycle.hpp"
 #include <SDL3/SDL_pixels.h>
 #include <SDL3/SDL_render.h>
+#include <iostream>
 #include <memory>
+#include <queue>
 
-std::vector<std::shared_ptr<GameObject>> GameObjects =
-    std::vector<std::shared_ptr<GameObject>>();
+std::vector<std::shared_ptr<GameObject>> GameObjects;
+static std::queue<std::shared_ptr<GameObject>> CreateObjectsQueue;
+static bool IsResetEnqueued = false;
 
 std::shared_ptr<GameObject> GameManager;
 
@@ -28,9 +32,29 @@ HandleComponentUpdate(std::shared_ptr<GameObjectComponent> component,
     component->OnTick();
 }
 
-void UpdateObjects(SDL_Renderer *renderer) {
+static void RegisterEnqueuedObjects(){
+    while(!CreateObjectsQueue.empty()){
+        RegisterGameObject(CreateObjectsQueue.front());
+        CreateObjectsQueue.pop();
+    }
+}
+static void ResetGameIfRequired(){
+    if(IsResetEnqueued){
+        ResetGame();
+        IsResetEnqueued = false;
+    }
+}
 
+static void WorkThroughFrameQueue(){
+    RegisterEnqueuedObjects();
+    ResetGameIfRequired();
+}
+
+void UpdateObjects(SDL_Renderer *renderer) {
+    WorkThroughFrameQueue();
+    int i = 0;
     for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
+        i++;
         for (const std::shared_ptr<GameObjectComponent> component :
              gameObject->components) {
             if (component->getEnabled())
@@ -44,6 +68,12 @@ void UpdateObjects(SDL_Renderer *renderer) {
 
 void RegisterGameObject(std::shared_ptr<GameObject> object) {
     GameObjects.push_back(object);
+}
+void EnqueueRegisterGameObject(std::shared_ptr<GameObject> object){
+    CreateObjectsQueue.push(object);
+}
+void EnqueueGameReset(){
+    IsResetEnqueued = true;
 }
 
 void OnGameStart() {

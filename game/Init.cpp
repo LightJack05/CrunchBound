@@ -5,6 +5,7 @@
 #include "../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../engine/components/renderers/RectangleRenderer.hpp"
 #include "behaviors/enemy/EnemyCollisionBehavior.hpp"
+#include "behaviors/gameManager/GameManagerBehavior.hpp"
 #include "behaviors/gameManager/GameManagerKeyboardHandler.hpp"
 #include "behaviors/player/PlayerBehavior.hpp"
 #include "behaviors/player/PlayerCollisionBehavior.hpp"
@@ -61,33 +62,38 @@ static void SetupWindowbackground() {
 }
 
 static void SpawnEnemy() {
-    std::shared_ptr<GameObject> enemy1 = std::make_shared<GameObject>();
-    enemy1->setTag("enemy");
-    enemy1->setPosition(std::make_shared<Vector2>(900, 900));
-    std::shared_ptr<EnemyCollisionBehavior> enemy1Collider =
+    std::shared_ptr<GameObject> enemy = std::make_shared<GameObject>();
+    enemy->setTag("enemy");
+    enemy->setPosition(std::make_shared<Vector2>(900, 900));
+    std::shared_ptr<EnemyCollisionBehavior> enemyCollider =
         std::make_shared<EnemyCollisionBehavior>(100, 100);
-    enemy1->RegisterComponent(enemy1Collider);
+    enemy->RegisterComponent(enemyCollider);
 
-    std::shared_ptr<RectangleRenderer> enemy1Renderer =
+    std::shared_ptr<RectangleRenderer> enemyRenderer =
         std::make_shared<RectangleRenderer>(100, 100);
-    enemy1Renderer->setColor(255, 0, 0, 255);
-    enemy1->RegisterComponent(enemy1Renderer);
+    enemyRenderer->setColor(255, 0, 0, 255);
+    enemy->RegisterComponent(enemyRenderer);
 
-    std::shared_ptr<KinematicBehavior> enemy1Kinematics =
+    std::shared_ptr<KinematicBehavior> enemyKinematics =
         std::make_shared<KinematicBehavior>();
-    enemy1->RegisterComponent(enemy1Kinematics);
+    enemy->RegisterComponent(enemyKinematics);
 
-    enemy1->getVelocity()->setX(-0.3);
+    enemy->getVelocity()->setX(-0.3);
 
-    RegisterGameObject(enemy1);
+    RegisterGameObject(enemy);
 }
 
 void CreateGameManager() {
     std::shared_ptr<GameObject> gameManager = std::make_shared<GameObject>();
+    gameManager->setTag("GameManager");
 
     std::shared_ptr<GameManagerKeyboardBehavior> gmKeyboard =
         std::make_shared<GameManagerKeyboardBehavior>();
     gameManager->RegisterComponent(gmKeyboard);
+
+    std::shared_ptr<GameManagerBehavior> gbBehavior =
+        std::make_shared<GameManagerBehavior>();
+    gameManager->RegisterComponent(gbBehavior);
 
     GameManager = gameManager;
 }
@@ -95,9 +101,6 @@ void CreateGameManager() {
 void CreateInitialGameObjects() {
     GameObjects.push_back(GameManager);
     SetupWindowbackground();
-    SpawnEnemy();
-
     CreateFloor();
     SpawnPlayer();
 }
-

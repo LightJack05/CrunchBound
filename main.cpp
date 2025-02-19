@@ -49,7 +49,6 @@ int main() {
 
     InitializeGame();
 
-    OnGameStart();
 
     gameLoop(ren);
 
