@@ -1,5 +1,6 @@
 #include "engine/Events.hpp"
 #include "engine/GameManagement.hpp"
+#include "engine/RandomNumberGenerator.hpp"
 #include "engine/Time.hpp"
 #include "game/Lifecycle.hpp"
 #include <SDL3/SDL.h>
@@ -48,7 +49,6 @@ int main() {
     }
 
     InitializeGame();
-
 
     gameLoop(ren);
 
