@@ -10,20 +10,20 @@
 static long long TimeSinceGameStart = 0;
 static long long TimeOfLastEnemy = 0;
 
-static float GetEnemyVelocityAtTime(long long timestamp) {
-    return ((float)std::sqrt(timestamp)) / 300;
+static inline float GetEnemyVelocityAtTime(long long timestamp) {
+    return ((float)std::sqrt(timestamp + 4000)) / 300;
 }
 
 static void SpawnEnemy(float velocityX) {
     std::shared_ptr<GameObject> enemy = std::make_shared<GameObject>();
     enemy->setTag("enemy");
-    enemy->setPosition(std::make_shared<Vector2>(900, 900));
+    enemy->setPosition(std::make_shared<Vector2>(2000, 900));
     std::shared_ptr<EnemyCollisionBehavior> enemyCollider =
-        std::make_shared<EnemyCollisionBehavior>(100, 100);
+        std::make_shared<EnemyCollisionBehavior>(15, 15);
     enemy->RegisterComponent(enemyCollider);
 
     std::shared_ptr<RectangleRenderer> enemyRenderer =
-        std::make_shared<RectangleRenderer>(100, 100);
+        std::make_shared<RectangleRenderer>(15, 15);
     enemyRenderer->setColor(255, 0, 0, 255);
     enemy->RegisterComponent(enemyRenderer);
 
@@ -32,14 +32,14 @@ static void SpawnEnemy(float velocityX) {
     enemy->RegisterComponent(enemyKinematics);
 
     enemy->getVelocity()->setX(-velocityX);
-    std::cout << "Spawning enemy " << enemy << " at: " << velocityX << std::endl;
+    std::cout << "Spawning enemy " << enemy << " with velocity " << velocityX << " at " << TimeSinceGameStart << std::endl;
 
     EnqueueRegisterGameObject(enemy);
 }
 
 void GameManagerBehavior::OnTick() {
     TimeSinceGameStart += GetDeltaTime();
-    if (TimeSinceGameStart - TimeOfLastEnemy > 1000) {
+    if (TimeSinceGameStart - TimeOfLastEnemy > 5000) {
         SpawnEnemy(GetEnemyVelocityAtTime(TimeSinceGameStart));
         TimeOfLastEnemy = TimeSinceGameStart;
     }

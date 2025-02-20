@@ -66,11 +66,11 @@ static void SpawnEnemy() {
     enemy->setTag("enemy");
     enemy->setPosition(std::make_shared<Vector2>(900, 900));
     std::shared_ptr<EnemyCollisionBehavior> enemyCollider =
-        std::make_shared<EnemyCollisionBehavior>(100, 100);
+        std::make_shared<EnemyCollisionBehavior>(15, 15);
     enemy->RegisterComponent(enemyCollider);
 
     std::shared_ptr<RectangleRenderer> enemyRenderer =
-        std::make_shared<RectangleRenderer>(100, 100);
+        std::make_shared<RectangleRenderer>(15, 15);
     enemyRenderer->setColor(255, 0, 0, 255);
     enemy->RegisterComponent(enemyRenderer);
 
