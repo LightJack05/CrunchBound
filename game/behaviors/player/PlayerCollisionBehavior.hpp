@@ -3,6 +3,11 @@
 
 #include "../../../engine/components/behaviors/CollisionBehavior.hpp"
 
+/**
+ * @class PlayerCollisionBehavior
+ * @brief The players collision behavior.
+ *
+ */
 class PlayerCollisionBehavior : public CollisionBehavior {
   public:
     PlayerCollisionBehavior();

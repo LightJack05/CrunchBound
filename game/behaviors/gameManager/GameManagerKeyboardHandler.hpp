@@ -3,6 +3,11 @@
 
 #include "../../../engine/components/behaviors/KeyboardHandlerBehavior.hpp"
 
+/**
+ * @class GameManagerKeyboardBehavior
+ * @brief The game managers keyboard handler for general handling
+ *
+ */
 class GameManagerKeyboardBehavior : public KeyboardHandlerBehavior {
   public:
     GameManagerKeyboardBehavior();
