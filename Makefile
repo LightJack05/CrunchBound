@@ -14,6 +14,8 @@ OBJDIR=./obj
 BINDIR=./bin
 OBJS=$(patsubst ./%.cpp, $(OBJDIR)/%.o, $(SRCS))
 
+.PHONY: docs
+
 all: $(BINDIR)/$(PROJ)
 
 $(BINDIR)/$(PROJ): $(OBJS)
@@ -53,3 +55,6 @@ profile: all
 	$(PROFILER) $(BINDIR)/$(PROJ)
 
 rebuild: distclean all
+
+docs:
+	doxygen doxygen.conf
