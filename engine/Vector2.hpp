@@ -1,9 +1,20 @@
 #ifndef VECTOR2_HPP
 #define VECTOR2_HPP
 
+/**
+ * @class Vector2
+ * @brief A Vector representing floating point coordinates in two dimensions
+ *
+ */
 class Vector2 {
   protected:
+    /**
+     * @brief The x element of the vector
+     */
     float x = 0;
+    /**
+     * @brief The y element of the vector
+     */
     float y = 0;
 
   public:
@@ -12,6 +23,11 @@ class Vector2 {
     float getY() const { return y; };
     void setY(float value) { y = value; };
 
+    /**
+     * @brief Return the magnitude of the vector
+     *
+     * @return The magnitude of the vector
+     */
     float getMaginitude();
 
     Vector2();
