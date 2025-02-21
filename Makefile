@@ -7,7 +7,7 @@ LDFLAGS=-g $(shell root-config --ldflags)
 LDLIBS=$(shell root-config --libs)
 SDL3FLAGS=$(shell pkg-config sdl3 --cflags --libs)
 
-PROJ=cpp-project
+PROJ=CrunchBound
 
 SRCS=$(shell find . -name '*.cpp')
 OBJDIR=./obj
