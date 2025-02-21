@@ -9,7 +9,8 @@ SDL3FLAGS=$(shell pkg-config sdl3 --cflags --libs)
 
 PROJ=CrunchBound
 
-SRCS=$(shell find . -name '*.cpp')
+SRCS=$(shell find . -name '*.cpp' -not -path "./package/*")
+HDRS=$(shell find . -name '*.hpp' -not -path "./package/*")
 OBJDIR=./obj
 BINDIR=./bin
 OBJS=$(patsubst ./%.cpp, $(OBJDIR)/%.o, $(SRCS))
@@ -17,7 +18,7 @@ APPIMAGEDIR=./package/appimage/$(PROJ).AppDir
 APPIMAGE=./package/appimage/$(PROJ).AppImage
 ARCHPACKAGEDIR=./package/arch/
 
-.PHONY: docs
+.PHONY: docs appimage archpackage
 
 all: $(BINDIR)/$(PROJ)
 
@@ -39,15 +40,18 @@ depend: .depend
 	$(CXX) $(CPPFLAGS) -MM $^ | sed 's,\(\w\+\)\.o,$(OBJDIR)/\1.o,g' >> ./.depend
 	@echo ""
 
-clean:
-	@$(RM) $(APPIMAGEDIR)
-	@$(RM) $(APPIMAGE)
+clean: cleanpackages
 	@echo "RM $(OBJS)"
 	@$(RM) $(OBJS)
 	@echo "RM $(BINDIR)/$(PROJ)"
 	@$(RM) $(BINDIR)/$(PROJ)
 
-distclean: clean
+cleanpackages:
+	@$(RM) $(APPIMAGEDIR)
+	@$(RM) $(APPIMAGE)
+	@$(RM) $(ARCHPACKAGEDIR)
+
+distclean: cleanpackages clean
 	@echo "RM .depend"
 	@$(RM) *~ .depend
 
@@ -59,12 +63,27 @@ run: all
 profile: all
 	$(PROFILER) $(BINDIR)/$(PROJ)
 
-rebuild: distclean all
+rebuild: 
+	make distclean
+	make all
 
 docs:
 	doxygen doxygen.conf
 
-appimage: all
+archpackage:
+	make clean
+	make all
+	@echo "Packaging project for Arch Linux..."
+	mkdir -p $(ARCHPACKAGEDIR)
+	tar -czvf $(ARCHPACKAGEDIR)/source.tar.gz $(SRCS) $(HDRS) assets icon.png Makefile Licenses
+	@cp PKGBUILD $(ARCHPACKAGEDIR)
+	@bash -c "cd $(ARCHPACKAGEDIR); makepkg -f"
+	@echo "Created arch package at $(ARCHPACKAGEDIR)"
+	
+
+appimage:
+	make clean
+	make all
 	@echo "Packaging project into AppDir..."
 	@mkdir -p $(APPIMAGEDIR)/usr/bin
 	@mkdir -p $(APPIMAGEDIR)/usr/lib

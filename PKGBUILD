@@ -1,7 +1,7 @@
-pkgname=cpp-project
+pkgname=crunchbound
 pkgver=0.0.1
 pkgrel=1
-pkgdesc="C++ SDL3 project"
+pkgdesc="Endless runner build with SDL3"
 arch=('x86_64')
 license=('MIT')
 depends=('gcc' 'sdl3' 'root')
@@ -10,7 +10,7 @@ source=("source.tar.gz")
 sha256sums=('SKIP')
 
 build() {
-    cd "$srcdir/Project-Cpp-Programmierung"
+    cd "$srcdir"
     
     # Ensure any environment-specific flags are loaded for root and SDL3
     export CPPFLAGS="$(root-config --cflags)"
@@ -23,14 +23,14 @@ build() {
 }
 
 package() {
-    cd "$srcdir/Project-Cpp-Programmierung"
+    cd "$srcdir"
     
     # Install binary
-    install -Dm755 "bin/$pkgname" "$pkgdir/usr/bin/$pkgname"
+    install -Dm755 "bin/CrunchBound" "$pkgdir/usr/bin/CrunchBound"
     
     # Install assets from the assets directory
     install -d "$pkgdir/usr/share/$pkgname/assets"
-    cp -r assets/* "$pkgdir/usr/share/$pkgname/assets/"
+    #cp -r assets/* "$pkgdir/usr/share/$pkgname/assets/"
     
     # Optionally include the license
     #install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
