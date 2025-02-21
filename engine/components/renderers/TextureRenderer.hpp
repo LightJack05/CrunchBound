@@ -14,9 +14,12 @@
 class TextureRenderer : public Renderer {
   protected:
     /**
-     * @brief The renderable texture
+     * @brief The renderable rectangle used for mapping 
      */
     std::shared_ptr<SDL_FRect> renderable = nullptr;
+    /**
+     * @brief The texture to be rendered
+     */
     SDL_Texture *texture = nullptr;
     /**
      * @brief The size of the renderer

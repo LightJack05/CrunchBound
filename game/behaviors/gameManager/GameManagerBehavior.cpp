@@ -4,10 +4,12 @@
 #include "../../../engine/Time.hpp"
 #include "../../../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../../../engine/components/renderers/RectangleRenderer.hpp"
-#include "../enemy/EnemyCollisionBehavior.hpp"
 #include "../../../engine/components/renderers/TextureRenderer.hpp"
+#include "../enemy/EnemyBehavior.hpp"
+#include "../enemy/EnemyCollisionBehavior.hpp"
 #include <cmath>
 #include <iostream>
+#include <memory>
 
 static long long TimeSinceGameStart = 0;
 static long long TimeOfLastEnemy = 0;
@@ -26,13 +28,18 @@ static void SpawnEnemy(float velocityX) {
     std::shared_ptr<GameObject> enemy = std::make_shared<GameObject>();
     enemy->setTag("enemy");
     enemy->setPosition(std::make_shared<Vector2>(
-        2000, (GetRandomNormalizedFloat() * 20) + 990));
+        2000, (GetRandomNormalizedFloat() * 200) + 900));
     std::shared_ptr<EnemyCollisionBehavior> enemyCollider =
         std::make_shared<EnemyCollisionBehavior>(15, 15);
     enemy->RegisterComponent(enemyCollider);
 
+    std::shared_ptr<EnemyBehavior> enemyBehavior =
+        std::make_shared<EnemyBehavior>();
+    enemy->RegisterComponent(enemyBehavior);
+
     std::shared_ptr<TextureRenderer> enemyRenderer =
-        std::make_shared<TextureRenderer>(32, 32, "assets/textures/objects/bug.png");
+        std::make_shared<TextureRenderer>(32, 32,
+                                          "assets/textures/objects/bug.png");
     enemyRenderer->setColor(255, 0, 0, 255);
     enemy->RegisterComponent(enemyRenderer);
 

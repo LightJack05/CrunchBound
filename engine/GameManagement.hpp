@@ -59,11 +59,25 @@ void UpdateObjects();
  */
 void RegisterGameObject(std::shared_ptr<GameObject> object);
 /**
+ * @brief Immediately destroy a GameObject.
+ *
+ * @param object The object to destory.
+ *
+ * @warning May cause the application to crash if used during a frame update!
+ */
+void DestroyGameObject(GameObject *object);
+/**
  * @brief Enqueue an object to be registered on the next frame.
  *
  * @param object The object to be registered.
  */
 void EnqueueRegisterGameObject(std::shared_ptr<GameObject> object);
+/**
+ * @brief Enqueue the destruction of a gameobject
+ *
+ * @param object The object to be destroyed
+ */
+void EnqueueDestroyGameObject(GameObject *object);
 /**
  * @brief Enqueue a reset of the game to be performed on the next frame.
  */

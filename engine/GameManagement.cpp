@@ -2,7 +2,6 @@
 #include "../game/Lifecycle.hpp"
 #include "GameObject.hpp"
 #include "components/GameObjectComponent.hpp"
-#include "components/renderers/Renderer.hpp"
 #include <SDL3/SDL_pixels.h>
 #include <SDL3/SDL_render.h>
 #include <iostream>
@@ -12,6 +11,7 @@
 SDL_Renderer *GlobalRenderer;
 std::vector<std::shared_ptr<GameObject>> GameObjects;
 static std::queue<std::shared_ptr<GameObject>> CreateObjectsQueue;
+static std::queue<GameObject *> DestroyObjectsQueue;
 static bool IsResetEnqueued = false;
 
 std::shared_ptr<GameObject> GameManager;
@@ -33,6 +33,14 @@ static void RegisterEnqueuedObjects() {
         CreateObjectsQueue.pop();
     }
 }
+
+static void DestroyEnqueuedObjects() {
+    while (!DestroyObjectsQueue.empty()) {
+        DestroyGameObject(DestroyObjectsQueue.front());
+        DestroyObjectsQueue.pop();
+    }
+}
+
 static void ResetGameIfRequired() {
     if (IsResetEnqueued) {
         ResetGame();
@@ -42,6 +50,7 @@ static void ResetGameIfRequired() {
 
 static void WorkThroughFrameQueue() {
     RegisterEnqueuedObjects();
+    DestroyEnqueuedObjects();
     ResetGameIfRequired();
 }
 
@@ -59,9 +68,25 @@ void UpdateObjects() {
 void RegisterGameObject(std::shared_ptr<GameObject> object) {
     GameObjects.push_back(object);
 }
+
+void DestroyGameObject(GameObject *object) {
+    for (int i = 0; i < GameObjects.size(); i++) {
+        if (GameObjects.at(i).get() == object) {
+            std::cout << "Destroyed object." << std::endl;
+            GameObjects.erase(GameObjects.begin() + i);
+            return;
+        }
+    }
+}
+
 void EnqueueRegisterGameObject(std::shared_ptr<GameObject> object) {
     CreateObjectsQueue.push(object);
 }
+
+void EnqueueDestroyGameObject(GameObject *object) {
+    DestroyObjectsQueue.push(object);
+}
+
 void EnqueueGameReset() { IsResetEnqueued = true; }
 
 void OnGameStart() {
