@@ -6,6 +6,7 @@ CPPFLAGS=-g -O0 $(shell root-config --cflags)
 LDFLAGS=-g $(shell root-config --ldflags)
 LDLIBS=$(shell root-config --libs)
 SDL3FLAGS=$(shell pkg-config sdl3 --cflags --libs)
+SDL3IMGFLAGS=-lSDL3_image
 
 PROJ=CrunchBound
 
@@ -26,7 +27,7 @@ $(BINDIR)/$(PROJ): $(OBJS)
 	@echo ""
 	@echo "Linking... "
 	@mkdir -p $(BINDIR)
-	$(CXX) -Wall $(LDFLAGS) -o $(BINDIR)/$(PROJ) $(OBJS) $(LDLIBS) $(SDL3FLAGS)
+	$(CXX) -Wall $(LDFLAGS) -o $(BINDIR)/$(PROJ) $(OBJS) $(LDLIBS) $(SDL3FLAGS) $(SDL3IMGFLAGS)
 
 $(OBJDIR)/%.o: %.cpp
 	@mkdir -p $(dir $@)

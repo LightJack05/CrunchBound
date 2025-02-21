@@ -1,24 +1,23 @@
-#ifndef RECTANGLERENDERER_HPP
-#define RECTANGLERENDERER_HPP
+#ifndef TEXTURERENDERER_HPP
+#define TEXTURERENDERER_HPP
 
-#include "../../Vector2.hpp"
 #include "Renderer.hpp"
-#include <SDL3/SDL_pixels.h>
 #include <SDL3/SDL_rect.h>
 #include <SDL3/SDL_render.h>
 #include <memory>
 
 /**
- * @class RectangleRenderer
- * @brief A renderer for simple rectangles
+ * @class TextureRenderer
+ * @brief A renderer for textures
  *
  */
-class RectangleRenderer : public Renderer {
+class TextureRenderer : public Renderer {
   protected:
     /**
-     * @brief The renderable SDL_FRect
+     * @brief The renderable texture
      */
-    std::shared_ptr<SDL_FRect> renderable = NULL;
+    std::shared_ptr<SDL_FRect> renderable = nullptr;
+    SDL_Texture *texture = nullptr;
     /**
      * @brief The size of the renderer
      */
@@ -29,8 +28,15 @@ class RectangleRenderer : public Renderer {
     std::shared_ptr<SDL_Color> color = std::make_shared<SDL_Color>();
 
   public:
-    RectangleRenderer(float width, float height);
-    ~RectangleRenderer();
+    /**
+     * @brief Create a new texture renderer
+     *
+     * @param width The width of the new renderer
+     * @param height The height of the new renderer
+     * @param pathToTexture The path to the texture
+     */
+    TextureRenderer(float width, float height, std::string pathToTexture);
+    ~TextureRenderer();
 
     /**
      * @brief Set the color of the rectangle
@@ -46,4 +52,4 @@ class RectangleRenderer : public Renderer {
     void OnStart() override;
 };
 
-#endif // RECTANGLERENDERER_HPP
+#endif // TEXTURERENDERER_HPP

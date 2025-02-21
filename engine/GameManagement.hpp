@@ -8,6 +8,10 @@
 #include <vector>
 
 /**
+ * @brief The renderer of the Game.
+ */
+extern SDL_Renderer *GlobalRenderer;
+/**
  * @brief The GameManager GameObject, used for generalized game control
  */
 extern std::shared_ptr<GameObject> GameManager;
@@ -42,7 +46,7 @@ extern bool QuitGame;
  *
  * @param renderer The renderer responsible for the application window.
  */
-void UpdateObjects(SDL_Renderer *renderer);
+void UpdateObjects();
 
 /**
  * @brief Directly register a gameobject. Will push the object into the

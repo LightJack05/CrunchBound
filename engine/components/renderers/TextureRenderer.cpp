@@ -1,36 +1,36 @@
-#include "RectangleRenderer.hpp"
-#include <SDL3/SDL_rect.h>
+#include "TextureRenderer.hpp"
+#include <SDL3/SDL_oldnames.h>
 #include <SDL3/SDL_render.h>
-#include <memory>
+#include <SDL3_image/SDL_image.h>
 
-RectangleRenderer::RectangleRenderer(float width, float height) {
+TextureRenderer::TextureRenderer(float width, float height,
+                                 std::string pathToTexture) {
     this->renderable = std::make_shared<SDL_FRect>();
+    this->texture = IMG_LoadTexture(this->renderer, pathToTexture.c_str());
     this->size->setX(width);
     this->size->setY(height);
     this->renderable->h = this->size->getY();
     this->renderable->w = this->size->getX();
 }
 
-RectangleRenderer::~RectangleRenderer() {}
+TextureRenderer::~TextureRenderer() { SDL_DestroyTexture(this->texture); }
 
-
-void RectangleRenderer::OnTick() {
-    SDL_SetRenderDrawColor(this->renderer, color->r, color->g, color->b, color->a);
-    SDL_RenderFillRect(this->renderer, this->renderable.get());
+void TextureRenderer::OnTick() {
+    SDL_RenderTexture(renderer, texture, nullptr, this->renderable.get());
     this->renderable->h = this->size->getY();
     this->renderable->w = this->size->getX();
     this->renderable->x = this->parent->getPosition()->getX();
     this->renderable->y = this->parent->getPosition()->getY();
 }
 
-void RectangleRenderer::OnStart() {
+void TextureRenderer::OnStart() {
     this->renderable->h = this->size->getY();
     this->renderable->w = this->size->getX();
     this->renderable->x = this->parent->getPosition()->getX();
     this->renderable->y = this->parent->getPosition()->getY();
 }
 
-void RectangleRenderer::setColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a) {
+void TextureRenderer::setColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a) {
     this->color->r = r;
     this->color->g = g;
     this->color->b = b;

@@ -10,15 +10,13 @@
  *
  */
 class Renderer : public GameObjectComponent {
+  protected:
+    SDL_Renderer *renderer = nullptr;
+
   public:
     Renderer();
+    Renderer(SDL_Renderer *renderer);
     ~Renderer();
-    /**
-     * @brief Render the object to the screen
-     *
-     * @param renderer The renderer to render the object to
-     */
-    virtual void Render(SDL_Renderer *renderer) = 0;
 };
 
 #endif // RENDERER_HPP

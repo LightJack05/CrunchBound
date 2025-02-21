@@ -1,3 +1,4 @@
+#include "SDL3_image/SDL_image.h"
 #include "engine/Events.hpp"
 #include "engine/GameManagement.hpp"
 #include "engine/Time.hpp"
@@ -15,26 +16,26 @@
 
 /**
  * @brief Executed every frame.
- *
- * @param ren The renderer responsible for the window.
  */
-void frame(SDL_Renderer *&ren) { UpdateObjects(ren); }
+void frame() { UpdateObjects(); }
 
 /**
- * @brief The main game loop, runs until an exit event is sensed, and QuitGame is set to true.
- *
- * @param ren The renderer responsible for the window. 
+ * @brief The main game loop, runs until an exit event is sensed, and QuitGame
+ * is set to true.
  */
-void gameLoop(SDL_Renderer *&ren) {
+void gameLoop() {
     SDL_Event e;
     while (!QuitGame) {
         while (SDL_PollEvent(&e)) {
             HandleEvent(e);
         }
-        SDL_RenderClear(ren);
         UpdateDeltaTime();
-        frame(ren);
-        SDL_RenderPresent(ren);
+        SDL_SetRenderDrawColor(GlobalRenderer, WindowBackgroundColor.r,
+                               WindowBackgroundColor.g, WindowBackgroundColor.b,
+                               WindowBackgroundColor.a);
+        SDL_RenderClear(GlobalRenderer);
+        frame();
+        SDL_RenderPresent(GlobalRenderer);
         // avoid windows thinking the window has crashed.
         SDL_Delay(1);
     }
@@ -60,10 +61,11 @@ int main() {
         SDL_Quit();
         return EXIT_FAILURE;
     }
+    GlobalRenderer = ren;
 
     InitializeGame();
 
-    gameLoop(ren);
+    gameLoop();
 
     SDL_DestroyRenderer(ren);
     SDL_DestroyWindow(win);

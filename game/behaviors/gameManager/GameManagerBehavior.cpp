@@ -5,6 +5,7 @@
 #include "../../../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../../../engine/components/renderers/RectangleRenderer.hpp"
 #include "../enemy/EnemyCollisionBehavior.hpp"
+#include "../../../engine/components/renderers/TextureRenderer.hpp"
 #include <cmath>
 #include <iostream>
 
@@ -30,8 +31,8 @@ static void SpawnEnemy(float velocityX) {
         std::make_shared<EnemyCollisionBehavior>(15, 15);
     enemy->RegisterComponent(enemyCollider);
 
-    std::shared_ptr<RectangleRenderer> enemyRenderer =
-        std::make_shared<RectangleRenderer>(15, 15);
+    std::shared_ptr<TextureRenderer> enemyRenderer =
+        std::make_shared<TextureRenderer>(32, 32, "assets/textures/objects/bug.png");
     enemyRenderer->setColor(255, 0, 0, 255);
     enemy->RegisterComponent(enemyRenderer);
 
