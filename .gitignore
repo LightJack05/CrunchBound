@@ -36,3 +36,4 @@ bin/*
 docs/html/*
 docs/latex/*
 heaptrack*
+package/*
