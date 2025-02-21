@@ -10,12 +10,21 @@
 #include <SDL3/SDL_surface.h>
 #include <SDL3/SDL_video.h>
 #include <cstdlib>
-#include <iostream>
 #include <stdbool.h>
 #include <stdlib.h>
 
+/**
+ * @brief Executed every frame.
+ *
+ * @param ren The renderer responsible for the window.
+ */
 void frame(SDL_Renderer *&ren) { UpdateObjects(ren); }
 
+/**
+ * @brief The main game loop, runs until an exit event is sensed, and QuitGame is set to true.
+ *
+ * @param ren The renderer responsible for the window. 
+ */
 void gameLoop(SDL_Renderer *&ren) {
     SDL_Event e;
     while (!QuitGame) {
@@ -31,6 +40,11 @@ void gameLoop(SDL_Renderer *&ren) {
     }
 }
 
+/**
+ * @brief Entry point of the program.
+ *
+ * @return Exit code
+ */
 int main() {
     if (SDL_Init(SDL_INIT_VIDEO) == 0) {
         fprintf(stderr, "SDL_Init Error: %s\n", SDL_GetError());
@@ -48,7 +62,6 @@ int main() {
     }
 
     InitializeGame();
-
 
     gameLoop(ren);
 

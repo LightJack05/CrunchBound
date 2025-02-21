@@ -5,6 +5,11 @@
 
 #include "../GameObject.hpp"
 
+/**
+ * @class GameObjectComponent
+ * @brief An abstract gameobject component.
+ *
+ */
 class GameObjectComponent {
   protected:
     bool enabled = true;

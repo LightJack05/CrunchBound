@@ -13,25 +13,34 @@
 #include <iostream>
 #include <memory>
 
+static const int PlayerHeight = 150;
+static const int PlayerWidth = 50;
+
 static void SpawnPlayer() {
     std::shared_ptr<GameObject> player = std::make_shared<GameObject>();
     player->setPosition(std::make_shared<Vector2>(100, 200));
     player->setTag("player");
+
     std::shared_ptr<KinematicBehavior> playerKinematic =
         std::make_shared<KinematicBehavior>();
     player->RegisterComponent(playerKinematic);
+
     std::shared_ptr<RectangleRenderer> playerRenderer =
-        std::make_shared<RectangleRenderer>(100, 300);
+        std::make_shared<RectangleRenderer>(PlayerWidth, PlayerHeight);
     player->RegisterComponent(playerRenderer);
+
     std::shared_ptr<PlayerCollisionBehavior> playerCollider =
-        std::make_shared<PlayerCollisionBehavior>(100, 300);
+        std::make_shared<PlayerCollisionBehavior>(PlayerWidth, PlayerHeight);
     player->RegisterComponent(playerCollider);
+
     std::shared_ptr<GravityBehavior> playerGravity =
         std::make_shared<GravityBehavior>();
     player->RegisterComponent(playerGravity);
+
     std::shared_ptr<PlayerBehavior> playerBehavior =
         std::make_shared<PlayerBehavior>();
     player->RegisterComponent(playerBehavior);
+
     std::shared_ptr<PlayerKeyboardBehavior> playerKeyboardBehavior =
         std::make_shared<PlayerKeyboardBehavior>();
     player->RegisterComponent(playerKeyboardBehavior);
@@ -59,28 +68,6 @@ static void SetupWindowbackground() {
     WindowBackgroundColor.b = 255;
     WindowBackgroundColor.g = 255;
     WindowBackgroundColor.a = 255;
-}
-
-static void SpawnEnemy() {
-    std::shared_ptr<GameObject> enemy = std::make_shared<GameObject>();
-    enemy->setTag("enemy");
-    enemy->setPosition(std::make_shared<Vector2>(900, 900));
-    std::shared_ptr<EnemyCollisionBehavior> enemyCollider =
-        std::make_shared<EnemyCollisionBehavior>(15, 15);
-    enemy->RegisterComponent(enemyCollider);
-
-    std::shared_ptr<RectangleRenderer> enemyRenderer =
-        std::make_shared<RectangleRenderer>(15, 15);
-    enemyRenderer->setColor(255, 0, 0, 255);
-    enemy->RegisterComponent(enemyRenderer);
-
-    std::shared_ptr<KinematicBehavior> enemyKinematics =
-        std::make_shared<KinematicBehavior>();
-    enemy->RegisterComponent(enemyKinematics);
-
-    enemy->getVelocity()->setX(-0.3);
-
-    RegisterGameObject(enemy);
 }
 
 void CreateGameManager() {
