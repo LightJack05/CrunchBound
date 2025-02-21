@@ -19,18 +19,18 @@ build() {
     export SDL3FLAGS="$(pkg-config sdl3 --cflags --libs)"
 
     # Build the project using the Makefile
-    make
+    make release -j32
 }
 
 package() {
     cd "$srcdir"
     
     # Install binary
-    install -Dm755 "bin/CrunchBound" "$pkgdir/usr/bin/CrunchBound"
+    install -Dm755 "bin/$pkgname" "$pkgdir/usr/bin/$pkgname"
     
     # Install assets from the assets directory
     install -d "$pkgdir/usr/share/$pkgname/assets"
-    #cp -r assets/* "$pkgdir/usr/share/$pkgname/assets/"
+    cp -r assets/* "$pkgdir/usr/share/$pkgname/assets/"
     
     # Optionally include the license
     #install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"

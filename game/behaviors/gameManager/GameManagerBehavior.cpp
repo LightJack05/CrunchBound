@@ -3,8 +3,8 @@
 #include "../../../engine/RandomNumberGenerator.hpp"
 #include "../../../engine/Time.hpp"
 #include "../../../engine/components/behaviors/KinematicBehavior.hpp"
-#include "../../../engine/components/renderers/RectangleRenderer.hpp"
 #include "../../../engine/components/renderers/TextureRenderer.hpp"
+#include "../../../engine/AssetLoading.hpp"
 #include "../enemy/EnemyBehavior.hpp"
 #include "../enemy/EnemyCollisionBehavior.hpp"
 #include <cmath>
@@ -39,7 +39,7 @@ static void SpawnEnemy(float velocityX) {
 
     std::shared_ptr<TextureRenderer> enemyRenderer =
         std::make_shared<TextureRenderer>(32, 32,
-                                          "assets/textures/objects/bug.png");
+                                          GetAssetPath("textures/objects/bug.png"));
     enemyRenderer->setColor(255, 0, 0, 255);
     enemy->RegisterComponent(enemyRenderer);
 
