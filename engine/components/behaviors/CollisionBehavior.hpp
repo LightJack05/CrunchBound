@@ -32,7 +32,7 @@ class CollisionBehavior : public Behavior {
     bool IsPointInsideCollider(Vector2 position);
     void OnTick() override;
     void OnStart() override;
-    const std::shared_ptr<Vector2> GetColliderSize() { return colliderSize; }
+    const std::shared_ptr<Vector2> getColliderSize() { return colliderSize; }
     /**
      * @brief The action to be taken when the object will collide next frame.
      *

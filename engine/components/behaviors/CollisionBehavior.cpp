@@ -38,14 +38,22 @@ bool CollisionBehavior::CheckForCollision(std::shared_ptr<GameObject> other) {
     Vector2 thisCornerTL = Vector2(parentOrigin.getX() + positionChangeX,
                                    parentOrigin.getY() + positionChangeY);
     Vector2 thisCornerTR = Vector2(
-        parentOrigin.getX() + this->colliderSize->getX() + positionChangeX,
+        parentOrigin.getX() +
+            (this->colliderSize->getX() * this->parent->getScale()->getX()) +
+            positionChangeX,
         parentOrigin.getY() + positionChangeY);
     Vector2 thisCornerBL = Vector2(
         parentOrigin.getX() + positionChangeX,
-        parentOrigin.getY() + this->colliderSize->getY() + positionChangeY);
+        parentOrigin.getY() +
+            (this->colliderSize->getY() * this->parent->getScale()->getY()) +
+            positionChangeY);
     Vector2 thisCornerBR = Vector2(
-        parentOrigin.getX() + this->colliderSize->getX() + positionChangeX,
-        parentOrigin.getY() + this->colliderSize->getY() + positionChangeY);
+        parentOrigin.getX() +
+            (this->colliderSize->getX() * this->parent->getScale()->getX()) +
+            positionChangeX,
+        parentOrigin.getY() +
+            (this->colliderSize->getY() * this->parent->getScale()->getY()) +
+            positionChangeY);
 
     bool collision = false;
 
@@ -61,9 +69,9 @@ bool CollisionBehavior::IsPointInsideCollider(Vector2 position) {
     float colliderBoundaryTop = this->parent->getPosition()->getY();
     float colliderBoundaryLeft = this->parent->getPosition()->getX();
     float colliderBoundaryRight =
-        colliderBoundaryLeft + this->colliderSize->getX();
+        colliderBoundaryLeft + (this->colliderSize->getX() * this->parent->getScale()->getX());
     float colliderBoundaryBottom =
-        colliderBoundaryTop + this->colliderSize->getY();
+        colliderBoundaryTop + (this->colliderSize->getY() * this->parent->getScale()->getY());
 
     if (colliderBoundaryLeft <= position.getX() &&
         position.getX() <= colliderBoundaryRight &&

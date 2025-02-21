@@ -29,6 +29,7 @@ static void SpawnEnemy(float velocityX) {
     enemy->setTag("enemy");
     enemy->setPosition(std::make_shared<Vector2>(
         2000, (GetRandomNormalizedFloat() * 200) + 900));
+    enemy->getScale()->setY(0.2);
     std::shared_ptr<EnemyCollisionBehavior> enemyCollider =
         std::make_shared<EnemyCollisionBehavior>(15, 15);
     enemy->RegisterComponent(enemyCollider);
@@ -48,8 +49,6 @@ static void SpawnEnemy(float velocityX) {
     enemy->RegisterComponent(enemyKinematics);
 
     enemy->getVelocity()->setX(-velocityX);
-    std::cout << "Spawning enemy " << enemy << " with velocity " << velocityX
-              << " at " << TimeSinceGameStart << std::endl;
 
     EnqueueRegisterGameObject(enemy);
 }

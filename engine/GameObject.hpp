@@ -17,7 +17,8 @@ class GameObjectComponent;
 class GameObject {
   protected:
     /**
-     * @brief Whether the gameobject should be considered for updates and other actions
+     * @brief Whether the gameobject should be considered for updates and other
+     * actions
      */
     bool enabled = true;
     /**
@@ -31,7 +32,7 @@ class GameObject {
     /**
      * @brief The scale factor of the gameobject
      */
-    std::shared_ptr<Vector2> scale = std::make_shared<Vector2>();
+    std::shared_ptr<Vector2> scale = std::make_shared<Vector2>(1, 1);
     /**
      * @brief The velocity of the gameobject
      */
@@ -73,7 +74,7 @@ class GameObject {
     /**
      * @brief Add a component to the gameobject
      *
-     * @param component The component to add. 
+     * @param component The component to add.
      */
     void RegisterComponent(std::shared_ptr<GameObjectComponent> component);
     /**

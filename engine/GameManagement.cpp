@@ -72,7 +72,6 @@ void RegisterGameObject(std::shared_ptr<GameObject> object) {
 void DestroyGameObject(GameObject *object) {
     for (int i = 0; i < GameObjects.size(); i++) {
         if (GameObjects.at(i).get() == object) {
-            std::cout << "Destroyed object." << std::endl;
             GameObjects.erase(GameObjects.begin() + i);
             return;
         }

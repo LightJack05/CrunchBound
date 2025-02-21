@@ -12,7 +12,6 @@ void InitializeGame() {
 void GameOver() { EnqueueGameReset(); }
 
 void ResetGame() {
-    std::cout << "Reset!" << std::endl;
     GameObjects.clear();
     CreateInitialGameObjects();
     OnGameStart();

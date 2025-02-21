@@ -19,6 +19,7 @@ static const int PlayerWidth = 50;
 static void SpawnPlayer() {
     std::shared_ptr<GameObject> player = std::make_shared<GameObject>();
     player->setPosition(std::make_shared<Vector2>(100, 200));
+    player->getScale()->setY(1.5);
     player->setTag("player");
 
     std::shared_ptr<KinematicBehavior> playerKinematic =

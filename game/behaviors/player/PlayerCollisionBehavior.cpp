@@ -11,9 +11,10 @@ void PlayerCollisionBehavior::BeforeCollision(
         this->parent->setPosition(std::make_shared<Vector2>(
             this->parent->getPosition()->getX(),
             other->getPosition()->getY() -
-                this->parent->GetFirstComponent<CollisionBehavior>()
-                    ->GetColliderSize()
-                    ->getY()));
+                (this->parent->GetFirstComponent<CollisionBehavior>()
+                     ->getColliderSize()
+                     ->getY() *
+                 this->parent->getScale()->getY())));
     }
     if (other->getTag() == "enemy") {
         GameOver();
