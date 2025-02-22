@@ -32,7 +32,7 @@ static void SpawnCoffee(float velocityX) {
     std::shared_ptr<GameObject> coffee = std::make_shared<GameObject>();
     coffee->setTag("coffee");
     coffee->setPosition(std::make_shared<Vector2>(
-        2000, (GetRandomNormalizedFloat() * 200) + 900));
+        2000, (GetRandomNormalizedFloat() * 350) + 700));
 
     std::shared_ptr<CoffeeCollisionBehavior> coffeeCollider =
         std::make_shared<CoffeeCollisionBehavior>(64, 64);
@@ -60,7 +60,7 @@ static void SpawnEnemy(float velocityX) {
     std::shared_ptr<GameObject> enemy = std::make_shared<GameObject>();
     enemy->setTag("enemy");
     enemy->setPosition(std::make_shared<Vector2>(
-        2000, (GetRandomNormalizedFloat() * 200) + 900));
+        2000, (GetRandomNormalizedFloat() * 350) + 700));
 
     std::shared_ptr<EnemyCollisionBehavior> enemyCollider =
         std::make_shared<EnemyCollisionBehavior>(64, 64);
