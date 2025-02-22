@@ -14,13 +14,13 @@ RectangleRenderer::RectangleRenderer(float width, float height) {
 RectangleRenderer::~RectangleRenderer() {}
 
 void RectangleRenderer::OnTick() {
-    SDL_SetRenderDrawColor(this->renderer, color->r, color->g, color->b,
-                           color->a);
-    SDL_RenderFillRect(this->renderer, this->renderable.get());
     this->renderable->h = this->size->getY() * this->parent->getScale()->getY();
     this->renderable->w = this->size->getX() * this->parent->getScale()->getX();
     this->renderable->x = this->parent->getPosition()->getX();
     this->renderable->y = this->parent->getPosition()->getY();
+    SDL_SetRenderDrawColor(this->renderer, color->r, color->g, color->b,
+                           color->a);
+    SDL_RenderFillRect(this->renderer, this->renderable.get());
 }
 
 void RectangleRenderer::OnStart() {

@@ -42,6 +42,9 @@ class RectangleRenderer : public Renderer {
      */
     void setColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a);
 
+    void setSize(std::shared_ptr<Vector2> value) { size = value; }
+    std::shared_ptr<Vector2> getSize() const { return size; }
+
     void OnTick() override;
     void OnStart() override;
 };

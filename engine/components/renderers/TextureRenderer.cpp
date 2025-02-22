@@ -16,11 +16,11 @@ TextureRenderer::TextureRenderer(float width, float height,
 TextureRenderer::~TextureRenderer() { SDL_DestroyTexture(this->texture); }
 
 void TextureRenderer::OnTick() {
-    SDL_RenderTexture(renderer, texture, nullptr, this->renderable.get());
     this->renderable->h = this->size->getY() * this->parent->getScale()->getY();
     this->renderable->w = this->size->getX() * this->parent->getScale()->getX();
     this->renderable->x = this->parent->getPosition()->getX();
     this->renderable->y = this->parent->getPosition()->getY();
+    SDL_RenderTexture(renderer, texture, nullptr, this->renderable.get());
 }
 
 void TextureRenderer::OnStart() {
@@ -30,9 +30,3 @@ void TextureRenderer::OnStart() {
     this->renderable->y = this->parent->getPosition()->getY();
 }
 
-void TextureRenderer::setColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a) {
-    this->color->r = r;
-    this->color->g = g;
-    this->color->b = b;
-    this->color->a = a;
-}

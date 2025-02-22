@@ -14,7 +14,7 @@
 class TextureRenderer : public Renderer {
   protected:
     /**
-     * @brief The renderable rectangle used for mapping 
+     * @brief The renderable rectangle used for mapping
      */
     std::shared_ptr<SDL_FRect> renderable = nullptr;
     /**
@@ -25,10 +25,6 @@ class TextureRenderer : public Renderer {
      * @brief The size of the renderer
      */
     std::shared_ptr<Vector2> size = std::make_shared<Vector2>(0, 0);
-    /**
-     * @brief The color of the rectangle
-     */
-    std::shared_ptr<SDL_Color> color = std::make_shared<SDL_Color>();
 
   public:
     /**
@@ -41,15 +37,8 @@ class TextureRenderer : public Renderer {
     TextureRenderer(float width, float height, std::string pathToTexture);
     ~TextureRenderer();
 
-    /**
-     * @brief Set the color of the rectangle
-     *
-     * @param r The red color component
-     * @param g The green color component
-     * @param b The blue color component
-     * @param a The alpha color component
-     */
-    void setColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a);
+    void setSize(std::shared_ptr<Vector2> value) { size = value; }
+    std::shared_ptr<Vector2> getSize() const { return size; }
 
     void OnTick() override;
     void OnStart() override;

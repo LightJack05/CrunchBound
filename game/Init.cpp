@@ -1,10 +1,13 @@
 #include "Init.hpp"
+#include "../engine/AssetLoading.hpp"
 #include "../engine/GameManagement.hpp"
 #include "../engine/GameObject.hpp"
 #include "../engine/components/behaviors/GravityBehavior.hpp"
 #include "../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../engine/components/renderers/FontRenderer.hpp"
 #include "../engine/components/renderers/RectangleRenderer.hpp"
+#include "../engine/components/renderers/TextureRenderer.hpp"
+#include "behaviors/coffeeMeter/CoffeeMeterBehavior.hpp"
 #include "behaviors/gameManager/GameManagerBehavior.hpp"
 #include "behaviors/gameManager/GameManagerKeyboardHandler.hpp"
 #include "behaviors/player/PlayerBehavior.hpp"
@@ -16,12 +19,43 @@
 static const int PlayerHeight = 150;
 static const int PlayerWidth = 50;
 
+static void CreateCoffeeMeterIcon() {
+    std::shared_ptr<GameObject> coffeeMeterIcon =
+        std::make_shared<GameObject>();
+    coffeeMeterIcon->setTag("coffee-meter-icon");
+    coffeeMeterIcon->setPosition(std::make_shared<Vector2>(10, 10));
+
+    std::shared_ptr<TextureRenderer> coffeeMeterIconRenderer =
+        std::make_shared<TextureRenderer>(
+            32, 32, GetAssetPath("textures/objects/coffee_paper_cup.png"));
+    coffeeMeterIcon->RegisterComponent(coffeeMeterIconRenderer);
+
+    RegisterGameObject(coffeeMeterIcon);
+}
+static void CreateCoffeeMeter() {
+    std::shared_ptr<GameObject> coffeeMeter = std::make_shared<GameObject>();
+    coffeeMeter->setTag("coffee-meter");
+    coffeeMeter->setPosition(std::make_shared<Vector2>(50, 10));
+
+    std::shared_ptr<RectangleRenderer> coffeeMeterBar =
+        std::make_shared<RectangleRenderer>(500, 32);
+    coffeeMeterBar->setColor(255, 0, 0, 50);
+    coffeeMeter->RegisterComponent(coffeeMeterBar);
+
+    std::shared_ptr<CoffeeMeterBehavior> coffeeMeterBehavior =
+        std::make_shared<CoffeeMeterBehavior>();
+    coffeeMeter->RegisterComponent(coffeeMeterBehavior);
+
+    RegisterGameObject(coffeeMeter);
+}
+
 /**
  * @brief Create the score counter and register it.
  */
 static void CreateScoreCounter() {
     std::shared_ptr<GameObject> scoreCounter = std::make_shared<GameObject>();
-    scoreCounter->setPosition(std::make_shared<Vector2>(10, 10));
+    scoreCounter->setTag("score-counter");
+    scoreCounter->setPosition(std::make_shared<Vector2>(10, 100));
     std::shared_ptr<ScoreCounterBehavior> scoreCounterBehavior =
         std::make_shared<ScoreCounterBehavior>();
     scoreCounter->RegisterComponent(scoreCounterBehavior);
@@ -149,4 +183,6 @@ void CreateInitialGameObjects() {
     SpawnLeftWall();
     SpawnRightWall();
     CreateScoreCounter();
+    CreateCoffeeMeter();
+    CreateCoffeeMeterIcon();
 }

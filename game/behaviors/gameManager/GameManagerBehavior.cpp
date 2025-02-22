@@ -30,6 +30,7 @@ static void SpawnEnemy(float velocityX) {
     enemy->setTag("enemy");
     enemy->setPosition(std::make_shared<Vector2>(
         2000, (GetRandomNormalizedFloat() * 200) + 900));
+
     std::shared_ptr<EnemyCollisionBehavior> enemyCollider =
         std::make_shared<EnemyCollisionBehavior>(15, 15);
     enemy->RegisterComponent(enemyCollider);
@@ -41,7 +42,6 @@ static void SpawnEnemy(float velocityX) {
     std::shared_ptr<TextureRenderer> enemyRenderer =
         std::make_shared<TextureRenderer>(
             32, 32, GetAssetPath("textures/objects/bug.png"));
-    enemyRenderer->setColor(255, 0, 0, 255);
     enemy->RegisterComponent(enemyRenderer);
 
     std::shared_ptr<KinematicBehavior> enemyKinematics =

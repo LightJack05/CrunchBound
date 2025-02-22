@@ -30,6 +30,8 @@ class FontRenderer : public Renderer {
     ~FontRenderer();
     void setText(std::string value) { text = value; }
     std::string getText() const { return text; }
+    void setSize(std::shared_ptr<Vector2> value) { size = value; }
+    std::shared_ptr<Vector2> getSize() const { return size; }
     /**
      * @brief Set the color of the rectangle
      *
