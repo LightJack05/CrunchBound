@@ -120,6 +120,7 @@ prepare-appimage:
 	@echo "Creating AppRun..."
 	@echo '#!/bin/bash' > $(APPIMAGEDIR)/AppRun
 	@echo 'HERE="$$(dirname "$$(readlink -f "$$0")")"' >> $(APPIMAGEDIR)/AppRun
+	@echo 'export LD_LIBRARY_PATH=$$APPDIR/usr/lib:$$APPDIR/usr/lib/x86_64-linux-gnu:LD_LIBRARY_PATH' >> $(APPIMAGEDIR)/AppRun
 	@echo 'exec "$$HERE/usr/bin/$(PROJ)" "$$@"' >> $(APPIMAGEDIR)/AppRun
 	@chmod +x $(APPIMAGEDIR)/AppRun
 	
