@@ -10,6 +10,7 @@
 #include <SDL3/SDL_render.h>
 #include <SDL3/SDL_surface.h>
 #include <SDL3/SDL_video.h>
+#include <SDL3_ttf/SDL_ttf.h>
 #include <cstdlib>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -49,6 +50,11 @@ void gameLoop() {
 int main() {
     if (SDL_Init(SDL_INIT_VIDEO) == 0) {
         fprintf(stderr, "SDL_Init Error: %s\n", SDL_GetError());
+        return EXIT_FAILURE;
+    }
+
+    
+    if (!TTF_Init()){
         return EXIT_FAILURE;
     }
 

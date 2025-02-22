@@ -1,10 +1,10 @@
 #include "GameManagerBehavior.hpp"
+#include "../../../engine/AssetLoading.hpp"
 #include "../../../engine/GameManagement.hpp"
 #include "../../../engine/RandomNumberGenerator.hpp"
 #include "../../../engine/Time.hpp"
 #include "../../../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../../../engine/components/renderers/TextureRenderer.hpp"
-#include "../../../engine/AssetLoading.hpp"
 #include "../enemy/EnemyBehavior.hpp"
 #include "../enemy/EnemyCollisionBehavior.hpp"
 #include <cmath>
@@ -18,6 +18,7 @@ static long long EnemySpawnDelay = 3000;
 static inline float GetGameDifficultyAtTime(long long timestamp) {
     return ((float)std::sqrt(((timestamp + 10000) * 0.5) + 4000));
 }
+
 
 static float GetEnemyVelocity() {
     return (GetGameDifficultyAtTime(TimeSinceGameStart) / 300) *
@@ -38,8 +39,8 @@ static void SpawnEnemy(float velocityX) {
     enemy->RegisterComponent(enemyBehavior);
 
     std::shared_ptr<TextureRenderer> enemyRenderer =
-        std::make_shared<TextureRenderer>(32, 32,
-                                          GetAssetPath("textures/objects/bug.png"));
+        std::make_shared<TextureRenderer>(
+            32, 32, GetAssetPath("textures/objects/bug.png"));
     enemyRenderer->setColor(255, 0, 0, 255);
     enemy->RegisterComponent(enemyRenderer);
 
