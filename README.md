@@ -26,7 +26,7 @@ Installation instructions for yay can be found here: [Yay Installation](https://
 
 Install the packages using yay (as always, check PKGBUILD before downloading things from the AUR):
 ```
-yay -S sdl3 sdl3_image
+yay -S sdl3 sdl3_image sdl3_ttf-git
 ```
 
 Then install the downloaded Arch Package:
