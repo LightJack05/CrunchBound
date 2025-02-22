@@ -31,9 +31,9 @@ yay -S sdl3 sdl3_image
 
 Then install the downloaded Arch Package:
 ```
-sudo pacman -U crunchbound-<version>-<arch>.pkg.tar.zst
+sudo pacman -U crunchbound-{version}-{arch}.pkg.tar.zst
 ```
-(Replace <version> and <arch> with appropriate values)
+(Replace {version} and {arch} with appropriate values)
 
 ### Building from source
 

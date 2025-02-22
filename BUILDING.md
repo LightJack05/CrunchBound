@@ -164,4 +164,4 @@ Then, build the docs:
 make docs
 ```
 
-The will be placed into `./docs/html/`. Just open the `index.html` in a browser of your choice.
+They will be placed into `./docs/html/`. Just open the `index.html` in a browser of your choice.
