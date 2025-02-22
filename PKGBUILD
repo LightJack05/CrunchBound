@@ -1,11 +1,11 @@
 pkgname=crunchbound
 pkgver=0.0.1
 pkgrel=1
-pkgdesc="Endless runner build with SDL3"
+pkgdesc="Endless runner built with SDL3"
 arch=('x86_64')
 license=('MIT')
-depends=('gcc' 'sdl3' 'root' 'sdl3_image')
-makedepends=('make' 'pkgconf')
+depends=('sdl3' 'root' 'sdl3_image' 'sdl3_ttf-git')
+makedepends=('gcc' 'make' 'pkgconf')
 source=("source.tar.gz")
 sha256sums=('SKIP')
 
