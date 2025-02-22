@@ -87,4 +87,6 @@ void EnqueueGameReset();
  */
 void OnGameStart();
 
+std::shared_ptr<GameObject> GetGameObjectByTag(std::string tag);
+
 #endif // GAMEMANAGEMENT_HPP

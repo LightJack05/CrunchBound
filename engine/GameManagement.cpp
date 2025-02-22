@@ -2,6 +2,7 @@
 #include "../game/Lifecycle.hpp"
 #include "GameObject.hpp"
 #include "components/GameObjectComponent.hpp"
+#include "exceptions/GameObjectNotFoundException.hpp"
 #include <SDL3/SDL_pixels.h>
 #include <SDL3/SDL_render.h>
 #include <iostream>
@@ -95,4 +96,13 @@ void OnGameStart() {
             component->OnStart();
         }
     }
+}
+
+std::shared_ptr<GameObject> GetGameObjectByTag(std::string tag) {
+    for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
+        if(gameObject->getTag() == tag){
+            return gameObject;
+        }
+    }
+    throw GameObjectNotFoundException();
 }

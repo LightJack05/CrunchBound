@@ -1,6 +1,9 @@
 #include "PlayerCollisionBehavior.hpp"
+#include "../../../engine/GameManagement.hpp"
 #include "../../../engine/components/behaviors/GravityBehavior.hpp"
 #include "../../Lifecycle.hpp"
+#include "../coffeeMeter/CoffeeMeterBehavior.hpp"
+#include "../../../engine/GameManagement.hpp"
 #include "PlayerBehavior.hpp"
 #include <memory>
 
@@ -20,6 +23,12 @@ void PlayerCollisionBehavior::BeforeCollision(
     }
     if (other->getTag() == "enemy") {
         GameOver();
+    }
+    if (other->getTag() == "coffee") {
+        GetGameObjectByTag("coffee-meter")
+            ->GetFirstComponent<CoffeeMeterBehavior>()
+            ->IncreaseCoffeeLevel(350);
+        EnqueueDestroyGameObject(other.get());
     }
     if (other->getTag() == "right-wall") {
         this->parent->getVelocity()->setX(0);

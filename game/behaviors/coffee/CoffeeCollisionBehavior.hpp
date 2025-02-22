@@ -1,6 +1,13 @@
-#ifndef ENEMYCOLLISIONBEHAVIOR_HPP
-#define ENEMYCOLLISIONBEHAVIOR_HPP
+#ifndef COFFEECOLLISIONBEHAVIOR_HPP
+#define COFFEECOLLISIONBEHAVIOR_HPP
+#include "../../../engine/components/behaviors/CollisionBehavior.hpp"
 
+class CoffeeCollisionBehavior : public CollisionBehavior {
+  public:
+    CoffeeCollisionBehavior();
+    CoffeeCollisionBehavior(int x, int y);
+    ~CoffeeCollisionBehavior();
+    virtual void BeforeCollision(std::shared_ptr<GameObject> other) override;
+};
 
-
-#endif // ENEMYCOLLISIONBEHAVIOR_HPP
+#endif // COFFEECOLLISIONBEHAVIOR_HPP
