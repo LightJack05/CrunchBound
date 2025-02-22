@@ -9,7 +9,14 @@
  *
  */
 class PlayerBehavior : public Behavior {
+  protected:
+    unsigned int jumpPoints = 0;
+    const unsigned int defaultJumpPoints = 2;
+
   public:
+    unsigned int getJumpPoints() const { return jumpPoints; };
+    void setJumpPoints(unsigned int value) { jumpPoints = value; };
+    void ResetJumpPoints();
     void OnTick() override;
     void OnStart() override;
 };

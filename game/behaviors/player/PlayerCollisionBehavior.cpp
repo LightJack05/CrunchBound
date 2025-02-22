@@ -1,6 +1,7 @@
 #include "PlayerCollisionBehavior.hpp"
 #include "../../../engine/components/behaviors/GravityBehavior.hpp"
 #include "../../Lifecycle.hpp"
+#include "PlayerBehavior.hpp"
 #include <memory>
 
 void PlayerCollisionBehavior::BeforeCollision(
@@ -15,9 +16,16 @@ void PlayerCollisionBehavior::BeforeCollision(
                      ->getColliderSize()
                      ->getY() *
                  this->parent->getScale()->getY())));
+        this->parent->GetFirstComponent<PlayerBehavior>()->ResetJumpPoints();
     }
     if (other->getTag() == "enemy") {
         GameOver();
+    }
+    if (other->getTag() == "right-wall") {
+        this->parent->getVelocity()->setX(0);
+    }
+    if (other->getTag() == "left-wall") {
+        this->parent->getVelocity()->setX(0);
     }
 }
 

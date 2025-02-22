@@ -14,6 +14,27 @@
 static const int PlayerHeight = 150;
 static const int PlayerWidth = 50;
 
+static void SpawnLeftWall() {
+    std::shared_ptr<GameObject> leftWall = std::make_shared<GameObject>();
+    leftWall->setTag("left-wall");
+    leftWall->setPosition(std::make_shared<Vector2>(-80, -80));
+    std::shared_ptr<CollisionBehavior> leftWallCollider =
+        std::make_shared<CollisionBehavior>(80, ScreenHeight + 80);
+    leftWall->RegisterComponent(leftWallCollider);
+
+    RegisterGameObject(leftWall);
+}
+static void SpawnRightWall() {
+    std::shared_ptr<GameObject> rightWall = std::make_shared<GameObject>();
+    rightWall->setTag("right-wall");
+    rightWall->setPosition(std::make_shared<Vector2>(ScreenWidth + 1, -80));
+    std::shared_ptr<CollisionBehavior> rightWallCollider =
+        std::make_shared<CollisionBehavior>(80, ScreenHeight + 80);
+    rightWall->RegisterComponent(rightWallCollider);
+
+    RegisterGameObject(rightWall);
+}
+
 static void SpawnPlayer() {
     std::shared_ptr<GameObject> player = std::make_shared<GameObject>();
     player->setPosition(std::make_shared<Vector2>(100, 200));
@@ -88,4 +109,6 @@ void CreateInitialGameObjects() {
     SetupWindowbackground();
     CreateFloor();
     SpawnPlayer();
+    SpawnLeftWall();
+    SpawnRightWall();
 }
