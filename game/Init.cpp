@@ -4,13 +4,11 @@
 #include "../engine/components/behaviors/GravityBehavior.hpp"
 #include "../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../engine/components/renderers/RectangleRenderer.hpp"
-#include "behaviors/enemy/EnemyCollisionBehavior.hpp"
 #include "behaviors/gameManager/GameManagerBehavior.hpp"
 #include "behaviors/gameManager/GameManagerKeyboardHandler.hpp"
 #include "behaviors/player/PlayerBehavior.hpp"
 #include "behaviors/player/PlayerCollisionBehavior.hpp"
 #include "behaviors/player/PlayerKeyboardBehavior.hpp"
-#include <iostream>
 #include <memory>
 
 static const int PlayerHeight = 150;
@@ -19,7 +17,6 @@ static const int PlayerWidth = 50;
 static void SpawnPlayer() {
     std::shared_ptr<GameObject> player = std::make_shared<GameObject>();
     player->setPosition(std::make_shared<Vector2>(100, 200));
-    player->getScale()->setY(1.5);
     player->setTag("player");
 
     std::shared_ptr<KinematicBehavior> playerKinematic =
