@@ -16,3 +16,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           config_file: doxygen.conf
           target_folder: docs/
+          doxygen_version: 1.13.2
