@@ -15,10 +15,11 @@ var NAVTREEINDEX0 =
 "d0/d0f/classRectangleRenderer.html#ac51ca99297c7e6082053161594dbc513":[2,0,20,3],
 "d0/d19/CoffeeBehavior_8cpp.html":[3,0,1,0,0,0],
 "d0/d30/md_README.html":[1],
-"d0/d30/md_README.html#autotoc_md17":[1,0],
-"d0/d30/md_README.html#autotoc_md18":[1,0,0],
-"d0/d30/md_README.html#autotoc_md19":[1,0,1],
-"d0/d30/md_README.html#autotoc_md20":[1,0,2],
+"d0/d30/md_README.html#autotoc_md16":[1,0],
+"d0/d30/md_README.html#autotoc_md17":[1,0,0],
+"d0/d30/md_README.html#autotoc_md18":[1,0,0,0],
+"d0/d30/md_README.html#autotoc_md19":[1,0,0,1],
+"d0/d30/md_README.html#autotoc_md20":[1,0,0,2],
 "d0/d31/classPlayerCollisionBehavior.html":[2,0,18],
 "d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5":[2,0,18,2],
 "d0/d31/classPlayerCollisionBehavior.html#a996c92ebc2841aff5954fa2fd941cb65":[2,0,18,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e":[3,0,1,1,2],
 "d9/dfa/Init_8cpp.html#a8341384b2aebeb359aded0078e40d3e3":[3,0,1,1,3],
 "d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783":[3,0,1,1,5],
-"d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395":[3,0,1,1,8],
-"d9/dfa/Init_8cpp.html#aaa64e8fd06230fa14e507cef71a3217d":[3,0,1,1,4]
+"d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395":[3,0,1,1,8]
 };

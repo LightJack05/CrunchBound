@@ -44,11 +44,13 @@ var NAVTREE =
       [ "Release and Debug", "d6/dd0/md_BUILDING.html#autotoc_md14", null ],
       [ "Documentation", "d6/dd0/md_BUILDING.html#autotoc_md15", null ]
     ] ],
-    [ "CrunchBound", "d0/d30/md_README.html", [
-      [ "Installation", "d0/d30/md_README.html#autotoc_md17", [
-        [ "AppImage", "d0/d30/md_README.html#autotoc_md18", null ],
-        [ "Arch Linux Package", "d0/d30/md_README.html#autotoc_md19", null ],
-        [ "Building from source", "d0/d30/md_README.html#autotoc_md20", null ]
+    [ "README", "d0/d30/md_README.html", [
+      [ "CrunchBound", "d0/d30/md_README.html#autotoc_md16", [
+        [ "Installation", "d0/d30/md_README.html#autotoc_md17", [
+          [ "AppImage", "d0/d30/md_README.html#autotoc_md18", null ],
+          [ "Arch Linux Package", "d0/d30/md_README.html#autotoc_md19", null ],
+          [ "Building from source", "d0/d30/md_README.html#autotoc_md20", null ]
+        ] ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -75,7 +77,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f"
+"d9/dfa/Init_8cpp.html#aaa64e8fd06230fa14e507cef71a3217d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
