@@ -137,7 +137,8 @@ prepare-appimage:
 	@cp -v ./icon.png $(APPIMAGEDIR)/$(PROJ).png || echo "Icon not found, skipping..."
 	
 	@echo "Copying required libraries..."
-	@ldd $(BINDIR)/$(PROJ) | grep "=> /" | awk '{print $$3}' | while read lib; do libs_to_copy=$$(ldd $$lib | grep "=> /" | awk '{print $$3}'); libs_to_copy="$$lib $$libs_to_copy"; for lib_dep in $$libs_to_copy; do if [ -f $$lib_dep ]; then cp -v $$lib_dep $(APPIMAGEDIR)/usr/lib/; fi; done; done
+	@ldd $(BINDIR)/$(PROJ) | grep -E "=> /.*SDL.*" | awk '{print $$3}' | xargs -I '{}' cp -v '{}' $(APPIMAGEDIR)/usr/lib/ || echo "No libraries to copy."
+	
 
 
 build-appimage:
