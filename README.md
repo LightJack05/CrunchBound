@@ -37,4 +37,4 @@ sudo pacman -U crunchbound-{version}-{arch}.pkg.tar.zst
 
 ### Building from source
 
-To build from source, please check out the [BUILDING.md](/BUILDING.md) file.
+To build from source, please check out the [compilation guide](https://lightjack05.github.io/CrunchBound/docs/d6/dd0/md_BUILDING.html).

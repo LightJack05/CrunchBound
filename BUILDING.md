@@ -149,9 +149,11 @@ If you would like to build a release version, run `make release`.
 
 By default, packaging always uses release, and all other profiles use debug.
 
-Release builds are stipped ELF binaries without debug symbols.
+Release builds are stripped ELF binaries without debug symbols.
 
 ## Documentation
+
+The documentation is available on GitHub pages here: [](https://lightjack05.github.io/CrunchBound/docs/d0/d30/md_README.html)
 
 To build the Doxygen documentation, you need doxygen and graphviz (dot) installed. To install them:
 ```
