@@ -5,13 +5,19 @@
 #include <SDL3/SDL_surface.h>
 #include <SDL3_ttf/SDL_ttf.h>
 
-FontRenderer::FontRenderer(std::string pathToFont,
-                           float size) {
+FontRenderer::FontRenderer(std::string pathToFont, float size) {
     this->font = TTF_OpenFont(GetAssetPath(pathToFont).c_str(), size);
     this->renderable = std::make_shared<SDL_FRect>();
 }
 
-FontRenderer::~FontRenderer() {}
+FontRenderer::~FontRenderer() {
+    if (surface != nullptr) {
+        SDL_DestroySurface(surface);
+    }
+    if (texture != nullptr) {
+        SDL_DestroyTexture(texture);
+    }
+}
 
 void FontRenderer::OnTick() {
     this->renderable->x = this->parent->getPosition()->getX();
