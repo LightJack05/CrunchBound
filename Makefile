@@ -3,9 +3,8 @@ CXX=g++
 RM=rm -rf
 PROFILER=heaptrack
 PROFILEFLAGS=
-CPPFLAGS=-O0 $(shell root-config --cflags)
-LDFLAGS=$(shell root-config --ldflags)
-LDLIBS=$(shell root-config --libs)
+CPPFLAGS=-O0 -pthread -std=c++17 -m64
+LDFLAGS=-m64
 SDL3FLAGS=$(shell pkg-config sdl3 --cflags --libs)
 SDL3IMGFLAGS=-lSDL3_image
 SDL3TTFFLAGS=-lSDL3_ttf
