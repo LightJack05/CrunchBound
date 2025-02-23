@@ -88,6 +88,7 @@ class GameObject {
      * @brief Get the first component that matches the type T
      *
      * @tparam T The type of the component
+     * @throws ComponentNotFoundExeption if there is no matching component found.
      * @return The first component on the gameobject matching type T
      */
     template <typename T> std::shared_ptr<T> GetFirstComponent() {

@@ -87,6 +87,12 @@ void EnqueueGameReset();
  */
 void OnGameStart();
 
+/**
+ * @brief Try to get a gameobject by tag.
+ *
+ * @param tag The tag to search for.
+ * @throws GameObjectNotFoundException if there is no object found.
+ */
 std::shared_ptr<GameObject> GetGameObjectByTag(std::string tag);
 
 #endif // GAMEMANAGEMENT_HPP
