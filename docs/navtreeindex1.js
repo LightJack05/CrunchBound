@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"d9/dfa/Init_8cpp.html#aaa64e8fd06230fa14e507cef71a3217d":[3,0,1,1,4],
 "d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f":[3,0,1,1,6],
 "d9/dfa/Init_8cpp.html#ad09ba10d211f8163bf86edcabf3541de":[3,0,1,1,10],
 "da/d20/GameManagerKeyboardHandler_8hpp.html":[3,0,1,0,3,3],
