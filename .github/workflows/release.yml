@@ -88,5 +88,5 @@ jobs:
         generateReleaseNotes: true
         tag: ${{ steps.tag_version.outputs.new_tag }}
         prerelease: true
-        assets: |
+        artifacts: |
           ./package/appimage/crunchbound.AppImage
