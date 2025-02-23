@@ -1,5 +1,6 @@
 #include "CoffeeMeterBehavior.hpp"
 #include "../../../engine/Time.hpp"
+#include "../../../engine/components/renderers/RectangleRenderer.hpp"
 #include "../../Lifecycle.hpp"
 
 void CoffeeMeterBehavior::OnTick() {
@@ -8,6 +9,8 @@ void CoffeeMeterBehavior::OnTick() {
         GameOver();
     }
     this->parent->getScale()->setX(coffeeLevel / 1000);
+    this->parent->GetFirstComponent<RectangleRenderer>()->setColor(
+        255 * (1 - (coffeeLevel / 1000)), 255 * (coffeeLevel / 1000), 0, 255);
 }
 
 void CoffeeMeterBehavior::OnStart() { coffeeLevel = 1000; }

@@ -19,6 +19,9 @@
 static const int PlayerHeight = 150;
 static const int PlayerWidth = 50;
 
+/**
+ * @brief Create the icon next to the coffee meter
+ */
 static void CreateCoffeeMeterIcon() {
     std::shared_ptr<GameObject> coffeeMeterIcon =
         std::make_shared<GameObject>();
@@ -27,18 +30,21 @@ static void CreateCoffeeMeterIcon() {
 
     std::shared_ptr<TextureRenderer> coffeeMeterIconRenderer =
         std::make_shared<TextureRenderer>(
-            32, 32, GetAssetPath("textures/objects/coffee_paper_cup.png"));
+            64, 64, GetAssetPath("textures/objects/coffee_paper_cup.png"));
     coffeeMeterIcon->RegisterComponent(coffeeMeterIconRenderer);
 
     RegisterGameObject(coffeeMeterIcon);
 }
+/**
+ * @brief Create the coffee meter bar
+ */
 static void CreateCoffeeMeter() {
     std::shared_ptr<GameObject> coffeeMeter = std::make_shared<GameObject>();
     coffeeMeter->setTag("coffee-meter");
-    coffeeMeter->setPosition(std::make_shared<Vector2>(50, 10));
+    coffeeMeter->setPosition(std::make_shared<Vector2>(82, 10));
 
     std::shared_ptr<RectangleRenderer> coffeeMeterBar =
-        std::make_shared<RectangleRenderer>(500, 32);
+        std::make_shared<RectangleRenderer>(500, 64);
     coffeeMeterBar->setColor(255, 0, 0, 50);
     coffeeMeter->RegisterComponent(coffeeMeterBar);
 
