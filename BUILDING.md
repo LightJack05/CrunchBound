@@ -10,7 +10,7 @@ Please install yay according to these instructions, and then continue here:
 
 Install the build- and runtime dependencies using yay (as always, check PKGBUILD before downloading things from the AUR):
 ```
-yay -S sdl3 sdl3_image sdl3_ttf-git base-devel gcc make pkgconf root
+yay -S sdl3 sdl3_image sdl3_ttf-git base-devel gcc make pkgconf
 ```
 
 That's it, you're all set up to build CrunchBound now!
