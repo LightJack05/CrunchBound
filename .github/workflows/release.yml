@@ -80,7 +80,7 @@ jobs:
       run: |
         echo $LD_PATH
         make clean
-        make package
+        make appimage 
 
     - name: Publish Release
       uses: ncipollo/release-action@v1
@@ -90,4 +90,3 @@ jobs:
         prerelease: true
         assets: |
           ./package/appimage/crunchbound.AppImage
-          ./package/arch/crunchbound*.zst
