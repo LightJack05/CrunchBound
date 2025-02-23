@@ -144,7 +144,7 @@ This will build both an AppImage and an Arch package.
 By default, `make` builds a debug version of the project using the gcc flags `-g -DDEVELOPMENT`.
 If you would like to build a release version, run `make release`.
 
-> [!WARNING]
+> [!CAUTION]
 > In a release build, assets will be loaded from `/usr/share/crunchbound/assets`, since the DEVELOPMENT macro is not set!
 
 By default, packaging always uses release, and all other profiles use debug.
