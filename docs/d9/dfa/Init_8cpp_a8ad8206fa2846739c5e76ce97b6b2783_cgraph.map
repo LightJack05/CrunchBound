@@ -1,4 +1,5 @@
 <map id="CreateScoreCounter" name="CreateScoreCounter">
-<area shape="rect" id="node1" title="Create the score counter and register it." alt="" coords="5,5,157,31"/>
-<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="205,5,363,31"/>
+<area shape="rect" id="Node000001" title="Create the score counter and register it." alt="" coords="5,5,157,31"/>
+<area shape="rect" id="Node000002" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="205,5,363,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,15,192,15,192,21,158,21"/>
 </map>

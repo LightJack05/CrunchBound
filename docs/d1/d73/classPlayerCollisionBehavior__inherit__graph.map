@@ -1,6 +1,9 @@
 <map id="PlayerCollisionBehavior" name="PlayerCollisionBehavior">
-<area shape="rect" id="node1" title="The players collision behavior." alt="" coords="25,719,245,869"/>
-<area shape="rect" id="node2" href="$d9/df0/classCollisionBehavior.html" title="Controlls collision of an object with other objects that also have this or a child component." alt="" coords="25,373,245,671"/>
-<area shape="rect" id="node3" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,248,175,325"/>
-<area shape="rect" id="node4" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,5,265,200"/>
+<area shape="rect" id="Node000001" title="The players collision behavior." alt="" coords="18,752,245,901"/>
+<area shape="rect" id="Node000002" href="$d9/df0/classCollisionBehavior.html" title="Controlls collision of an object with other objects that also have this or a child component." alt="" coords="18,381,245,704"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,718,134,752,129,752,129,718"/>
+<area shape="rect" id="Node000003" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,268,167,333"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,347,134,381,129,381,129,347"/>
+<area shape="rect" id="Node000004" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,5,257,220"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,234,134,268,129,268,129,234"/>
 </map>

@@ -1,6 +1,9 @@
 <map id="TextureRenderer" name="TextureRenderer">
-<area shape="rect" id="node1" title="A renderer for textures." alt="" coords="36,1205,235,1473"/>
-<area shape="rect" id="node2" href="$d1/d52/classRenderer.html" title="Abstract renderer component." alt="" coords="36,1035,235,1156"/>
-<area shape="rect" id="node3" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,805,265,985"/>
-<area shape="rect" id="node4" href="$de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game." alt="" coords="25,5,245,743"/>
+<area shape="rect" id="Node000001" title="A renderer for textures." alt="" coords="33,1324,230,1617"/>
+<area shape="rect" id="Node000002" href="$d1/d52/classRenderer.html" title="Abstract renderer component." alt="" coords="37,1155,226,1275"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,1288,134,1324,129,1324,129,1288"/>
+<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,911,257,1105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,1119,134,1154,129,1154,129,1119"/>
+<area shape="rect" id="Node000004" href="$de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game." alt="" coords="18,5,245,848"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,848,134,894,129,894,129,848"/>
 </map>

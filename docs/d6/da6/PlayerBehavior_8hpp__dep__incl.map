@@ -1,7 +1,11 @@
 <map id="game/behaviors/player/PlayerBehavior.hpp" name="game/behaviors/player/PlayerBehavior.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="247,5,419,45"/>
-<area shape="rect" id="node2" href="$d9/dfa/Init_8cpp.html" title=" " alt="" coords="5,101,116,126"/>
-<area shape="rect" id="node3" href="$d8/dea/PlayerBehavior_8cpp.html" title=" " alt="" coords="140,93,312,133"/>
-<area shape="rect" id="node4" href="$d9/d5f/PlayerCollisionBehavior_8cpp.html" title=" " alt="" coords="336,93,543,133"/>
-<area shape="rect" id="node5" href="$dd/d4b/PlayerKeyboardBehavior_8cpp.html" title=" " alt="" coords="567,93,779,133"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="247,5,419,45"/>
+<area shape="rect" id="Node000002" href="$d9/dfa/Init_8cpp.html" title=" " alt="" coords="5,101,116,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,52,98,103,96,98,259,47"/>
+<area shape="rect" id="Node000003" href="$d8/dea/PlayerBehavior_8cpp.html" title=" " alt="" coords="140,93,312,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="300,56,251,95,248,91,297,52"/>
+<area shape="rect" id="Node000004" href="$d9/d5f/PlayerCollisionBehavior_8cpp.html" title=" " alt="" coords="336,93,543,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="369,52,417,91,414,95,365,56"/>
+<area shape="rect" id="Node000005" href="$dd/d4b/PlayerKeyboardBehavior_8cpp.html" title=" " alt="" coords="567,93,779,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="421,46,599,91,598,96,420,51"/>
 </map>

@@ -6,21 +6,32 @@
 <!-- Title: GameOver Pages: 1 -->
 <svg width="249pt" height="134pt"
  viewBox="0.00 0.00 249.00 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="../../svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
 <title>GameOver</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Perform actions for player death.">
+<g id="a_Node000001"><a xlink:title="Perform actions for player death.">
 <polygon fill="#999999" stroke="#666666" points="241,-72.5 172,-72.5 172,-53.5 241,-53.5 241,-72.5"/>
 <text text-anchor="middle" x="206.5" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameOver</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d1/d1b/classEnemyCollisionBehavior.html#ad4285f2ed11d12a9527b98a60cbbdae3" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
+<g id="a_Node000002"><a xlink:href="../../d1/d1b/classEnemyCollisionBehavior.html#ad4285f2ed11d12a9527b98a60cbbdae3" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
 <polygon fill="white" stroke="#666666" points="136,-126 0,-126 0,-96 136,-96 136,-126"/>
 <text text-anchor="start" x="8" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">EnemyCollisionBehavior</text>
 <text text-anchor="middle" x="68" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">::BeforeCollision</text>
@@ -28,15 +39,18 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M168.37,-76.06C150.9,-82.2 129.97,-89.56 111.84,-95.94"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="169.93,-79.22 178.21,-72.6 167.61,-72.61 169.93,-79.22"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
+<g id="a_Node000003"><a xlink:href="../../d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
 <polygon fill="white" stroke="#666666" points="134.5,-78 1.5,-78 1.5,-48 134.5,-48 134.5,-78"/>
 <text text-anchor="start" x="9.5" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerCollisionBehavior</text>
 <text text-anchor="middle" x="68" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">::BeforeCollision</text>
@@ -44,15 +58,18 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M161.58,-63C152.96,-63 143.75,-63 134.6,-63"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="161.76,-66.5 171.76,-63 161.76,-59.5 161.76,-66.5"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d4/dd8/classCoffeeMeterBehavior.html#ad649e271bb71e75dc7ffa5a3d458aa81" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d4/dd8/classCoffeeMeterBehavior.html#ad649e271bb71e75dc7ffa5a3d458aa81" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="128,-30 8,-30 8,0 128,0 128,-30"/>
 <text text-anchor="start" x="16" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeMeterBehavior</text>
 <text text-anchor="middle" x="68" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::OnTick</text>
@@ -60,10 +77,28 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000001_Node000004" class="edge">
 <title>Node1&#45;&gt;Node4</title>
+<g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M168.37,-49.94C150.9,-43.8 129.97,-36.44 111.84,-30.06"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="167.61,-53.39 178.21,-53.4 169.93,-46.78 167.61,-53.39"/>
+</a>
 </g>
 </g>
+</g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

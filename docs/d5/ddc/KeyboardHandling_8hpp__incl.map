@@ -1,4 +1,5 @@
 <map id="engine/KeyboardHandling.hpp" name="engine/KeyboardHandling.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,223,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="41,79,187,104"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,223,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="41,79,187,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,31,117,65,111,65,111,31"/>
 </map>

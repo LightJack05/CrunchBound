@@ -78,5 +78,5 @@ var NAVTREEINDEX =
 "d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';

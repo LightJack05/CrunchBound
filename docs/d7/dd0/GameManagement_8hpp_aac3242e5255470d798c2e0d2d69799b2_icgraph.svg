@@ -6,21 +6,32 @@
 <!-- Title: GetGameObjectByTag Pages: 1 -->
 <svg width="302pt" height="86pt"
  viewBox="0.00 0.00 302.00 86.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="../../svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 82)">
 <title>GetGameObjectByTag</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Try to get a gameobject by tag.">
+<g id="a_Node000001"><a xlink:title="Try to get a gameobject by tag.">
 <polygon fill="#999999" stroke="#666666" points="294,-48.5 170,-48.5 170,-29.5 294,-29.5 294,-48.5"/>
 <text text-anchor="middle" x="232" y="-36.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetGameObjectByTag</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dd/dcf/classCoffeeCollisionBehavior.html#a54ea85ca5bef47d17fd7d246b3dfdbea" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
+<g id="a_Node000002"><a xlink:href="../../dd/dcf/classCoffeeCollisionBehavior.html#a54ea85ca5bef47d17fd7d246b3dfdbea" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
 <polygon fill="white" stroke="#666666" points="134,-78 0,-78 0,-48 134,-48 134,-78"/>
 <text text-anchor="start" x="8" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeCollisionBehavior</text>
 <text text-anchor="middle" x="67" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">::BeforeCollision</text>
@@ -28,15 +39,18 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M159.89,-49.47C151.33,-50.73 142.62,-52.01 134.14,-53.26"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="160.46,-52.92 169.84,-48 159.44,-46 160.46,-52.92"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
+<g id="a_Node000003"><a xlink:href="../../d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
 <polygon fill="white" stroke="#666666" points="133.5,-30 0.5,-30 0.5,0 133.5,0 133.5,-30"/>
 <text text-anchor="start" x="8.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerCollisionBehavior</text>
 <text text-anchor="middle" x="67" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::BeforeCollision</text>
@@ -44,10 +58,28 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M159.74,-28.51C151.04,-27.23 142.2,-25.92 133.59,-24.66"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="159.44,-32 169.84,-30 160.46,-25.08 159.44,-32"/>
+</a>
 </g>
 </g>
+</g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

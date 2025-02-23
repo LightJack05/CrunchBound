@@ -1,15 +1,33 @@
 <map id="ResetGame" name="ResetGame">
-<area shape="rect" id="node1" title="Reset the game to the initial state." alt="" coords="5,204,104,229"/>
-<area shape="rect" id="node2" href="$d9/dfa/Init_8cpp.html#aaa64e8fd06230fa14e507cef71a3217d" title="Create the initial gameobjects required for the game." alt="" coords="152,179,343,204"/>
-<area shape="rect" id="node13" href="$de/dfd/GameManagement_8cpp.html#ae5ee3f705fc506491ca2b0c7cf059c75" title="Initialize all gameobjects and call the OnStart() methods." alt="" coords="192,228,303,253"/>
-<area shape="rect" id="node3" href="$d9/dfa/Init_8cpp.html#a3ff595c2af791c369e2318510062ce14" title="Create the coffee meter bar." alt="" coords="411,55,557,80"/>
-<area shape="rect" id="node5" href="$d9/dfa/Init_8cpp.html#a1bfb628b6cd503e396bae0796f2051c1" title="Create the icon next to the coffee meter." alt="" coords="398,5,570,31"/>
-<area shape="rect" id="node7" href="$d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e" title="Create the floor and register it." alt="" coords="435,104,533,129"/>
-<area shape="rect" id="node8" href="$d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783" title="Create the score counter and register it." alt="" coords="408,153,560,179"/>
-<area shape="rect" id="node9" href="$d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f" title="Set the window background to white." alt="" coords="391,203,577,228"/>
-<area shape="rect" id="node10" href="$d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24" title="Create the left wall and register it." alt="" coords="425,252,543,277"/>
-<area shape="rect" id="node11" href="$d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395" title="Create the player and register it." alt="" coords="431,301,537,327"/>
-<area shape="rect" id="node12" href="$d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b" title="Create the right wall and register it." alt="" coords="421,351,547,376"/>
-<area shape="rect" id="node4" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="625,153,783,179"/>
-<area shape="rect" id="node6" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title=" " alt="" coords="649,5,759,31"/>
+<area shape="rect" id="Node000001" title="Reset the game to the initial state." alt="" coords="5,204,104,229"/>
+<area shape="rect" id="Node000002" href="$d9/dfa/Init_8cpp.html#aaa64e8fd06230fa14e507cef71a3217d" title="Create the initial gameobjects required for the game." alt="" coords="152,179,343,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,208,138,203,139,208,105,213"/>
+<area shape="rect" id="Node000013" href="$de/dfd/GameManagement_8cpp.html#ae5ee3f705fc506491ca2b0c7cf059c75" title="Initialize all gameobjects and call the OnStart() methods." alt="" coords="192,228,303,253"/>
+<area shape="poly" id="edge18_Node000001_Node000013" title=" " alt="" coords="105,220,179,230,178,235,104,225"/>
+<area shape="rect" id="Node000003" href="$d9/dfa/Init_8cpp.html#a3ff595c2af791c369e2318510062ce14" title="Create the coffee meter bar." alt="" coords="411,55,557,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="261,177,315,134,351,110,390,89,407,82,409,87,392,94,354,114,318,138,265,181"/>
+<area shape="rect" id="Node000005" href="$d9/dfa/Init_8cpp.html#a1bfb628b6cd503e396bae0796f2051c1" title="Create the icon next to the coffee meter." alt="" coords="398,5,570,31"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="255,177,306,111,345,72,389,40,402,33,404,38,392,44,348,77,310,115,259,180"/>
+<area shape="rect" id="Node000007" href="$d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e" title="Create the floor and register it." alt="" coords="435,104,533,129"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="281,176,390,138,420,129,422,135,391,143,283,181"/>
+<area shape="rect" id="Node000008" href="$d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783" title="Create the score counter and register it." alt="" coords="408,153,560,179"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="343,178,394,173,395,178,343,184"/>
+<area shape="rect" id="Node000009" href="$d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f" title="Set the window background to white." alt="" coords="391,203,577,228"/>
+<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="343,198,378,202,377,207,343,204"/>
+<area shape="rect" id="Node000010" href="$d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24" title="Create the left wall and register it." alt="" coords="425,252,543,277"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="307,201,344,213,392,237,418,246,416,251,390,242,342,218,306,207"/>
+<area shape="rect" id="Node000011" href="$d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395" title="Create the player and register it." alt="" coords="431,301,537,327"/>
+<area shape="poly" id="edge14_Node000002_Node000011" title=" " alt="" coords="323,202,344,213,361,232,369,251,377,269,392,287,419,300,416,305,389,291,372,272,364,253,357,235,341,217,321,207"/>
+<area shape="rect" id="Node000012" href="$d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b" title="Create the right wall and register it." alt="" coords="421,351,547,376"/>
+<area shape="poly" id="edge16_Node000002_Node000012" title=" " alt="" coords="327,202,344,213,358,229,365,245,369,276,374,307,380,322,392,336,409,347,406,352,389,340,376,324,368,308,364,277,360,246,353,232,341,217,324,206"/>
+<area shape="rect" id="Node000004" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="625,153,783,179"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="545,77,578,89,631,115,675,143,672,148,628,120,576,94,543,83"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="552,28,579,40,612,63,642,89,687,141,683,144,638,93,609,67,576,44,550,33"/>
+<area shape="rect" id="Node000006" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title=" " alt="" coords="649,5,759,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="571,15,635,15,635,21,571,21"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="534,125,634,148,633,153,533,130"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="560,163,612,163,612,169,560,169"/>
+<area shape="poly" id="edge13_Node000010_Node000004" title=" " alt="" coords="540,249,576,237,628,211,672,184,675,188,630,216,578,242,541,254"/>
+<area shape="poly" id="edge15_Node000011_Node000004" title=" " alt="" coords="537,302,576,286,608,264,638,238,683,188,687,191,641,242,612,268,579,291,539,307"/>
+<area shape="poly" id="edge17_Node000012_Node000004" title=" " alt="" coords="547,350,576,336,614,302,646,263,671,224,689,190,693,193,676,226,650,266,618,306,579,340,549,355"/>
 </map>

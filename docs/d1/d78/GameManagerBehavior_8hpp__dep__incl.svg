@@ -6,12 +6,23 @@
 <!-- Title: game/behaviors/gameManager/GameManagerBehavior.hpp Pages: 1 -->
 <svg width="278pt" height="104pt"
  viewBox="0.00 0.00 278.00 104.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="../../svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 100)">
 <title>game/behaviors/gameManager/GameManagerBehavior.hpp</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="198,-96 29,-96 29,-66 198,-66 198,-96"/>
 <text text-anchor="start" x="37" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">game/behaviors/gameManager</text>
 <text text-anchor="middle" x="113.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/GameManagerBehavior.hpp</text>
@@ -19,24 +30,27 @@
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d9/dfa/Init_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../d9/dfa/Init_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="83,-24.5 0,-24.5 0,-5.5 83,-5.5 83,-24.5"/>
 <text text-anchor="middle" x="41.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">game/Init.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M89.8,-58.93C76.77,-47.35 61.31,-33.61 51.45,-24.84"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="87.72,-61.77 97.52,-65.8 92.37,-56.54 87.72,-61.77"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="270,-30 101,-30 101,0 270,0 270,-30"/>
 <text text-anchor="start" x="109" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">game/behaviors/gameManager</text>
 <text text-anchor="middle" x="185.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/GameManagerBehavior.cpp</text>
@@ -44,10 +58,28 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M137.21,-58.92C147.83,-49.49 160.07,-38.61 169.57,-30.16"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="134.63,-56.54 129.48,-65.8 139.28,-61.77 134.63,-56.54"/>
+</a>
 </g>
 </g>
+</g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

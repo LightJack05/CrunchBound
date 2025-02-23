@@ -9,9 +9,9 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 34)">
 <title>KeyboardHandlerBehavior::OnKeyDown</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Called when a key is pressed (or held) down.">
+<g id="a_Node000001"><a xlink:title="Called when a key is pressed (or held) down.">
 <polygon fill="#999999" stroke="#666666" points="601,-30 457,-30 457,0 601,0 601,-30"/>
 <text text-anchor="start" x="465" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">KeyboardHandlerBehavior</text>
 <text text-anchor="middle" x="529" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::OnKeyDown</text>
@@ -19,64 +19,76 @@
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d3b/KeyboardHandling_8cpp.html#a2b6d8aae8fe15780544c6ada95a93033" target="_top" xlink:title="Handle a keyboard event.">
+<g id="a_Node000002"><a xlink:href="../../d2/d3b/KeyboardHandling_8cpp.html#a2b6d8aae8fe15780544c6ada95a93033" target="_top" xlink:title="Handle a keyboard event.">
 <polygon fill="white" stroke="#666666" points="421,-24.5 296,-24.5 296,-5.5 421,-5.5 421,-24.5"/>
 <text text-anchor="middle" x="358.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">HandleKeyboardEvent</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M446.29,-15C437.85,-15 429.38,-15 421.21,-15"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="446.54,-18.5 456.54,-15 446.54,-11.5 446.54,-18.5"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../de/db0/Events_8cpp.html#a26867d84edb0f52a75127cf66c64c9a9" target="_top" xlink:title="Handles an event that has occoured.">
+<g id="a_Node000003"><a xlink:href="../../de/db0/Events_8cpp.html#a26867d84edb0f52a75127cf66c64c9a9" target="_top" xlink:title="Handles an event that has occoured.">
 <polygon fill="white" stroke="#666666" points="260,-24.5 181,-24.5 181,-5.5 260,-5.5 260,-24.5"/>
 <text text-anchor="middle" x="220.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">HandleEvent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M285.64,-15C276.93,-15 268.3,-15 260.34,-15"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="285.87,-18.5 295.87,-15 285.87,-11.5 285.87,-18.5"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" target="_top" xlink:title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true.">
+<g id="a_Node000004"><a xlink:href="../../df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" target="_top" xlink:title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true.">
 <polygon fill="white" stroke="#666666" points="145,-24.5 77,-24.5 77,-5.5 145,-5.5 145,-24.5"/>
 <text text-anchor="middle" x="111" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">gameLoop</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M170.94,-15C162.25,-15 153.39,-15 145.26,-15"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="170.99,-18.5 180.99,-15 170.99,-11.5 170.99,-18.5"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" target="_top" xlink:title="Entry point of the program.">
+<g id="a_Node000005"><a xlink:href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" target="_top" xlink:title="Entry point of the program.">
 <polygon fill="white" stroke="#666666" points="41,-24.5 0,-24.5 0,-5.5 41,-5.5 41,-24.5"/>
 <text text-anchor="middle" x="20.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000004_Node000005" class="edge">
 <title>Node4&#45;&gt;Node5</title>
+<g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M66.51,-15C57.66,-15 48.77,-15 41.25,-15"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="66.79,-18.5 76.79,-15 66.79,-11.5 66.79,-18.5"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

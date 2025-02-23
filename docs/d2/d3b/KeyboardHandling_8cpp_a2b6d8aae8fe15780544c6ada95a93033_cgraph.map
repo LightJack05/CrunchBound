@@ -1,5 +1,9 @@
 <map id="HandleKeyboardEvent" name="HandleKeyboardEvent">
-<area shape="rect" id="node1" title="Handle a keyboard event." alt="" coords="5,45,172,70"/>
-<area shape="rect" id="node2" href="$de/d47/classKeyboardHandlerBehavior.html#aedfbd0872b0f5331ffece766aaa7b3c2" title="Called when a key is pressed (or held) down." alt="" coords="220,5,412,45"/>
-<area shape="rect" id="node3" href="$de/d47/classKeyboardHandlerBehavior.html#a2ffe164cb50551f0d20b40753b0d193d" title="Called when a key is released." alt="" coords="220,69,412,109"/>
+<area shape="rect" id="Node000001" title="Handle a keyboard event." alt="" coords="5,77,172,102"/>
+<area shape="rect" id="Node000002" href="$de/d47/classKeyboardHandlerBehavior.html#aedfbd0872b0f5331ffece766aaa7b3c2" title="Called when a key is pressed (or held) down." alt="" coords="220,5,412,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,74,230,47,232,52,136,79"/>
+<area shape="rect" id="Node000003" href="$de/d47/classKeyboardHandlerBehavior.html#a2ffe164cb50551f0d20b40753b0d193d" title="Called when a key is released." alt="" coords="220,69,412,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,87,206,87,206,92,172,92"/>
+<area shape="rect" id="Node000004" href="$d9/df7/classGameObjectComponent.html#ade2db51ea6caeaa80b1a80395ffbb779" title=" " alt="" coords="227,133,405,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="136,100,232,127,230,132,134,105"/>
 </map>

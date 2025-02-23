@@ -1,5 +1,7 @@
 <map id="CoffeeBehavior" name="CoffeeBehavior">
-<area shape="rect" id="node1" title=" " alt="" coords="53,373,217,495"/>
-<area shape="rect" id="node2" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,248,175,325"/>
-<area shape="rect" id="node3" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,5,265,200"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="53,381,209,496"/>
+<area shape="rect" id="Node000002" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,268,167,333"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,347,134,381,129,381,129,347"/>
+<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,5,257,220"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,234,134,268,129,268,129,234"/>
 </map>

@@ -1,7 +1,11 @@
 <map id="Renderer" name="Renderer">
-<area shape="rect" id="node1" title="Abstract renderer component." alt="" coords="236,248,435,369"/>
-<area shape="rect" id="node3" href="$dd/d7f/classFontRenderer.html" title=" " alt="" coords="5,417,212,847"/>
-<area shape="rect" id="node4" href="$d0/d0f/classRectangleRenderer.html" title="A renderer for simple rectangles." alt="" coords="236,469,435,795"/>
-<area shape="rect" id="node5" href="$d1/dff/classTextureRenderer.html" title="A renderer for textures." alt="" coords="459,498,657,766"/>
-<area shape="rect" id="node2" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="205,5,465,200"/>
+<area shape="rect" id="Node000001" title="Abstract renderer component." alt="" coords="243,268,432,388"/>
+<area shape="rect" id="Node000003" href="$dd/d7f/classFontRenderer.html" title=" " alt="" coords="5,436,219,928"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,400,233,438,221,455,217,452,229,434,260,396"/>
+<area shape="rect" id="Node000004" href="$d0/d0f/classRectangleRenderer.html" title="A renderer for simple rectangles." alt="" coords="243,503,432,861"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="340,402,340,503,335,503,335,402"/>
+<area shape="rect" id="Node000005" href="$d1/dff/classTextureRenderer.html" title="A renderer for textures." alt="" coords="456,535,653,829"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="415,397,446,434,476,483,502,534,497,536,471,485,442,438,411,400"/>
+<area shape="rect" id="Node000002" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="211,5,463,220"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="340,234,340,268,335,268,335,234"/>
 </map>

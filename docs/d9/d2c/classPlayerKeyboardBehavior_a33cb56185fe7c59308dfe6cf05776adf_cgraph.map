@@ -1,8 +1,7 @@
 <map id="PlayerKeyboardBehavior::OnKeyDown" name="PlayerKeyboardBehavior::OnKeyDown">
-<area shape="rect" id="node1" title="Called when a key is pressed (or held) down." alt="" coords="5,112,188,152"/>
-<area shape="rect" id="node2" href="$d9/df0/classCollisionBehavior.html#a9f12b7818bb5e34ee88d3203da141f5e" title=" " alt="" coords="283,5,427,45"/>
-<area shape="rect" id="node3" href="$de/d1c/classGameObject.html#add821214112e834e8c5800142fe31a0e" title="Get the first component that matches the type T." alt="" coords="236,70,473,95"/>
-<area shape="rect" id="node4" href="$de/d1c/classGameObject.html#a42b10b3fba8be162e913bd8191a22adb" title=" " alt="" coords="263,119,447,145"/>
-<area shape="rect" id="node5" href="$de/d1c/classGameObject.html#a950f34f2096bbc3b57cd3730d7e94698" title=" " alt="" coords="263,169,447,194"/>
-<area shape="rect" id="node6" href="$d9/df7/classGameObjectComponent.html#adff0c3c42b08247174024aadcf5f0942" title=" " alt="" coords="265,219,444,259"/>
+<area shape="rect" id="Node000001" title="Called when a key is pressed (or held) down." alt="" coords="5,37,188,77"/>
+<area shape="rect" id="Node000002" href="$d9/df0/classCollisionBehavior.html#a9f12b7818bb5e34ee88d3203da141f5e" title=" " alt="" coords="253,5,397,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,42,240,35,240,40,189,47"/>
+<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html#adff0c3c42b08247174024aadcf5f0942" title=" " alt="" coords="236,69,415,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,68,223,72,222,78,188,73"/>
 </map>

@@ -1,6 +1,10 @@
 <map id="EnqueueRegisterGameObject" name="EnqueueRegisterGameObject">
-<area shape="rect" id="node1" title="Enqueue an object to be registered on the next frame." alt="" coords="388,31,601,56"/>
-<area shape="rect" id="node2" href="$df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" title=" " alt="" coords="231,5,338,31"/>
-<area shape="rect" id="node4" href="$df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" title=" " alt="" coords="229,55,340,80"/>
-<area shape="rect" id="node3" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,23,181,63"/>
+<area shape="rect" id="Node000001" title="Enqueue an object to be registered on the next frame." alt="" coords="388,31,601,56"/>
+<area shape="rect" id="Node000002" href="$df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" title=" " alt="" coords="231,5,338,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="375,32,338,27,339,22,376,26"/>
+<area shape="rect" id="Node000004" href="$df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" title=" " alt="" coords="229,55,340,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="375,60,341,64,340,58,374,54"/>
+<area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,23,181,63"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,29,182,34,181,29,218,24"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="216,61,181,57,182,52,216,56"/>
 </map>

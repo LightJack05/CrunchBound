@@ -1,6 +1,9 @@
 <map id="ScoreCounterBehavior" name="ScoreCounterBehavior">
-<area shape="rect" id="node1" title=" " alt="" coords="52,1161,219,1283"/>
-<area shape="rect" id="node2" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,1035,175,1112"/>
-<area shape="rect" id="node3" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,805,265,985"/>
-<area shape="rect" id="node4" href="$de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game." alt="" coords="25,5,245,743"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="52,1269,211,1384"/>
+<area shape="rect" id="Node000002" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,1155,167,1220"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,1234,134,1269,129,1269,129,1234"/>
+<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,911,257,1105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,1119,134,1155,129,1155,129,1119"/>
+<area shape="rect" id="Node000004" href="$de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game." alt="" coords="18,5,245,848"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,848,134,894,129,894,129,848"/>
 </map>

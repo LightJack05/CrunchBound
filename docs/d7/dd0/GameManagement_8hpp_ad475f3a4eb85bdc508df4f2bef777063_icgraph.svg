@@ -6,21 +6,32 @@
 <!-- Title: EnqueueDestroyGameObject Pages: 1 -->
 <svg width="336pt" height="161pt"
  viewBox="0.00 0.00 336.00 160.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="../../svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 156.5)">
 <title>EnqueueDestroyGameObject</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Enqueue the destruction of a gameobject.">
+<g id="a_Node000001"><a xlink:title="Enqueue the destruction of a gameobject.">
 <polygon fill="#999999" stroke="#666666" points="328,-77 170,-77 170,-58 328,-58 328,-77"/>
 <text text-anchor="middle" x="249" y="-65" font-family="Helvetica,sans-Serif" font-size="10.00">EnqueueDestroyGameObject</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dd/dcf/classCoffeeCollisionBehavior.html#a54ea85ca5bef47d17fd7d246b3dfdbea" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
+<g id="a_Node000002"><a xlink:href="../../dd/dcf/classCoffeeCollisionBehavior.html#a54ea85ca5bef47d17fd7d246b3dfdbea" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
 <polygon fill="white" stroke="#666666" points="134,-152.5 0,-152.5 0,-122.5 134,-122.5 134,-152.5"/>
 <text text-anchor="start" x="8" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeCollisionBehavior</text>
 <text text-anchor="middle" x="67" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">::BeforeCollision</text>
@@ -28,15 +39,18 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M215.44,-80.99C192.7,-90.32 161.6,-102.92 134,-113.5 126.26,-116.47 117.97,-119.55 109.98,-122.48"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="217.03,-84.12 224.95,-77.08 214.37,-77.64 217.03,-84.12"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
+<g id="a_Node000003"><a xlink:href="../../d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
 <polygon fill="white" stroke="#666666" points="133.5,-104.5 0.5,-104.5 0.5,-74.5 133.5,-74.5 133.5,-104.5"/>
 <text text-anchor="start" x="8.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerCollisionBehavior</text>
 <text text-anchor="middle" x="67" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">::BeforeCollision</text>
@@ -44,40 +58,64 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M160.07,-78.25C151.17,-79.34 142.23,-80.43 133.62,-81.48"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="160.59,-81.71 170.1,-77.02 159.75,-74.76 160.59,-81.71"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d1/d43/classCoffeeBehavior.html#a5281f75fb5ece45513090cbc74636eb9" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d1/d43/classCoffeeBehavior.html#a5281f75fb5ece45513090cbc74636eb9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="132.5,-56 1.5,-56 1.5,-37 132.5,-37 132.5,-56"/>
 <text text-anchor="middle" x="67" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeBehavior::OnTick</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000001_Node000004" class="edge">
 <title>Node1&#45;&gt;Node4</title>
+<g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M159.88,-57.22C150.69,-56.15 141.46,-55.07 132.6,-54.04"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="159.5,-60.7 169.83,-58.38 160.31,-53.75 159.5,-60.7"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d9/ddc/classEnemyBehavior.html#aa2e0ea0a9d02dcda1df5c90ac552e654" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d9/ddc/classEnemyBehavior.html#aa2e0ea0a9d02dcda1df5c90ac552e654" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="134,-19 0,-19 0,0 134,0 134,-19"/>
 <text text-anchor="middle" x="67" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">EnemyBehavior::OnTick</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000001_Node000005" class="edge">
 <title>Node1&#45;&gt;Node5</title>
+<g id="a_edge4_Node000001_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M211.67,-54.56C189.35,-46.74 160.13,-36.72 134,-28.5 123.76,-25.28 112.57,-21.97 102.35,-19.04"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="210.81,-57.97 221.4,-57.99 213.13,-51.36 210.81,-57.97"/>
+</a>
 </g>
 </g>
+</g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

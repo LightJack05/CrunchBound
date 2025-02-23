@@ -9,73 +9,85 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
 <title>GetObjectVelocity</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="104,-37 0,-37 0,-18 104,-18 104,-37"/>
 <text text-anchor="middle" x="52" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">GetObjectVelocity</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="289,-56 146,-56 146,-37 289,-37 289,-56"/>
 <text text-anchor="middle" x="217.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">GetGameDifficultyAtTime</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M104.28,-33.46C114.29,-34.62 125.01,-35.87 135.7,-37.11"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="135.59,-40.62 145.93,-38.3 136.4,-33.67 135.59,-40.62"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" target="_top" xlink:title="Generate a random float between 0 and 1.">
+<g id="a_Node000003"><a xlink:href="../../d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" target="_top" xlink:title="Generate a random float between 0 and 1.">
 <polygon fill="white" stroke="#666666" points="295,-19 140,-19 140,0 295,0 295,-19"/>
 <text text-anchor="middle" x="217.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">GetRandomNormalizedFloat</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M104.28,-21.85C112.43,-20.96 121.04,-20.01 129.74,-19.05"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="130.39,-22.5 139.95,-17.93 129.63,-15.54 130.39,-22.5"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" target="_top" xlink:title="Generate a random integer in bounds.">
+<g id="a_Node000004"><a xlink:href="../../d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" target="_top" xlink:title="Generate a random integer in bounds.">
 <polygon fill="white" stroke="#666666" points="418,-19 331,-19 331,0 418,0 418,-19"/>
 <text text-anchor="middle" x="374.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">GetRandomInt</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M295.09,-9.5C303.78,-9.5 312.48,-9.5 320.76,-9.5"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="321,-13 331,-9.5 321,-6 321,-13"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="541,-19 454,-19 454,0 541,0 541,-19"/>
 <text text-anchor="middle" x="497.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">randomEngine</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000004_Node000005" class="edge">
 <title>Node4&#45;&gt;Node5</title>
+<g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M418.16,-9.5C426.38,-9.5 435.09,-9.5 443.59,-9.5"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="443.82,-13 453.82,-9.5 443.82,-6 443.82,-13"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

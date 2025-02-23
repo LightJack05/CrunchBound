@@ -1,5 +1,7 @@
 <map id="game/behaviors/player/PlayerKeyboardBehavior.hpp" name="game/behaviors/player/PlayerKeyboardBehavior.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="46,5,259,45"/>
-<area shape="rect" id="node2" href="$d9/dfa/Init_8cpp.html" title=" " alt="" coords="5,101,116,126"/>
-<area shape="rect" id="node3" href="$dd/d4b/PlayerKeyboardBehavior_8cpp.html" title=" " alt="" coords="140,93,352,133"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="46,5,259,45"/>
+<area shape="rect" id="Node000002" href="$d9/dfa/Init_8cpp.html" title=" " alt="" coords="5,101,116,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,57,75,102,72,98,121,53"/>
+<area shape="rect" id="Node000003" href="$dd/d4b/PlayerKeyboardBehavior_8cpp.html" title=" " alt="" coords="140,93,352,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,53,227,91,224,95,182,57"/>
 </map>

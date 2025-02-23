@@ -1,13 +1,23 @@
 <map id="engine/components/behaviors/Behavior.cpp" name="engine/components/behaviors/Behavior.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="251,5,469,45"/>
-<area shape="rect" id="node2" href="$d4/d8e/Behavior_8hpp.html" title=" " alt="" coords="307,93,413,119"/>
-<area shape="rect" id="node3" href="$d2/d69/GameObjectComponent_8hpp.html" title=" " alt="" coords="251,167,469,192"/>
-<area shape="rect" id="node4" title=" " alt="" coords="259,240,330,265"/>
-<area shape="rect" id="node5" href="$d4/db5/GameObject_8hpp.html" title=" " alt="" coords="354,240,497,265"/>
-<area shape="rect" id="node6" href="$d9/d4a/Vector2_8hpp.html" title=" " alt="" coords="5,321,104,346"/>
-<area shape="rect" id="node7" href="$d4/d71/ComponentNotFoundException_8hpp.html" title=" " alt="" coords="128,313,363,353"/>
-<area shape="rect" id="node9" title=" " alt="" coords="387,321,464,346"/>
-<area shape="rect" id="node10" title=" " alt="" coords="488,321,547,346"/>
-<area shape="rect" id="node11" title=" " alt="" coords="571,321,634,346"/>
-<area shape="rect" id="node8" title=" " alt="" coords="202,401,289,427"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,5,469,45"/>
+<area shape="rect" id="Node000002" href="$d4/d8e/Behavior_8hpp.html" title=" " alt="" coords="307,93,413,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="363,46,363,79,357,79,357,46"/>
+<area shape="rect" id="Node000003" href="$d2/d69/GameObjectComponent_8hpp.html" title=" " alt="" coords="251,167,469,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="363,119,363,153,357,153,357,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="259,240,330,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="351,194,316,232,313,228,347,191"/>
+<area shape="rect" id="Node000005" href="$d4/db5/GameObject_8hpp.html" title=" " alt="" coords="354,240,497,265"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="373,191,407,228,404,232,369,194"/>
+<area shape="rect" id="Node000006" href="$d9/d4a/Vector2_8hpp.html" title=" " alt="" coords="5,321,104,346"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="355,268,242,288,117,316,104,319,102,314,115,311,241,283,354,263"/>
+<area shape="rect" id="Node000007" href="$d4/d71/ComponentNotFoundException_8hpp.html" title=" " alt="" coords="128,313,363,353"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="400,268,302,310,300,305,398,263"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="387,321,464,346"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="428,266,428,307,423,307,423,266"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="488,321,547,346"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="441,263,495,310,492,314,437,268"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="571,321,634,346"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="452,263,566,313,563,318,450,268"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="202,401,289,427"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="248,354,248,387,243,387,243,354"/>
 </map>

@@ -1,13 +1,15 @@
 <map id="PlayerCollisionBehavior::BeforeCollision" name="PlayerCollisionBehavior::BeforeCollision">
-<area shape="rect" id="node1" title="The action to be taken when the object will collide next frame." alt="" coords="5,211,183,251"/>
-<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" title="Enqueue the destruction of a gameobject." alt="" coords="244,5,455,31"/>
-<area shape="rect" id="node3" href="$d1/d99/Lifecycle_8cpp.html#ad536aa20f0ce6646cd9226485b75fe7d" title="Perform actions for player death." alt="" coords="303,55,395,80"/>
-<area shape="rect" id="node5" href="$d9/df0/classCollisionBehavior.html#a9f12b7818bb5e34ee88d3203da141f5e" title=" " alt="" coords="277,105,421,145"/>
-<area shape="rect" id="node6" href="$de/d1c/classGameObject.html#add821214112e834e8c5800142fe31a0e" title="Get the first component that matches the type T." alt="" coords="231,169,468,195"/>
-<area shape="rect" id="node7" href="$de/dfd/GameManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2" title="Try to get a gameobject by tag." alt="" coords="267,219,432,244"/>
-<area shape="rect" id="node8" href="$de/d1c/classGameObject.html#a42b10b3fba8be162e913bd8191a22adb" title=" " alt="" coords="257,268,441,293"/>
-<area shape="rect" id="node9" href="$de/d1c/classGameObject.html#a950f34f2096bbc3b57cd3730d7e94698" title=" " alt="" coords="257,317,441,343"/>
-<area shape="rect" id="node10" href="$d9/df7/classGameObjectComponent.html#adff0c3c42b08247174024aadcf5f0942" title=" " alt="" coords="260,367,439,407"/>
-<area shape="rect" id="node11" href="$de/d1c/classGameObject.html#a42ab13377137db5ce2863718bb2093f0" title=" " alt="" coords="258,432,441,457"/>
-<area shape="rect" id="node4" href="$de/dfd/GameManagement_8cpp.html#aed50a83106078c6c5b5321eb0734c42e" title="Enqueue a reset of the game to be performed on the next frame." alt="" coords="516,55,671,80"/>
+<area shape="rect" id="Node000001" title="The action to be taken when the object will collide next frame." alt="" coords="5,112,183,152"/>
+<area shape="rect" id="Node000002" href="$d9/df0/classCollisionBehavior.html#a0c34702a6be76c4f927fc4d943534563" title=" " alt="" coords="264,5,408,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,110,174,82,230,55,249,47,251,52,232,60,176,87,129,114"/>
+<area shape="rect" id="Node000003" href="$de/dfd/GameManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" title="Enqueue the destruction of a gameobject." alt="" coords="231,70,441,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,111,259,96,260,101,183,117"/>
+<area shape="rect" id="Node000004" href="$d1/d99/Lifecycle_8cpp.html#ad536aa20f0ce6646cd9226485b75fe7d" title="Perform actions for player death." alt="" coords="290,119,382,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,129,276,129,276,135,183,135"/>
+<area shape="rect" id="Node000006" href="$de/dfd/GameManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2" title="Try to get a gameobject by tag." alt="" coords="253,169,419,194"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="183,147,260,163,259,168,182,153"/>
+<area shape="rect" id="Node000007" href="$d9/df7/classGameObjectComponent.html#adff0c3c42b08247174024aadcf5f0942" title=" " alt="" coords="247,219,425,259"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="130,150,177,177,232,203,254,212,252,217,230,208,175,181,127,155"/>
+<area shape="rect" id="Node000005" href="$de/dfd/GameManagement_8cpp.html#aed50a83106078c6c5b5321eb0734c42e" title="Enqueue a reset of the game to be performed on the next frame." alt="" coords="489,119,644,145"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="382,129,475,129,475,135,382,135"/>
 </map>

@@ -9,33 +9,36 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
 <title>EnqueueGameReset</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Enqueue a reset of the game to be performed on the next frame.">
+<g id="a_Node000001"><a xlink:title="Enqueue a reset of the game to be performed on the next frame.">
 <polygon fill="#999999" stroke="#666666" points="502,-50.5 386,-50.5 386,-31.5 502,-31.5 502,-50.5"/>
 <text text-anchor="middle" x="444" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">EnqueueGameReset</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d1/d99/Lifecycle_8cpp.html#ad536aa20f0ce6646cd9226485b75fe7d" target="_top" xlink:title="Perform actions for player death.">
+<g id="a_Node000002"><a xlink:href="../../d1/d99/Lifecycle_8cpp.html#ad536aa20f0ce6646cd9226485b75fe7d" target="_top" xlink:title="Perform actions for player death.">
 <polygon fill="white" stroke="#666666" points="295.5,-72.5 226.5,-72.5 226.5,-53.5 295.5,-53.5 295.5,-72.5"/>
 <text text-anchor="middle" x="261" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameOver</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M375.47,-49.21C348.28,-52.51 318.11,-56.18 295.73,-58.9"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="376.23,-52.64 385.73,-47.96 375.38,-45.69 376.23,-52.64"/>
+</a>
+</g>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d3/d2e/classGameManagerKeyboardBehavior.html#a5531c79b138f1862a4ddf4bfac36f11e" target="_top" xlink:title="Called when a key is pressed (or held) down.">
+<g id="a_Node000006"><a xlink:href="../../d3/d2e/classGameManagerKeyboardBehavior.html#a5531c79b138f1862a4ddf4bfac36f11e" target="_top" xlink:title="Called when a key is pressed (or held) down.">
 <polygon fill="white" stroke="#666666" points="350,-35 172,-35 172,-5 350,-5 350,-35"/>
 <text text-anchor="start" x="180" y="-23" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerKeyboardBehavior</text>
 <text text-anchor="middle" x="261" y="-12" font-family="Helvetica,sans-Serif" font-size="10.00">::OnKeyDown</text>
@@ -43,15 +46,18 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000001_Node000006" class="edge">
 <title>Node1&#45;&gt;Node6</title>
+<g id="a_edge5_Node000001_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M375.76,-33.2C367.46,-32.24 358.87,-31.24 350.31,-30.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="375.39,-36.68 385.73,-34.36 376.2,-29.73 375.39,-36.68"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d1/d1b/classEnemyCollisionBehavior.html#ad4285f2ed11d12a9527b98a60cbbdae3" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
+<g id="a_Node000003"><a xlink:href="../../d1/d1b/classEnemyCollisionBehavior.html#ad4285f2ed11d12a9527b98a60cbbdae3" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
 <polygon fill="white" stroke="#666666" points="136,-126 0,-126 0,-96 136,-96 136,-126"/>
 <text text-anchor="start" x="8" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">EnemyCollisionBehavior</text>
 <text text-anchor="middle" x="68" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">::BeforeCollision</text>
@@ -59,15 +65,18 @@
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M216.4,-73.96C190.51,-80.46 157.32,-88.8 128.99,-95.92"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="217.45,-77.3 226.29,-71.47 215.74,-70.51 217.45,-77.3"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
+<g id="a_Node000004"><a xlink:href="../../d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" target="_top" xlink:title="The action to be taken when the object will collide next frame.">
 <polygon fill="white" stroke="#666666" points="134.5,-78 1.5,-78 1.5,-48 134.5,-48 134.5,-78"/>
 <text text-anchor="start" x="9.5" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerCollisionBehavior</text>
 <text text-anchor="middle" x="68" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">::BeforeCollision</text>
@@ -75,15 +84,18 @@
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000002_Node000004" class="edge">
 <title>Node2&#45;&gt;Node4</title>
+<g id="a_edge3_Node000002_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M216.05,-63C191.97,-63 161.65,-63 134.81,-63"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="216.29,-66.5 226.29,-63 216.29,-59.5 216.29,-66.5"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d4/dd8/classCoffeeMeterBehavior.html#ad649e271bb71e75dc7ffa5a3d458aa81" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d4/dd8/classCoffeeMeterBehavior.html#ad649e271bb71e75dc7ffa5a3d458aa81" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="128,-30 8,-30 8,0 128,0 128,-30"/>
 <text text-anchor="start" x="16" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeMeterBehavior</text>
 <text text-anchor="middle" x="68" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::OnTick</text>
@@ -91,10 +103,13 @@
 </g>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000002_Node000005" class="edge">
 <title>Node2&#45;&gt;Node5</title>
+<g id="a_edge4_Node000002_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M216.44,-54.15C202.23,-51.12 186.4,-47.58 172,-44 154.96,-39.77 136.47,-34.71 119.91,-30.01"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="215.95,-57.63 226.46,-56.27 217.4,-50.78 215.95,-57.63"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

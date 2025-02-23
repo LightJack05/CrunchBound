@@ -1,7 +1,0 @@
-<map id="GameObject::GetFirstComponent" name="GameObject::GetFirstComponent">
-<area shape="rect" id="node1" title="Get the first component that matches the type T." alt="" coords="236,109,473,134"/>
-<area shape="rect" id="node2" href="$d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" title="The action to be taken when the object will collide next frame." alt="" coords="8,5,185,45"/>
-<area shape="rect" id="node3" href="$d9/d2c/classPlayerKeyboardBehavior.html#a33cb56185fe7c59308dfe6cf05776adf" title="Called when a key is pressed (or held) down." alt="" coords="5,69,188,109"/>
-<area shape="rect" id="node4" href="$d4/dd8/classCoffeeMeterBehavior.html#ad649e271bb71e75dc7ffa5a3d458aa81" title=" " alt="" coords="17,133,177,173"/>
-<area shape="rect" id="node5" href="$db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232" title=" " alt="" coords="13,197,180,237"/>
-</map>

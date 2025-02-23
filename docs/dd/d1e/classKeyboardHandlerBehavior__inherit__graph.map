@@ -1,7 +1,11 @@
 <map id="KeyboardHandlerBehavior" name="KeyboardHandlerBehavior">
-<area shape="rect" id="node1" title="An abstract class for handling keyboard inputs." alt="" coords="175,373,378,495"/>
-<area shape="rect" id="node4" href="$d3/d2e/classGameManagerKeyboardBehavior.html" title="The game managers keyboard handler for general handling." alt="" coords="5,543,279,781"/>
-<area shape="rect" id="node5" href="$d9/d2c/classPlayerKeyboardBehavior.html" title="The keyboard handler for the player." alt="" coords="303,543,522,781"/>
-<area shape="rect" id="node2" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="237,248,317,325"/>
-<area shape="rect" id="node3" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="147,5,407,200"/>
+<area shape="rect" id="Node000001" title="An abstract class for handling keyboard inputs." alt="" coords="164,381,373,496"/>
+<area shape="rect" id="Node000004" href="$d3/d2e/classGameManagerKeyboardBehavior.html" title="The game managers keyboard handler for general handling." alt="" coords="5,544,271,797"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,509,212,545,207,542,228,506"/>
+<area shape="rect" id="Node000005" href="$d9/d2c/classPlayerKeyboardBehavior.html" title="The keyboard handler for the player." alt="" coords="295,544,504,797"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="310,506,330,542,325,545,305,509"/>
+<area shape="rect" id="Node000002" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="233,268,305,333"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,347,271,381,266,381,266,347"/>
+<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="143,5,395,220"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="271,234,271,268,266,268,266,234"/>
 </map>
