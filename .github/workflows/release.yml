@@ -1,0 +1,93 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      packages: write
+      attestations: write
+      id-token: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Bump version and push tag
+      id: tag_version
+      uses: mathieudutour/github-tag-action@v6.2
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y gcc g++ make pkg-config libsdl2-dev libfreetype-dev cmake 
+
+    - name: Install SDL3 from latest release
+      run: |
+        # Install SDL3
+        SDL3_URL=$(curl -s https://api.github.com/repos/libsdl-org/SDL/releases/latest | grep "tarball_url" | cut -d '"' -f 4)
+        wget -O SDL3.tar.gz $SDL3_URL
+        tar -xzf SDL3.tar.gz
+        cd lib*SDL*
+        mkdir ./build/
+        cd ./build/
+        cmake ../CMakeLists.txt -DCMAKE_INSTALL_PREFIX=/usr -B .
+        make
+        sudo make install
+        cd ../..
+        rm -rf lib*SDL*
+
+        # Install SDL3_image
+        SDL3_IMAGE_URL=$(curl -s https://api.github.com/repos/libsdl-org/SDL_image/releases/latest | grep "tarball_url" | cut -d '"' -f 4)
+        wget -O SDL3_image.tar.gz $SDL3_IMAGE_URL
+        tar -xzf SDL3_image.tar.gz
+        cd lib*SDL*
+        mkdir ./build/
+        cd ./build/
+        cmake ../CMakeLists.txt -DCMAKE_INSTALL_PREFIX=/usr -B .
+        make
+        sudo make install
+        cd ../..
+        rm -rf lib*SDL*
+
+        # Install SDL3_ttf
+        git clone https://github.com/libsdl-org/SDL_ttf.git
+        cd SDL_ttf/
+        mkdir ./build/
+        cd ./build/
+        cmake ../CMakeLists.txt -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr -B .
+        make
+        sudo make install
+        cd ../..
+        rm -rf SDL_ttf/
+        
+    - name: Install AppImage tool
+      run: |
+        wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
+        chmod +x appimagetool-x86_64.AppImage
+        sudo mv appimagetool-x86_64.AppImage /usr/local/bin/appimagetool
+
+    - name: Build Project
+      run: |
+        echo $LD_PATH
+        make clean
+        make package
+
+    - name: Publish Release
+      uses: ncipollo/release-action@v1
+      with:
+        generateReleaseNotes: true
+        tag: ${{ steps.tag_version.outputs.new_tag }}
+        prerelease: true
+        assets: |
+          ./package/appimage/crunchbound.AppImage
+          ./package/arch/crunchbound*.zst
