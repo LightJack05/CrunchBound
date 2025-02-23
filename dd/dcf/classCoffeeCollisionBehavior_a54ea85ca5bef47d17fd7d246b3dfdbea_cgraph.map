@@ -1,5 +1,0 @@
-<map id="CoffeeCollisionBehavior::BeforeCollision" name="CoffeeCollisionBehavior::BeforeCollision">
-<area shape="rect" id="node1" title="The action to be taken when the object will collide next frame." alt="" coords="5,23,184,63"/>
-<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" title="Enqueue the destruction of a gameobject." alt="" coords="232,5,443,31"/>
-<area shape="rect" id="node3" href="$de/dfd/GameManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2" title="Try to get a gameobject by tag." alt="" coords="255,55,420,80"/>
-</map>

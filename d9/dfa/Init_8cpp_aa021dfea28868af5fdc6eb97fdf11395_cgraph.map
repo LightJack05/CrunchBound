@@ -1,4 +1,0 @@
-<map id="SpawnPlayer" name="SpawnPlayer">
-<area shape="rect" id="node1" title="Create the player and register it." alt="" coords="5,5,112,31"/>
-<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="160,5,317,31"/>
-</map>

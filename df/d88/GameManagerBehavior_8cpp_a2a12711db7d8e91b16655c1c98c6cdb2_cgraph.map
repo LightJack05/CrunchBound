@@ -1,8 +1,0 @@
-<map id="SpawnEnemy" name="SpawnEnemy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,55,116,80"/>
-<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" title="Enqueue an object to be registered on the next frame." alt="" coords="164,5,377,31"/>
-<area shape="rect" id="node3" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title=" " alt="" coords="216,55,325,80"/>
-<area shape="rect" id="node4" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" title="Generate a random float between 0 and 1." alt="" coords="167,104,374,129"/>
-<area shape="rect" id="node5" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="425,104,541,129"/>
-<area shape="rect" id="node6" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="589,104,705,129"/>
-</map>

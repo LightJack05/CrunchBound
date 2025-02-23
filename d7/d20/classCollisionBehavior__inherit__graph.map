@@ -1,8 +1,0 @@
-<map id="CollisionBehavior" name="CollisionBehavior">
-<area shape="rect" id="node1" title="Controlls collision of an object with other objects that also have this or a child component." alt="" coords="249,373,469,671"/>
-<area shape="rect" id="node4" href="$dd/dcf/classCoffeeCollisionBehavior.html" title=" " alt="" coords="5,719,225,884"/>
-<area shape="rect" id="node5" href="$d1/d1b/classEnemyCollisionBehavior.html" title=" " alt="" coords="249,726,469,877"/>
-<area shape="rect" id="node6" href="$d0/d31/classPlayerCollisionBehavior.html" title="The players collision behavior." alt="" coords="493,726,713,877"/>
-<area shape="rect" id="node2" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="319,248,399,325"/>
-<area shape="rect" id="node3" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="229,5,489,200"/>
-</map>

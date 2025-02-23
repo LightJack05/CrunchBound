@@ -1,7 +1,0 @@
-<map id="GetObjectVelocity" name="GetObjectVelocity">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,144,56"/>
-<area shape="rect" id="node2" href="$df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0" title=" " alt="" coords="200,5,391,31"/>
-<area shape="rect" id="node3" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" title="Generate a random float between 0 and 1." alt="" coords="192,55,399,80"/>
-<area shape="rect" id="node4" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="447,55,563,80"/>
-<area shape="rect" id="node5" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="611,55,727,80"/>
-</map>

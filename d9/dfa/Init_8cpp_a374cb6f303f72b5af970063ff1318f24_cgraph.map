@@ -1,4 +1,0 @@
-<map id="SpawnLeftWall" name="SpawnLeftWall">
-<area shape="rect" id="node1" title="Create the left wall and register it." alt="" coords="5,5,123,31"/>
-<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="171,5,328,31"/>
-</map>

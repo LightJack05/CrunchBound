@@ -1,5 +1,0 @@
-<map id="EnemyCollisionBehavior::BeforeCollision" name="EnemyCollisionBehavior::BeforeCollision">
-<area shape="rect" id="node1" title="The action to be taken when the object will collide next frame." alt="" coords="5,5,187,45"/>
-<area shape="rect" id="node2" href="$d1/d99/Lifecycle_8cpp.html#ad536aa20f0ce6646cd9226485b75fe7d" title="Perform actions for player death." alt="" coords="235,13,327,38"/>
-<area shape="rect" id="node3" href="$de/dfd/GameManagement_8cpp.html#aed50a83106078c6c5b5321eb0734c42e" title="Enqueue a reset of the game to be performed on the next frame." alt="" coords="375,13,529,38"/>
-</map>

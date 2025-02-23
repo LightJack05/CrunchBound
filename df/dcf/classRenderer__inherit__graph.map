@@ -1,7 +1,0 @@
-<map id="Renderer" name="Renderer">
-<area shape="rect" id="node1" title="Abstract renderer component." alt="" coords="236,248,435,369"/>
-<area shape="rect" id="node3" href="$dd/d7f/classFontRenderer.html" title=" " alt="" coords="5,417,212,847"/>
-<area shape="rect" id="node4" href="$d0/d0f/classRectangleRenderer.html" title="A renderer for simple rectangles." alt="" coords="236,469,435,795"/>
-<area shape="rect" id="node5" href="$d1/dff/classTextureRenderer.html" title="A renderer for textures." alt="" coords="459,498,657,766"/>
-<area shape="rect" id="node2" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="205,5,465,200"/>
-</map>

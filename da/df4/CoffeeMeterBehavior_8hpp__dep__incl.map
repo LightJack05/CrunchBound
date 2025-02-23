@@ -1,7 +1,0 @@
-<map id="game/behaviors/coffeeMeter/CoffeeMeterBehavior.hpp" name="game/behaviors/coffeeMeter/CoffeeMeterBehavior.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="256,5,465,45"/>
-<area shape="rect" id="node2" href="$d9/dfa/Init_8cpp.html" title=" " alt="" coords="5,101,116,126"/>
-<area shape="rect" id="node3" href="$d0/d59/CoffeeCollisionBehavior_8cpp.html" title=" " alt="" coords="141,93,349,133"/>
-<area shape="rect" id="node4" href="$d7/d47/CoffeeMeterBehavior_8cpp.html" title=" " alt="" coords="373,93,583,133"/>
-<area shape="rect" id="node5" href="$d9/d5f/PlayerCollisionBehavior_8cpp.html" title=" " alt="" coords="607,93,813,133"/>
-</map>

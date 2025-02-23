@@ -1,6 +1,0 @@
-<map id="PlayerKeyboardBehavior" name="PlayerKeyboardBehavior">
-<area shape="rect" id="node1" title="The keyboard handler for the player." alt="" coords="26,543,245,781"/>
-<area shape="rect" id="node2" href="$de/d47/classKeyboardHandlerBehavior.html" title="An abstract class for handling keyboard inputs." alt="" coords="34,373,237,495"/>
-<area shape="rect" id="node3" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,248,175,325"/>
-<area shape="rect" id="node4" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,5,265,200"/>
-</map>

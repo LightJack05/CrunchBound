@@ -1,5 +1,0 @@
-<map id="frame" name="frame">
-<area shape="rect" id="node1" title="Executed every frame." alt="" coords="247,5,308,31"/>
-<area shape="rect" id="node2" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true." alt="" coords="108,5,199,31"/>
-<area shape="rect" id="node3" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,5,60,31"/>
-</map>

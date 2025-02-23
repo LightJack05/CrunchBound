@@ -1,4 +1,0 @@
-<map id="GameManagerKeyboardBehavior::OnKeyDown" name="GameManagerKeyboardBehavior::OnKeyDown">
-<area shape="rect" id="node1" title="Called when a key is pressed (or held) down." alt="" coords="5,5,243,45"/>
-<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#aed50a83106078c6c5b5321eb0734c42e" title="Enqueue a reset of the game to be performed on the next frame." alt="" coords="291,13,445,38"/>
-</map>
