@@ -1,0 +1,6 @@
+<map id="Vector2::getX" name="Vector2::getX">
+<area shape="rect" id="node1" title=" " alt="" coords="400,45,509,70"/>
+<area shape="rect" id="node2" href="$d9/df0/classCollisionBehavior.html#ac109e777e29c737c0454464e611a7449" title="Check if this components parent will collide with the other object next frame." alt="" coords="203,5,347,45"/>
+<area shape="rect" id="node4" href="$d9/df0/classCollisionBehavior.html#a8a037ad8f82ae70b8251e6f9f62008f5" title="Check whether the point defined by the vector2 is inside the collider of this components parent." alt="" coords="197,69,352,109"/>
+<area shape="rect" id="node3" href="$d9/df0/classCollisionBehavior.html#a687307bfe48808fb9b86434874368af8" title=" " alt="" coords="5,5,149,45"/>
+</map>

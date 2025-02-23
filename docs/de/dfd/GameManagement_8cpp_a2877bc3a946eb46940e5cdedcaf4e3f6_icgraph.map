@@ -1,0 +1,8 @@
+<map id="ResetGameIfRequired" name="ResetGameIfRequired">
+<area shape="rect" id="node1" title=" " alt="" coords="761,5,927,31"/>
+<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#a95ff1ee6a57e678376b2eae2ef499ab3" title=" " alt="" coords="523,5,713,31"/>
+<area shape="rect" id="node3" href="$de/dfd/GameManagement_8cpp.html#a522912d67446895b0a03d01837b75a99" title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods." alt="" coords="356,5,475,31"/>
+<area shape="rect" id="node4" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="247,5,308,31"/>
+<area shape="rect" id="node5" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true." alt="" coords="108,5,199,31"/>
+<area shape="rect" id="node6" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,5,60,31"/>
+</map>

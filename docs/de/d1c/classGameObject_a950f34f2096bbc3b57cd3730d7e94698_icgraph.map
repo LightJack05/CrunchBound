@@ -1,0 +1,9 @@
+<map id="GameObject::getVelocity" name="GameObject::getVelocity">
+<area shape="rect" id="node1" title=" " alt="" coords="428,141,612,166"/>
+<area shape="rect" id="node2" href="$d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" title="The action to be taken when the object will collide next frame." alt="" coords="200,5,377,45"/>
+<area shape="rect" id="node3" href="$d9/df0/classCollisionBehavior.html#ac109e777e29c737c0454464e611a7449" title="Check if this components parent will collide with the other object next frame." alt="" coords="217,69,361,109"/>
+<area shape="rect" id="node5" href="$d9/d2c/classPlayerKeyboardBehavior.html#a33cb56185fe7c59308dfe6cf05776adf" title="Called when a key is pressed (or held) down." alt="" coords="197,133,380,173"/>
+<area shape="rect" id="node6" href="$d9/d2c/classPlayerKeyboardBehavior.html#a14765675f775768885c059ff42f41bdf" title="Called when a key is released." alt="" coords="197,197,380,237"/>
+<area shape="rect" id="node7" href="$d8/d05/classGravityBehavior.html#aa007d1996c5a1c0840f3957c724a4dee" title=" " alt="" coords="198,262,379,287"/>
+<area shape="rect" id="node4" href="$d9/df0/classCollisionBehavior.html#a687307bfe48808fb9b86434874368af8" title=" " alt="" coords="5,69,149,109"/>
+</map>

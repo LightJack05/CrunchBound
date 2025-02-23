@@ -1,0 +1,11 @@
+<map id="CreateInitialGameObjects" name="CreateInitialGameObjects">
+<area shape="rect" id="node1" title="Create the initial gameobjects required for the game." alt="" coords="1121,31,1312,56"/>
+<area shape="rect" id="node2" href="$d1/d99/Lifecycle_8cpp.html#af0000b43ed614b94179e358d523c9245" title="Initialize the game to the default state." alt="" coords="785,5,903,31"/>
+<area shape="rect" id="node4" href="$d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf" title="Reset the game to the initial state." alt="" coords="975,56,1073,81"/>
+<area shape="rect" id="node3" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,31,60,56"/>
+<area shape="rect" id="node5" href="$de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6" title=" " alt="" coords="761,56,927,81"/>
+<area shape="rect" id="node6" href="$de/dfd/GameManagement_8cpp.html#a95ff1ee6a57e678376b2eae2ef499ab3" title=" " alt="" coords="523,56,713,81"/>
+<area shape="rect" id="node7" href="$de/dfd/GameManagement_8cpp.html#a522912d67446895b0a03d01837b75a99" title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods." alt="" coords="356,56,475,81"/>
+<area shape="rect" id="node8" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="247,56,308,81"/>
+<area shape="rect" id="node9" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true." alt="" coords="108,56,199,81"/>
+</map>

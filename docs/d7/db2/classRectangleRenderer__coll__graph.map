@@ -1,0 +1,6 @@
+<map id="RectangleRenderer" name="RectangleRenderer">
+<area shape="rect" id="node1" title="A renderer for simple rectangles." alt="" coords="36,1205,235,1532"/>
+<area shape="rect" id="node2" href="$d1/d52/classRenderer.html" title="Abstract renderer component." alt="" coords="36,1035,235,1156"/>
+<area shape="rect" id="node3" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,805,265,985"/>
+<area shape="rect" id="node4" href="$de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game." alt="" coords="25,5,245,743"/>
+</map>

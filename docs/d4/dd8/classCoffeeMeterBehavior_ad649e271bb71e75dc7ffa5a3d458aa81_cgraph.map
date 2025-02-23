@@ -1,0 +1,8 @@
+<map id="CoffeeMeterBehavior::OnTick" name="CoffeeMeterBehavior::OnTick">
+<area shape="rect" id="node1" title=" " alt="" coords="5,73,165,113"/>
+<area shape="rect" id="node2" href="$d1/d99/Lifecycle_8cpp.html#ad536aa20f0ce6646cd9226485b75fe7d" title="Perform actions for player death." alt="" coords="286,5,378,31"/>
+<area shape="rect" id="node4" href="$d8/d38/Time_8cpp.html#a5da05cbf25fbfbc8a9c6b8481ad23664" title="Return the time it took to render the last frame in milliseconds." alt="" coords="275,55,389,80"/>
+<area shape="rect" id="node5" href="$de/d1c/classGameObject.html#add821214112e834e8c5800142fe31a0e" title="Get the first component that matches the type T." alt="" coords="213,104,451,129"/>
+<area shape="rect" id="node6" href="$de/d1c/classGameObject.html#ac5a8d55bc377ba17093f3070ad4cb1e7" title=" " alt="" coords="249,153,415,179"/>
+<area shape="rect" id="node3" href="$de/dfd/GameManagement_8cpp.html#aed50a83106078c6c5b5321eb0734c42e" title="Enqueue a reset of the game to be performed on the next frame." alt="" coords="499,5,653,31"/>
+</map>

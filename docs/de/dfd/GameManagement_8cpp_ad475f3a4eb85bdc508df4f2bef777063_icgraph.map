@@ -1,0 +1,7 @@
+<map id="EnqueueDestroyGameObject" name="EnqueueDestroyGameObject">
+<area shape="rect" id="node1" title="Enqueue the destruction of a gameobject." alt="" coords="232,106,443,131"/>
+<area shape="rect" id="node2" href="$dd/dcf/classCoffeeCollisionBehavior.html#a54ea85ca5bef47d17fd7d246b3dfdbea" title="The action to be taken when the object will collide next frame." alt="" coords="5,5,184,45"/>
+<area shape="rect" id="node3" href="$d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" title="The action to be taken when the object will collide next frame." alt="" coords="6,69,183,109"/>
+<area shape="rect" id="node4" href="$d1/d43/classCoffeeBehavior.html#a5281f75fb5ece45513090cbc74636eb9" title=" " alt="" coords="7,134,182,159"/>
+<area shape="rect" id="node5" href="$d9/ddc/classEnemyBehavior.html#aa2e0ea0a9d02dcda1df5c90ac552e654" title=" " alt="" coords="5,183,184,209"/>
+</map>

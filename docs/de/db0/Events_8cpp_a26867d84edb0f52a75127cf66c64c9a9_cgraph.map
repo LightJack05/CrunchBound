@@ -1,0 +1,6 @@
+<map id="HandleEvent" name="HandleEvent">
+<area shape="rect" id="node1" title="Handles an event that has occoured." alt="" coords="5,45,111,70"/>
+<area shape="rect" id="node2" href="$d2/d3b/KeyboardHandling_8cpp.html#a2b6d8aae8fe15780544c6ada95a93033" title="Handle a keyboard event." alt="" coords="159,45,325,70"/>
+<area shape="rect" id="node3" href="$de/d47/classKeyboardHandlerBehavior.html#aedfbd0872b0f5331ffece766aaa7b3c2" title="Called when a key is pressed (or held) down." alt="" coords="373,5,565,45"/>
+<area shape="rect" id="node4" href="$de/d47/classKeyboardHandlerBehavior.html#a2ffe164cb50551f0d20b40753b0d193d" title="Called when a key is released." alt="" coords="373,69,565,109"/>
+</map>
