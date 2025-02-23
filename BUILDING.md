@@ -153,7 +153,7 @@ Release builds are stripped ELF binaries without debug symbols.
 
 ## Documentation
 
-The documentation is available on GitHub pages here: [](https://lightjack05.github.io/CrunchBound/docs/d0/d30/md_README.html)
+The documentation is available on GitHub pages [here](https://lightjack05.github.io/CrunchBound/docs/d0/d30/md_README.html).
 
 To build the Doxygen documentation, you need doxygen and graphviz (dot) installed. To install them:
 ```
