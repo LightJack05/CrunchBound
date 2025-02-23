@@ -1,3 +1,5 @@
+[![Build](https://github.com/LightJack05/CrunchBound/actions/workflows/build.yml/badge.svg)](https://github.com/LightJack05/CrunchBound/actions/workflows/build.yml)
+
 # CrunchBound
 
 CrunchBound is a game made with SDL3 in C++.
