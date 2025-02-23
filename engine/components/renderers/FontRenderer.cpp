@@ -13,9 +13,11 @@ FontRenderer::FontRenderer(std::string pathToFont, float size) {
 FontRenderer::~FontRenderer() {
     if (surface != nullptr) {
         SDL_DestroySurface(surface);
+        surface = nullptr;
     }
     if (texture != nullptr) {
         SDL_DestroyTexture(texture);
+        texture = nullptr;
     }
 }
 
