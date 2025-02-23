@@ -1,0 +1,5 @@
+<map id="GetRandomNormalizedFloat" name="GetRandomNormalizedFloat">
+<area shape="rect" id="node1" title="Generate a random float between 0 and 1." alt="" coords="5,5,212,31"/>
+<area shape="rect" id="node2" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="260,5,376,31"/>
+<area shape="rect" id="node3" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="424,5,540,31"/>
+</map>

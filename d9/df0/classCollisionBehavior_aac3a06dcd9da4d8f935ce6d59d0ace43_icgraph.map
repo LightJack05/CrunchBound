@@ -1,0 +1,4 @@
+<map id="CollisionBehavior::BeforeCollision" name="CollisionBehavior::BeforeCollision">
+<area shape="rect" id="node1" title="The action to be taken when the object will collide next frame." alt="" coords="197,5,341,45"/>
+<area shape="rect" id="node2" href="$d9/df0/classCollisionBehavior.html#a687307bfe48808fb9b86434874368af8" title=" " alt="" coords="5,5,149,45"/>
+</map>

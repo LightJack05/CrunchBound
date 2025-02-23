@@ -1,0 +1,4 @@
+<map id="GameObjectComponent" name="GameObjectComponent">
+<area shape="rect" id="node1" title="An abstract gameobject component." alt="" coords="5,805,265,985"/>
+<area shape="rect" id="node2" href="$de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game." alt="" coords="25,5,245,743"/>
+</map>

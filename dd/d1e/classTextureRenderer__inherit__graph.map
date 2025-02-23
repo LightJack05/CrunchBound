@@ -1,0 +1,5 @@
+<map id="TextureRenderer" name="TextureRenderer">
+<area shape="rect" id="node1" title="A renderer for textures." alt="" coords="36,417,235,685"/>
+<area shape="rect" id="node2" href="$d1/d52/classRenderer.html" title="Abstract renderer component." alt="" coords="36,248,235,369"/>
+<area shape="rect" id="node3" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,5,265,200"/>
+</map>

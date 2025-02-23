@@ -1,0 +1,7 @@
+<map id="CollisionBehavior::IsPointInsideCollider" name="CollisionBehavior::IsPointInsideCollider">
+<area shape="rect" id="node1" title="Check whether the point defined by the vector2 is inside the collider of this components parent." alt="" coords="5,73,160,113"/>
+<area shape="rect" id="node2" href="$de/d1c/classGameObject.html#a42b10b3fba8be162e913bd8191a22adb" title=" " alt="" coords="208,5,392,31"/>
+<area shape="rect" id="node3" href="$de/d1c/classGameObject.html#ac5a8d55bc377ba17093f3070ad4cb1e7" title=" " alt="" coords="217,55,383,80"/>
+<area shape="rect" id="node4" href="$d8/d0d/classVector2.html#a808d02062efcc0c016491c04845e3e34" title=" " alt="" coords="245,104,355,129"/>
+<area shape="rect" id="node5" href="$d8/d0d/classVector2.html#a59bf838c0fc50305975e1679509fda83" title=" " alt="" coords="246,153,354,179"/>
+</map>

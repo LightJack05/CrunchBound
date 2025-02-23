@@ -1,0 +1,4 @@
+<map id="GameOver" name="GameOver">
+<area shape="rect" id="node1" title="Perform actions for player death." alt="" coords="5,5,97,31"/>
+<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#aed50a83106078c6c5b5321eb0734c42e" title="Enqueue a reset of the game to be performed on the next frame." alt="" coords="145,5,300,31"/>
+</map>

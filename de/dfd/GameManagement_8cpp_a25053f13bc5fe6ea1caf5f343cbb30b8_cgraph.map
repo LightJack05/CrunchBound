@@ -1,0 +1,4 @@
+<map id="RegisterEnqueuedObjects" name="RegisterEnqueuedObjects">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,195,31"/>
+<area shape="rect" id="node2" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="243,5,400,31"/>
+</map>

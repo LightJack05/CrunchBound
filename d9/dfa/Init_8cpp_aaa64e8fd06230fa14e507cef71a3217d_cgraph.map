@@ -1,0 +1,13 @@
+<map id="CreateInitialGameObjects" name="CreateInitialGameObjects">
+<area shape="rect" id="node1" title="Create the initial gameobjects required for the game." alt="" coords="5,179,196,204"/>
+<area shape="rect" id="node2" href="$d9/dfa/Init_8cpp.html#a3ff595c2af791c369e2318510062ce14" title="Create the coffee meter bar." alt="" coords="265,55,410,80"/>
+<area shape="rect" id="node4" href="$d9/dfa/Init_8cpp.html#a1bfb628b6cd503e396bae0796f2051c1" title="Create the icon next to the coffee meter." alt="" coords="251,5,423,31"/>
+<area shape="rect" id="node6" href="$d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e" title="Create the floor and register it." alt="" coords="288,104,387,129"/>
+<area shape="rect" id="node7" href="$d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783" title="Create the score counter and register it." alt="" coords="261,153,413,179"/>
+<area shape="rect" id="node8" href="$d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f" title="Set the window background to white." alt="" coords="244,203,431,228"/>
+<area shape="rect" id="node9" href="$d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24" title="Create the left wall and register it." alt="" coords="279,252,396,277"/>
+<area shape="rect" id="node10" href="$d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395" title="Create the player and register it." alt="" coords="284,301,391,327"/>
+<area shape="rect" id="node11" href="$d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b" title="Create the right wall and register it." alt="" coords="274,351,401,376"/>
+<area shape="rect" id="node3" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="479,153,636,179"/>
+<area shape="rect" id="node5" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title=" " alt="" coords="503,5,612,31"/>
+</map>

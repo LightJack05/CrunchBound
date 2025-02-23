@@ -1,0 +1,8 @@
+<map id="CollisionBehavior::CheckForCollision" name="CollisionBehavior::CheckForCollision">
+<area shape="rect" id="node1" title="Check if this components parent will collide with the other object next frame." alt="" coords="5,97,149,137"/>
+<area shape="rect" id="node2" href="$d8/d38/Time_8cpp.html#a5da05cbf25fbfbc8a9c6b8481ad23664" title="Return the time it took to render the last frame in milliseconds." alt="" coords="233,5,346,31"/>
+<area shape="rect" id="node3" href="$de/d1c/classGameObject.html#a42b10b3fba8be162e913bd8191a22adb" title=" " alt="" coords="197,55,381,80"/>
+<area shape="rect" id="node4" href="$de/d1c/classGameObject.html#a950f34f2096bbc3b57cd3730d7e94698" title=" " alt="" coords="197,104,381,129"/>
+<area shape="rect" id="node5" href="$d8/d0d/classVector2.html#a808d02062efcc0c016491c04845e3e34" title=" " alt="" coords="235,153,344,179"/>
+<area shape="rect" id="node6" href="$d8/d0d/classVector2.html#a59bf838c0fc50305975e1679509fda83" title=" " alt="" coords="235,203,343,228"/>
+</map>

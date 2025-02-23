@@ -1,0 +1,28 @@
+var annotated_dup =
+[
+    [ "Behavior", "df/dc1/classBehavior.html", null ],
+    [ "CoffeeBehavior", "d1/d43/classCoffeeBehavior.html", "d1/d43/classCoffeeBehavior" ],
+    [ "CoffeeCollisionBehavior", "dd/dcf/classCoffeeCollisionBehavior.html", "dd/dcf/classCoffeeCollisionBehavior" ],
+    [ "CoffeeMeterBehavior", "d4/dd8/classCoffeeMeterBehavior.html", "d4/dd8/classCoffeeMeterBehavior" ],
+    [ "CollisionBehavior", "d9/df0/classCollisionBehavior.html", "d9/df0/classCollisionBehavior" ],
+    [ "ComponentNotFoundException", "d7/d39/classComponentNotFoundException.html", "d7/d39/classComponentNotFoundException" ],
+    [ "EnemyBehavior", "d9/ddc/classEnemyBehavior.html", "d9/ddc/classEnemyBehavior" ],
+    [ "EnemyCollisionBehavior", "d1/d1b/classEnemyCollisionBehavior.html", "d1/d1b/classEnemyCollisionBehavior" ],
+    [ "FontRenderer", "dd/d7f/classFontRenderer.html", "dd/d7f/classFontRenderer" ],
+    [ "GameManagerBehavior", "d1/d21/classGameManagerBehavior.html", "d1/d21/classGameManagerBehavior" ],
+    [ "GameManagerKeyboardBehavior", "d3/d2e/classGameManagerKeyboardBehavior.html", "d3/d2e/classGameManagerKeyboardBehavior" ],
+    [ "GameObject", "de/d1c/classGameObject.html", "de/d1c/classGameObject" ],
+    [ "GameObjectComponent", "d9/df7/classGameObjectComponent.html", "d9/df7/classGameObjectComponent" ],
+    [ "GameObjectNotFoundException", "df/dda/classGameObjectNotFoundException.html", "df/dda/classGameObjectNotFoundException" ],
+    [ "GravityBehavior", "d8/d05/classGravityBehavior.html", "d8/d05/classGravityBehavior" ],
+    [ "KeyboardHandlerBehavior", "de/d47/classKeyboardHandlerBehavior.html", "de/d47/classKeyboardHandlerBehavior" ],
+    [ "KinematicBehavior", "dd/df8/classKinematicBehavior.html", "dd/df8/classKinematicBehavior" ],
+    [ "PlayerBehavior", "d3/dc0/classPlayerBehavior.html", "d3/dc0/classPlayerBehavior" ],
+    [ "PlayerCollisionBehavior", "d0/d31/classPlayerCollisionBehavior.html", "d0/d31/classPlayerCollisionBehavior" ],
+    [ "PlayerKeyboardBehavior", "d9/d2c/classPlayerKeyboardBehavior.html", "d9/d2c/classPlayerKeyboardBehavior" ],
+    [ "RectangleRenderer", "d0/d0f/classRectangleRenderer.html", "d0/d0f/classRectangleRenderer" ],
+    [ "Renderer", "d1/d52/classRenderer.html", "d1/d52/classRenderer" ],
+    [ "ScoreCounterBehavior", "db/d44/classScoreCounterBehavior.html", "db/d44/classScoreCounterBehavior" ],
+    [ "TextureRenderer", "d1/dff/classTextureRenderer.html", "d1/dff/classTextureRenderer" ],
+    [ "Vector2", "d8/d0d/classVector2.html", "d8/d0d/classVector2" ]
+];
