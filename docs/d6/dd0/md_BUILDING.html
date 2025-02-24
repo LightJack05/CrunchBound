@@ -160,9 +160,11 @@ Arch Linux PKGBUILD</h2>
 <p>To package the application using PKGBUILD into an Arch Linux package, run the following command:</p>
 <div class="fragment"><div class="line">make archpackage</div>
 </div><!-- fragment --><p>An Arch Linux package will be built to ./package/arch/</p>
+<dl class="section important"><dt>Important</dt><dd>Packaging for Arch Linux requires an Arch Linux system, including makepkg!</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Before packaging, the entire ./package directory will be deleted using <code>make clean</code>!</dd></dl>
 <h2><a class="anchor" id="autotoc_md12"></a>
 AppImage</h2>
+<dl class="section important"><dt>Important</dt><dd>Packaging to appimage requires the appimage tool installed. To install it with yay, execute: <code>yay -S appimagetool-bin</code>.</dd></dl>
 <p>To package the application into a fully self-contained AppImage file, execute the following command:</p>
 <div class="fragment"><div class="line">make appimage</div>
 </div><!-- fragment --><p>This will create an AppImage in ./package/appimage/.</p>
@@ -194,7 +196,7 @@ Documentation</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Feb 24 2025 10:43:47 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Mon Feb 24 2025 10:58:37 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>
