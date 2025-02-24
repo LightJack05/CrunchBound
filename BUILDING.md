@@ -103,10 +103,16 @@ make archpackage
 
 An Arch Linux package will be built to ./package/arch/
 
+> [!IMPORTANT]
+> Packaging for Arch Linux requires an Arch Linux system, including makepkg!
+
 > [!WARNING]
 > Before packaging, the entire ./package directory will be deleted using `make clean`!
 
 ### AppImage
+
+> [!IMPORTANT]
+> Packaging to appimage requires the appimage tool installed. To install it with yay, execute: `yay -S appimagetool-bin`.
 
 To package the application into a fully self-contained AppImage file, execute the following command:
 

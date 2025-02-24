@@ -10,11 +10,14 @@ CrunchBound is a game made with SDL3 in C++.
 Depending on your preferences, the game can be built from source, or you can use either the Arch Linux Package, or the AppImage file provided.
 
 ### AppImage
-The easiest one is the appimage, just download the file from the releases page (coming soon) and run the file:
+The easiest one is the appimage, just download the file from the releases page and run the file:
 
 ```
 ./crunchbound.AppImage
 ```
+
+> [!IMPORTANT]
+> Appimages require fuse to run. Install fuse on the system before executing it. On Ubuntu run `sudo apt install libfuse2` and on Arch `sudo pacman -S fuse2`. On other distributions, please consult their instructions.
 
 All dependencies are packaged directly into the AppImage file, so there is no need to install anything, aside from a GUI to render the window and a basic Linux system.
 
