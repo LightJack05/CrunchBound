@@ -2,6 +2,11 @@
 #define COFFEEMETERBEHAVIOR_HPP
 #include "../../../engine/components/behaviors/Behavior.hpp"
 
+/**
+ * @class CoffeeMeterBehavior
+ * @brief Controlls the behavior of the coffee meter.
+ *
+ */
 class CoffeeMeterBehavior : public Behavior {
   protected:
     float coffeeLevel = 1000;

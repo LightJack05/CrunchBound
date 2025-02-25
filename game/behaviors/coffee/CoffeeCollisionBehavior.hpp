@@ -2,6 +2,11 @@
 #define COFFEECOLLISIONBEHAVIOR_HPP
 #include "../../../engine/components/behaviors/CollisionBehavior.hpp"
 
+/**
+ * @class CoffeeCollisionBehavior
+ * @brief Controlls the behavior of a coffee on collision
+ * 
+ */
 class CoffeeCollisionBehavior : public CollisionBehavior {
   public:
     CoffeeCollisionBehavior();

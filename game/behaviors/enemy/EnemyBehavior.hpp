@@ -3,6 +3,11 @@
 
 #include "../../../engine/components/behaviors/Behavior.hpp"
 
+/**
+ * @class EnemyBehavior
+ * @brief Controlls the behavior of an Enemy.
+ *
+ */
 class EnemyBehavior : public Behavior {
   public:
     void OnTick() override;

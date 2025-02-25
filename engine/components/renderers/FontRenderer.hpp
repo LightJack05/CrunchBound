@@ -6,11 +6,28 @@
 #include <SDL3/SDL_surface.h>
 #include <SDL3_ttf/SDL_ttf.h>
 #include <string>
+/**
+ * @class FontRenderer
+ * @brief A component to render text to the screen on a GameObject
+ *
+ */
 class FontRenderer : public Renderer {
   protected:
+    /**
+     * @brief The text to render
+     */
     std::string text = "";
+    /**
+     * @brief The surface created from the text
+     */
     SDL_Surface *surface = nullptr;
+    /**
+     * @brief The texture created from the surface
+     */
     SDL_Texture *texture = nullptr;
+    /**
+     * @brief The font to use to draw the text
+     */
     TTF_Font *font = nullptr;
     /**
      * @brief The size of the renderer

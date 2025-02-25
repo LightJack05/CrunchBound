@@ -3,6 +3,11 @@
 
 #include "../../../engine/components/behaviors/CollisionBehavior.hpp"
 
+/**
+ * @class EnemyCollisionBehavior
+ * @brief Controlls the behavior of an enemy on collision
+ *
+ */
 class EnemyCollisionBehavior : public CollisionBehavior {
   public:
     EnemyCollisionBehavior();

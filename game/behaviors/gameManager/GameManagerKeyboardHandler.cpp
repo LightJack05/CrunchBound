@@ -3,6 +3,9 @@
 #include <SDL3/SDL_events.h>
 #include <SDL3/SDL_keycode.h>
 
+/**
+ * @brief Whether the R key is held down
+ */
 bool IsRDown = false;
 
 void GameManagerKeyboardBehavior::OnKeyDown(SDL_KeyboardEvent &e) {

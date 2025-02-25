@@ -7,9 +7,21 @@
 #include <SDL3/SDL_keycode.h>
 #include <memory>
 
+/**
+ * @brief Whether the space key is currently held down
+ */
 static bool IsSpaceDown = false;
+/**
+ * @brief Whether the A key is currently held down
+ */
 static bool IsADown = false;
+/**
+ * @brief Whether the D key is currently held down
+ */
 static bool IsDDown = false;
+/**
+ * @brief The movement speed of the player
+ */
 static const float MovementSpeed = 1;
 
 void PlayerKeyboardBehavior::OnKeyDown(SDL_KeyboardEvent &e) {

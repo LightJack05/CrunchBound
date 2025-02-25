@@ -31,6 +31,12 @@ class Vector2 {
     float getMaginitude();
 
     Vector2();
+    /**
+     * @brief Create a new Vector2 with x and y set to the parameter values
+     *
+     * @param x The X coordinate of the vector
+     * @param y The Y coordinate of the vector 
+     */
     Vector2(float x, float y);
     ~Vector2();
 };

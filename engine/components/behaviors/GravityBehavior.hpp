@@ -2,8 +2,16 @@
 #define GRAVITYBEHAVIOR_HPP
 
 #include "Behavior.hpp"
+/**
+ * @class GravityBehavior
+ * @brief Component that gives an object gravity
+ *
+ */
 class GravityBehavior : public Behavior {
   protected:
+    /**
+     * @brief The scale of the gravity applied, linear
+     */
     float gravityScale = 1;
 
   public:

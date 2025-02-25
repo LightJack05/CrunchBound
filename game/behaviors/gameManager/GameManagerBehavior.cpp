@@ -13,21 +13,54 @@
 #include <iostream>
 #include <memory>
 
+/**
+ * @brief The time since the game has started
+ */
 static long long TimeSinceGameStart = 0;
+/**
+ * @brief The time the last enemy has been spawned at
+ */
 static long long TimeOfLastEnemy = 0;
+/**
+ * @brief The delay until the next enemy will be spawned, from the last enemy
+ * spawn
+ */
 static long long EnemySpawnDelay = 3000;
+/**
+ * @brief The time the last coffee has been spawned at
+ */
 static long long TimeOfLastCoffee = 0;
+/**
+ * @brief The delay until the next coffee will be spawned, from the last coffee
+ * spawn
+ */
 static long long CoffeeSpawnDelay = 3000;
 
+/**
+ * @brief Calculate the difficulty at the specified game uptime
+ *
+ * @param timestamp The time since game start to calculate the difficulty at
+ * @return The game difficulty at the specified time
+ */
 static inline float GetGameDifficultyAtTime(long long timestamp) {
     return ((float)std::sqrt(((timestamp + 10000) * 0.5) + 4000));
 }
 
+/**
+ * @brief Return the velocity of an object at the current time
+ *
+ * @return A slightly randomized velocity of an object that should be spawned.
+ */
 static float GetObjectVelocity() {
     return (GetGameDifficultyAtTime(TimeSinceGameStart) / 300) *
            (0.5 + GetRandomNormalizedFloat());
 }
 
+/**
+ * @brief Spawn a new coffee object.
+ *
+ * @param velocityX The velocity the coffee should have
+ */
 static void SpawnCoffee(float velocityX) {
     std::shared_ptr<GameObject> coffee = std::make_shared<GameObject>();
     coffee->setTag("coffee");
@@ -56,6 +89,11 @@ static void SpawnCoffee(float velocityX) {
     EnqueueRegisterGameObject(coffee);
 }
 
+/**
+ * @brief Spawn a new enemy
+ *
+ * @param velocityX The velocity of the new enemy
+ */
 static void SpawnEnemy(float velocityX) {
     std::shared_ptr<GameObject> enemy = std::make_shared<GameObject>();
     enemy->setTag("enemy");
