@@ -202,7 +202,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" target="_top" xlink:title="Return the correct asset path for the asset depending on the current environment.">
 <polygon fill="white" stroke="#666666" points="455,-278 373,-278 373,-259 455,-259 455,-278"/>
 <text text-anchor="middle" x="414" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">GetAssetPath</text>
 </a>

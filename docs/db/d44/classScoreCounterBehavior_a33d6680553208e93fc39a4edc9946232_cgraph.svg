@@ -50,7 +50,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../dc/dda/ScoreCounterBehavior_8cpp.html#a2e0ce2579d287cda1cc2830152b592aa" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../dc/dda/ScoreCounterBehavior_8cpp.html#a2e0ce2579d287cda1cc2830152b592aa" target="_top" xlink:title="Get the player score at the current time.">
 <polygon fill="white" stroke="#666666" points="253,-19 161,-19 161,0 253,0 253,-19"/>
 <text text-anchor="middle" x="207" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">GetPlayerScore</text>
 </a>

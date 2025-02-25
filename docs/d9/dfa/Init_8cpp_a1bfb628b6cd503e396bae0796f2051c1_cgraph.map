@@ -1,6 +1,6 @@
 <map id="CreateCoffeeMeterIcon" name="CreateCoffeeMeterIcon">
 <area shape="rect" id="Node000001" title="Create the icon next to the coffee meter." alt="" coords="5,31,177,56"/>
-<area shape="rect" id="Node000002" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title=" " alt="" coords="249,5,359,31"/>
+<area shape="rect" id="Node000002" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title="Return the correct asset path for the asset depending on the current environment." alt="" coords="249,5,359,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,30,235,23,236,29,178,36"/>
 <area shape="rect" id="Node000003" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="225,55,383,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,50,212,54,211,60,177,56"/>

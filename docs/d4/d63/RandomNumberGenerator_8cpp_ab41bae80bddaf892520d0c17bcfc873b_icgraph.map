@@ -1,10 +1,10 @@
 <map id="GetRandomNormalizedFloat" name="GetRandomNormalizedFloat">
 <area shape="rect" id="Node000001" title="Generate a random float between 0 and 1." alt="" coords="416,55,623,80"/>
-<area shape="rect" id="Node000002" href="$df/d88/GameManagerBehavior_8cpp.html#af3e43ada7e9f58d057b3ebe83c97730e" title=" " alt="" coords="229,5,368,31"/>
+<area shape="rect" id="Node000002" href="$df/d88/GameManagerBehavior_8cpp.html#af3e43ada7e9f58d057b3ebe83c97730e" title="Return the velocity of an object at the current time." alt="" coords="229,5,368,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="448,54,356,33,357,28,449,49"/>
-<area shape="rect" id="Node000004" href="$df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" title=" " alt="" coords="245,55,352,80"/>
+<area shape="rect" id="Node000004" href="$df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" title="Spawn a new coffee object." alt="" coords="245,55,352,80"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="402,70,352,70,352,65,402,65"/>
-<area shape="rect" id="Node000005" href="$df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" title=" " alt="" coords="243,104,354,129"/>
+<area shape="rect" id="Node000005" href="$df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" title="Spawn a new enemy." alt="" coords="243,104,354,129"/>
 <area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="449,86,355,107,353,102,448,80"/>
 <area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,47,181,87"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="233,36,178,50,176,45,231,31"/>

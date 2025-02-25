@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Controlls the behavior of a coffee.">
 <polygon fill="#999999" stroke="transparent" points="153,-86 36,-86 36,0 153,0 153,-86"/>
 <text text-anchor="start" x="57" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeBehavior</text>
 <text text-anchor="start" x="93" y="-59" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>

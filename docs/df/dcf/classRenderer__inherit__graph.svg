@@ -80,7 +80,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../dd/d7f/classFontRenderer.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../dd/d7f/classFontRenderer.html" target="_top" xlink:title="A component to render text to the screen on a GameObject.">
 <polygon fill="white" stroke="transparent" points="160,-369 0,-369 0,0 160,0 160,-369"/>
 <text text-anchor="start" x="47" y="-356.5" font-family="Helvetica,sans-Serif" font-size="10.00">FontRenderer</text>
 <text text-anchor="start" x="4" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>

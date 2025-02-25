@@ -1,5 +1,5 @@
 <map id="FontRenderer" name="FontRenderer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="25,436,238,928"/>
+<area shape="rect" id="Node000001" title="A component to render text to the screen on a GameObject." alt="" coords="25,436,238,928"/>
 <area shape="rect" id="Node000002" href="$d1/d52/classRenderer.html" title="Abstract renderer component." alt="" coords="37,268,226,388"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,402,134,436,129,436,129,402"/>
 <area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,5,257,220"/>

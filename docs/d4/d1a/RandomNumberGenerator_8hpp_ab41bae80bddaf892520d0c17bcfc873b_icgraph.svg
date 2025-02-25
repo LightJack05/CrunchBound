@@ -31,7 +31,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#af3e43ada7e9f58d057b3ebe83c97730e" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#af3e43ada7e9f58d057b3ebe83c97730e" target="_top" xlink:title="Return the velocity of an object at the current time.">
 <polygon fill="white" stroke="#666666" points="272,-93 168,-93 168,-74 272,-74 272,-93"/>
 <text text-anchor="middle" x="220" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">GetObjectVelocity</text>
 </a>
@@ -49,7 +49,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" target="_top" xlink:title="Spawn a new coffee object.">
 <polygon fill="white" stroke="#666666" points="260,-56 180,-56 180,-37 260,-37 260,-56"/>
 <text text-anchor="middle" x="220" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnCoffee</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" target="_top" xlink:title="Spawn a new enemy.">
 <polygon fill="white" stroke="#666666" points="261.5,-19 178.5,-19 178.5,0 261.5,0 261.5,-19"/>
 <text text-anchor="middle" x="220" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnEnemy</text>
 </a>

@@ -105,6 +105,9 @@ $(function(){initNavTree('dd/d7f/classFontRenderer.html','../../'); initResizabl
 </div><!--header-->
 <div class="contents">
 
+<p>A component to render text to the screen on a <a class="el" href="../../de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game.">GameObject</a>.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d7/dc4/FontRenderer_8hpp_source.html">FontRenderer.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for FontRenderer:</div>
@@ -158,12 +161,16 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a3f375d49254a15f121f449c17d455370" id="r_a3f375d49254a15f121f449c17d455370"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f375d49254a15f121f449c17d455370">text</a> = &quot;&quot;</td></tr>
+<tr class="memdesc:a3f375d49254a15f121f449c17d455370"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text to render.  <br /></td></tr>
 <tr class="separator:a3f375d49254a15f121f449c17d455370"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa006884ffe21debf603f536dfd868867" id="r_aa006884ffe21debf603f536dfd868867"><td class="memItemLeft" align="right" valign="top">SDL_Surface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa006884ffe21debf603f536dfd868867">surface</a> = nullptr</td></tr>
+<tr class="memdesc:aa006884ffe21debf603f536dfd868867"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surface created from the text.  <br /></td></tr>
 <tr class="separator:aa006884ffe21debf603f536dfd868867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27cf5ef85118d51ff49374dda4a17625" id="r_a27cf5ef85118d51ff49374dda4a17625"><td class="memItemLeft" align="right" valign="top">SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27cf5ef85118d51ff49374dda4a17625">texture</a> = nullptr</td></tr>
+<tr class="memdesc:a27cf5ef85118d51ff49374dda4a17625"><td class="mdescLeft">&#160;</td><td class="mdescRight">The texture created from the surface.  <br /></td></tr>
 <tr class="separator:a27cf5ef85118d51ff49374dda4a17625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41517fe808356fce4d08c8b8bf2a8d4d" id="r_a41517fe808356fce4d08c8b8bf2a8d4d"><td class="memItemLeft" align="right" valign="top">TTF_Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41517fe808356fce4d08c8b8bf2a8d4d">font</a> = nullptr</td></tr>
+<tr class="memdesc:a41517fe808356fce4d08c8b8bf2a8d4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The font to use to draw the text.  <br /></td></tr>
 <tr class="separator:a41517fe808356fce4d08c8b8bf2a8d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9461604dada7c809177563c43eec293" id="r_af9461604dada7c809177563c43eec293"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d8/d0d/classVector2.html">Vector2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9461604dada7c809177563c43eec293">size</a> = std::make_shared&lt;<a class="el" href="../../d8/d0d/classVector2.html">Vector2</a>&gt;(0, 0)</td></tr>
 <tr class="memdesc:af9461604dada7c809177563c43eec293"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size of the renderer.  <br /></td></tr>
@@ -183,7 +190,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a4721fe806010713bb031ff271ab6731a inherit pro_attribs_classGameObjectComponent" id="r_a4721fe806010713bb031ff271ab6731a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d1c/classGameObject.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/classGameObjectComponent.html#a4721fe806010713bb031ff271ab6731a">parent</a> = NULL</td></tr>
 <tr class="separator:a4721fe806010713bb031ff271ab6731a inherit pro_attribs_classGameObjectComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A component to render text to the screen on a <a class="el" href="../../de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game.">GameObject</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af02be3f7d05f546d88f34e4dac31761f" name="af02be3f7d05f546d88f34e4dac31761f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af02be3f7d05f546d88f34e4dac31761f">&#9670;&#160;</a></span>FontRenderer()</h2>
 
@@ -469,6 +478,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>The font to use to draw the text. </p>
+
 </div>
 </div>
 <a id="abcc4f7d5193a38cec38dfeba53938652" name="abcc4f7d5193a38cec38dfeba53938652"></a>
@@ -539,6 +550,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>The surface created from the text. </p>
+
 </div>
 </div>
 <a id="a3f375d49254a15f121f449c17d455370" name="a3f375d49254a15f121f449c17d455370"></a>
@@ -560,6 +573,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The text to render. </p>
 
 </div>
 </div>
@@ -583,6 +598,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>The texture created from the surface. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -595,7 +612,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d7f/classFontRenderer.html">FontRenderer</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 11:03:08 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Tue Feb 25 2025 09:32:24 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

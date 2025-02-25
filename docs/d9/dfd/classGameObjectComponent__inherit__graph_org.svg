@@ -96,7 +96,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../d1/d43/classCoffeeBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../d1/d43/classCoffeeBehavior.html" target="_top" xlink:title="Controlls the behavior of a coffee.">
 <polygon fill="white" stroke="transparent" points="117,-453.5 0,-453.5 0,-367.5 117,-367.5 117,-453.5"/>
 <text text-anchor="start" x="21" y="-441.5" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeBehavior</text>
 <text text-anchor="start" x="57" y="-426.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
@@ -124,7 +124,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d4/dd8/classCoffeeMeterBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d4/dd8/classCoffeeMeterBehavior.html" target="_top" xlink:title="Controlls the behavior of the coffee meter.">
 <polygon fill="white" stroke="transparent" points="280,-492.5 135,-492.5 135,-328.5 280,-328.5 280,-492.5"/>
 <text text-anchor="start" x="156" y="-480.5" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeMeterBehavior</text>
 <text text-anchor="start" x="139.5" y="-465.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
@@ -211,7 +211,7 @@
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="../../d9/ddc/classEnemyBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000009"><a xlink:href="../../d9/ddc/classEnemyBehavior.html" target="_top" xlink:title="Controlls the behavior of an Enemy.">
 <polygon fill="white" stroke="transparent" points="620,-442.5 487,-442.5 487,-378.5 620,-378.5 620,-442.5"/>
 <text text-anchor="start" x="515" y="-430.5" font-family="Helvetica,sans-Serif" font-size="10.00">EnemyBehavior</text>
 <text text-anchor="start" x="552" y="-415.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
@@ -265,7 +265,7 @@
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="../../d8/d05/classGravityBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000011"><a xlink:href="../../d8/d05/classGravityBehavior.html" target="_top" xlink:title="Component that gives an object gravity.">
 <polygon fill="white" stroke="transparent" points="916,-463 783,-463 783,-358 916,-358 916,-463"/>
 <text text-anchor="start" x="810" y="-450.5" font-family="Helvetica,sans-Serif" font-size="10.00">GravityBehavior</text>
 <text text-anchor="start" x="787.5" y="-435.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
@@ -391,7 +391,7 @@
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:href="../../db/d44/classScoreCounterBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000017"><a xlink:href="../../db/d44/classScoreCounterBehavior.html" target="_top" xlink:title="Controlls the behavior of the score counter.">
 <polygon fill="white" stroke="transparent" points="1552,-453.5 1433,-453.5 1433,-367.5 1552,-367.5 1552,-453.5"/>
 <text text-anchor="start" x="1438.5" y="-441.5" font-family="Helvetica,sans-Serif" font-size="10.00">ScoreCounterBehavior</text>
 <text text-anchor="start" x="1491" y="-426.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
@@ -419,7 +419,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../dd/dcf/classCoffeeCollisionBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="../../dd/dcf/classCoffeeCollisionBehavior.html" target="_top" xlink:title="Controlls the behavior of a coffee on collision.">
 <polygon fill="white" stroke="transparent" points="280.5,-158.5 110.5,-158.5 110.5,-31.5 280.5,-31.5 280.5,-158.5"/>
 <text text-anchor="start" x="136.5" y="-146" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeCollisionBehavior</text>
 <text text-anchor="start" x="193.5" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
@@ -452,7 +452,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="../../d1/d1b/classEnemyCollisionBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="../../d1/d1b/classEnemyCollisionBehavior.html" target="_top" xlink:title="Controlls the behavior of an enemy on collision.">
 <polygon fill="white" stroke="transparent" points="468.5,-151 298.5,-151 298.5,-39 468.5,-39 468.5,-151"/>
 <text text-anchor="start" x="323.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">EnemyCollisionBehavior</text>
 <text text-anchor="start" x="381.5" y="-124" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
@@ -594,7 +594,7 @@
 <!-- Node19 -->
 <g id="Node000019" class="node">
 <title>Node19</title>
-<g id="a_Node000019"><a xlink:href="../../dd/d7f/classFontRenderer.html" target="_top" xlink:title=" ">
+<g id="a_Node000019"><a xlink:href="../../dd/d7f/classFontRenderer.html" target="_top" xlink:title="A component to render text to the screen on a GameObject.">
 <polygon fill="white" stroke="transparent" points="1730.5,-595 1570.5,-595 1570.5,-226 1730.5,-226 1730.5,-595"/>
 <text text-anchor="start" x="1617.5" y="-582.5" font-family="Helvetica,sans-Serif" font-size="10.00">FontRenderer</text>
 <text text-anchor="start" x="1574.5" y="-567.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>

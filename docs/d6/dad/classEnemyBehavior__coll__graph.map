@@ -1,5 +1,5 @@
 <map id="EnemyBehavior" name="EnemyBehavior">
-<area shape="rect" id="Node000001" title=" " alt="" coords="43,1269,220,1355"/>
+<area shape="rect" id="Node000001" title="Controlls the behavior of an Enemy." alt="" coords="43,1269,220,1355"/>
 <area shape="rect" id="Node000002" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,1155,167,1220"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,1234,134,1269,129,1269,129,1234"/>
 <area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,911,257,1105"/>

@@ -97,7 +97,7 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../dd/dcf/classCoffeeCollisionBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../dd/dcf/classCoffeeCollisionBehavior.html" target="_top" xlink:title="Controlls the behavior of a coffee on collision.">
 <polygon fill="white" stroke="transparent" points="170,-127 0,-127 0,0 170,0 170,-127"/>
 <text text-anchor="start" x="26" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeCollisionBehavior</text>
 <text text-anchor="start" x="83" y="-99.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
@@ -130,7 +130,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../d1/d1b/classEnemyCollisionBehavior.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d1/d1b/classEnemyCollisionBehavior.html" target="_top" xlink:title="Controlls the behavior of an enemy on collision.">
 <polygon fill="white" stroke="transparent" points="358,-119.5 188,-119.5 188,-7.5 358,-7.5 358,-119.5"/>
 <text text-anchor="start" x="213" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">EnemyCollisionBehavior</text>
 <text text-anchor="start" x="271" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>

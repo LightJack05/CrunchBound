@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Return the velocity of an object at the current time.">
 <polygon fill="#999999" stroke="#666666" points="104,-37 0,-37 0,-18 104,-18 104,-37"/>
 <text text-anchor="middle" x="52" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">GetObjectVelocity</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0" target="_top" xlink:title="Calculate the difficulty at the specified game uptime.">
 <polygon fill="white" stroke="#666666" points="289,-56 146,-56 146,-37 289,-37 289,-56"/>
 <text text-anchor="middle" x="217.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">GetGameDifficultyAtTime</text>
 </a>

@@ -1,5 +1,5 @@
 <map id="CoffeeMeterBehavior" name="CoffeeMeterBehavior">
-<area shape="rect" id="Node000001" title=" " alt="" coords="35,381,228,600"/>
+<area shape="rect" id="Node000001" title="Controlls the behavior of the coffee meter." alt="" coords="35,381,228,600"/>
 <area shape="rect" id="Node000002" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="95,268,167,333"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,347,134,381,129,381,129,347"/>
 <area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="5,5,257,220"/>

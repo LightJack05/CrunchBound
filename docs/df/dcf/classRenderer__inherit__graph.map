@@ -1,6 +1,6 @@
 <map id="Renderer" name="Renderer">
 <area shape="rect" id="Node000001" title="Abstract renderer component." alt="" coords="243,268,432,388"/>
-<area shape="rect" id="Node000003" href="$dd/d7f/classFontRenderer.html" title=" " alt="" coords="5,436,219,928"/>
+<area shape="rect" id="Node000003" href="$dd/d7f/classFontRenderer.html" title="A component to render text to the screen on a GameObject." alt="" coords="5,436,219,928"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,400,233,438,221,455,217,452,229,434,260,396"/>
 <area shape="rect" id="Node000004" href="$d0/d0f/classRectangleRenderer.html" title="A renderer for simple rectangles." alt="" coords="243,503,432,861"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="340,402,340,503,335,503,335,402"/>

@@ -6,11 +6,11 @@
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="660,129,573,108,575,103,662,124"/>
 <area shape="rect" id="Node000005" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,73,181,113"/>
 <area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="657,152,570,159,463,162,346,158,229,145,181,132,137,115,139,110,182,127,230,139,346,153,463,157,570,153,656,147"/>
-<area shape="rect" id="Node000004" href="$df/d88/GameManagerBehavior_8cpp.html#af3e43ada7e9f58d057b3ebe83c97730e" title=" " alt="" coords="229,5,368,31"/>
+<area shape="rect" id="Node000004" href="$df/d88/GameManagerBehavior_8cpp.html#af3e43ada7e9f58d057b3ebe83c97730e" title="Return the velocity of an object at the current time." alt="" coords="229,5,368,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="467,78,336,33,338,28,468,73"/>
-<area shape="rect" id="Node000006" href="$df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" title=" " alt="" coords="245,55,352,80"/>
+<area shape="rect" id="Node000006" href="$df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" title="Spawn a new coffee object." alt="" coords="245,55,352,80"/>
 <area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="402,82,352,76,353,71,402,77"/>
-<area shape="rect" id="Node000007" href="$df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" title=" " alt="" coords="243,104,354,129"/>
+<area shape="rect" id="Node000007" href="$df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" title="Spawn a new enemy." alt="" coords="243,104,354,129"/>
 <area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="402,108,354,113,354,108,402,103"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="249,38,230,45,149,75,147,70,228,39,247,33"/>
 <area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="232,78,182,84,181,79,231,73"/>

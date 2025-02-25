@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Return the velocity of an object at the current time.">
 <polygon fill="#999999" stroke="#666666" points="272,-24.5 168,-24.5 168,-5.5 272,-5.5 272,-24.5"/>
 <text text-anchor="middle" x="220" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetObjectVelocity</text>
 </a>

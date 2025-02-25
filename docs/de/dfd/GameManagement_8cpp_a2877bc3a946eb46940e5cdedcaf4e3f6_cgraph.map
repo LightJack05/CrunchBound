@@ -25,7 +25,7 @@
 <area shape="rect" id="Node000005" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="839,153,996,179"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="758,77,792,89,844,115,889,143,886,148,841,120,790,94,757,83"/>
 <area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="766,28,792,40,825,63,855,89,901,141,897,144,852,93,822,67,789,44,764,33"/>
-<area shape="rect" id="Node000007" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title=" " alt="" coords="863,5,972,31"/>
+<area shape="rect" id="Node000007" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title="Return the correct asset path for the asset depending on the current environment." alt="" coords="863,5,972,31"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="784,15,849,15,849,21,784,21"/>
 <area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="747,125,847,148,846,153,746,130"/>
 <area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="773,163,825,163,825,169,773,169"/>
