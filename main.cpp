@@ -15,13 +15,32 @@
 #include <stdlib.h>
 
 /**
+ * @brief Destroy all objects, the renderer and window, and quit SDL and TTF
+ *
+ * @param win The window of the application.
+ * @param ren The renderer to destroy.
+ */
+inline void CleanupBeforeExit(SDL_Window *&win, SDL_Renderer *&ren) {
+    GameObjects.clear();
+    GameManager = nullptr;
+
+    SDL_DestroyRenderer(ren);
+    ren = nullptr;
+    GlobalRenderer = nullptr;
+    SDL_DestroyWindow(win);
+    win = nullptr;
+
+    SDL_Quit();
+    TTF_Quit();
+}
+
+/**
  * @brief Executed every frame.
  */
 void frame() { UpdateObjects(); }
 
 /**
- * @brief The main game loop, runs until an exit event is sensed, and QuitGame
- * is set to true.
+ * @brief The main game loop, runs until QuitGame is set to true.
  */
 void gameLoop() {
     SDL_Event e;
@@ -47,21 +66,21 @@ void gameLoop() {
  * @return Exit code
  */
 int main() {
+    SDL_Window *win = nullptr;
+    SDL_Renderer *ren = nullptr;
     if (SDL_Init(SDL_INIT_VIDEO) == 0) {
+        CleanupBeforeExit(win, ren);
         return EXIT_FAILURE;
     }
 
     if (!TTF_Init()) {
-        SDL_Quit();
+        CleanupBeforeExit(win, ren);
         return EXIT_FAILURE;
     }
 
-    SDL_Window *win;
-    SDL_Renderer *ren;
     if (SDL_CreateWindowAndRenderer("", ScreenWidth, ScreenHeight,
                                     SDL_WINDOW_BORDERLESS, &win, &ren) == 0) {
-        SDL_Quit();
-        TTF_Quit();
+        CleanupBeforeExit(win, ren);
         return EXIT_FAILURE;
     }
     GlobalRenderer = ren;
@@ -70,12 +89,6 @@ int main() {
 
     gameLoop();
 
-    SDL_DestroyRenderer(ren);
-    ren = nullptr;
-    GlobalRenderer = nullptr;
-    SDL_DestroyWindow(win);
-    win = nullptr;
-    SDL_Quit();
-    TTF_Quit();
+    CleanupBeforeExit(win, ren);
     return EXIT_SUCCESS;
 }
