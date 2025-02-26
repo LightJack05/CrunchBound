@@ -1,9 +1,0 @@
-<map id="UpdateObjects" name="UpdateObjects">
-<area shape="rect" id="Node000001" title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods." alt="" coords="356,5,475,31"/>
-<area shape="rect" id="Node000002" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="247,5,308,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="342,21,308,21,308,15,342,15"/>
-<area shape="rect" id="Node000003" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,5,199,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="233,21,199,21,199,15,233,15"/>
-<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,5,60,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
-</map>

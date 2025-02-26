@@ -67,7 +67,7 @@ var sectionId = 'dynsection-2';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../de/dfd/GameManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" target="_top" xlink:title="Enqueue an object to be registered on the next frame.">
+<g id="a_Node000002"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" target="_top" xlink:title="Enqueue an object to be registered on the next frame.">
 <polygon fill="white" stroke="#666666" points="276,-93 116,-93 116,-74 276,-74 276,-93"/>
 <text text-anchor="middle" x="196" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">EnqueueRegisterGameObject</text>
 </a>

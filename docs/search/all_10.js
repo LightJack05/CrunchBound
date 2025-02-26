@@ -10,8 +10,8 @@ var searchData=
   ['rectanglerenderer_2ecpp_7',['RectangleRenderer.cpp',['../d9/d43/RectangleRenderer_8cpp.html',1,'']]],
   ['rectanglerenderer_2ehpp_8',['RectangleRenderer.hpp',['../dc/daa/RectangleRenderer_8hpp.html',1,'']]],
   ['registercomponent_9',['RegisterComponent',['../de/d1c/classGameObject.html#a5a44ba7c5b58d725ea9de38bbf1ae949',1,'GameObject']]],
-  ['registerenqueuedobjects_10',['RegisterEnqueuedObjects',['../de/dfd/GameManagement_8cpp.html#a25053f13bc5fe6ea1caf5f343cbb30b8',1,'GameManagement.cpp']]],
-  ['registergameobject_11',['RegisterGameObject',['../de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a',1,'RegisterGameObject(std::shared_ptr&lt; GameObject &gt; object):&#160;GameManagement.cpp'],['../d7/dd0/GameManagement_8hpp.html#a40f7d4339a01b155a82745c5bd8ead6a',1,'RegisterGameObject(std::shared_ptr&lt; GameObject &gt; object):&#160;GameManagement.cpp']]],
+  ['registerenqueuedobjects_10',['RegisterEnqueuedObjects',['../d2/d41/ObjectManagement_8cpp.html#a25053f13bc5fe6ea1caf5f343cbb30b8',1,'ObjectManagement.cpp']]],
+  ['registergameobject_11',['RegisterGameObject',['../d2/d41/ObjectManagement_8cpp.html#a4eacad131651d21ffbebf4a2108a175c',1,'ObjectManagement.cpp']]],
   ['release_20and_20debug_12',['Release and Debug',['../d6/dd0/md_BUILDING.html#autotoc_md14',1,'']]],
   ['remove_20all_20build_20files_20leave_20makedepends_20intact_13',['Remove all build files, leave makedepends intact',['../d6/dd0/md_BUILDING.html#autotoc_md7',1,'']]],
   ['remove_20any_20and_20all_20files_20built_14',['Remove any and all files built',['../d6/dd0/md_BUILDING.html#autotoc_md6',1,'']]],
@@ -26,5 +26,6 @@ var searchData=
   ['resetgame_23',['ResetGame',['../d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf',1,'ResetGame():&#160;Lifecycle.cpp'],['../d3/d67/Lifecycle_8hpp.html#a7be4f604c1baeb7cac84122a7f2438cf',1,'ResetGame():&#160;Lifecycle.cpp']]],
   ['resetgameifrequired_24',['ResetGameIfRequired',['../de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6',1,'GameManagement.cpp']]],
   ['resetjumppoints_25',['ResetJumpPoints',['../d3/dc0/classPlayerBehavior.html#a96a318cdfc9c891522d940a0bb8d9999',1,'PlayerBehavior']]],
-  ['resettimesincegamestart_26',['ResetTimeSinceGameStart',['../d8/d38/Time_8cpp.html#ae55fb718253dda2137a189d792bda7b9',1,'ResetTimeSinceGameStart():&#160;Time.cpp'],['../d9/de7/Time_8hpp.html#ae55fb718253dda2137a189d792bda7b9',1,'ResetTimeSinceGameStart():&#160;Time.cpp']]]
+  ['resettimesincegamestart_26',['ResetTimeSinceGameStart',['../d8/d38/Time_8cpp.html#ae55fb718253dda2137a189d792bda7b9',1,'ResetTimeSinceGameStart():&#160;Time.cpp'],['../d9/de7/Time_8hpp.html#ae55fb718253dda2137a189d792bda7b9',1,'ResetTimeSinceGameStart():&#160;Time.cpp']]],
+  ['runframeactions_27',['RunFrameActions',['../de/dfd/GameManagement_8cpp.html#a96314a1ad91ef741694603ff58e7bee7',1,'RunFrameActions():&#160;GameManagement.cpp'],['../d7/dd0/GameManagement_8hpp.html#a96314a1ad91ef741694603ff58e7bee7',1,'RunFrameActions():&#160;GameManagement.cpp']]]
 ];

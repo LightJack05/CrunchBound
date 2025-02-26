@@ -1,5 +1,5 @@
 <map id="CreateCoffeeMeter" name="CreateCoffeeMeter">
 <area shape="rect" id="Node000001" title="Create the coffee meter bar." alt="" coords="5,5,151,31"/>
-<area shape="rect" id="Node000002" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="199,5,356,31"/>
+<area shape="rect" id="Node000002" href="$d2/d41/ObjectManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" title="Enqueue an object to be registered on the next frame." alt="" coords="199,5,412,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,15,185,15,185,21,151,21"/>
 </map>

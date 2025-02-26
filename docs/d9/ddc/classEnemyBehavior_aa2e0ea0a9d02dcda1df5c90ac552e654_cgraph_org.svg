@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../de/dfd/GameManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" target="_top" xlink:title="Enqueue the destruction of a gameobject.">
+<g id="a_Node000002"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" target="_top" xlink:title="Enqueue the destruction of a gameobject.">
 <polygon fill="white" stroke="#666666" points="328,-19 170,-19 170,0 328,0 328,-19"/>
 <text text-anchor="middle" x="249" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">EnqueueDestroyGameObject</text>
 </a>

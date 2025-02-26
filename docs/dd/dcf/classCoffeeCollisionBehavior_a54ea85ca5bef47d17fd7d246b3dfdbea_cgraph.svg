@@ -32,7 +32,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../de/dfd/GameManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" target="_top" xlink:title="Enqueue the destruction of a gameobject.">
+<g id="a_Node000002"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" target="_top" xlink:title="Enqueue the destruction of a gameobject.">
 <polygon fill="white" stroke="#666666" points="328,-56 170,-56 170,-37 328,-37 328,-56"/>
 <text text-anchor="middle" x="249" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">EnqueueDestroyGameObject</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../de/dfd/GameManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2" target="_top" xlink:title="Try to get a gameobject by tag.">
+<g id="a_Node000003"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2" target="_top" xlink:title="Try to get a gameobject by tag.">
 <polygon fill="white" stroke="#666666" points="311,-19 187,-19 187,0 311,0 311,-19"/>
 <text text-anchor="middle" x="249" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">GetGameObjectByTag</text>
 </a>

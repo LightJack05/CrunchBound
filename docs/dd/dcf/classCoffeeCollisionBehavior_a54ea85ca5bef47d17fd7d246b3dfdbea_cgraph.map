@@ -1,7 +1,7 @@
 <map id="CoffeeCollisionBehavior::BeforeCollision" name="CoffeeCollisionBehavior::BeforeCollision">
 <area shape="rect" id="Node000001" title="The action to be taken when the object will collide next frame." alt="" coords="5,23,184,63"/>
-<area shape="rect" id="Node000002" href="$de/dfd/GameManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" title="Enqueue the destruction of a gameobject." alt="" coords="232,5,443,31"/>
+<area shape="rect" id="Node000002" href="$d2/d41/ObjectManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063" title="Enqueue the destruction of a gameobject." alt="" coords="232,5,443,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,31,218,28,219,33,184,37"/>
-<area shape="rect" id="Node000003" href="$de/dfd/GameManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2" title="Try to get a gameobject by tag." alt="" coords="255,55,420,80"/>
+<area shape="rect" id="Node000003" href="$d2/d41/ObjectManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2" title="Try to get a gameobject by tag." alt="" coords="255,55,420,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,49,241,55,241,60,184,55"/>
 </map>

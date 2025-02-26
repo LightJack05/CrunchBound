@@ -1,26 +1,7 @@
 var GameManagement_8cpp =
 [
-    [ "DestroyEnqueuedObjects", "de/dfd/GameManagement_8cpp.html#ad487b4c14d5f4bf65d056f5c90ac4d72", null ],
-    [ "DestroyGameObject", "de/dfd/GameManagement_8cpp.html#abc0ac24a5725e21af2dcc9eb0d0c40ae", null ],
-    [ "EnqueueDestroyGameObject", "de/dfd/GameManagement_8cpp.html#ad475f3a4eb85bdc508df4f2bef777063", null ],
     [ "EnqueueGameReset", "de/dfd/GameManagement_8cpp.html#aed50a83106078c6c5b5321eb0734c42e", null ],
-    [ "EnqueueRegisterGameObject", "de/dfd/GameManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0", null ],
-    [ "GetGameObjectByTag", "de/dfd/GameManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2", null ],
-    [ "HandleComponentUpdate", "de/dfd/GameManagement_8cpp.html#abb664488d26ac602b11cc22de7243458", null ],
-    [ "OnGameStart", "de/dfd/GameManagement_8cpp.html#ae5ee3f705fc506491ca2b0c7cf059c75", null ],
-    [ "RegisterEnqueuedObjects", "de/dfd/GameManagement_8cpp.html#a25053f13bc5fe6ea1caf5f343cbb30b8", null ],
-    [ "RegisterGameObject", "de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a", null ],
     [ "ResetGameIfRequired", "de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6", null ],
-    [ "UpdateObjects", "de/dfd/GameManagement_8cpp.html#a522912d67446895b0a03d01837b75a99", null ],
-    [ "WorkThroughFrameQueue", "de/dfd/GameManagement_8cpp.html#a95ff1ee6a57e678376b2eae2ef499ab3", null ],
-    [ "CreateObjectsQueue", "de/dfd/GameManagement_8cpp.html#a8abe57ec6a189037f40f6b4a97ab4866", null ],
-    [ "DestroyObjectsQueue", "de/dfd/GameManagement_8cpp.html#a257d892e4626121a51d6d96f2ea49382", null ],
-    [ "GameManager", "de/dfd/GameManagement_8cpp.html#a71aeb49665dd98330ce0c1b6d3661aeb", null ],
-    [ "GameObjects", "de/dfd/GameManagement_8cpp.html#a78e88a770a3509ed5829d09457d4faa6", null ],
-    [ "GlobalRenderer", "de/dfd/GameManagement_8cpp.html#a68fcdbf3498ec477f588e80c12103af6", null ],
-    [ "IsResetEnqueued", "de/dfd/GameManagement_8cpp.html#a347d00e4dd0930e86e11873cb34cd7a3", null ],
-    [ "QuitGame", "de/dfd/GameManagement_8cpp.html#a5192c662e38b353a3588957d17b886ad", null ],
-    [ "ScreenHeight", "de/dfd/GameManagement_8cpp.html#a6786cde6bb9174ef46de3845f4301327", null ],
-    [ "ScreenWidth", "de/dfd/GameManagement_8cpp.html#a65b4c91571a26ac7ef519beacdc19bbf", null ],
-    [ "WindowBackgroundColor", "de/dfd/GameManagement_8cpp.html#a23d5354cca12ede4ac5bbe7954f3b4bb", null ]
+    [ "RunFrameActions", "de/dfd/GameManagement_8cpp.html#a96314a1ad91ef741694603ff58e7bee7", null ],
+    [ "IsResetEnqueued", "de/dfd/GameManagement_8cpp.html#a347d00e4dd0930e86e11873cb34cd7a3", null ]
 ];

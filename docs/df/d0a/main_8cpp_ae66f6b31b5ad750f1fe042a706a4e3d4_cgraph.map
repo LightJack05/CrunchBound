@@ -1,76 +1,80 @@
 <map id="main" name="main">
-<area shape="rect" id="Node000001" title="Entry point of the program." alt="" coords="5,233,60,259"/>
-<area shape="rect" id="Node000002" href="$df/d0a/main_8cpp.html#aed6a965c795e2202196ce9dc698d8046" title="Destroy all objects, the renderer and window, and quit SDL and TTF." alt="" coords="108,184,251,209"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,235,127,211,129,216,61,240"/>
-<area shape="rect" id="Node000003" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until QuitGame is set to true." alt="" coords="134,233,225,259"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,243,120,243,120,249,60,249"/>
-<area shape="rect" id="Node000032" href="$d1/d99/Lifecycle_8cpp.html#af0000b43ed614b94179e358d523c9245" title="Initialize the game to the default state." alt="" coords="1195,308,1312,333"/>
-<area shape="poly" id="edge38_Node000001_Node000032" title=" " alt="" coords="61,256,115,280,190,308,276,330,321,337,366,339,796,339,1006,334,1181,323,1181,329,1006,339,796,345,366,345,321,342,275,335,188,313,113,285,58,261"/>
-<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="337,123,398,148"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="221,231,249,218,298,187,339,155,343,159,302,191,252,223,223,236"/>
-<area shape="rect" id="Node000026" href="$de/db0/Events_8cpp.html#a26867d84edb0f52a75127cf66c64c9a9" title="Handles an event that has occoured." alt="" coords="315,208,420,233"/>
-<area shape="poly" id="edge32_Node000003_Node000026" title=" " alt="" coords="225,237,301,227,302,232,225,243"/>
-<area shape="rect" id="Node000031" href="$d8/d38/Time_8cpp.html#a150f12b48e13e1c14a4e7646137c74a4" title="Update the stored deltatime. Should be executed each frame." alt="" coords="299,257,436,283"/>
-<area shape="poly" id="edge37_Node000003_Node000031" title=" " alt="" coords="225,249,285,257,285,262,225,254"/>
-<area shape="rect" id="Node000005" href="$de/dfd/GameManagement_8cpp.html#a522912d67446895b0a03d01837b75a99" title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods." alt="" coords="508,87,627,112"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="398,127,494,110,495,115,399,133"/>
-<area shape="rect" id="Node000006" href="$de/dfd/GameManagement_8cpp.html#abb664488d26ac602b11cc22de7243458" title=" " alt="" coords="699,87,890,112"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="627,97,685,97,685,102,627,102"/>
-<area shape="rect" id="Node000007" href="$de/dfd/GameManagement_8cpp.html#a95ff1ee6a57e678376b2eae2ef499ab3" title=" " alt="" coords="699,37,890,63"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="626,84,721,63,723,68,627,89"/>
-<area shape="rect" id="Node000008" href="$de/dfd/GameManagement_8cpp.html#ad487b4c14d5f4bf65d056f5c90ac4d72" title=" " alt="" coords="940,7,1127,32"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="890,35,926,30,927,36,891,40"/>
-<area shape="rect" id="Node000010" href="$de/dfd/GameManagement_8cpp.html#a25053f13bc5fe6ea1caf5f343cbb30b8" title=" " alt="" coords="939,56,1128,81"/>
-<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="891,55,925,58,925,63,890,60"/>
-<area shape="rect" id="Node000012" href="$de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6" title=" " alt="" coords="951,180,1116,205"/>
-<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="864,60,892,72,928,93,961,119,1013,168,1009,172,958,123,925,98,889,76,862,65"/>
-<area shape="rect" id="Node000009" href="$de/dfd/GameManagement_8cpp.html#abc0ac24a5725e21af2dcc9eb0d0c40ae" title="Immediately destroy a GameObject." alt="" coords="1176,5,1331,31"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1127,16,1162,16,1162,21,1127,21"/>
-<area shape="rect" id="Node000011" href="$de/dfd/GameManagement_8cpp.html#a40f7d4339a01b155a82745c5bd8ead6a" title="Directly register a gameobject. Will push the object into the GameObjects vector." alt="" coords="1859,229,2016,255"/>
-<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1128,60,1294,52,1493,50,1590,54,1680,61,1756,73,1812,92,1831,109,1860,142,1920,217,1916,220,1856,146,1827,113,1809,96,1754,78,1679,66,1590,59,1492,56,1294,58,1128,65"/>
-<area shape="rect" id="Node000013" href="$d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf" title="Reset the game to the initial state." alt="" coords="1204,217,1303,243"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1109,203,1191,217,1190,222,1108,208"/>
-<area shape="rect" id="Node000014" href="$d9/dfa/Init_8cpp.html#aaa64e8fd06230fa14e507cef71a3217d" title="Create the initial gameobjects required for the game." alt="" coords="1382,291,1573,316"/>
-<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1284,240,1380,277,1406,285,1405,290,1378,282,1282,245"/>
-<area shape="rect" id="Node000024" href="$de/dfd/GameManagement_8cpp.html#ae5ee3f705fc506491ca2b0c7cf059c75" title="Initialize all gameobjects and call the OnStart() methods." alt="" coords="1422,241,1533,267"/>
-<area shape="poly" id="edge30_Node000013_Node000024" title=" " alt="" coords="1303,233,1408,244,1408,249,1302,238"/>
-<area shape="rect" id="Node000025" href="$d8/d38/Time_8cpp.html#ae55fb718253dda2137a189d792bda7b9" title="Reset the time since the game has started." alt="" coords="1379,192,1576,217"/>
-<area shape="poly" id="edge31_Node000013_Node000025" title=" " alt="" coords="1302,222,1365,215,1365,220,1303,227"/>
-<area shape="rect" id="Node000015" href="$d9/dfa/Init_8cpp.html#a3ff595c2af791c369e2318510062ce14" title="Create the coffee meter bar." alt="" coords="1645,205,1790,231"/>
-<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="1545,288,1575,277,1598,259,1623,241,1643,233,1645,238,1625,246,1602,264,1577,282,1547,293"/>
-<area shape="rect" id="Node000016" href="$d9/dfa/Init_8cpp.html#a1bfb628b6cd503e396bae0796f2051c1" title="Create the icon next to the coffee meter." alt="" coords="1631,107,1803,132"/>
-<area shape="poly" id="edge16_Node000014_Node000016" title=" " alt="" coords="1558,288,1574,277,1587,262,1594,245,1597,211,1601,176,1608,158,1622,141,1627,137,1630,141,1626,145,1613,161,1606,177,1603,212,1599,247,1592,264,1578,281,1561,293"/>
-<area shape="rect" id="Node000018" href="$d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e" title="Create the floor and register it." alt="" coords="1668,255,1767,280"/>
-<area shape="poly" id="edge19_Node000014_Node000018" title=" " alt="" coords="1562,288,1654,274,1655,279,1563,293"/>
-<area shape="rect" id="Node000019" href="$d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783" title="Create the score counter and register it." alt="" coords="1641,304,1793,329"/>
-<area shape="poly" id="edge21_Node000014_Node000019" title=" " alt="" coords="1573,306,1628,309,1627,314,1573,311"/>
-<area shape="rect" id="Node000020" href="$d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f" title="Set the window background to white." alt="" coords="1624,353,1811,379"/>
-<area shape="poly" id="edge23_Node000014_Node000020" title=" " alt="" coords="1529,313,1577,326,1625,339,1655,347,1653,353,1623,345,1575,331,1528,319"/>
-<area shape="rect" id="Node000021" href="$d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24" title="Create the left wall and register it." alt="" coords="1659,403,1776,428"/>
-<area shape="poly" id="edge24_Node000014_Node000021" title=" " alt="" coords="1551,314,1578,326,1594,342,1602,359,1610,374,1626,389,1647,400,1644,405,1622,394,1606,378,1598,361,1590,346,1574,331,1549,318"/>
-<area shape="rect" id="Node000022" href="$d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395" title="Create the player and register it." alt="" coords="1664,452,1771,477"/>
-<area shape="poly" id="edge26_Node000014_Node000022" title=" " alt="" coords="1557,314,1578,327,1590,341,1598,355,1603,384,1607,412,1614,426,1626,439,1652,453,1649,458,1622,443,1610,429,1602,414,1597,385,1593,357,1586,344,1574,331,1554,318"/>
-<area shape="rect" id="Node000023" href="$d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b" title="Create the right wall and register it." alt="" coords="1654,156,1781,181"/>
-<area shape="poly" id="edge28_Node000014_Node000023" title=" " alt="" coords="1555,288,1574,277,1591,257,1598,235,1604,213,1622,191,1640,180,1642,185,1626,195,1609,215,1603,237,1596,260,1578,281,1558,293"/>
-<area shape="poly" id="edge15_Node000015_Node000011" title=" " alt="" coords="1791,223,1845,229,1844,235,1790,229"/>
-<area shape="poly" id="edge18_Node000016_Node000011" title=" " alt="" coords="1783,130,1812,141,1870,178,1915,218,1912,222,1867,183,1809,146,1781,135"/>
-<area shape="rect" id="Node000017" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title="Return the correct asset path for the asset depending on the current environment." alt="" coords="1883,107,1992,132"/>
-<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="1804,117,1869,117,1869,122,1804,122"/>
-<area shape="poly" id="edge20_Node000018_Node000011" title=" " alt="" coords="1767,259,1845,250,1845,255,1767,264"/>
-<area shape="poly" id="edge22_Node000019_Node000011" title=" " alt="" coords="1771,301,1810,290,1894,258,1896,263,1812,295,1773,307"/>
-<area shape="poly" id="edge25_Node000021_Node000011" title=" " alt="" coords="1775,404,1809,389,1845,361,1876,328,1920,265,1924,268,1880,331,1848,365,1812,394,1777,409"/>
-<area shape="poly" id="edge27_Node000022_Node000011" title=" " alt="" coords="1770,456,1791,449,1809,439,1850,399,1883,352,1908,305,1925,267,1929,269,1913,308,1888,355,1855,402,1812,443,1793,454,1772,461"/>
-<area shape="poly" id="edge29_Node000023_Node000011" title=" " alt="" coords="1773,179,1812,190,1895,221,1893,226,1810,195,1771,184"/>
-<area shape="rect" id="Node000027" href="$d2/d3b/KeyboardHandling_8cpp.html#a2b6d8aae8fe15780544c6ada95a93033" title="Handle a keyboard event." alt="" coords="484,208,651,233"/>
-<area shape="poly" id="edge33_Node000026_Node000027" title=" " alt="" coords="421,218,470,218,470,223,421,223"/>
-<area shape="rect" id="Node000028" href="$de/d47/classKeyboardHandlerBehavior.html#aedfbd0872b0f5331ffece766aaa7b3c2" title="Called when a key is pressed (or held) down." alt="" coords="699,201,891,241"/>
-<area shape="poly" id="edge34_Node000027_Node000028" title=" " alt="" coords="651,218,685,218,685,223,651,223"/>
-<area shape="rect" id="Node000029" href="$de/d47/classKeyboardHandlerBehavior.html#a2ffe164cb50551f0d20b40753b0d193d" title="Called when a key is released." alt="" coords="699,265,891,305"/>
-<area shape="poly" id="edge35_Node000027_Node000029" title=" " alt="" coords="614,231,710,258,709,263,613,236"/>
-<area shape="rect" id="Node000030" href="$d9/df7/classGameObjectComponent.html#ade2db51ea6caeaa80b1a80395ffbb779" title=" " alt="" coords="705,137,884,177"/>
-<area shape="poly" id="edge36_Node000027_Node000030" title=" " alt="" coords="613,205,709,178,710,183,614,210"/>
-<area shape="poly" id="edge40_Node000032_Node000014" title=" " alt="" coords="1312,313,1368,309,1369,314,1312,319"/>
-<area shape="poly" id="edge41_Node000032_Node000024" title=" " alt="" coords="1290,305,1378,277,1410,268,1412,273,1379,282,1292,310"/>
-<area shape="rect" id="Node000033" href="$d9/dfa/Init_8cpp.html#a8341384b2aebeb359aded0078e40d3e3" title="Create the game manager object and register it." alt="" coords="1397,340,1558,365"/>
-<area shape="poly" id="edge39_Node000032_Node000033" title=" " alt="" coords="1313,326,1384,337,1383,342,1312,332"/>
+<area shape="rect" id="Node000001" title="Entry point of the program." alt="" coords="5,147,60,172"/>
+<area shape="rect" id="Node000002" href="$df/d0a/main_8cpp.html#aed6a965c795e2202196ce9dc698d8046" title="Destroy all objects, the renderer and window, and quit SDL and TTF." alt="" coords="108,96,251,121"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,148,128,123,130,129,61,153"/>
+<area shape="rect" id="Node000003" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until QuitGame is set to true." alt="" coords="134,243,225,268"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,170,149,233,146,237,52,174"/>
+<area shape="rect" id="Node000034" href="$d1/d99/Lifecycle_8cpp.html#af0000b43ed614b94179e358d523c9245" title="Initialize the game to the default state." alt="" coords="975,152,1093,177"/>
+<area shape="poly" id="edge40_Node000001_Node000034" title=" " alt="" coords="60,157,366,157,569,157,962,161,962,166,569,162,366,162,60,162"/>
+<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="337,353,398,379"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="203,266,334,344,331,348,201,270"/>
+<area shape="rect" id="Node000028" href="$de/db0/Events_8cpp.html#a26867d84edb0f52a75127cf66c64c9a9" title="Handles an event that has occoured." alt="" coords="315,268,420,293"/>
+<area shape="poly" id="edge34_Node000003_Node000028" title=" " alt="" coords="225,259,302,269,301,274,225,264"/>
+<area shape="rect" id="Node000033" href="$d8/d38/Time_8cpp.html#a150f12b48e13e1c14a4e7646137c74a4" title="Update the stored deltatime. Should be executed each frame." alt="" coords="299,219,436,244"/>
+<area shape="poly" id="edge39_Node000003_Node000033" title=" " alt="" coords="225,247,285,239,285,244,225,252"/>
+<area shape="rect" id="Node000005" href="$de/dfd/GameManagement_8cpp.html#a96314a1ad91ef741694603ff58e7bee7" title=" " alt="" coords="499,389,635,415"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="399,369,486,385,485,390,398,374"/>
+<area shape="rect" id="Node000006" href="$de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6" title=" " alt="" coords="712,389,877,415"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="635,399,698,399,698,405,635,405"/>
+<area shape="rect" id="Node000021" href="$d2/d41/ObjectManagement_8cpp.html#a522912d67446895b0a03d01837b75a99" title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods." alt="" coords="735,439,854,464"/>
+<area shape="poly" id="edge27_Node000005_Node000021" title=" " alt="" coords="627,412,723,433,721,438,626,417"/>
+<area shape="rect" id="Node000007" href="$d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf" title="Reset the game to the initial state." alt="" coords="985,229,1083,255"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="860,387,889,374,927,349,961,320,1013,264,1016,267,965,323,930,353,892,379,862,392"/>
+<area shape="rect" id="Node000008" href="$d9/dfa/Init_8cpp.html#aaa64e8fd06230fa14e507cef71a3217d" title="Create the initial gameobjects required for the game." alt="" coords="1181,204,1371,229"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1083,234,1167,225,1167,231,1084,240"/>
+<area shape="rect" id="Node000019" href="$d2/d41/ObjectManagement_8cpp.html#ae5ee3f705fc506491ca2b0c7cf059c75" title="Initialize all gameobjects and call the OnStart() methods." alt="" coords="1221,155,1331,180"/>
+<area shape="poly" id="edge25_Node000007_Node000019" title=" " alt="" coords="1067,227,1177,189,1207,180,1208,186,1178,194,1069,232"/>
+<area shape="rect" id="Node000020" href="$d8/d38/Time_8cpp.html#ae55fb718253dda2137a189d792bda7b9" title="Reset the time since the game has started." alt="" coords="1177,253,1375,279"/>
+<area shape="poly" id="edge26_Node000007_Node000020" title=" " alt="" coords="1084,244,1163,252,1163,257,1083,250"/>
+<area shape="rect" id="Node000009" href="$d9/dfa/Init_8cpp.html#a3ff595c2af791c369e2318510062ce14" title="Create the coffee meter bar." alt="" coords="1443,304,1589,329"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1350,227,1376,238,1392,251,1401,264,1410,277,1424,289,1439,297,1437,301,1421,294,1406,281,1397,267,1388,255,1373,243,1348,232"/>
+<area shape="rect" id="Node000010" href="$d2/d41/ObjectManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" title="Enqueue an object to be registered on the next frame." alt="" coords="1657,179,1871,204"/>
+<area shape="poly" id="edge17_Node000008_Node000010" title=" " alt="" coords="1371,209,1643,195,1643,200,1372,214"/>
+<area shape="rect" id="Node000011" href="$d9/dfa/Init_8cpp.html#a1bfb628b6cd503e396bae0796f2051c1" title="Create the icon next to the coffee meter." alt="" coords="1430,5,1602,31"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="1355,202,1373,189,1387,172,1394,154,1396,117,1398,78,1406,59,1421,40,1426,36,1429,40,1425,44,1410,62,1404,79,1401,117,1399,155,1392,174,1376,193,1358,206"/>
+<area shape="rect" id="Node000013" href="$d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e" title="Create the floor and register it." alt="" coords="1467,353,1565,379"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="1358,227,1376,239,1388,251,1395,264,1401,290,1407,315,1413,327,1424,339,1455,355,1452,359,1421,343,1409,330,1402,317,1396,291,1390,266,1384,254,1373,243,1355,232"/>
+<area shape="rect" id="Node000014" href="$d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783" title="Create the score counter and register it." alt="" coords="1440,403,1592,428"/>
+<area shape="poly" id="edge15_Node000008_Node000014" title=" " alt="" coords="1360,227,1376,239,1392,258,1399,277,1401,316,1403,354,1410,372,1425,389,1430,394,1426,398,1421,393,1406,374,1398,355,1396,316,1394,278,1387,260,1373,243,1357,232"/>
+<area shape="rect" id="Node000015" href="$d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f" title="Set the window background to white." alt="" coords="1423,255,1609,280"/>
+<area shape="poly" id="edge18_Node000008_Node000015" title=" " alt="" coords="1338,227,1443,249,1442,254,1337,232"/>
+<area shape="rect" id="Node000016" href="$d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24" title="Create the left wall and register it." alt="" coords="1457,55,1575,80"/>
+<area shape="poly" id="edge19_Node000008_Node000016" title=" " alt="" coords="1352,202,1373,189,1384,178,1390,166,1396,141,1402,115,1409,102,1421,89,1443,77,1445,81,1424,93,1413,105,1407,117,1401,142,1395,168,1388,181,1376,193,1355,206"/>
+<area shape="rect" id="Node000017" href="$d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395" title="Create the player and register it." alt="" coords="1463,153,1569,179"/>
+<area shape="poly" id="edge21_Node000008_Node000017" title=" " alt="" coords="1337,201,1448,177,1450,183,1338,206"/>
+<area shape="rect" id="Node000018" href="$d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b" title="Create the right wall and register it." alt="" coords="1453,104,1579,129"/>
+<area shape="poly" id="edge23_Node000008_Node000018" title=" " alt="" coords="1345,201,1373,189,1388,177,1396,164,1406,151,1421,138,1438,130,1441,135,1424,143,1410,155,1401,168,1392,181,1376,194,1347,206"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1573,301,1608,289,1678,250,1734,210,1738,215,1681,254,1610,294,1575,306"/>
+<area shape="poly" id="edge11_Node000011_Node000010" title=" " alt="" coords="1584,28,1611,40,1653,69,1691,103,1747,166,1743,169,1687,106,1649,73,1608,44,1582,33"/>
+<area shape="rect" id="Node000012" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title="Return the correct asset path for the asset depending on the current environment." alt="" coords="1709,5,1819,31"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1602,15,1695,15,1695,21,1602,21"/>
+<area shape="poly" id="edge14_Node000013_Node000010" title=" " alt="" coords="1565,355,1608,338,1649,310,1687,276,1743,213,1747,217,1691,280,1653,314,1611,343,1566,360"/>
+<area shape="poly" id="edge16_Node000014_Node000010" title=" " alt="" coords="1586,400,1608,389,1655,349,1695,301,1726,254,1748,215,1753,218,1731,257,1699,305,1659,353,1611,394,1588,405"/>
+<area shape="poly" id="edge20_Node000016_Node000010" title=" " alt="" coords="1576,77,1610,89,1681,128,1738,168,1735,172,1678,132,1608,94,1574,82"/>
+<area shape="poly" id="edge22_Node000017_Node000010" title=" " alt="" coords="1570,169,1644,176,1643,182,1569,174"/>
+<area shape="poly" id="edge24_Node000018_Node000010" title=" " alt="" coords="1569,127,1610,138,1714,172,1713,177,1609,143,1568,132"/>
+<area shape="rect" id="Node000022" href="$d2/d41/ObjectManagement_8cpp.html#abb664488d26ac602b11cc22de7243458" title=" " alt="" coords="939,435,1129,460"/>
+<area shape="poly" id="edge28_Node000021_Node000022" title=" " alt="" coords="854,448,925,446,925,452,855,453"/>
+<area shape="rect" id="Node000023" href="$d2/d41/ObjectManagement_8cpp.html#a95ff1ee6a57e678376b2eae2ef499ab3" title=" " alt="" coords="939,484,1129,509"/>
+<area shape="poly" id="edge29_Node000021_Node000023" title=" " alt="" coords="855,460,953,479,952,484,854,465"/>
+<area shape="rect" id="Node000024" href="$d2/d41/ObjectManagement_8cpp.html#ad487b4c14d5f4bf65d056f5c90ac4d72" title=" " alt="" coords="1183,473,1369,499"/>
+<area shape="poly" id="edge30_Node000023_Node000024" title=" " alt="" coords="1129,490,1169,488,1169,493,1130,495"/>
+<area shape="rect" id="Node000026" href="$d2/d41/ObjectManagement_8cpp.html#a25053f13bc5fe6ea1caf5f343cbb30b8" title=" " alt="" coords="1181,523,1371,548"/>
+<area shape="poly" id="edge32_Node000023_Node000026" title=" " alt="" coords="1115,507,1183,518,1182,523,1114,512"/>
+<area shape="rect" id="Node000025" href="$d2/d41/ObjectManagement_8cpp.html#ab91c7a16c0d19bae45779c2b3eb207f9" title=" " alt="" coords="1439,473,1593,499"/>
+<area shape="poly" id="edge31_Node000024_Node000025" title=" " alt="" coords="1369,483,1425,483,1425,489,1369,489"/>
+<area shape="rect" id="Node000027" href="$d2/d41/ObjectManagement_8cpp.html#a4eacad131651d21ffbebf4a2108a175c" title=" " alt="" coords="1437,523,1595,548"/>
+<area shape="poly" id="edge33_Node000026_Node000027" title=" " alt="" coords="1371,533,1423,533,1423,538,1371,538"/>
+<area shape="rect" id="Node000029" href="$d2/d3b/KeyboardHandling_8cpp.html#a2b6d8aae8fe15780544c6ada95a93033" title="Handle a keyboard event." alt="" coords="484,268,651,293"/>
+<area shape="poly" id="edge35_Node000028_Node000029" title=" " alt="" coords="421,278,470,278,470,283,421,283"/>
+<area shape="rect" id="Node000030" href="$de/d47/classKeyboardHandlerBehavior.html#aedfbd0872b0f5331ffece766aaa7b3c2" title="Called when a key is pressed (or held) down." alt="" coords="699,197,891,237"/>
+<area shape="poly" id="edge36_Node000029_Node000030" title=" " alt="" coords="613,265,709,238,710,243,614,270"/>
+<area shape="rect" id="Node000031" href="$de/d47/classKeyboardHandlerBehavior.html#a2ffe164cb50551f0d20b40753b0d193d" title="Called when a key is released." alt="" coords="699,261,891,301"/>
+<area shape="poly" id="edge37_Node000029_Node000031" title=" " alt="" coords="651,278,685,278,685,283,651,283"/>
+<area shape="rect" id="Node000032" href="$d9/df7/classGameObjectComponent.html#ade2db51ea6caeaa80b1a80395ffbb779" title=" " alt="" coords="705,325,884,365"/>
+<area shape="poly" id="edge38_Node000029_Node000032" title=" " alt="" coords="614,291,710,318,709,323,613,296"/>
+<area shape="poly" id="edge42_Node000034_Node000008" title=" " alt="" coords="1094,175,1204,198,1202,204,1093,180"/>
+<area shape="poly" id="edge43_Node000034_Node000019" title=" " alt="" coords="1093,163,1207,164,1207,169,1093,168"/>
+<area shape="rect" id="Node000035" href="$d9/dfa/Init_8cpp.html#a8341384b2aebeb359aded0078e40d3e3" title="Create the game manager object and register it." alt="" coords="1195,105,1357,131"/>
+<area shape="poly" id="edge41_Node000034_Node000035" title=" " alt="" coords="1093,151,1196,131,1197,136,1094,156"/>
 </map>

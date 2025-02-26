@@ -1,0 +1,15 @@
+<map id="UpdateObjects" name="UpdateObjects">
+<area shape="rect" id="Node000001" title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods." alt="" coords="5,31,124,56"/>
+<area shape="rect" id="Node000002" href="$d2/d41/ObjectManagement_8cpp.html#abb664488d26ac602b11cc22de7243458" title=" " alt="" coords="172,5,363,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,33,158,29,159,34,125,39"/>
+<area shape="rect" id="Node000003" href="$d2/d41/ObjectManagement_8cpp.html#a95ff1ee6a57e678376b2eae2ef499ab3" title=" " alt="" coords="172,55,363,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,48,159,52,158,57,124,53"/>
+<area shape="rect" id="Node000004" href="$d2/d41/ObjectManagement_8cpp.html#ad487b4c14d5f4bf65d056f5c90ac4d72" title=" " alt="" coords="412,29,599,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="362,55,398,51,399,56,363,60"/>
+<area shape="rect" id="Node000006" href="$d2/d41/ObjectManagement_8cpp.html#a25053f13bc5fe6ea1caf5f343cbb30b8" title=" " alt="" coords="411,79,600,104"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="363,74,397,78,397,83,362,80"/>
+<area shape="rect" id="Node000005" href="$d2/d41/ObjectManagement_8cpp.html#ab91c7a16c0d19bae45779c2b3eb207f9" title=" " alt="" coords="649,29,804,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="599,39,636,39,636,45,599,45"/>
+<area shape="rect" id="Node000007" href="$d2/d41/ObjectManagement_8cpp.html#a4eacad131651d21ffbebf4a2108a175c" title=" " alt="" coords="648,79,805,104"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="600,89,634,89,634,94,600,94"/>
+</map>

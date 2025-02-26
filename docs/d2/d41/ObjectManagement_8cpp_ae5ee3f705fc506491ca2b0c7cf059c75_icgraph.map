@@ -1,0 +1,18 @@
+<map id="OnGameStart" name="OnGameStart">
+<area shape="rect" id="Node000001" title="Initialize all gameobjects and call the OnStart() methods." alt="" coords="900,31,1011,56"/>
+<area shape="rect" id="Node000002" href="$d1/d99/Lifecycle_8cpp.html#af0000b43ed614b94179e358d523c9245" title="Initialize the game to the default state." alt="" coords="564,5,681,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="886,41,681,25,682,20,886,35"/>
+<area shape="rect" id="Node000004" href="$d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf" title="Reset the game to the initial state." alt="" coords="753,56,852,81"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="887,57,853,63,852,58,886,52"/>
+<area shape="rect" id="Node000003" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="551,24,60,45,60,40,551,18"/>
+<area shape="rect" id="Node000005" href="$de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6" title=" " alt="" coords="540,56,705,81"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="739,71,705,71,705,66,739,66"/>
+<area shape="rect" id="Node000006" href="$de/dfd/GameManagement_8cpp.html#a96314a1ad91ef741694603ff58e7bee7" title=" " alt="" coords="356,56,492,81"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="527,71,493,71,493,66,527,66"/>
+<area shape="rect" id="Node000007" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="247,56,308,81"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="342,71,308,71,308,66,342,66"/>
+<area shape="rect" id="Node000008" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,56,199,81"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="233,71,199,71,199,66,233,66"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="94,59,60,52,61,46,95,54"/>
+</map>

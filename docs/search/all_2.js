@@ -31,7 +31,7 @@ var searchData=
   ['createfloor_28',['CreateFloor',['../d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e',1,'Init.cpp']]],
   ['creategamemanager_29',['CreateGameManager',['../d9/dfa/Init_8cpp.html#a8341384b2aebeb359aded0078e40d3e3',1,'CreateGameManager():&#160;Init.cpp'],['../d3/de1/Init_8hpp.html#a8341384b2aebeb359aded0078e40d3e3',1,'CreateGameManager():&#160;Init.cpp']]],
   ['createinitialgameobjects_30',['CreateInitialGameObjects',['../d9/dfa/Init_8cpp.html#aaa64e8fd06230fa14e507cef71a3217d',1,'CreateInitialGameObjects():&#160;Init.cpp'],['../d3/de1/Init_8hpp.html#aaa64e8fd06230fa14e507cef71a3217d',1,'CreateInitialGameObjects():&#160;Init.cpp']]],
-  ['createobjectsqueue_31',['CreateObjectsQueue',['../de/dfd/GameManagement_8cpp.html#a8abe57ec6a189037f40f6b4a97ab4866',1,'GameManagement.cpp']]],
+  ['createobjectsqueue_31',['CreateObjectsQueue',['../d2/d41/ObjectManagement_8cpp.html#a8abe57ec6a189037f40f6b4a97ab4866',1,'ObjectManagement.cpp']]],
   ['createscorecounter_32',['CreateScoreCounter',['../d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783',1,'Init.cpp']]],
   ['crunchbound_33',['CrunchBound',['../d0/d30/md_README.html',1,'']]],
   ['crunchbound_20compilation_20guide_34',['CrunchBound compilation guide',['../d6/dd0/md_BUILDING.html',1,'']]],
