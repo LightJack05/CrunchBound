@@ -9,6 +9,24 @@
  *
  */
 class PlayerKeyboardBehavior : public KeyboardHandlerBehavior {
+  protected:
+    /**
+     * @brief Whether the space key is currently held down
+     */
+    bool isSpaceDown = false;
+    /**
+     * @brief Whether the A key is currently held down
+     */
+    bool isADown = false;
+    /**
+     * @brief Whether the D key is currently held down
+     */
+    bool isDDown = false;
+    /**
+     * @brief The movement speed of the player
+     */
+    const float movementSpeed = 1;
+
   public:
     PlayerKeyboardBehavior();
     ~PlayerKeyboardBehavior();

@@ -7,28 +7,11 @@
 #include <SDL3/SDL_keycode.h>
 #include <memory>
 
-/**
- * @brief Whether the space key is currently held down
- */
-static bool IsSpaceDown = false;
-/**
- * @brief Whether the A key is currently held down
- */
-static bool IsADown = false;
-/**
- * @brief Whether the D key is currently held down
- */
-static bool IsDDown = false;
-/**
- * @brief The movement speed of the player
- */
-static const float MovementSpeed = 1;
-
 void PlayerKeyboardBehavior::OnKeyDown(SDL_KeyboardEvent &e) {
     std::shared_ptr<PlayerBehavior> playerBehavior =
         this->parent->GetFirstComponent<PlayerBehavior>();
-    if (e.key == SDLK_SPACE && !IsSpaceDown) {
-        IsSpaceDown = true;
+    if (e.key == SDLK_SPACE && !isSpaceDown) {
+        isSpaceDown = true;
         if (playerBehavior->getJumpPoints() > 0) {
             this->parent->getVelocity()->setY(-2);
             this->parent->GetFirstComponent<GravityBehavior>()->setEnabled(
@@ -36,40 +19,40 @@ void PlayerKeyboardBehavior::OnKeyDown(SDL_KeyboardEvent &e) {
             playerBehavior->setJumpPoints(playerBehavior->getJumpPoints() - 1);
         }
     }
-    if (e.key == SDLK_A && !IsADown) {
-        IsADown = true;
+    if (e.key == SDLK_A && !isADown) {
+        isADown = true;
         if (!(this->parent->getPosition()->getX() < 1)) {
-            this->parent->getVelocity()->setX(-MovementSpeed);
+            this->parent->getVelocity()->setX(-movementSpeed);
         }
     }
-    if (e.key == SDLK_D && !IsDDown) {
-        IsDDown = true;
+    if (e.key == SDLK_D && !isDDown) {
+        isDDown = true;
         if (!((this->parent->getPosition()->getX() +
                this->parent->GetFirstComponent<PlayerCollisionBehavior>()
                    ->getColliderSize()
                    ->getX()) > ScreenWidth + 1)) {
-            this->parent->getVelocity()->setX(MovementSpeed);
+            this->parent->getVelocity()->setX(movementSpeed);
         }
     }
 }
 
 void PlayerKeyboardBehavior::OnKeyUp(SDL_KeyboardEvent &e) {
     if (e.key == SDLK_SPACE) {
-        IsSpaceDown = false;
+        isSpaceDown = false;
     }
     if (e.key == SDLK_A) {
-        IsADown = false;
-        if (!IsDDown)
+        isADown = false;
+        if (!isDDown)
             this->parent->getVelocity()->setX(0);
         else
-            this->parent->getVelocity()->setX(MovementSpeed);
+            this->parent->getVelocity()->setX(movementSpeed);
     }
     if (e.key == SDLK_D) {
-        IsDDown = false;
-        if (!IsADown)
+        isDDown = false;
+        if (!isADown)
             this->parent->getVelocity()->setX(0);
         else
-            this->parent->getVelocity()->setX(-MovementSpeed);
+            this->parent->getVelocity()->setX(-movementSpeed);
     }
 }
 

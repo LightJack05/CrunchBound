@@ -14,29 +14,6 @@
 #include <memory>
 
 /**
- * @brief The time since the game has started
- */
-static long long TimeSinceGameStart = 0;
-/**
- * @brief The time the last enemy has been spawned at
- */
-static long long TimeOfLastEnemy = 0;
-/**
- * @brief The delay until the next enemy will be spawned, from the last enemy
- * spawn
- */
-static long long EnemySpawnDelay = 3000;
-/**
- * @brief The time the last coffee has been spawned at
- */
-static long long TimeOfLastCoffee = 0;
-/**
- * @brief The delay until the next coffee will be spawned, from the last coffee
- * spawn
- */
-static long long CoffeeSpawnDelay = 3000;
-
-/**
  * @brief Calculate the difficulty at the specified game uptime
  *
  * @param timestamp The time since game start to calculate the difficulty at
@@ -51,8 +28,8 @@ static inline float GetGameDifficultyAtTime(long long timestamp) {
  *
  * @return A slightly randomized velocity of an object that should be spawned.
  */
-static float GetObjectVelocity() {
-    return (GetGameDifficultyAtTime(TimeSinceGameStart) / 300) *
+float GameManagerBehavior::GetObjectVelocity() {
+    return (GetGameDifficultyAtTime(timeSinceGameStart) / 300) *
            (0.5 + GetRandomNormalizedFloat());
 }
 
@@ -123,25 +100,25 @@ static void SpawnEnemy(float velocityX) {
 }
 
 void GameManagerBehavior::OnTick() {
-    TimeSinceGameStart += GetDeltaTime();
-    if (TimeSinceGameStart - TimeOfLastEnemy > EnemySpawnDelay) {
+    timeSinceGameStart += GetDeltaTime();
+    if (timeSinceGameStart - timeOfLastEnemy > enemySpawnDelay) {
         SpawnEnemy(GetObjectVelocity());
-        TimeOfLastEnemy = TimeSinceGameStart;
-        EnemySpawnDelay = (GetRandomInt(2000, 7000) /
-                           GetGameDifficultyAtTime(TimeSinceGameStart)) *
+        timeOfLastEnemy = timeSinceGameStart;
+        enemySpawnDelay = (GetRandomInt(2000, 7000) /
+                           GetGameDifficultyAtTime(timeSinceGameStart)) *
                           50;
     }
-    if (TimeSinceGameStart - TimeOfLastCoffee > CoffeeSpawnDelay) {
+    if (timeSinceGameStart - timeOfLastCoffee > coffeeSpawnDelay) {
         SpawnCoffee(GetObjectVelocity());
-        TimeOfLastCoffee = TimeSinceGameStart;
-        CoffeeSpawnDelay = (GetRandomInt(15000, 20000) /
-                            GetGameDifficultyAtTime(TimeSinceGameStart)) *
+        timeOfLastCoffee = timeSinceGameStart;
+        coffeeSpawnDelay = (GetRandomInt(15000, 20000) /
+                            GetGameDifficultyAtTime(timeSinceGameStart)) *
                            50;
     }
 }
 
 void GameManagerBehavior::OnStart() {
-    TimeSinceGameStart = 0;
-    TimeOfLastEnemy = 0;
-    TimeOfLastCoffee = 0;
+    timeSinceGameStart = 0;
+    timeOfLastEnemy = 0;
+    timeOfLastCoffee = 0;
 }

@@ -9,6 +9,12 @@
  *
  */
 class GameManagerKeyboardBehavior : public KeyboardHandlerBehavior {
+  protected:
+    /**
+     * @brief Whether the R key is held down
+     */
+    bool isRDown = false;
+
   public:
     GameManagerKeyboardBehavior();
     ~GameManagerKeyboardBehavior();

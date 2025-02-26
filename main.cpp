@@ -1,4 +1,3 @@
-#include "SDL3_image/SDL_image.h"
 #include "engine/Events.hpp"
 #include "engine/GameManagement.hpp"
 #include "engine/Time.hpp"
