@@ -119,6 +119,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a150f12b48e13e1c14a4e7646137c74a4" id="r_a150f12b48e13e1c14a4e7646137c74a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a150f12b48e13e1c14a4e7646137c74a4">UpdateDeltaTime</a> ()</td></tr>
 <tr class="memdesc:a150f12b48e13e1c14a4e7646137c74a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the stored deltatime. Should be executed each frame.  <br /></td></tr>
 <tr class="separator:a150f12b48e13e1c14a4e7646137c74a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e80f7bf6607915feab788ebdc5a3bf8" id="r_a6e80f7bf6607915feab788ebdc5a3bf8"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e80f7bf6607915feab788ebdc5a3bf8">GetTimeSinceGameStart</a> ()</td></tr>
+<tr class="separator:a6e80f7bf6607915feab788ebdc5a3bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55fb718253dda2137a189d792bda7b9" id="r_ae55fb718253dda2137a189d792bda7b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae55fb718253dda2137a189d792bda7b9">ResetTimeSinceGameStart</a> ()</td></tr>
+<tr class="memdesc:ae55fb718253dda2137a189d792bda7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the time since the game has started.  <br /></td></tr>
+<tr class="separator:ae55fb718253dda2137a189d792bda7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -126,6 +131,8 @@ Variables</h2></td></tr>
 <tr class="separator:af54c40bfc9df47f871a2f1988b5698a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa71bcc73ed605a010b31b1ccff0fbb59" id="r_aa71bcc73ed605a010b31b1ccff0fbb59"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa71bcc73ed605a010b31b1ccff0fbb59">lastFrameTime</a> = 0</td></tr>
 <tr class="separator:aa71bcc73ed605a010b31b1ccff0fbb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62328ac165f66e0810a9c17b83c66ece" id="r_a62328ac165f66e0810a9c17b83c66ece"><td class="memItemLeft" align="right" valign="top">static unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62328ac165f66e0810a9c17b83c66ece">timeSinceGameStart</a> = 0</td></tr>
+<tr class="separator:a62328ac165f66e0810a9c17b83c66ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a5da05cbf25fbfbc8a9c6b8481ad23664" name="a5da05cbf25fbfbc8a9c6b8481ad23664"></a>
@@ -147,7 +154,53 @@ Variables</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d38/Time_8cpp_a5da05cbf25fbfbc8a9c6b8481ad23664_icgraph.svg" width="546" height="358"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d38/Time_8cpp_a5da05cbf25fbfbc8a9c6b8481ad23664_icgraph.svg" width="546" height="230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6e80f7bf6607915feab788ebdc5a3bf8" name="a6e80f7bf6607915feab788ebdc5a3bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e80f7bf6607915feab788ebdc5a3bf8">&#9670;&#160;</a></span>GetTimeSinceGameStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long long GetTimeSinceGameStart </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d38/Time_8cpp_a6e80f7bf6607915feab788ebdc5a3bf8_icgraph.svg" width="642" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae55fb718253dda2137a189d792bda7b9" name="ae55fb718253dda2137a189d792bda7b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae55fb718253dda2137a189d792bda7b9">&#9670;&#160;</a></span>ResetTimeSinceGameStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResetTimeSinceGameStart </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the time since the game has started. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d38/Time_8cpp_ae55fb718253dda2137a189d792bda7b9_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -221,13 +274,35 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a62328ac165f66e0810a9c17b83c66ece" name="a62328ac165f66e0810a9c17b83c66ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62328ac165f66e0810a9c17b83c66ece">&#9670;&#160;</a></span>timeSinceGameStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long long timeSinceGameStart = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_996f45160da62e1a3d7f6046fad68f51.html">engine</a></li><li class="navelem"><a class="el" href="../../d8/d38/Time_8cpp.html">Time.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 26 2025 08:07:24 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Wed Feb 26 2025 09:21:48 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 1656;
+var viewWidth = 1632;
 var viewHeight = 803;
 var sectionId = 'dynsection-0';
 </script>
@@ -59,13 +59,13 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="An abstract gameobject behavior.">
-<polygon fill="#999999" stroke="transparent" points="835.5,-598 781.5,-598 781.5,-549 835.5,-549 835.5,-598"/>
-<text text-anchor="start" x="786.5" y="-585.5" font-family="Helvetica,sans-Serif" font-size="10.00">Behavior</text>
-<text text-anchor="start" x="806.5" y="-570.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<text text-anchor="start" x="806.5" y="-555.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#666666" stroke="#666666" points="781.5,-580.5 781.5,-580.5 835.5,-580.5 835.5,-580.5 781.5,-580.5"/>
-<polygon fill="#666666" stroke="#666666" points="781.5,-565.5 781.5,-565.5 835.5,-565.5 835.5,-565.5 781.5,-565.5"/>
-<polygon fill="none" stroke="#666666" points="781.5,-549 781.5,-598 835.5,-598 835.5,-549 781.5,-549"/>
+<polygon fill="#999999" stroke="transparent" points="830.5,-598 776.5,-598 776.5,-549 830.5,-549 830.5,-598"/>
+<text text-anchor="start" x="781.5" y="-585.5" font-family="Helvetica,sans-Serif" font-size="10.00">Behavior</text>
+<text text-anchor="start" x="801.5" y="-570.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="801.5" y="-555.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polygon fill="#666666" stroke="#666666" points="776.5,-580.5 776.5,-580.5 830.5,-580.5 830.5,-580.5 776.5,-580.5"/>
+<polygon fill="#666666" stroke="#666666" points="776.5,-565.5 776.5,-565.5 830.5,-565.5 830.5,-565.5 776.5,-565.5"/>
+<polygon fill="none" stroke="#666666" points="776.5,-549 776.5,-598 830.5,-598 830.5,-549 776.5,-549"/>
 </a>
 </g>
 </g>
@@ -92,8 +92,8 @@ var sectionId = 'dynsection-0';
 <g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
 <g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M771.14,-571.28C636.33,-566.58 179.93,-548.21 125.5,-513 98.05,-495.24 80.8,-462.12 70.68,-435.17"/>
-<polygon fill="none" stroke="#63b8ff" points="771.26,-574.78 781.37,-571.63 771.5,-567.79 771.26,-574.78"/>
+<path fill="none" stroke="#63b8ff" d="M765.97,-571.24C631.57,-566.47 179.46,-547.93 125.5,-513 98.06,-495.23 80.8,-462.12 70.68,-435.17"/>
+<polygon fill="none" stroke="#63b8ff" points="766.06,-574.75 776.17,-571.6 766.3,-567.75 766.06,-574.75"/>
 </a>
 </g>
 </g>
@@ -131,8 +131,8 @@ var sectionId = 'dynsection-0';
 <g id="edge3_Node000001_Node000004" class="edge">
 <title>Node1&#45;&gt;Node4</title>
 <g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M771.12,-572.18C666.1,-570.66 370.78,-562.02 289.5,-513 273.51,-503.36 259.91,-489.26 248.66,-474.09"/>
-<polygon fill="none" stroke="#63b8ff" points="771.2,-575.68 781.25,-572.31 771.3,-568.68 771.2,-575.68"/>
+<path fill="none" stroke="#63b8ff" d="M766.12,-572.13C661.79,-570.48 369.88,-561.55 289.5,-513 273.52,-503.35 259.92,-489.25 248.67,-474.08"/>
+<polygon fill="none" stroke="#63b8ff" points="766.14,-575.63 776.18,-572.27 766.24,-568.63 766.14,-575.63"/>
 </a>
 </g>
 </g>
@@ -179,8 +179,8 @@ var sectionId = 'dynsection-0';
 <g id="edge4_Node000001_Node000005" class="edge">
 <title>Node1&#45;&gt;Node5</title>
 <g id="a_edge4_Node000001_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M771.42,-569.18C695.78,-561.86 526.7,-542.63 477.5,-513 474.44,-511.16 471.44,-509.17 468.5,-507.07"/>
-<polygon fill="none" stroke="#63b8ff" points="771.16,-572.67 781.45,-570.13 771.82,-565.7 771.16,-572.67"/>
+<path fill="none" stroke="#63b8ff" d="M765.97,-569.02C690.99,-561.52 525.73,-542.13 477.5,-513 474.44,-511.15 471.45,-509.17 468.51,-507.06"/>
+<polygon fill="none" stroke="#63b8ff" points="766.06,-572.54 776.35,-570.04 766.74,-565.57 766.06,-572.54"/>
 </a>
 </g>
 </g>
@@ -205,8 +205,8 @@ var sectionId = 'dynsection-0';
 <g id="edge8_Node000001_Node000009" class="edge">
 <title>Node1&#45;&gt;Node9</title>
 <g id="a_edge8_Node000001_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M771.49,-567.81C732.43,-561.27 670.8,-546.22 628.5,-513 598.84,-489.71 577.78,-451.2 565.68,-424.11"/>
-<polygon fill="none" stroke="#63b8ff" points="770.96,-571.28 781.38,-569.37 772.05,-564.36 770.96,-571.28"/>
+<path fill="none" stroke="#63b8ff" d="M766.31,-567.19C728.51,-560.22 669.94,-544.9 629.5,-513 599.78,-489.56 578.38,-451.08 566,-424.03"/>
+<polygon fill="none" stroke="#63b8ff" points="765.93,-570.68 776.38,-568.95 767.13,-563.78 765.93,-570.68"/>
 </a>
 </g>
 </g>
@@ -214,30 +214,28 @@ var sectionId = 'dynsection-0';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:href="../../d1/d21/classGameManagerBehavior.html" target="_top" xlink:title="The base game manager behavior.">
-<polygon fill="white" stroke="transparent" points="809,-472.5 638,-472.5 638,-311.5 809,-311.5 809,-472.5"/>
-<text text-anchor="start" x="666" y="-460" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerBehavior</text>
-<text text-anchor="start" x="642.5" y="-445" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-445" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeSinceGameStart</text>
-<text text-anchor="start" x="642.5" y="-430" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-430" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeOfLastEnemy</text>
-<text text-anchor="start" x="642.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">long long enemySpawnDelay</text>
-<text text-anchor="start" x="642.5" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeOfLastCoffee</text>
-<text text-anchor="start" x="642.5" y="-385" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-385" font-family="Helvetica,sans-Serif" font-size="10.00">long long coffeeSpawnDelay</text>
-<text text-anchor="start" x="642.5" y="-370" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="655.5" y="-370" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
-<text text-anchor="start" x="655.5" y="-359" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<text text-anchor="start" x="642.5" y="-344" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="655.5" y="-344" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
-<text text-anchor="start" x="655.5" y="-333" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<text text-anchor="start" x="642.5" y="-318" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-318" font-family="Helvetica,sans-Serif" font-size="10.00">float GetObjectVelocity()</text>
-<polygon fill="#666666" stroke="#666666" points="638.5,-455 638.5,-455 809.5,-455 809.5,-455 638.5,-455"/>
-<polygon fill="#666666" stroke="#666666" points="638.5,-380 638.5,-380 653.5,-380 653.5,-380 638.5,-380"/>
-<polygon fill="#666666" stroke="#666666" points="653.5,-380 653.5,-380 809.5,-380 809.5,-380 653.5,-380"/>
-<polygon fill="none" stroke="#666666" points="638,-311.5 638,-472.5 809,-472.5 809,-311.5 638,-311.5"/>
+<polygon fill="white" stroke="transparent" points="802.5,-465 638.5,-465 638.5,-319 802.5,-319 802.5,-465"/>
+<text text-anchor="start" x="662.5" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerBehavior</text>
+<text text-anchor="start" x="642.5" y="-438" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-438" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeOfLastEnemy</text>
+<text text-anchor="start" x="642.5" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">long long enemySpawnDelay</text>
+<text text-anchor="start" x="642.5" y="-408" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-408" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeOfLastCoffee</text>
+<text text-anchor="start" x="642.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">long long coffeeSpawnDelay</text>
+<text text-anchor="start" x="642.5" y="-378" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="655.5" y="-378" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
+<text text-anchor="start" x="655.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<text text-anchor="start" x="642.5" y="-352" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="655.5" y="-352" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
+<text text-anchor="start" x="655.5" y="-341" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<text text-anchor="start" x="642.5" y="-326" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-326" font-family="Helvetica,sans-Serif" font-size="10.00">float GetObjectVelocity()</text>
+<polygon fill="#666666" stroke="#666666" points="638.5,-448 638.5,-448 802.5,-448 802.5,-448 638.5,-448"/>
+<polygon fill="#666666" stroke="#666666" points="638.5,-388 638.5,-388 653.5,-388 653.5,-388 638.5,-388"/>
+<polygon fill="#666666" stroke="#666666" points="653.5,-388 653.5,-388 802.5,-388 802.5,-388 653.5,-388"/>
+<polygon fill="none" stroke="#666666" points="638.5,-319 638.5,-465 802.5,-465 802.5,-319 638.5,-319"/>
 </a>
 </g>
 </g>
@@ -245,8 +243,8 @@ var sectionId = 'dynsection-0';
 <g id="edge9_Node000001_Node000010" class="edge">
 <title>Node1&#45;&gt;Node10</title>
 <g id="a_edge9_Node000001_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M792.82,-539.38C783.91,-520.58 772.36,-496.17 761.24,-472.7"/>
-<polygon fill="none" stroke="#63b8ff" points="789.77,-541.12 797.21,-548.66 796.1,-538.13 789.77,-541.12"/>
+<path fill="none" stroke="#63b8ff" d="M788.16,-539.31C778.52,-518.48 765.71,-490.77 753.83,-465.07"/>
+<polygon fill="none" stroke="#63b8ff" points="785.1,-541.06 792.48,-548.66 791.46,-538.12 785.1,-541.06"/>
 </a>
 </g>
 </g>
@@ -254,23 +252,23 @@ var sectionId = 'dynsection-0';
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:href="../../d8/d05/classGravityBehavior.html" target="_top" xlink:title="Component that gives an object gravity.">
-<polygon fill="white" stroke="transparent" points="960,-444.5 827,-444.5 827,-339.5 960,-339.5 960,-444.5"/>
-<text text-anchor="start" x="854" y="-432" font-family="Helvetica,sans-Serif" font-size="10.00">GravityBehavior</text>
-<text text-anchor="start" x="831.5" y="-417" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="844.5" y="-417" font-family="Helvetica,sans-Serif" font-size="10.00">float gravityScale</text>
-<text text-anchor="start" x="831.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="844.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">float getGravityScale()</text>
-<text text-anchor="start" x="831.5" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="844.5" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">void setGravityScale</text>
-<text text-anchor="start" x="844.5" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">(float value)</text>
-<text text-anchor="start" x="831.5" y="-361" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="844.5" y="-361" font-family="Helvetica,sans-Serif" font-size="10.00">void OnTick() override</text>
-<text text-anchor="start" x="831.5" y="-346" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="844.5" y="-346" font-family="Helvetica,sans-Serif" font-size="10.00">void OnStart() override</text>
-<polygon fill="#666666" stroke="#666666" points="827.5,-427 827.5,-427 960.5,-427 960.5,-427 827.5,-427"/>
-<polygon fill="#666666" stroke="#666666" points="827.5,-412 827.5,-412 842.5,-412 842.5,-412 827.5,-412"/>
-<polygon fill="#666666" stroke="#666666" points="842.5,-412 842.5,-412 960.5,-412 960.5,-412 842.5,-412"/>
-<polygon fill="none" stroke="#666666" points="827,-339.5 827,-444.5 960,-444.5 960,-339.5 827,-339.5"/>
+<polygon fill="white" stroke="transparent" points="954,-444.5 821,-444.5 821,-339.5 954,-339.5 954,-444.5"/>
+<text text-anchor="start" x="848" y="-432" font-family="Helvetica,sans-Serif" font-size="10.00">GravityBehavior</text>
+<text text-anchor="start" x="825.5" y="-417" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="838.5" y="-417" font-family="Helvetica,sans-Serif" font-size="10.00">float gravityScale</text>
+<text text-anchor="start" x="825.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="838.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">float getGravityScale()</text>
+<text text-anchor="start" x="825.5" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="838.5" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">void setGravityScale</text>
+<text text-anchor="start" x="838.5" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">(float value)</text>
+<text text-anchor="start" x="825.5" y="-361" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="838.5" y="-361" font-family="Helvetica,sans-Serif" font-size="10.00">void OnTick() override</text>
+<text text-anchor="start" x="825.5" y="-346" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="838.5" y="-346" font-family="Helvetica,sans-Serif" font-size="10.00">void OnStart() override</text>
+<polygon fill="#666666" stroke="#666666" points="821.5,-427 821.5,-427 954.5,-427 954.5,-427 821.5,-427"/>
+<polygon fill="#666666" stroke="#666666" points="821.5,-412 821.5,-412 836.5,-412 836.5,-412 821.5,-412"/>
+<polygon fill="#666666" stroke="#666666" points="836.5,-412 836.5,-412 954.5,-412 954.5,-412 836.5,-412"/>
+<polygon fill="none" stroke="#666666" points="821,-339.5 821,-444.5 954,-444.5 954,-339.5 821,-339.5"/>
 </a>
 </g>
 </g>
@@ -278,8 +276,8 @@ var sectionId = 'dynsection-0';
 <g id="edge10_Node000001_Node000011" class="edge">
 <title>Node1&#45;&gt;Node11</title>
 <g id="a_edge10_Node000001_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M824.16,-539.42C836.74,-512.86 854.62,-475.1 869.07,-444.58"/>
-<polygon fill="none" stroke="#63b8ff" points="820.9,-538.13 819.79,-548.66 827.23,-541.12 820.9,-538.13"/>
+<path fill="none" stroke="#63b8ff" d="M818.98,-539.42C831.41,-512.86 849.08,-475.1 863.36,-444.58"/>
+<polygon fill="none" stroke="#63b8ff" points="815.72,-538.12 814.65,-548.66 822.06,-541.09 815.72,-538.12"/>
 </a>
 </g>
 </g>
@@ -287,18 +285,18 @@ var sectionId = 'dynsection-0';
 <g id="Node000012" class="node">
 <title>Node12</title>
 <g id="a_Node000012"><a xlink:href="../../de/d47/classKeyboardHandlerBehavior.html" target="_top" xlink:title="An abstract class for handling keyboard inputs.">
-<polygon fill="white" stroke="transparent" points="1135,-435 978,-435 978,-349 1135,-349 1135,-435"/>
-<text text-anchor="start" x="993" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">KeyboardHandlerBehavior</text>
-<text text-anchor="start" x="1055" y="-408" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<text text-anchor="start" x="982.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="995.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyDown</text>
-<text text-anchor="start" x="995.5" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)=0</text>
-<text text-anchor="start" x="982.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="995.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyUp</text>
-<text text-anchor="start" x="995.5" y="-356" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)=0</text>
-<polygon fill="#666666" stroke="#666666" points="978.5,-418 978.5,-418 1135.5,-418 1135.5,-418 978.5,-418"/>
-<polygon fill="#666666" stroke="#666666" points="978.5,-403 978.5,-403 1135.5,-403 1135.5,-403 978.5,-403"/>
-<polygon fill="none" stroke="#666666" points="978,-349 978,-435 1135,-435 1135,-349 978,-349"/>
+<polygon fill="white" stroke="transparent" points="1129,-435 972,-435 972,-349 1129,-349 1129,-435"/>
+<text text-anchor="start" x="987" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">KeyboardHandlerBehavior</text>
+<text text-anchor="start" x="1049" y="-408" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="976.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="989.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyDown</text>
+<text text-anchor="start" x="989.5" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)=0</text>
+<text text-anchor="start" x="976.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="989.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyUp</text>
+<text text-anchor="start" x="989.5" y="-356" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)=0</text>
+<polygon fill="#666666" stroke="#666666" points="972.5,-418 972.5,-418 1129.5,-418 1129.5,-418 972.5,-418"/>
+<polygon fill="#666666" stroke="#666666" points="972.5,-403 972.5,-403 1129.5,-403 1129.5,-403 972.5,-403"/>
+<polygon fill="none" stroke="#666666" points="972,-349 972,-435 1129,-435 1129,-349 972,-349"/>
 </a>
 </g>
 </g>
@@ -306,8 +304,8 @@ var sectionId = 'dynsection-0';
 <g id="edge11_Node000001_Node000012" class="edge">
 <title>Node1&#45;&gt;Node12</title>
 <g id="a_edge11_Node000001_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M845.87,-565.09C880.35,-556.84 931.64,-540.85 968.5,-513 995.92,-492.29 1018.6,-460.71 1034.06,-435.14"/>
-<polygon fill="none" stroke="#63b8ff" points="844.71,-561.77 835.74,-567.41 846.27,-568.59 844.71,-561.77"/>
+<path fill="none" stroke="#63b8ff" d="M840.63,-565.04C874.9,-556.75 925.87,-540.73 962.5,-513 989.89,-492.26 1012.58,-460.68 1028.05,-435.12"/>
+<polygon fill="none" stroke="#63b8ff" points="839.52,-561.71 830.57,-567.37 841.1,-568.53 839.52,-561.71"/>
 </a>
 </g>
 </g>
@@ -315,16 +313,16 @@ var sectionId = 'dynsection-0';
 <g id="Node000015" class="node">
 <title>Node15</title>
 <g id="a_Node000015"><a xlink:href="../../dd/df8/classKinematicBehavior.html" target="_top" xlink:title="Component causing the velocity of an object to update it&#39;s position.">
-<polygon fill="white" stroke="transparent" points="1286,-424 1153,-424 1153,-360 1286,-360 1286,-424"/>
-<text text-anchor="start" x="1173" y="-412" font-family="Helvetica,sans-Serif" font-size="10.00">KinematicBehavior</text>
-<text text-anchor="start" x="1218" y="-397" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<text text-anchor="start" x="1157.5" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1170.5" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">void OnTick() override</text>
-<text text-anchor="start" x="1157.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1170.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">void OnStart() override</text>
-<polygon fill="#666666" stroke="#666666" points="1153.5,-407 1153.5,-407 1286.5,-407 1286.5,-407 1153.5,-407"/>
-<polygon fill="#666666" stroke="#666666" points="1153.5,-392 1153.5,-392 1286.5,-392 1286.5,-392 1153.5,-392"/>
-<polygon fill="none" stroke="#666666" points="1153,-360 1153,-424 1286,-424 1286,-360 1153,-360"/>
+<polygon fill="white" stroke="transparent" points="1280,-424 1147,-424 1147,-360 1280,-360 1280,-424"/>
+<text text-anchor="start" x="1167" y="-412" font-family="Helvetica,sans-Serif" font-size="10.00">KinematicBehavior</text>
+<text text-anchor="start" x="1212" y="-397" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="1151.5" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1164.5" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">void OnTick() override</text>
+<text text-anchor="start" x="1151.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1164.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">void OnStart() override</text>
+<polygon fill="#666666" stroke="#666666" points="1147.5,-407 1147.5,-407 1280.5,-407 1280.5,-407 1147.5,-407"/>
+<polygon fill="#666666" stroke="#666666" points="1147.5,-392 1147.5,-392 1280.5,-392 1280.5,-392 1147.5,-392"/>
+<polygon fill="none" stroke="#666666" points="1147,-360 1147,-424 1280,-424 1280,-360 1147,-360"/>
 </a>
 </g>
 </g>
@@ -332,8 +330,8 @@ var sectionId = 'dynsection-0';
 <g id="edge14_Node000001_Node000015" class="edge">
 <title>Node1&#45;&gt;Node15</title>
 <g id="a_edge14_Node000001_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M845.72,-569.66C922.46,-563.22 1095.13,-545.46 1143.5,-513 1175.34,-491.63 1196.54,-451.95 1208.28,-424.08"/>
-<polygon fill="none" stroke="#63b8ff" points="845.23,-566.19 835.55,-570.5 845.8,-573.17 845.23,-566.19"/>
+<path fill="none" stroke="#63b8ff" d="M840.89,-569.63C917.54,-563.14 1089.34,-545.34 1137.5,-513 1169.34,-491.63 1190.54,-451.94 1202.28,-424.08"/>
+<polygon fill="none" stroke="#63b8ff" points="840.4,-566.16 830.73,-570.47 840.98,-573.13 840.4,-566.16"/>
 </a>
 </g>
 </g>
@@ -341,29 +339,29 @@ var sectionId = 'dynsection-0';
 <g id="Node000016" class="node">
 <title>Node16</title>
 <g id="a_Node000016"><a xlink:href="../../d3/dc0/classPlayerBehavior.html" target="_top" xlink:title="The players basic behavior.">
-<polygon fill="white" stroke="transparent" points="1459,-470.5 1304,-470.5 1304,-313.5 1459,-313.5 1459,-470.5"/>
-<text text-anchor="start" x="1344.5" y="-458" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerBehavior</text>
-<text text-anchor="start" x="1308.5" y="-443" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="1321.5" y="-443" font-family="Helvetica,sans-Serif" font-size="10.00">unsigned int jumpPoints</text>
-<text text-anchor="start" x="1308.5" y="-428" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="1321.5" y="-428" font-family="Helvetica,sans-Serif" font-size="10.00">const unsigned int</text>
-<text text-anchor="start" x="1321.5" y="-417" font-family="Helvetica,sans-Serif" font-size="10.00"> defaultJumpPoints</text>
-<text text-anchor="start" x="1308.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1321.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">unsigned int getJumpPoints</text>
-<text text-anchor="start" x="1321.5" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">() const</text>
-<text text-anchor="start" x="1308.5" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1321.5" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">void setJumpPoints</text>
-<text text-anchor="start" x="1321.5" y="-365" font-family="Helvetica,sans-Serif" font-size="10.00">(unsigned int value)</text>
-<text text-anchor="start" x="1308.5" y="-350" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1321.5" y="-350" font-family="Helvetica,sans-Serif" font-size="10.00">void ResetJumpPoints()</text>
-<text text-anchor="start" x="1308.5" y="-335" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1321.5" y="-335" font-family="Helvetica,sans-Serif" font-size="10.00">void OnTick() override</text>
-<text text-anchor="start" x="1308.5" y="-320" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1321.5" y="-320" font-family="Helvetica,sans-Serif" font-size="10.00">void OnStart() override</text>
-<polygon fill="#666666" stroke="#666666" points="1304.5,-453 1304.5,-453 1459.5,-453 1459.5,-453 1304.5,-453"/>
-<polygon fill="#666666" stroke="#666666" points="1304.5,-412 1304.5,-412 1319.5,-412 1319.5,-412 1304.5,-412"/>
-<polygon fill="#666666" stroke="#666666" points="1319.5,-412 1319.5,-412 1459.5,-412 1459.5,-412 1319.5,-412"/>
-<polygon fill="none" stroke="#666666" points="1304,-313.5 1304,-470.5 1459,-470.5 1459,-313.5 1304,-313.5"/>
+<polygon fill="white" stroke="transparent" points="1453,-470.5 1298,-470.5 1298,-313.5 1453,-313.5 1453,-470.5"/>
+<text text-anchor="start" x="1338.5" y="-458" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerBehavior</text>
+<text text-anchor="start" x="1302.5" y="-443" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="1315.5" y="-443" font-family="Helvetica,sans-Serif" font-size="10.00">unsigned int jumpPoints</text>
+<text text-anchor="start" x="1302.5" y="-428" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="1315.5" y="-428" font-family="Helvetica,sans-Serif" font-size="10.00">const unsigned int</text>
+<text text-anchor="start" x="1315.5" y="-417" font-family="Helvetica,sans-Serif" font-size="10.00"> defaultJumpPoints</text>
+<text text-anchor="start" x="1302.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1315.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">unsigned int getJumpPoints</text>
+<text text-anchor="start" x="1315.5" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">() const</text>
+<text text-anchor="start" x="1302.5" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1315.5" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">void setJumpPoints</text>
+<text text-anchor="start" x="1315.5" y="-365" font-family="Helvetica,sans-Serif" font-size="10.00">(unsigned int value)</text>
+<text text-anchor="start" x="1302.5" y="-350" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1315.5" y="-350" font-family="Helvetica,sans-Serif" font-size="10.00">void ResetJumpPoints()</text>
+<text text-anchor="start" x="1302.5" y="-335" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1315.5" y="-335" font-family="Helvetica,sans-Serif" font-size="10.00">void OnTick() override</text>
+<text text-anchor="start" x="1302.5" y="-320" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1315.5" y="-320" font-family="Helvetica,sans-Serif" font-size="10.00">void OnStart() override</text>
+<polygon fill="#666666" stroke="#666666" points="1298.5,-453 1298.5,-453 1453.5,-453 1453.5,-453 1298.5,-453"/>
+<polygon fill="#666666" stroke="#666666" points="1298.5,-412 1298.5,-412 1313.5,-412 1313.5,-412 1298.5,-412"/>
+<polygon fill="#666666" stroke="#666666" points="1313.5,-412 1313.5,-412 1453.5,-412 1453.5,-412 1313.5,-412"/>
+<polygon fill="none" stroke="#666666" points="1298,-313.5 1298,-470.5 1453,-470.5 1453,-313.5 1298,-313.5"/>
 </a>
 </g>
 </g>
@@ -371,8 +369,8 @@ var sectionId = 'dynsection-0';
 <g id="edge15_Node000001_Node000016" class="edge">
 <title>Node1&#45;&gt;Node16</title>
 <g id="a_edge15_Node000001_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M845.78,-571.73C945.94,-569.08 1218.46,-557.83 1294.5,-513 1312.12,-502.61 1327.19,-487.1 1339.59,-470.65"/>
-<polygon fill="none" stroke="#63b8ff" points="845.44,-568.24 835.53,-571.99 845.62,-575.24 845.44,-568.24"/>
+<path fill="none" stroke="#63b8ff" d="M841.05,-571.71C941.29,-569.02 1212.71,-557.69 1288.5,-513 1306.12,-502.61 1321.19,-487.1 1333.59,-470.65"/>
+<polygon fill="none" stroke="#63b8ff" points="840.7,-568.22 830.79,-571.97 840.88,-575.22 840.7,-568.22"/>
 </a>
 </g>
 </g>
@@ -380,22 +378,20 @@ var sectionId = 'dynsection-0';
 <g id="Node000017" class="node">
 <title>Node17</title>
 <g id="a_Node000017"><a xlink:href="../../db/d44/classScoreCounterBehavior.html" target="_top" xlink:title="Controlls the behavior of the score counter.">
-<polygon fill="white" stroke="transparent" points="1648,-442.5 1477,-442.5 1477,-341.5 1648,-341.5 1648,-442.5"/>
-<text text-anchor="start" x="1508.5" y="-430" font-family="Helvetica,sans-Serif" font-size="10.00">ScoreCounterBehavior</text>
-<text text-anchor="start" x="1481.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="1494.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeSinceGameStart</text>
-<text text-anchor="start" x="1481.5" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1494.5" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
-<text text-anchor="start" x="1494.5" y="-389" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<text text-anchor="start" x="1481.5" y="-374" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1494.5" y="-374" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
-<text text-anchor="start" x="1494.5" y="-363" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<text text-anchor="start" x="1481.5" y="-348" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="1494.5" y="-348" font-family="Helvetica,sans-Serif" font-size="10.00">long long GetPlayerScore()</text>
-<polygon fill="#666666" stroke="#666666" points="1477.5,-425 1477.5,-425 1648.5,-425 1648.5,-425 1477.5,-425"/>
-<polygon fill="#666666" stroke="#666666" points="1477.5,-410 1477.5,-410 1492.5,-410 1492.5,-410 1477.5,-410"/>
-<polygon fill="#666666" stroke="#666666" points="1492.5,-410 1492.5,-410 1648.5,-410 1648.5,-410 1492.5,-410"/>
-<polygon fill="none" stroke="#666666" points="1477,-341.5 1477,-442.5 1648,-442.5 1648,-341.5 1477,-341.5"/>
+<polygon fill="white" stroke="transparent" points="1623.5,-442.5 1471.5,-442.5 1471.5,-341.5 1623.5,-341.5 1623.5,-442.5"/>
+<text text-anchor="start" x="1493" y="-430" font-family="Helvetica,sans-Serif" font-size="10.00">ScoreCounterBehavior</text>
+<text text-anchor="start" x="1545.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="1475.5" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1488.5" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
+<text text-anchor="start" x="1488.5" y="-389" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<text text-anchor="start" x="1475.5" y="-374" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1488.5" y="-374" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
+<text text-anchor="start" x="1488.5" y="-363" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<text text-anchor="start" x="1475.5" y="-348" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="1488.5" y="-348" font-family="Helvetica,sans-Serif" font-size="10.00">long long GetPlayerScore()</text>
+<polygon fill="#666666" stroke="#666666" points="1471.5,-425 1471.5,-425 1623.5,-425 1623.5,-425 1471.5,-425"/>
+<polygon fill="#666666" stroke="#666666" points="1471.5,-410 1471.5,-410 1623.5,-410 1623.5,-410 1471.5,-410"/>
+<polygon fill="none" stroke="#666666" points="1471.5,-341.5 1471.5,-442.5 1623.5,-442.5 1623.5,-341.5 1471.5,-341.5"/>
 </a>
 </g>
 </g>
@@ -403,8 +399,8 @@ var sectionId = 'dynsection-0';
 <g id="edge16_Node000001_Node000017" class="edge">
 <title>Node1&#45;&gt;Node17</title>
 <g id="a_edge16_Node000001_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M845.88,-572.93C968.83,-573.77 1359,-571.66 1467.5,-513 1496.72,-497.2 1520.05,-468.22 1536.28,-442.7"/>
-<polygon fill="none" stroke="#63b8ff" points="845.85,-569.43 835.82,-572.85 845.8,-576.43 845.85,-569.43"/>
+<path fill="none" stroke="#63b8ff" d="M840.93,-573.13C964.05,-574.58 1354.6,-574.15 1461.5,-513 1489.31,-497.09 1510.47,-468.11 1524.84,-442.61"/>
+<polygon fill="none" stroke="#63b8ff" points="840.91,-569.63 830.87,-573 840.82,-576.63 840.91,-569.63"/>
 </a>
 </g>
 </g>
@@ -412,30 +408,30 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="../../d9/df7/classGameObjectComponent.html" target="_top" xlink:title="An abstract gameobject component.">
-<polygon fill="white" stroke="transparent" points="903,-795 714,-795 714,-634 903,-634 903,-795"/>
-<text text-anchor="start" x="750" y="-782.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameObjectComponent</text>
-<text text-anchor="start" x="718.5" y="-767.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="731.5" y="-767.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool enabled</text>
-<text text-anchor="start" x="718.5" y="-752.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="731.5" y="-752.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameObject * parent</text>
-<text text-anchor="start" x="718.5" y="-737.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="731.5" y="-737.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool getEnabled() const</text>
-<text text-anchor="start" x="718.5" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="731.5" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">void setEnabled(bool</text>
-<text text-anchor="start" x="731.5" y="-711.5" font-family="Helvetica,sans-Serif" font-size="10.00"> value)</text>
-<text text-anchor="start" x="718.5" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="731.5" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">void setParent(GameObject</text>
-<text text-anchor="start" x="731.5" y="-685.5" font-family="Helvetica,sans-Serif" font-size="10.00"> *value)</text>
-<text text-anchor="start" x="718.5" y="-670.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="731.5" y="-670.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual ~GameObjectComponent()</text>
-<text text-anchor="start" x="718.5" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="731.5" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick()=0</text>
-<text text-anchor="start" x="718.5" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="731.5" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart()=0</text>
-<polygon fill="#666666" stroke="#666666" points="714.5,-777.5 714.5,-777.5 903.5,-777.5 903.5,-777.5 714.5,-777.5"/>
-<polygon fill="#666666" stroke="#666666" points="714.5,-747.5 714.5,-747.5 729.5,-747.5 729.5,-747.5 714.5,-747.5"/>
-<polygon fill="#666666" stroke="#666666" points="729.5,-747.5 729.5,-747.5 903.5,-747.5 903.5,-747.5 729.5,-747.5"/>
-<polygon fill="none" stroke="#666666" points="714,-634 714,-795 903,-795 903,-634 714,-634"/>
+<polygon fill="white" stroke="transparent" points="898,-795 709,-795 709,-634 898,-634 898,-795"/>
+<text text-anchor="start" x="745" y="-782.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameObjectComponent</text>
+<text text-anchor="start" x="713.5" y="-767.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="726.5" y="-767.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool enabled</text>
+<text text-anchor="start" x="713.5" y="-752.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="726.5" y="-752.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameObject * parent</text>
+<text text-anchor="start" x="713.5" y="-737.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="726.5" y="-737.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool getEnabled() const</text>
+<text text-anchor="start" x="713.5" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="726.5" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">void setEnabled(bool</text>
+<text text-anchor="start" x="726.5" y="-711.5" font-family="Helvetica,sans-Serif" font-size="10.00"> value)</text>
+<text text-anchor="start" x="713.5" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="726.5" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">void setParent(GameObject</text>
+<text text-anchor="start" x="726.5" y="-685.5" font-family="Helvetica,sans-Serif" font-size="10.00"> *value)</text>
+<text text-anchor="start" x="713.5" y="-670.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="726.5" y="-670.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual ~GameObjectComponent()</text>
+<text text-anchor="start" x="713.5" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="726.5" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick()=0</text>
+<text text-anchor="start" x="713.5" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="726.5" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart()=0</text>
+<polygon fill="#666666" stroke="#666666" points="709.5,-777.5 709.5,-777.5 898.5,-777.5 898.5,-777.5 709.5,-777.5"/>
+<polygon fill="#666666" stroke="#666666" points="709.5,-747.5 709.5,-747.5 724.5,-747.5 724.5,-747.5 709.5,-747.5"/>
+<polygon fill="#666666" stroke="#666666" points="724.5,-747.5 724.5,-747.5 898.5,-747.5 898.5,-747.5 724.5,-747.5"/>
+<polygon fill="none" stroke="#666666" points="709,-634 709,-795 898,-795 898,-634 709,-634"/>
 </a>
 </g>
 </g>
@@ -443,8 +439,8 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M808.5,-623.64C808.5,-614.4 808.5,-605.68 808.5,-598.22"/>
-<polygon fill="none" stroke="#63b8ff" points="805,-623.85 808.5,-633.85 812,-623.85 805,-623.85"/>
+<path fill="none" stroke="#63b8ff" d="M803.5,-623.64C803.5,-614.4 803.5,-605.68 803.5,-598.22"/>
+<polygon fill="none" stroke="#63b8ff" points="800,-623.85 803.5,-633.85 807,-623.85 800,-623.85"/>
 </a>
 </g>
 </g>
@@ -547,32 +543,32 @@ var sectionId = 'dynsection-0';
 <g id="Node000013" class="node">
 <title>Node13</title>
 <g id="a_Node000013"><a xlink:href="../../d3/d2e/classGameManagerKeyboardBehavior.html" target="_top" xlink:title="The game managers keyboard handler for general handling.">
-<polygon fill="white" stroke="transparent" points="1057,-212.5 858,-212.5 858,-22.5 1057,-22.5 1057,-212.5"/>
-<text text-anchor="start" x="877" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerKeyboardBehavior</text>
-<text text-anchor="start" x="862.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="875.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool isRDown</text>
-<text text-anchor="start" x="862.5" y="-170.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="875.5" y="-170.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerKeyboardBehavior()</text>
-<text text-anchor="start" x="862.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="875.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">~GameManagerKeyboardBehavior()</text>
-<text text-anchor="start" x="862.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="875.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyDown</text>
-<text text-anchor="start" x="875.5" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)</text>
-<text text-anchor="start" x="875.5" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
-<text text-anchor="start" x="862.5" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="875.5" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyUp</text>
-<text text-anchor="start" x="875.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)</text>
-<text text-anchor="start" x="875.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
-<text text-anchor="start" x="862.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="875.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
-<text text-anchor="start" x="875.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<text text-anchor="start" x="862.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="875.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
-<text text-anchor="start" x="875.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<polygon fill="#666666" stroke="#666666" points="858.5,-195.5 858.5,-195.5 1057.5,-195.5 1057.5,-195.5 858.5,-195.5"/>
-<polygon fill="#666666" stroke="#666666" points="858.5,-180.5 858.5,-180.5 873.5,-180.5 873.5,-180.5 858.5,-180.5"/>
-<polygon fill="#666666" stroke="#666666" points="873.5,-180.5 873.5,-180.5 1057.5,-180.5 1057.5,-180.5 873.5,-180.5"/>
-<polygon fill="none" stroke="#666666" points="858,-22.5 858,-212.5 1057,-212.5 1057,-22.5 858,-22.5"/>
+<polygon fill="white" stroke="transparent" points="1051,-212.5 852,-212.5 852,-22.5 1051,-22.5 1051,-212.5"/>
+<text text-anchor="start" x="871" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerKeyboardBehavior</text>
+<text text-anchor="start" x="856.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="869.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool isRDown</text>
+<text text-anchor="start" x="856.5" y="-170.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="869.5" y="-170.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerKeyboardBehavior()</text>
+<text text-anchor="start" x="856.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="869.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">~GameManagerKeyboardBehavior()</text>
+<text text-anchor="start" x="856.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="869.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyDown</text>
+<text text-anchor="start" x="869.5" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)</text>
+<text text-anchor="start" x="869.5" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="856.5" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="869.5" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyUp</text>
+<text text-anchor="start" x="869.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)</text>
+<text text-anchor="start" x="869.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="856.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="869.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
+<text text-anchor="start" x="869.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<text text-anchor="start" x="856.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="869.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
+<text text-anchor="start" x="869.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<polygon fill="#666666" stroke="#666666" points="852.5,-195.5 852.5,-195.5 1051.5,-195.5 1051.5,-195.5 852.5,-195.5"/>
+<polygon fill="#666666" stroke="#666666" points="852.5,-180.5 852.5,-180.5 867.5,-180.5 867.5,-180.5 852.5,-180.5"/>
+<polygon fill="#666666" stroke="#666666" points="867.5,-180.5 867.5,-180.5 1051.5,-180.5 1051.5,-180.5 867.5,-180.5"/>
+<polygon fill="none" stroke="#666666" points="852,-22.5 852,-212.5 1051,-212.5 1051,-22.5 852,-22.5"/>
 </a>
 </g>
 </g>
@@ -580,8 +576,8 @@ var sectionId = 'dynsection-0';
 <g id="edge12_Node000012_Node000013" class="edge">
 <title>Node12&#45;&gt;Node13</title>
 <g id="a_edge12_Node000012_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1037.61,-339.01C1024.64,-303.32 1007.07,-254.93 991.68,-212.58"/>
-<polygon fill="none" stroke="#63b8ff" points="1034.44,-340.52 1041.14,-348.72 1041.01,-338.13 1034.44,-340.52"/>
+<path fill="none" stroke="#63b8ff" d="M1031.61,-339.01C1018.64,-303.32 1001.07,-254.93 985.68,-212.58"/>
+<polygon fill="none" stroke="#63b8ff" points="1028.44,-340.52 1035.14,-348.72 1035.01,-338.13 1028.44,-340.52"/>
 </a>
 </g>
 </g>
@@ -589,38 +585,38 @@ var sectionId = 'dynsection-0';
 <g id="Node000014" class="node">
 <title>Node14</title>
 <g id="a_Node000014"><a xlink:href="../../d9/d2c/classPlayerKeyboardBehavior.html" target="_top" xlink:title="The keyboard handler for the player.">
-<polygon fill="white" stroke="transparent" points="1234,-235 1075,-235 1075,0 1234,0 1234,-235"/>
-<text text-anchor="start" x="1094.5" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerKeyboardBehavior</text>
-<text text-anchor="start" x="1079.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="1092.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool isSpaceDown</text>
-<text text-anchor="start" x="1079.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="1092.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool isADown</text>
-<text text-anchor="start" x="1079.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="1092.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool isDDown</text>
-<text text-anchor="start" x="1079.5" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="1092.5" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">const float movementSpeed</text>
-<text text-anchor="start" x="1079.5" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1092.5" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerKeyboardBehavior()</text>
-<text text-anchor="start" x="1079.5" y="-132.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1092.5" y="-132.5" font-family="Helvetica,sans-Serif" font-size="10.00">~PlayerKeyboardBehavior()</text>
-<text text-anchor="start" x="1079.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1092.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyDown</text>
-<text text-anchor="start" x="1092.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)</text>
-<text text-anchor="start" x="1092.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
-<text text-anchor="start" x="1079.5" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1092.5" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyUp</text>
-<text text-anchor="start" x="1092.5" y="-69.5" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)</text>
-<text text-anchor="start" x="1092.5" y="-58.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
-<text text-anchor="start" x="1079.5" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1092.5" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
-<text text-anchor="start" x="1092.5" y="-32.5" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<text text-anchor="start" x="1079.5" y="-17.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="1092.5" y="-17.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
-<text text-anchor="start" x="1092.5" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<polygon fill="#666666" stroke="#666666" points="1075.5,-217.5 1075.5,-217.5 1234.5,-217.5 1234.5,-217.5 1075.5,-217.5"/>
-<polygon fill="#666666" stroke="#666666" points="1075.5,-157.5 1075.5,-157.5 1090.5,-157.5 1090.5,-157.5 1075.5,-157.5"/>
-<polygon fill="#666666" stroke="#666666" points="1090.5,-157.5 1090.5,-157.5 1234.5,-157.5 1234.5,-157.5 1090.5,-157.5"/>
-<polygon fill="none" stroke="#666666" points="1075,0 1075,-235 1234,-235 1234,0 1075,0"/>
+<polygon fill="white" stroke="transparent" points="1228,-235 1069,-235 1069,0 1228,0 1228,-235"/>
+<text text-anchor="start" x="1088.5" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerKeyboardBehavior</text>
+<text text-anchor="start" x="1073.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="1086.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool isSpaceDown</text>
+<text text-anchor="start" x="1073.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="1086.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool isADown</text>
+<text text-anchor="start" x="1073.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="1086.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool isDDown</text>
+<text text-anchor="start" x="1073.5" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="1086.5" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">const float movementSpeed</text>
+<text text-anchor="start" x="1073.5" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1086.5" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerKeyboardBehavior()</text>
+<text text-anchor="start" x="1073.5" y="-132.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1086.5" y="-132.5" font-family="Helvetica,sans-Serif" font-size="10.00">~PlayerKeyboardBehavior()</text>
+<text text-anchor="start" x="1073.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1086.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyDown</text>
+<text text-anchor="start" x="1086.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)</text>
+<text text-anchor="start" x="1086.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="1073.5" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1086.5" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnKeyUp</text>
+<text text-anchor="start" x="1086.5" y="-69.5" font-family="Helvetica,sans-Serif" font-size="10.00">(SDL_KeyboardEvent &amp;e)</text>
+<text text-anchor="start" x="1086.5" y="-58.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="1073.5" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1086.5" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
+<text text-anchor="start" x="1086.5" y="-32.5" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<text text-anchor="start" x="1073.5" y="-17.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="1086.5" y="-17.5" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
+<text text-anchor="start" x="1086.5" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<polygon fill="#666666" stroke="#666666" points="1069.5,-217.5 1069.5,-217.5 1228.5,-217.5 1228.5,-217.5 1069.5,-217.5"/>
+<polygon fill="#666666" stroke="#666666" points="1069.5,-157.5 1069.5,-157.5 1084.5,-157.5 1084.5,-157.5 1069.5,-157.5"/>
+<polygon fill="#666666" stroke="#666666" points="1084.5,-157.5 1084.5,-157.5 1228.5,-157.5 1228.5,-157.5 1084.5,-157.5"/>
+<polygon fill="none" stroke="#666666" points="1069,0 1069,-235 1228,-235 1228,0 1069,0"/>
 </a>
 </g>
 </g>
@@ -628,8 +624,8 @@ var sectionId = 'dynsection-0';
 <g id="edge13_Node000012_Node000014" class="edge">
 <title>Node12&#45;&gt;Node14</title>
 <g id="a_edge13_Node000012_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1075.18,-339.07C1085.79,-309.57 1099.52,-271.38 1112.57,-235.09"/>
-<polygon fill="none" stroke="#63b8ff" points="1071.8,-338.13 1071.7,-348.72 1078.38,-340.5 1071.8,-338.13"/>
+<path fill="none" stroke="#63b8ff" d="M1069.18,-339.07C1079.79,-309.57 1093.52,-271.38 1106.57,-235.09"/>
+<polygon fill="none" stroke="#63b8ff" points="1065.8,-338.13 1065.7,-348.72 1072.38,-340.5 1065.8,-338.13"/>
 </a>
 </g>
 </g>

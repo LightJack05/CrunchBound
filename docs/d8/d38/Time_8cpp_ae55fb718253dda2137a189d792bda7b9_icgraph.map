@@ -1,0 +1,17 @@
+<map id="ResetTimeSinceGameStart" name="ResetTimeSinceGameStart">
+<area shape="rect" id="Node000001" title="Reset the time since the game has started." alt="" coords="1121,5,1319,31"/>
+<area shape="rect" id="Node000002" href="$d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf" title="Reset the game to the initial state." alt="" coords="975,5,1073,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1107,21,1073,21,1073,15,1107,15"/>
+<area shape="rect" id="Node000003" href="$de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6" title=" " alt="" coords="761,5,927,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="961,21,927,21,927,15,961,15"/>
+<area shape="rect" id="Node000004" href="$de/dfd/GameManagement_8cpp.html#a95ff1ee6a57e678376b2eae2ef499ab3" title=" " alt="" coords="523,5,713,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="747,21,714,21,714,15,747,15"/>
+<area shape="rect" id="Node000005" href="$de/dfd/GameManagement_8cpp.html#a522912d67446895b0a03d01837b75a99" title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods." alt="" coords="356,5,475,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="509,21,475,21,475,15,509,15"/>
+<area shape="rect" id="Node000006" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="247,5,308,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="342,21,308,21,308,15,342,15"/>
+<area shape="rect" id="Node000007" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true." alt="" coords="108,5,199,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="233,21,199,21,199,15,233,15"/>
+<area shape="rect" id="Node000008" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

@@ -1,9 +1,11 @@
 <map id="GameManagerBehavior::GetObjectVelocity" name="GameManagerBehavior::GetObjectVelocity">
-<area shape="rect" id="Node000001" title="Return the velocity of an object at the current time." alt="" coords="5,23,181,63"/>
+<area shape="rect" id="Node000001" title="Return the velocity of an object at the current time." alt="" coords="5,47,181,87"/>
 <area shape="rect" id="Node000002" href="$df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0" title="Calculate the difficulty at the specified game uptime." alt="" coords="237,5,428,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,31,223,27,224,32,182,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,47,257,31,258,36,182,52"/>
 <area shape="rect" id="Node000003" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" title="Generate a random float between 0 and 1." alt="" coords="229,55,436,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,49,216,53,216,58,181,55"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,65,216,65,216,70,181,70"/>
+<area shape="rect" id="Node000006" href="$d8/d38/Time_8cpp.html#a6e80f7bf6607915feab788ebdc5a3bf8" title=" " alt="" coords="241,104,424,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="182,83,258,99,257,104,181,88"/>
 <area shape="rect" id="Node000004" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="484,55,600,80"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="436,65,470,65,470,70,436,70"/>
 <area shape="rect" id="Node000005" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="648,55,764,80"/>

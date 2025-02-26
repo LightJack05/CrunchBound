@@ -24,8 +24,9 @@ var searchData=
   ['getsize_21',['getSize',['../dd/d7f/classFontRenderer.html#a046b52cd945b981d0e0da340e0b3cf03',1,'FontRenderer::getSize()'],['../d0/d0f/classRectangleRenderer.html#a47418bf78d1b9a7eefad3172f4762138',1,'RectangleRenderer::getSize()'],['../d1/dff/classTextureRenderer.html#a583ce3a86175dcdf8e5a84cf94ef4f42',1,'TextureRenderer::getSize()']]],
   ['gettag_22',['getTag',['../de/d1c/classGameObject.html#adb7d911e8dacb9fcb3b05765140ed264',1,'GameObject']]],
   ['gettext_23',['getText',['../dd/d7f/classFontRenderer.html#a7fc7c9c1442f6176fe50181022f86e8c',1,'FontRenderer']]],
-  ['getvelocity_24',['getVelocity',['../de/d1c/classGameObject.html#a950f34f2096bbc3b57cd3730d7e94698',1,'GameObject']]],
-  ['getweight_25',['getWeight',['../de/d1c/classGameObject.html#ad3d3edacc2d173b12d015012805c4164',1,'GameObject']]],
-  ['getx_26',['getX',['../d8/d0d/classVector2.html#a808d02062efcc0c016491c04845e3e34',1,'Vector2']]],
-  ['gety_27',['getY',['../d8/d0d/classVector2.html#a59bf838c0fc50305975e1679509fda83',1,'Vector2']]]
+  ['gettimesincegamestart_24',['GetTimeSinceGameStart',['../d8/d38/Time_8cpp.html#a6e80f7bf6607915feab788ebdc5a3bf8',1,'GetTimeSinceGameStart():&#160;Time.cpp'],['../d9/de7/Time_8hpp.html#a6e80f7bf6607915feab788ebdc5a3bf8',1,'GetTimeSinceGameStart():&#160;Time.cpp']]],
+  ['getvelocity_25',['getVelocity',['../de/d1c/classGameObject.html#a950f34f2096bbc3b57cd3730d7e94698',1,'GameObject']]],
+  ['getweight_26',['getWeight',['../de/d1c/classGameObject.html#ad3d3edacc2d173b12d015012805c4164',1,'GameObject']]],
+  ['getx_27',['getX',['../d8/d0d/classVector2.html#a808d02062efcc0c016491c04845e3e34',1,'Vector2']]],
+  ['gety_28',['getY',['../d8/d0d/classVector2.html#a59bf838c0fc50305975e1679509fda83',1,'Vector2']]]
 ];

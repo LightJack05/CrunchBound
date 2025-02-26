@@ -1,29 +1,30 @@
 <map id="GameManagerBehavior::OnTick" name="GameManagerBehavior::OnTick">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,181,169"/>
-<area shape="rect" id="Node000002" href="$d8/d38/Time_8cpp.html#a5da05cbf25fbfbc8a9c6b8481ad23664" title="Return the time it took to render the last frame in milliseconds." alt="" coords="261,5,374,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,126,166,87,228,48,261,33,263,38,231,52,169,92,120,130"/>
-<area shape="rect" id="Node000003" href="$df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0" title="Calculate the difficulty at the specified game uptime." alt="" coords="465,112,655,137"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,142,451,128,451,133,182,147"/>
-<area shape="rect" id="Node000004" href="$d1/d21/classGameManagerBehavior.html#a03f055b9130a3014a32bf722ba48eebf" title="Return the velocity of an object at the current time." alt="" coords="229,157,405,197"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,157,216,161,215,167,181,162"/>
-<area shape="rect" id="Node000006" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="715,112,831,137"/>
-<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="178,126,229,117,351,98,448,87,544,86,667,97,716,106,715,111,666,102,544,91,448,92,352,103,230,122,179,131"/>
-<area shape="rect" id="Node000008" href="$df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" title="Spawn a new coffee object." alt="" coords="264,221,371,247"/>
-<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="137,166,230,206,255,215,254,220,228,211,135,171"/>
-<area shape="rect" id="Node000011" href="$df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" title="Spawn a new enemy." alt="" coords="262,271,373,296"/>
-<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="116,167,165,212,197,236,231,257,250,265,248,270,228,262,194,241,162,216,112,171"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="405,155,486,138,487,143,406,160"/>
-<area shape="rect" id="Node000005" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" title="Generate a random float between 0 and 1." alt="" coords="457,168,663,193"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="406,175,443,176,443,181,406,181"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="608,165,710,138,711,143,610,171"/>
-<area shape="rect" id="Node000007" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="879,112,995,137"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="831,122,865,122,865,127,831,127"/>
-<area shape="poly" id="edge12_Node000008_Node000005" title=" " alt="" coords="370,220,488,194,489,199,371,225"/>
-<area shape="rect" id="Node000009" href="$de/dfd/GameManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" title="Enqueue an object to be registered on the next frame." alt="" coords="453,271,667,296"/>
-<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="371,242,484,265,483,271,370,247"/>
-<area shape="rect" id="Node000010" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title="Return the correct asset path for the asset depending on the current environment." alt="" coords="505,221,615,247"/>
-<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="371,231,491,231,491,237,371,237"/>
-<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="372,271,404,257,418,245,427,232,436,219,452,206,474,196,477,200,455,211,440,223,431,235,422,249,407,262,374,276"/>
-<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="373,281,439,281,439,286,373,286"/>
-<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="373,270,491,245,492,250,374,275"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,111,181,151"/>
+<area shape="rect" id="Node000002" href="$df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0" title="Calculate the difficulty at the specified game uptime." alt="" coords="465,41,655,66"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,108,229,99,450,65,451,70,230,104,182,114"/>
+<area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a03f055b9130a3014a32bf722ba48eebf" title="Return the velocity of an object at the current time." alt="" coords="229,139,405,179"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,139,216,144,215,149,181,145"/>
+<area shape="rect" id="Node000005" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="715,69,831,94"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="131,108,177,87,228,67,349,29,399,16,446,7,494,3,545,5,601,12,667,26,708,40,743,59,740,64,706,45,666,31,601,17,544,10,494,8,447,12,400,21,350,35,230,72,179,92,133,113"/>
+<area shape="rect" id="Node000007" href="$d8/d38/Time_8cpp.html#a6e80f7bf6607915feab788ebdc5a3bf8" title=" " alt="" coords="469,94,651,120"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="181,124,455,110,455,115,182,129"/>
+<area shape="rect" id="Node000008" href="$df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" title="Spawn a new coffee object." alt="" coords="264,253,371,278"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="116,149,166,194,197,217,231,238,252,247,250,252,228,243,194,222,162,198,112,153"/>
+<area shape="rect" id="Node000011" href="$df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" title="Spawn a new enemy." alt="" coords="262,204,373,229"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="137,149,230,188,255,197,254,202,228,193,135,153"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="347,136,395,107,452,79,486,67,488,72,454,84,398,112,350,141"/>
+<area shape="rect" id="Node000004" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" title="Generate a random float between 0 and 1." alt="" coords="457,150,663,176"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="406,158,443,158,443,164,406,163"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="405,137,486,120,487,125,406,143"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="608,148,666,128,734,98,736,103,668,133,609,153"/>
+<area shape="rect" id="Node000006" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="879,69,995,94"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="831,79,865,79,865,84,831,84"/>
+<area shape="poly" id="edge13_Node000008_Node000004" title=" " alt="" coords="370,253,404,238,418,226,427,214,436,201,452,189,475,178,478,182,455,193,440,205,431,217,422,230,407,242,372,257"/>
+<area shape="rect" id="Node000009" href="$de/dfd/GameManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" title="Enqueue an object to be registered on the next frame." alt="" coords="453,204,667,229"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="370,252,483,229,484,234,371,257"/>
+<area shape="rect" id="Node000010" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title="Return the correct asset path for the asset depending on the current environment." alt="" coords="505,253,615,278"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="371,263,491,263,491,268,371,268"/>
+<area shape="poly" id="edge17_Node000011_Node000004" title=" " alt="" coords="373,201,488,176,489,181,374,207"/>
+<area shape="poly" id="edge15_Node000011_Node000009" title=" " alt="" coords="373,214,439,214,439,219,373,219"/>
+<area shape="poly" id="edge16_Node000011_Node000010" title=" " alt="" coords="374,225,492,249,491,254,373,230"/>
 </map>

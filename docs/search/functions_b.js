@@ -9,5 +9,6 @@ var searchData=
   ['renderer_6',['Renderer',['../d1/d52/classRenderer.html#a7ebf46f54dab9905f79b80f7fddb76a6',1,'Renderer::Renderer()'],['../d1/d52/classRenderer.html#a249aac276f6304f79810e52cc8e175ab',1,'Renderer::Renderer(SDL_Renderer *renderer)']]],
   ['resetgame_7',['ResetGame',['../d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf',1,'ResetGame():&#160;Lifecycle.cpp'],['../d3/d67/Lifecycle_8hpp.html#a7be4f604c1baeb7cac84122a7f2438cf',1,'ResetGame():&#160;Lifecycle.cpp']]],
   ['resetgameifrequired_8',['ResetGameIfRequired',['../de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6',1,'GameManagement.cpp']]],
-  ['resetjumppoints_9',['ResetJumpPoints',['../d3/dc0/classPlayerBehavior.html#a96a318cdfc9c891522d940a0bb8d9999',1,'PlayerBehavior']]]
+  ['resetjumppoints_9',['ResetJumpPoints',['../d3/dc0/classPlayerBehavior.html#a96a318cdfc9c891522d940a0bb8d9999',1,'PlayerBehavior']]],
+  ['resettimesincegamestart_10',['ResetTimeSinceGameStart',['../d8/d38/Time_8cpp.html#ae55fb718253dda2137a189d792bda7b9',1,'ResetTimeSinceGameStart():&#160;Time.cpp'],['../d9/de7/Time_8hpp.html#ae55fb718253dda2137a189d792bda7b9',1,'ResetTimeSinceGameStart():&#160;Time.cpp']]]
 ];

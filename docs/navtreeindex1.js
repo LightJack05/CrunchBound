@@ -1,5 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"d9/df7/classGameObjectComponent.html#adff0c3c42b08247174024aadcf5f0942":[2,0,12,4],
+"d9/df7/classGameObjectComponent.html#affea3130b3885a6e27fdeb752d2988bc":[2,0,12,5],
+"d9/dfa/Init_8cpp.html":[3,0,1,1],
+"d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b":[3,0,1,1,9],
 "d9/dfa/Init_8cpp.html#a1bfb628b6cd503e396bae0796f2051c1":[3,0,1,1,1],
 "d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24":[3,0,1,1,7],
 "d9/dfa/Init_8cpp.html#a3ff595c2af791c369e2318510062ce14":[3,0,1,1,0],
@@ -17,7 +21,6 @@ var NAVTREEINDEX1 =
 "db/d06/FontRenderer_8cpp.html":[3,0,0,0,1,0],
 "db/d44/classScoreCounterBehavior.html":[2,0,22],
 "db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232":[2,0,22,2],
-"db/d44/classScoreCounterBehavior.html#a6571a89a797f57421194bac261762f50":[2,0,22,3],
 "db/d44/classScoreCounterBehavior.html#a666a75af58c0eb9e0e20b16d0e765b82":[2,0,22,1],
 "db/d44/classScoreCounterBehavior.html#ac6f6d04e0ea1b2f196440dd66eab66b9":[2,0,22,0],
 "db/d99/CoffeeBehavior_8hpp.html":[3,0,1,0,0,1],
