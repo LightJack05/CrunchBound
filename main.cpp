@@ -1,5 +1,6 @@
 #include "engine/Events.hpp"
 #include "engine/GameManagement.hpp"
+#include "engine/EngineState.hpp"
 #include "engine/ObjectManagement.hpp"
 #include "engine/Time.hpp"
 #include "game/Lifecycle.hpp"

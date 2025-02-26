@@ -10,17 +10,7 @@
 #include <memory>
 #include <queue>
 
-SDL_Renderer *GlobalRenderer;
 static bool IsResetEnqueued = false;
-
-std::shared_ptr<GameObject> GameManager;
-
-SDL_Color WindowBackgroundColor;
-
-bool QuitGame = false;
-const int ScreenHeight = 1200;
-const int ScreenWidth = 1600;
-
 
 static void ResetGameIfRequired() {
     if (IsResetEnqueued) {

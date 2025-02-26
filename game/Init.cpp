@@ -1,6 +1,7 @@
 #include "Init.hpp"
 #include "../engine/AssetLoading.hpp"
 #include "../engine/GameManagement.hpp"
+#include "../engine/EngineState.hpp"
 #include "../engine/GameObject.hpp"
 #include "../engine/ObjectManagement.hpp"
 #include "../engine/components/behaviors/GravityBehavior.hpp"

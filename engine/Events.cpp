@@ -1,5 +1,6 @@
 #include "Events.hpp"
 #include "../engine/GameManagement.hpp"
+#include "../engine/EngineState.hpp"
 #include "KeyboardHandling.hpp"
 #include <SDL3/SDL_events.h>
 
