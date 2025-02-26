@@ -214,28 +214,31 @@ var sectionId = 'dynsection-0';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:href="../../d1/d21/classGameManagerBehavior.html" target="_top" xlink:title="The base game manager behavior.">
-<polygon fill="white" stroke="transparent" points="802.5,-465 638.5,-465 638.5,-319 802.5,-319 802.5,-465"/>
-<text text-anchor="start" x="662.5" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerBehavior</text>
-<text text-anchor="start" x="642.5" y="-438" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-438" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeOfLastEnemy</text>
-<text text-anchor="start" x="642.5" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">long long enemySpawnDelay</text>
-<text text-anchor="start" x="642.5" y="-408" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-408" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeOfLastCoffee</text>
-<text text-anchor="start" x="642.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">long long coffeeSpawnDelay</text>
-<text text-anchor="start" x="642.5" y="-378" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="655.5" y="-378" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
-<text text-anchor="start" x="655.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<text text-anchor="start" x="642.5" y="-352" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="655.5" y="-352" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
-<text text-anchor="start" x="655.5" y="-341" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
-<text text-anchor="start" x="642.5" y="-326" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="655.5" y="-326" font-family="Helvetica,sans-Serif" font-size="10.00">float GetObjectVelocity()</text>
-<polygon fill="#666666" stroke="#666666" points="638.5,-448 638.5,-448 802.5,-448 802.5,-448 638.5,-448"/>
-<polygon fill="#666666" stroke="#666666" points="638.5,-388 638.5,-388 653.5,-388 653.5,-388 638.5,-388"/>
-<polygon fill="#666666" stroke="#666666" points="653.5,-388 653.5,-388 802.5,-388 802.5,-388 653.5,-388"/>
-<polygon fill="none" stroke="#666666" points="638.5,-319 638.5,-465 802.5,-465 802.5,-319 638.5,-319"/>
+<polygon fill="white" stroke="transparent" points="802.5,-478 638.5,-478 638.5,-306 802.5,-306 802.5,-478"/>
+<text text-anchor="start" x="662.5" y="-466" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerBehavior</text>
+<text text-anchor="start" x="642.5" y="-451" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-451" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeOfLastEnemy</text>
+<text text-anchor="start" x="642.5" y="-436" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-436" font-family="Helvetica,sans-Serif" font-size="10.00">long long enemySpawnDelay</text>
+<text text-anchor="start" x="642.5" y="-421" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-421" font-family="Helvetica,sans-Serif" font-size="10.00">long long timeOfLastCoffee</text>
+<text text-anchor="start" x="642.5" y="-406" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-406" font-family="Helvetica,sans-Serif" font-size="10.00">long long coffeeSpawnDelay</text>
+<text text-anchor="start" x="642.5" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="655.5" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnTick</text>
+<text text-anchor="start" x="655.5" y="-380" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<text text-anchor="start" x="642.5" y="-365" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="655.5" y="-365" font-family="Helvetica,sans-Serif" font-size="10.00">virtual void OnStart</text>
+<text text-anchor="start" x="655.5" y="-354" font-family="Helvetica,sans-Serif" font-size="10.00">() override</text>
+<text text-anchor="start" x="642.5" y="-339" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-339" font-family="Helvetica,sans-Serif" font-size="10.00">float GetGameDifficultyAt</text>
+<text text-anchor="start" x="655.5" y="-328" font-family="Helvetica,sans-Serif" font-size="10.00">Time(long long timestamp)</text>
+<text text-anchor="start" x="642.5" y="-313" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="655.5" y="-313" font-family="Helvetica,sans-Serif" font-size="10.00">float GetObjectVelocity()</text>
+<polygon fill="#666666" stroke="#666666" points="638.5,-461 638.5,-461 802.5,-461 802.5,-461 638.5,-461"/>
+<polygon fill="#666666" stroke="#666666" points="638.5,-401 638.5,-401 653.5,-401 653.5,-401 638.5,-401"/>
+<polygon fill="#666666" stroke="#666666" points="653.5,-401 653.5,-401 802.5,-401 802.5,-401 653.5,-401"/>
+<polygon fill="none" stroke="#666666" points="638.5,-306 638.5,-478 802.5,-478 802.5,-306 638.5,-306"/>
 </a>
 </g>
 </g>
@@ -243,7 +246,7 @@ var sectionId = 'dynsection-0';
 <g id="edge9_Node000001_Node000010" class="edge">
 <title>Node1&#45;&gt;Node10</title>
 <g id="a_edge9_Node000001_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M788.16,-539.31C778.52,-518.48 765.71,-490.77 753.83,-465.07"/>
+<path fill="none" stroke="#63b8ff" d="M788.27,-539.57C780.26,-522.25 770.04,-500.13 759.97,-478.36"/>
 <polygon fill="none" stroke="#63b8ff" points="785.1,-541.06 792.48,-548.66 791.46,-538.12 785.1,-541.06"/>
 </a>
 </g>

@@ -23,9 +23,9 @@
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="350.5,-327 181.5,-327 181.5,-297 350.5,-297 350.5,-327"/>
-<text text-anchor="start" x="189.5" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00">game/behaviors/gameManager</text>
-<text text-anchor="middle" x="266" y="-304" font-family="Helvetica,sans-Serif" font-size="10.00">/GameManagerBehavior.hpp</text>
+<polygon fill="#999999" stroke="#666666" points="406.5,-327 237.5,-327 237.5,-297 406.5,-297 406.5,-327"/>
+<text text-anchor="start" x="245.5" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00">game/behaviors/gameManager</text>
+<text text-anchor="middle" x="322" y="-304" font-family="Helvetica,sans-Serif" font-size="10.00">/GameManagerBehavior.hpp</text>
 </a>
 </g>
 </g>
@@ -43,8 +43,26 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M266,-296.8C266,-289.34 266,-279.99 266,-271.41"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="269.5,-271.16 266,-261.16 262.5,-271.16 269.5,-271.16"/>
+<path fill="none" stroke="#63b8ff" d="M309.57,-296.8C302.39,-288.59 293.21,-278.1 285.13,-268.87"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="287.61,-266.38 278.39,-261.16 282.34,-270.99 287.61,-266.38"/>
+</a>
+</g>
+</g>
+<!-- Node12 -->
+<g id="Node000012" class="node">
+<title>Node12</title>
+<g id="a_Node000012"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="401.5,-255.5 354.5,-255.5 354.5,-236.5 401.5,-236.5 401.5,-255.5"/>
+<text text-anchor="middle" x="378" y="-243.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmath</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge11_Node000001_Node000012" class="edge">
+<title>Node1&#45;&gt;Node12</title>
+<g id="a_edge11_Node000001_Node000012"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M334.43,-296.8C343.07,-286.92 354.62,-273.72 363.66,-263.39"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="366.31,-265.67 370.26,-255.84 361.04,-261.07 366.31,-265.67"/>
 </a>
 </g>
 </g>

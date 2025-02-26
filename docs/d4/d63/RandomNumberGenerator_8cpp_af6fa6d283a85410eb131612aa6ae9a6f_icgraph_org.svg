@@ -94,7 +94,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9" target="_top" xlink:title="Spawn a new coffee object.">
+<g id="a_Node000006"><a xlink:href="../../d5/dda/ObjectSpawning_8cpp.html#ad8f89b5d9076607112a750cc140f07ec" target="_top" xlink:title="Spawn a new coffee object.">
 <polygon fill="white" stroke="#666666" points="274,-79.52 194,-79.52 194,-60.52 274,-60.52 274,-79.52"/>
 <text text-anchor="middle" x="234" y="-67.52" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnCoffee</text>
 </a>
@@ -112,7 +112,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="../../df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2" target="_top" xlink:title="Spawn a new enemy.">
+<g id="a_Node000007"><a xlink:href="../../d5/dda/ObjectSpawning_8cpp.html#abb03ee227a4d9759be2916f379f21c86" target="_top" xlink:title="Spawn a new enemy.">
 <polygon fill="white" stroke="#666666" points="275.5,-42.52 192.5,-42.52 192.5,-23.52 275.5,-23.52 275.5,-42.52"/>
 <text text-anchor="middle" x="234" y="-30.52" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnEnemy</text>
 </a>

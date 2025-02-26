@@ -1,7 +1,7 @@
 <map id="game/behaviors/coffee/CoffeeCollisionBehavior.hpp" name="game/behaviors/coffee/CoffeeCollisionBehavior.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="125,5,334,45"/>
-<area shape="rect" id="Node000002" href="$d0/d59/CoffeeCollisionBehavior_8cpp.html" title=" " alt="" coords="5,93,213,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,56,137,95,134,91,190,51"/>
-<area shape="rect" id="Node000003" href="$df/d88/GameManagerBehavior_8cpp.html" title=" " alt="" coords="238,93,463,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,51,325,91,322,95,266,55"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="110,5,319,45"/>
+<area shape="rect" id="Node000002" href="$d5/dda/ObjectSpawning_8cpp.html" title=" " alt="" coords="5,101,200,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,56,120,102,117,98,177,52"/>
+<area shape="rect" id="Node000003" href="$d0/d59/CoffeeCollisionBehavior_8cpp.html" title=" " alt="" coords="224,93,432,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,52,305,91,301,95,249,56"/>
 </map>

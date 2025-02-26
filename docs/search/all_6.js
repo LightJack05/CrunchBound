@@ -27,7 +27,7 @@ var searchData=
   ['getdeltatime_24',['GetDeltaTime',['../d8/d38/Time_8cpp.html#a5da05cbf25fbfbc8a9c6b8481ad23664',1,'GetDeltaTime():&#160;Time.cpp'],['../d9/de7/Time_8hpp.html#a5da05cbf25fbfbc8a9c6b8481ad23664',1,'GetDeltaTime():&#160;Time.cpp']]],
   ['getenabled_25',['getEnabled',['../d9/df7/classGameObjectComponent.html#aa0e53977f22f7118d906b0a0f331d32b',1,'GameObjectComponent::getEnabled()'],['../de/d1c/classGameObject.html#abff095300779ab83a30dd21120271d9e',1,'GameObject::getEnabled() const']]],
   ['getfirstcomponent_26',['GetFirstComponent',['../de/d1c/classGameObject.html#add821214112e834e8c5800142fe31a0e',1,'GameObject']]],
-  ['getgamedifficultyattime_27',['GetGameDifficultyAtTime',['../df/d88/GameManagerBehavior_8cpp.html#a29dbc5368f82dd5ae1d33dc83189f4a0',1,'GameManagerBehavior.cpp']]],
+  ['getgamedifficultyattime_27',['GetGameDifficultyAtTime',['../d1/d21/classGameManagerBehavior.html#a1adb4bebf7b769bfec9bcb7629c0c8c9',1,'GameManagerBehavior::GetGameDifficultyAtTime()'],['../df/d26/ObjectSpawning_8hpp.html#ace0529b386142d8dd28eb242cc27716c',1,'GetGameDifficultyAtTime(long long timestamp):&#160;ObjectSpawning.hpp']]],
   ['getgameobjectbytag_28',['GetGameObjectByTag',['../de/dfd/GameManagement_8cpp.html#aac3242e5255470d798c2e0d2d69799b2',1,'GetGameObjectByTag(std::string tag):&#160;GameManagement.cpp'],['../d7/dd0/GameManagement_8hpp.html#aac3242e5255470d798c2e0d2d69799b2',1,'GetGameObjectByTag(std::string tag):&#160;GameManagement.cpp']]],
   ['getgravityscale_29',['getGravityScale',['../d8/d05/classGravityBehavior.html#a0e086e543a69e5e403cf96ec54f05901',1,'GravityBehavior']]],
   ['getjumppoints_30',['getJumpPoints',['../d3/dc0/classPlayerBehavior.html#a54ba7716f4ba11ca0cc8e48b8fdb04fe',1,'PlayerBehavior']]],

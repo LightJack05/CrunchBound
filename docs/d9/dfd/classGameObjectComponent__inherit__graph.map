@@ -12,8 +12,8 @@
 <area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1139,336,1022,348,876,369,803,383,737,399,682,418,644,438,605,476,575,522,570,519,601,473,640,434,680,413,735,394,802,378,875,364,1022,343,1139,331"/>
 <area shape="rect" id="Node000009" href="$d9/ddc/classEnemyBehavior.html" title="Controlls the behavior of an Enemy." alt="" coords="655,639,832,725"/>
 <area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="1140,334,1075,343,997,360,956,374,917,391,880,412,846,438,826,460,808,484,781,538,763,593,752,640,747,638,758,591,776,536,804,482,822,456,843,434,877,408,915,386,954,369,995,355,1074,337,1139,329"/>
-<area shape="rect" id="Node000010" href="$d1/d21/classGameManagerBehavior.html" title="The base game manager behavior." alt="" coords="857,585,1075,779"/>
-<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="1146,372,1117,403,1090,438,1045,511,1008,586,1003,583,1040,509,1085,434,1113,400,1142,368"/>
+<area shape="rect" id="Node000010" href="$d1/d21/classGameManagerBehavior.html" title="The base game manager behavior." alt="" coords="857,567,1075,797"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="1146,372,1117,403,1090,438,1050,502,1016,568,1011,566,1045,499,1085,434,1113,400,1142,368"/>
 <area shape="rect" id="Node000011" href="$d8/d05/classGravityBehavior.html" title="Component that gives an object gravity." alt="" coords="1100,612,1277,752"/>
 <area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="1191,375,1191,612,1186,612,1186,375"/>
 <area shape="rect" id="Node000012" href="$de/d47/classKeyboardHandlerBehavior.html" title="An abstract class for handling keyboard inputs." alt="" coords="1301,625,1511,739"/>

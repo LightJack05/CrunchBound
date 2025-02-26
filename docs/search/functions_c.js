@@ -16,8 +16,8 @@ var searchData=
   ['setweight_13',['setWeight',['../de/d1c/classGameObject.html#abadaefb68a3f7e5069f346c42164a431',1,'GameObject']]],
   ['setx_14',['setX',['../d8/d0d/classVector2.html#ae4721f4d1a30c1a1d94ff728cfa1df21',1,'Vector2']]],
   ['sety_15',['setY',['../d8/d0d/classVector2.html#a7f0d459169e1c5067a84f393f1aa9250',1,'Vector2']]],
-  ['spawncoffee_16',['SpawnCoffee',['../df/d88/GameManagerBehavior_8cpp.html#a07e6c2b5429917c119a839acc53cbfa9',1,'GameManagerBehavior.cpp']]],
-  ['spawnenemy_17',['SpawnEnemy',['../df/d88/GameManagerBehavior_8cpp.html#a2a12711db7d8e91b16655c1c98c6cdb2',1,'GameManagerBehavior.cpp']]],
+  ['spawncoffee_16',['SpawnCoffee',['../d5/dda/ObjectSpawning_8cpp.html#ad8f89b5d9076607112a750cc140f07ec',1,'SpawnCoffee(float velocityX):&#160;ObjectSpawning.cpp'],['../df/d26/ObjectSpawning_8hpp.html#ad8f89b5d9076607112a750cc140f07ec',1,'SpawnCoffee(float velocityX):&#160;ObjectSpawning.cpp']]],
+  ['spawnenemy_17',['SpawnEnemy',['../d5/dda/ObjectSpawning_8cpp.html#abb03ee227a4d9759be2916f379f21c86',1,'SpawnEnemy(float velocityX):&#160;ObjectSpawning.cpp'],['../df/d26/ObjectSpawning_8hpp.html#abb03ee227a4d9759be2916f379f21c86',1,'SpawnEnemy(float velocityX):&#160;ObjectSpawning.cpp']]],
   ['spawnleftwall_18',['SpawnLeftWall',['../d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24',1,'Init.cpp']]],
   ['spawnplayer_19',['SpawnPlayer',['../d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395',1,'Init.cpp']]],
   ['spawnrightwall_20',['SpawnRightWall',['../d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b',1,'Init.cpp']]]

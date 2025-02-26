@@ -1,5 +1,6 @@
 var classGameManagerBehavior =
 [
+    [ "GetGameDifficultyAtTime", "d1/d21/classGameManagerBehavior.html#a1adb4bebf7b769bfec9bcb7629c0c8c9", null ],
     [ "GetObjectVelocity", "d1/d21/classGameManagerBehavior.html#a03f055b9130a3014a32bf722ba48eebf", null ],
     [ "OnStart", "d1/d21/classGameManagerBehavior.html#a44ddde99ed4360387e2275f3f1a41b7d", null ],
     [ "OnTick", "d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a", null ],
