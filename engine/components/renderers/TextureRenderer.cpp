@@ -15,7 +15,12 @@ TextureRenderer::TextureRenderer(float width, float height,
     this->renderable->w = this->size->getX();
 }
 
-TextureRenderer::~TextureRenderer() { SDL_DestroyTexture(this->texture); }
+TextureRenderer::~TextureRenderer() {
+    if (this->texture != nullptr) {
+        SDL_DestroyTexture(this->texture);
+        this->texture = nullptr;
+    }
+}
 
 void TextureRenderer::OnTick() {
     this->renderable->h = this->size->getY() * this->parent->getScale()->getY();

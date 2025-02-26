@@ -19,6 +19,7 @@ FontRenderer::~FontRenderer() {
         SDL_DestroyTexture(texture);
         texture = nullptr;
     }
+    TTF_CloseFont(this->font);
 }
 
 void FontRenderer::OnTick() {
@@ -26,9 +27,11 @@ void FontRenderer::OnTick() {
     this->renderable->y = this->parent->getPosition()->getY();
     if (surface != nullptr) {
         SDL_DestroySurface(surface);
+        surface = nullptr;
     }
     if (texture != nullptr) {
         SDL_DestroyTexture(texture);
+        texture = nullptr;
     }
     surface = TTF_RenderText_Solid(font, text.c_str(), text.length(), *color);
     this->renderable->w = surface->w / 8.0;

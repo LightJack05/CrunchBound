@@ -48,12 +48,11 @@ void gameLoop() {
  */
 int main() {
     if (SDL_Init(SDL_INIT_VIDEO) == 0) {
-        fprintf(stderr, "SDL_Init Error: %s\n", SDL_GetError());
         return EXIT_FAILURE;
     }
 
-    
-    if (!TTF_Init()){
+    if (!TTF_Init()) {
+        SDL_Quit();
         return EXIT_FAILURE;
     }
 
@@ -61,9 +60,8 @@ int main() {
     SDL_Renderer *ren;
     if (SDL_CreateWindowAndRenderer("", ScreenWidth, ScreenHeight,
                                     SDL_WINDOW_BORDERLESS, &win, &ren) == 0) {
-        fprintf(stderr, "SDL_CreateWindowAndRenderer Error:%s\n",
-                SDL_GetError());
         SDL_Quit();
+        TTF_Quit();
         return EXIT_FAILURE;
     }
     GlobalRenderer = ren;
@@ -73,7 +71,11 @@ int main() {
     gameLoop();
 
     SDL_DestroyRenderer(ren);
+    ren = nullptr;
+    GlobalRenderer = nullptr;
     SDL_DestroyWindow(win);
+    win = nullptr;
     SDL_Quit();
+    TTF_Quit();
     return EXIT_SUCCESS;
 }

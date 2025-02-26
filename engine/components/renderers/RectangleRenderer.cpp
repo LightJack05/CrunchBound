@@ -1,6 +1,7 @@
 #include "RectangleRenderer.hpp"
 #include <SDL3/SDL_rect.h>
 #include <SDL3/SDL_render.h>
+#include <SDL3/SDL_surface.h>
 #include <memory>
 
 RectangleRenderer::RectangleRenderer(float width, float height) {
