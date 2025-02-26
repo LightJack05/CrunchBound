@@ -1,5 +1,5 @@
 #include "KeyboardHandling.hpp"
-#include "GameManagement.hpp"
+#include "ObjectManagement.hpp"
 #include "components/GameObjectComponent.hpp"
 #include "components/behaviors/KeyboardHandlerBehavior.hpp"
 #include <SDL3/SDL_events.h>

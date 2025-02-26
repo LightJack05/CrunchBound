@@ -1,5 +1,7 @@
 #include "engine/Events.hpp"
 #include "engine/GameManagement.hpp"
+#include "engine/EngineState.hpp"
+#include "engine/ObjectManagement.hpp"
 #include "engine/Time.hpp"
 #include "game/Lifecycle.hpp"
 #include <SDL3/SDL.h>
@@ -37,7 +39,7 @@ inline void CleanupBeforeExit(SDL_Window *&win, SDL_Renderer *&ren) {
 /**
  * @brief Executed every frame.
  */
-void frame() { UpdateObjects(); }
+void frame() { RunFrameActions(); }
 
 /**
  * @brief The main game loop, runs until QuitGame is set to true.

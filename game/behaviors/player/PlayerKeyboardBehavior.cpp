@@ -1,5 +1,5 @@
 #include "PlayerKeyboardBehavior.hpp"
-#include "../../../engine/GameManagement.hpp"
+#include "../../../engine/EngineState.hpp"
 #include "../../../engine/components/behaviors/GravityBehavior.hpp"
 #include "PlayerBehavior.hpp"
 #include "PlayerCollisionBehavior.hpp"

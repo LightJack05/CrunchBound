@@ -1,6 +1,5 @@
 #include "CoffeeCollisionBehavior.hpp"
-#include "../../../engine/GameManagement.hpp"
-#include "../../Lifecycle.hpp"
+#include "../../../engine/ObjectManagement.hpp"
 #include "../coffeeMeter/CoffeeMeterBehavior.hpp"
 #include <memory>
 

@@ -1,6 +1,6 @@
 #include "ObjectSpawning.hpp"
 #include "../engine/AssetLoading.hpp"
-#include "../engine/GameManagement.hpp"
+#include "../engine/ObjectManagement.hpp"
 #include "../engine/RandomNumberGenerator.hpp"
 #include "../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../engine/components/renderers/TextureRenderer.hpp"

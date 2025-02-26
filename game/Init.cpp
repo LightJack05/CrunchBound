@@ -1,7 +1,8 @@
 #include "Init.hpp"
 #include "../engine/AssetLoading.hpp"
-#include "../engine/GameManagement.hpp"
+#include "../engine/EngineState.hpp"
 #include "../engine/GameObject.hpp"
+#include "../engine/ObjectManagement.hpp"
 #include "../engine/components/behaviors/GravityBehavior.hpp"
 #include "../engine/components/behaviors/KinematicBehavior.hpp"
 #include "../engine/components/renderers/FontRenderer.hpp"
@@ -33,7 +34,7 @@ static void CreateCoffeeMeterIcon() {
             64, 64, GetAssetPath("textures/objects/coffee_paper_cup.png"));
     coffeeMeterIcon->RegisterComponent(coffeeMeterIconRenderer);
 
-    RegisterGameObject(coffeeMeterIcon);
+    EnqueueRegisterGameObject(coffeeMeterIcon);
 }
 /**
  * @brief Create the coffee meter bar
@@ -52,7 +53,7 @@ static void CreateCoffeeMeter() {
         std::make_shared<CoffeeMeterBehavior>();
     coffeeMeter->RegisterComponent(coffeeMeterBehavior);
 
-    RegisterGameObject(coffeeMeter);
+    EnqueueRegisterGameObject(coffeeMeter);
 }
 
 /**
@@ -70,7 +71,7 @@ static void CreateScoreCounter() {
         std::make_shared<FontRenderer>("fonts/RobotoMono-Regular.ttf", 500);
     scoreCounter->RegisterComponent(scoreRenderer);
 
-    RegisterGameObject(scoreCounter);
+    EnqueueRegisterGameObject(scoreCounter);
 }
 
 /**
@@ -84,7 +85,7 @@ static void SpawnLeftWall() {
         std::make_shared<CollisionBehavior>(80, ScreenHeight + 80);
     leftWall->RegisterComponent(leftWallCollider);
 
-    RegisterGameObject(leftWall);
+    EnqueueRegisterGameObject(leftWall);
 }
 /**
  * @brief Create the right wall and register it.
@@ -97,7 +98,7 @@ static void SpawnRightWall() {
         std::make_shared<CollisionBehavior>(80, ScreenHeight + 80);
     rightWall->RegisterComponent(rightWallCollider);
 
-    RegisterGameObject(rightWall);
+    EnqueueRegisterGameObject(rightWall);
 }
 
 /**
@@ -132,7 +133,7 @@ static void SpawnPlayer() {
         std::make_shared<PlayerKeyboardBehavior>();
     player->RegisterComponent(playerKeyboardBehavior);
 
-    RegisterGameObject(player);
+    EnqueueRegisterGameObject(player);
 }
 
 /**
@@ -150,7 +151,7 @@ static void CreateFloor() {
     floor->RegisterComponent(floorCollider);
     floor->setTag("floor");
 
-    RegisterGameObject(floor);
+    EnqueueRegisterGameObject(floor);
 }
 
 /**
@@ -182,7 +183,7 @@ void CreateGameManager() {
 }
 
 void CreateInitialGameObjects() {
-    GameObjects.push_back(GameManager);
+    EnqueueRegisterGameObject(GameManager);
     SetupWindowbackground();
     CreateFloor();
     SpawnPlayer();
