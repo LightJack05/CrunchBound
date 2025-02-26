@@ -11,10 +11,6 @@
 class GameManagerBehavior : public Behavior {
   protected:
     /**
-     * @brief The time since the game has started
-     */
-    long long timeSinceGameStart = 0;
-    /**
      * @brief The time the last enemy has been spawned at
      */
     long long timeOfLastEnemy = 0;

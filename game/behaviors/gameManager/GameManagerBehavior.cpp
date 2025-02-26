@@ -29,7 +29,7 @@ static inline float GetGameDifficultyAtTime(long long timestamp) {
  * @return A slightly randomized velocity of an object that should be spawned.
  */
 float GameManagerBehavior::GetObjectVelocity() {
-    return (GetGameDifficultyAtTime(timeSinceGameStart) / 300) *
+    return (GetGameDifficultyAtTime(GetTimeSinceGameStart()) / 300) *
            (0.5 + GetRandomNormalizedFloat());
 }
 
@@ -100,25 +100,23 @@ static void SpawnEnemy(float velocityX) {
 }
 
 void GameManagerBehavior::OnTick() {
-    timeSinceGameStart += GetDeltaTime();
-    if (timeSinceGameStart - timeOfLastEnemy > enemySpawnDelay) {
+    if (GetTimeSinceGameStart() - timeOfLastEnemy > enemySpawnDelay) {
         SpawnEnemy(GetObjectVelocity());
-        timeOfLastEnemy = timeSinceGameStart;
+        timeOfLastEnemy = GetTimeSinceGameStart();
         enemySpawnDelay = (GetRandomInt(2000, 7000) /
-                           GetGameDifficultyAtTime(timeSinceGameStart)) *
+                           GetGameDifficultyAtTime(GetTimeSinceGameStart())) *
                           50;
     }
-    if (timeSinceGameStart - timeOfLastCoffee > coffeeSpawnDelay) {
+    if (GetTimeSinceGameStart() - timeOfLastCoffee > coffeeSpawnDelay) {
         SpawnCoffee(GetObjectVelocity());
-        timeOfLastCoffee = timeSinceGameStart;
+        timeOfLastCoffee = GetTimeSinceGameStart();
         coffeeSpawnDelay = (GetRandomInt(15000, 20000) /
-                            GetGameDifficultyAtTime(timeSinceGameStart)) *
+                            GetGameDifficultyAtTime(GetTimeSinceGameStart())) *
                            50;
     }
 }
 
 void GameManagerBehavior::OnStart() {
-    timeSinceGameStart = 0;
     timeOfLastEnemy = 0;
     timeOfLastCoffee = 0;
 }

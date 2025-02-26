@@ -10,4 +10,11 @@ void UpdateDeltaTime();
  */
 unsigned int GetDeltaTime();
 
+unsigned long long GetTimeSinceGameStart();
+
+/**
+ * @brief Reset the time since the game has started.
+ */
+void ResetTimeSinceGameStart();
+
 #endif // TIME_HPP
