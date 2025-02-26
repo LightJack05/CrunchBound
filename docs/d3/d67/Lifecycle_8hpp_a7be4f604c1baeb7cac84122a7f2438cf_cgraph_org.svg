@@ -35,12 +35,30 @@
 </a>
 </g>
 </g>
+<!-- Node12 -->
+<g id="Node000012" class="node">
+<title>Node12</title>
+<g id="a_Node000012"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#ae5ee3f705fc506491ca2b0c7cf059c75" target="_top" xlink:title="Initialize all gameobjects and call the OnStart() methods.">
+<polygon fill="white" stroke="#666666" points="225.5,-130 142.5,-130 142.5,-111 225.5,-111 225.5,-130"/>
+<text text-anchor="middle" x="184" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">OnGameStart</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge18_Node000001_Node000012" class="edge">
+<title>Node1&#45;&gt;Node12</title>
+<g id="a_edge18_Node000001_Node000012"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M74.22,-120.5C91.78,-120.5 113.17,-120.5 132.32,-120.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="132.39,-124 142.39,-120.5 132.39,-117 132.39,-124"/>
+</a>
+</g>
+</g>
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#ae5ee3f705fc506491ca2b0c7cf059c75" target="_top" xlink:title="Initialize all gameobjects and call the OnStart() methods.">
-<polygon fill="white" stroke="#666666" points="225.5,-130 142.5,-130 142.5,-111 225.5,-111 225.5,-130"/>
-<text text-anchor="middle" x="184" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">OnGameStart</text>
+<g id="a_Node000013"><a xlink:href="../../d8/d38/Time_8cpp.html#ae55fb718253dda2137a189d792bda7b9" target="_top" xlink:title="Reset the time since the game has started.">
+<polygon fill="white" stroke="#666666" points="258,-93 110,-93 110,-74 258,-74 258,-93"/>
+<text text-anchor="middle" x="184" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">ResetTimeSinceGameStart</text>
 </a>
 </g>
 </g>
@@ -48,24 +66,6 @@
 <g id="edge19_Node000001_Node000013" class="edge">
 <title>Node1&#45;&gt;Node13</title>
 <g id="a_edge19_Node000001_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M74.22,-120.5C91.78,-120.5 113.17,-120.5 132.32,-120.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="132.39,-124 142.39,-120.5 132.39,-117 132.39,-124"/>
-</a>
-</g>
-</g>
-<!-- Node14 -->
-<g id="Node000014" class="node">
-<title>Node14</title>
-<g id="a_Node000014"><a xlink:href="../../d8/d38/Time_8cpp.html#ae55fb718253dda2137a189d792bda7b9" target="_top" xlink:title="Reset the time since the game has started.">
-<polygon fill="white" stroke="#666666" points="258,-93 110,-93 110,-74 258,-74 258,-93"/>
-<text text-anchor="middle" x="184" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">ResetTimeSinceGameStart</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node14 -->
-<g id="edge20_Node000001_Node000014" class="edge">
-<title>Node1&#45;&gt;Node14</title>
-<g id="a_edge20_Node000001_Node000014"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M74.22,-111.26C92.87,-106.5 115.85,-100.63 135.87,-95.53"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="136.91,-98.87 145.73,-93.01 135.18,-92.09 136.91,-98.87"/>
 </a>
@@ -75,8 +75,8 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="../../d9/dfa/Init_8cpp.html#a3ff595c2af791c369e2318510062ce14" target="_top" xlink:title="Create the coffee meter bar.">
-<polygon fill="white" stroke="#666666" points="418.5,-280 309.5,-280 309.5,-261 418.5,-261 418.5,-280"/>
-<text text-anchor="middle" x="364" y="-268" font-family="Helvetica,sans-Serif" font-size="10.00">CreateCoffeeMeter</text>
+<polygon fill="white" stroke="#666666" points="418.5,-317 309.5,-317 309.5,-298 418.5,-298 418.5,-317"/>
+<text text-anchor="middle" x="364" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">CreateCoffeeMeter</text>
 </a>
 </g>
 </g>
@@ -84,8 +84,8 @@
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M194.35,-167.11C212.22,-184.99 253.06,-223.61 294,-246.5 301.56,-250.73 309.99,-254.4 318.3,-257.53"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="317.34,-260.9 327.93,-260.94 319.67,-254.3 317.34,-260.9"/>
+<path fill="none" stroke="#63b8ff" d="M190.83,-167.23C205.34,-190.62 245.41,-250.53 294,-283.5 300.21,-287.71 307.22,-291.26 314.35,-294.22"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="313.48,-297.63 324.07,-297.91 315.96,-291.09 313.48,-297.63"/>
 </a>
 </g>
 </g>
@@ -93,17 +93,17 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" target="_top" xlink:title="Enqueue an object to be registered on the next frame.">
-<polygon fill="white" stroke="#666666" points="630,-186 470,-186 470,-167 630,-167 630,-186"/>
-<text text-anchor="middle" x="550" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00">EnqueueRegisterGameObject</text>
+<polygon fill="white" stroke="#666666" points="630,-185 470,-185 470,-166 630,-166 630,-185"/>
+<text text-anchor="middle" x="550" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00">EnqueueRegisterGameObject</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
-<g id="edge11_Node000002_Node000004" class="edge">
+<g id="edge10_Node000002_Node000004" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<g id="a_edge11_Node000002_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M198.61,-167.22C218.44,-180.74 256.98,-204.55 294,-213.5 354.48,-228.13 372.53,-223.15 434,-213.5 462.88,-208.97 494.4,-198.4 517.12,-189.72"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="518.56,-192.92 526.6,-186.01 516.01,-186.4 518.56,-192.92"/>
+<g id="a_edge10_Node000002_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M192.13,-167.03C207.86,-187.15 247.79,-233.46 294,-250.5 352.38,-272.02 374.36,-268.23 434,-250.5 472.53,-239.05 510.19,-210.14 531.42,-191.75"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="533.81,-194.3 538.96,-185.04 529.16,-189.07 533.81,-194.3"/>
 </a>
 </g>
 </g>
@@ -111,8 +111,8 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="../../d9/dfa/Init_8cpp.html#a1bfb628b6cd503e396bae0796f2051c1" target="_top" xlink:title="Create the icon next to the coffee meter.">
-<polygon fill="white" stroke="#666666" points="428.5,-317 299.5,-317 299.5,-298 428.5,-298 428.5,-317"/>
-<text text-anchor="middle" x="364" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">CreateCoffeeMeterIcon</text>
+<polygon fill="white" stroke="#666666" points="428.5,-241 299.5,-241 299.5,-222 428.5,-222 428.5,-241"/>
+<text text-anchor="middle" x="364" y="-229" font-family="Helvetica,sans-Serif" font-size="10.00">CreateCoffeeMeterIcon</text>
 </a>
 </g>
 </g>
@@ -120,53 +120,71 @@
 <g id="edge4_Node000002_Node000005" class="edge">
 <title>Node2&#45;&gt;Node5</title>
 <g id="a_edge4_Node000002_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M190.14,-167.23C203.64,-191.8 242.64,-256.73 294,-289.5 296.58,-291.14 299.3,-292.64 302.12,-294"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="300.79,-297.24 311.36,-297.89 303.51,-290.79 300.79,-297.24"/>
+<path fill="none" stroke="#63b8ff" d="M201.1,-167.2C221.93,-179.41 259.62,-200.37 294,-213.5 299.2,-215.49 304.71,-217.33 310.25,-219.02"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="309.63,-222.49 320.21,-221.9 311.57,-215.76 309.63,-222.49"/>
+</a>
+</g>
+</g>
+<!-- Node6 -->
+<g id="Node000006" class="node">
+<title>Node6</title>
+<g id="a_Node000006"><a xlink:href="../../d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e" target="_top" xlink:title="Create the floor and register it.">
+<polygon fill="white" stroke="#666666" points="401,-204 327,-204 327,-185 401,-185 401,-204"/>
+<text text-anchor="middle" x="364" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">CreateFloor</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node6 -->
+<g id="edge6_Node000002_Node000006" class="edge">
+<title>Node2&#45;&gt;Node6</title>
+<g id="a_edge6_Node000002_Node000006"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M230.84,-167.03C257.33,-172.53 290.55,-179.44 317.05,-184.95"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="316.35,-188.38 326.86,-186.99 317.78,-181.52 316.35,-188.38"/>
 </a>
 </g>
 </g>
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="../../d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e" target="_top" xlink:title="Create the floor and register it.">
-<polygon fill="white" stroke="#666666" points="401,-204 327,-204 327,-185 401,-185 401,-204"/>
-<text text-anchor="middle" x="364" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">CreateFloor</text>
+<g id="a_Node000007"><a xlink:href="../../d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783" target="_top" xlink:title="Create the score counter and register it.">
+<polygon fill="white" stroke="#666666" points="421,-167 307,-167 307,-148 421,-148 421,-167"/>
+<text text-anchor="middle" x="364" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">CreateScoreCounter</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node7 -->
-<g id="edge7_Node000002_Node000007" class="edge">
+<g id="edge8_Node000002_Node000007" class="edge">
 <title>Node2&#45;&gt;Node7</title>
-<g id="a_edge7_Node000002_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M230.84,-167.03C257.33,-172.53 290.55,-179.44 317.05,-184.95"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="316.35,-188.38 326.86,-186.99 317.78,-181.52 316.35,-188.38"/>
+<g id="a_edge8_Node000002_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M255.61,-157.5C269.14,-157.5 283.27,-157.5 296.67,-157.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="296.75,-161 306.75,-157.5 296.75,-154 296.75,-161"/>
 </a>
 </g>
 </g>
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783" target="_top" xlink:title="Create the score counter and register it.">
-<polygon fill="white" stroke="#666666" points="421,-167 307,-167 307,-148 421,-148 421,-167"/>
-<text text-anchor="middle" x="364" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">CreateScoreCounter</text>
+<g id="a_Node000008"><a xlink:href="../../d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f" target="_top" xlink:title="Set the window background to white.">
+<polygon fill="white" stroke="#666666" points="434,-130 294,-130 294,-111 434,-111 434,-130"/>
+<text text-anchor="middle" x="364" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">SetupWindowbackground</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node8 -->
-<g id="edge9_Node000002_Node000008" class="edge">
+<g id="edge11_Node000002_Node000008" class="edge">
 <title>Node2&#45;&gt;Node8</title>
-<g id="a_edge9_Node000002_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M255.61,-157.5C269.14,-157.5 283.27,-157.5 296.67,-157.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="296.75,-161 306.75,-157.5 296.75,-154 296.75,-161"/>
+<g id="a_edge11_Node000002_Node000008"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M230.84,-147.97C254.11,-143.14 282.57,-137.22 307.11,-132.12"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="307.93,-135.52 317.01,-130.06 306.5,-128.67 307.93,-135.52"/>
 </a>
 </g>
 </g>
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="../../d9/dfa/Init_8cpp.html#ac07b948048071cbf70f69aa9d691a93f" target="_top" xlink:title="Set the window background to white.">
-<polygon fill="white" stroke="#666666" points="434,-130 294,-130 294,-111 434,-111 434,-130"/>
-<text text-anchor="middle" x="364" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">SetupWindowbackground</text>
+<g id="a_Node000009"><a xlink:href="../../d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24" target="_top" xlink:title="Create the left wall and register it.">
+<polygon fill="white" stroke="#666666" points="408,-93 320,-93 320,-74 408,-74 408,-93"/>
+<text text-anchor="middle" x="364" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnLeftWall</text>
 </a>
 </g>
 </g>
@@ -174,60 +192,42 @@
 <g id="edge12_Node000002_Node000009" class="edge">
 <title>Node2&#45;&gt;Node9</title>
 <g id="a_edge12_Node000002_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M230.84,-147.97C254.11,-143.14 282.57,-137.22 307.11,-132.12"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="307.93,-135.52 317.01,-130.06 306.5,-128.67 307.93,-135.52"/>
+<path fill="none" stroke="#63b8ff" d="M238.59,-147.98C245.35,-145.73 252,-142.94 258,-139.5 277.91,-128.09 274.25,-114.18 294,-102.5 299.07,-99.5 304.63,-96.96 310.32,-94.82"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="311.61,-98.08 319.96,-91.56 309.37,-91.44 311.61,-98.08"/>
 </a>
 </g>
 </g>
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="../../d9/dfa/Init_8cpp.html#a374cb6f303f72b5af970063ff1318f24" target="_top" xlink:title="Create the left wall and register it.">
-<polygon fill="white" stroke="#666666" points="408,-93 320,-93 320,-74 408,-74 408,-93"/>
-<text text-anchor="middle" x="364" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnLeftWall</text>
+<g id="a_Node000010"><a xlink:href="../../d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395" target="_top" xlink:title="Create the player and register it.">
+<polygon fill="white" stroke="#666666" points="404,-56 324,-56 324,-37 404,-37 404,-56"/>
+<text text-anchor="middle" x="364" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnPlayer</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node10 -->
-<g id="edge13_Node000002_Node000010" class="edge">
+<g id="edge14_Node000002_Node000010" class="edge">
 <title>Node2&#45;&gt;Node10</title>
-<g id="a_edge13_Node000002_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M238.59,-147.98C245.35,-145.73 252,-142.94 258,-139.5 277.91,-128.09 274.25,-114.18 294,-102.5 299.07,-99.5 304.63,-96.96 310.32,-94.82"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="311.61,-98.08 319.96,-91.56 309.37,-91.44 311.61,-98.08"/>
+<g id="a_edge14_Node000002_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M244.18,-147.86C249.14,-145.61 253.84,-142.86 258,-139.5 286.44,-116.51 265.87,-88.88 294,-65.5 299.78,-60.7 306.68,-57.1 313.85,-54.41"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="315.25,-57.64 323.72,-51.28 313.13,-50.97 315.25,-57.64"/>
 </a>
 </g>
 </g>
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="../../d9/dfa/Init_8cpp.html#aa021dfea28868af5fdc6eb97fdf11395" target="_top" xlink:title="Create the player and register it.">
-<polygon fill="white" stroke="#666666" points="404,-56 324,-56 324,-37 404,-37 404,-56"/>
-<text text-anchor="middle" x="364" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnPlayer</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node11 -->
-<g id="edge15_Node000002_Node000011" class="edge">
-<title>Node2&#45;&gt;Node11</title>
-<g id="a_edge15_Node000002_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M244.18,-147.86C249.14,-145.61 253.84,-142.86 258,-139.5 286.44,-116.51 265.87,-88.88 294,-65.5 299.78,-60.7 306.68,-57.1 313.85,-54.41"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="315.25,-57.64 323.72,-51.28 313.13,-50.97 315.25,-57.64"/>
-</a>
-</g>
-</g>
-<!-- Node12 -->
-<g id="Node000012" class="node">
-<title>Node12</title>
-<g id="a_Node000012"><a xlink:href="../../d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b" target="_top" xlink:title="Create the right wall and register it.">
+<g id="a_Node000011"><a xlink:href="../../d9/dfa/Init_8cpp.html#a0e2d0321a787eb9a3b705489c8f2b86b" target="_top" xlink:title="Create the right wall and register it.">
 <polygon fill="white" stroke="#666666" points="411.5,-19 316.5,-19 316.5,0 411.5,0 411.5,-19"/>
 <text text-anchor="middle" x="364" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SpawnRightWall</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node12 -->
-<g id="edge17_Node000002_Node000012" class="edge">
-<title>Node2&#45;&gt;Node12</title>
-<g id="a_edge17_Node000002_Node000012"><a xlink:title=" ">
+<!-- Node2&#45;&gt;Node11 -->
+<g id="edge16_Node000002_Node000011" class="edge">
+<title>Node2&#45;&gt;Node11</title>
+<g id="a_edge16_Node000002_Node000011"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M245.76,-147.93C250.21,-145.66 254.37,-142.88 258,-139.5 296.23,-103.83 256.01,-63.43 294,-27.5 297.78,-23.92 302.18,-21.04 306.9,-18.71"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="308.33,-21.9 316.27,-14.89 305.69,-15.42 308.33,-21.9"/>
 </a>
@@ -237,8 +237,8 @@
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M397.16,-260.89C408.97,-256.95 422.3,-252.02 434,-246.5 467.81,-230.55 504.27,-207.2 526.87,-191.93"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="529.09,-194.65 535.37,-186.12 525.14,-188.87 529.09,-194.65"/>
+<path fill="none" stroke="#63b8ff" d="M401.74,-297.89C412.55,-294.24 424.13,-289.48 434,-283.5 475.32,-258.49 514.28,-216.69 534.53,-193.1"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="537.34,-195.19 541.11,-185.29 531.99,-190.68 537.34,-195.19"/>
 </a>
 </g>
 </g>
@@ -246,71 +246,53 @@
 <g id="edge5_Node000005_Node000004" class="edge">
 <title>Node5&#45;&gt;Node4</title>
 <g id="a_edge5_Node000005_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M414.5,-297.97C421.28,-295.71 427.97,-292.92 434,-289.5 477.59,-264.78 516.45,-219.38 535.88,-194.3"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="538.88,-196.15 542.13,-186.06 533.3,-191.91 538.88,-196.15"/>
+<path fill="none" stroke="#63b8ff" d="M403.44,-221.94C413.43,-219.33 424.15,-216.41 434,-213.5 460.35,-205.72 489.76,-195.98 512.24,-188.31"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="513.41,-191.61 521.74,-185.06 511.14,-184.99 513.41,-191.61"/>
 </a>
 </g>
 </g>
-<!-- Node6 -->
-<g id="Node000006" class="node">
-<title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" target="_top" xlink:title="Return the correct asset path for the asset depending on the current environment.">
-<polygon fill="white" stroke="#666666" points="591,-317 509,-317 509,-298 591,-298 591,-317"/>
-<text text-anchor="middle" x="550" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">GetAssetPath</text>
-</a>
-</g>
-</g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge6_Node000005_Node000006" class="edge">
-<title>Node5&#45;&gt;Node6</title>
-<g id="a_edge6_Node000005_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M428.58,-307.5C451.43,-307.5 476.88,-307.5 498.47,-307.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="498.73,-311 508.73,-307.5 498.73,-304 498.73,-311"/>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge7_Node000006_Node000004" class="edge">
+<title>Node6&#45;&gt;Node4</title>
+<g id="a_edge7_Node000006_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M401.35,-190.75C418.18,-189.01 438.99,-186.86 459.63,-184.73"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="460.14,-188.19 469.73,-183.69 459.42,-181.23 460.14,-188.19"/>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node4 -->
-<g id="edge8_Node000007_Node000004" class="edge">
+<g id="edge9_Node000007_Node000004" class="edge">
 <title>Node7&#45;&gt;Node4</title>
-<g id="a_edge8_Node000007_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M401.35,-190.94C418.18,-189.3 438.99,-187.26 459.63,-185.24"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="460.11,-188.71 469.73,-184.26 459.43,-181.75 460.11,-188.71"/>
+<g id="a_edge9_Node000007_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M421.21,-163C433.42,-164.19 446.63,-165.49 459.76,-166.77"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="459.48,-170.26 469.77,-167.75 460.16,-163.29 459.48,-170.26"/>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node4 -->
-<g id="edge10_Node000008_Node000004" class="edge">
-<title>Node8&#45;&gt;Node4</title>
-<g id="a_edge10_Node000008_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M421.21,-163.3C433.42,-164.56 446.63,-165.93 459.76,-167.28"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="459.46,-170.77 469.77,-168.32 460.18,-163.81 459.46,-170.77"/>
+<!-- Node9&#45;&gt;Node4 -->
+<g id="edge13_Node000009_Node000004" class="edge">
+<title>Node9&#45;&gt;Node4</title>
+<g id="a_edge13_Node000009_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M407.29,-93.01C416.28,-95.62 425.59,-98.77 434,-102.5 469.31,-118.15 506.37,-143.54 528.58,-159.88"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="526.49,-162.69 536.6,-165.86 530.68,-157.07 526.49,-162.69"/>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node4 -->
-<g id="edge14_Node000010_Node000004" class="edge">
+<g id="edge15_Node000010_Node000004" class="edge">
 <title>Node10&#45;&gt;Node4</title>
-<g id="a_edge14_Node000010_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M407.67,-93.07C416.55,-95.66 425.72,-98.8 434,-102.5 469.59,-118.4 506.84,-144.35 528.97,-160.91"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="526.87,-163.71 536.95,-166.97 531.1,-158.13 526.87,-163.71"/>
+<g id="a_edge15_Node000010_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M404.29,-53.73C414.37,-56.54 424.92,-60.35 434,-65.5 476.81,-89.78 515.72,-133.53 535.43,-157.9"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="532.84,-160.26 541.8,-165.93 538.33,-155.91 532.84,-160.26"/>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node4 -->
-<g id="edge16_Node000011_Node000004" class="edge">
+<g id="edge17_Node000011_Node000004" class="edge">
 <title>Node11&#45;&gt;Node4</title>
-<g id="a_edge16_Node000011_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M404.31,-53.7C414.39,-56.51 424.93,-60.33 434,-65.5 476.94,-89.98 515.8,-134.13 535.47,-158.73"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="532.9,-161.12 541.82,-166.84 538.41,-156.81 532.9,-161.12"/>
-</a>
-</g>
-</g>
-<!-- Node12&#45;&gt;Node4 -->
-<g id="edge18_Node000012_Node000004" class="edge">
-<title>Node12&#45;&gt;Node4</title>
-<g id="a_edge18_Node000012_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M411.71,-17.19C419.54,-19.72 427.29,-23.06 434,-27.5 485.15,-61.33 523.11,-125.65 539.73,-157.56"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="536.72,-159.37 544.37,-166.7 542.97,-156.2 536.72,-159.37"/>
+<g id="a_edge17_Node000011_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M411.69,-17.21C419.53,-19.73 427.28,-23.07 434,-27.5 484.99,-61.11 523.03,-124.99 539.7,-156.69"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="536.67,-158.46 544.35,-165.77 542.91,-155.27 536.67,-158.46"/>
 </a>
 </g>
 </g>

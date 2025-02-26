@@ -1,13 +1,11 @@
 <map id="SpawnEnemy" name="SpawnEnemy">
-<area shape="rect" id="Node000001" title="Spawn a new enemy." alt="" coords="5,55,116,80"/>
+<area shape="rect" id="Node000001" title="Spawn a new enemy." alt="" coords="5,31,116,56"/>
 <area shape="rect" id="Node000002" href="$d2/d41/ObjectManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" title="Enqueue an object to be registered on the next frame." alt="" coords="164,5,377,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,52,163,39,199,31,200,36,165,45,113,57"/>
-<area shape="rect" id="Node000003" href="$d1/da9/AssetLoading_8cpp.html#a07739f40c13743b2dfceefb659d6d455" title="Return the correct asset path for the asset depending on the current environment." alt="" coords="216,55,325,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,65,202,65,202,70,116,70"/>
-<area shape="rect" id="Node000004" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" title="Generate a random float between 0 and 1." alt="" coords="167,104,374,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,77,203,98,202,103,115,83"/>
-<area shape="rect" id="Node000005" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="425,104,541,129"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="375,114,411,114,411,119,375,119"/>
-<area shape="rect" id="Node000006" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="589,104,705,129"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="542,114,575,114,575,119,542,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,34,152,30,152,35,117,39"/>
+<area shape="rect" id="Node000003" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" title="Generate a random float between 0 and 1." alt="" coords="167,55,374,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,47,154,51,153,57,116,52"/>
+<area shape="rect" id="Node000004" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="425,55,541,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="375,65,411,65,411,70,375,70"/>
+<area shape="rect" id="Node000005" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="589,55,705,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="542,65,575,65,575,70,542,70"/>
 </map>
