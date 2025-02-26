@@ -41,8 +41,6 @@ class GameObject {
      * @brief The tag of the object, used for identification and classification
      */
     std::string tag = "";
-
-  public:
     /**
      * @brief Components of the GameObject will be placed in here.
      *
@@ -50,11 +48,17 @@ class GameObject {
      */
     std::vector<std::shared_ptr<GameObjectComponent>> components;
 
+  public:
     const std::string getTag() const { return tag; }
     void setTag(std::string value) { tag = value; }
 
     bool getEnabled() const { return enabled; };
     void setEnabled(bool value) { weight = value; };
+
+    const std::vector<std::shared_ptr<GameObjectComponent>>
+    &getComponents() const {
+        return components;
+    };
 
     float getWeight() const { return enabled; };
     void setWeight(float value) { weight = value; };
@@ -88,7 +92,8 @@ class GameObject {
      * @brief Get the first component that matches the type T
      *
      * @tparam T The type of the component
-     * @throws ComponentNotFoundExeption if there is no matching component found.
+     * @throws ComponentNotFoundExeption if there is no matching component
+     * found.
      * @return The first component on the gameobject matching type T
      */
     template <typename T> std::shared_ptr<T> GetFirstComponent() {
