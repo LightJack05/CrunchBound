@@ -27,7 +27,7 @@ void SpawnCoffee(float velocityX) {
 
     std::shared_ptr<TextureRenderer> coffeeRenderer =
         std::make_shared<TextureRenderer>(
-            64, 64, GetAssetPath("textures/objects/coffee_paper_cup.png"));
+            64, 64, "textures/objects/coffee_paper_cup.png");
     coffee->RegisterComponent(coffeeRenderer);
 
     std::shared_ptr<KinematicBehavior> coffeeKinematics =
@@ -54,8 +54,7 @@ void SpawnEnemy(float velocityX) {
     enemy->RegisterComponent(enemyBehavior);
 
     std::shared_ptr<TextureRenderer> enemyRenderer =
-        std::make_shared<TextureRenderer>(
-            64, 64, GetAssetPath("textures/objects/bug.png"));
+        std::make_shared<TextureRenderer>(64, 64, "textures/objects/bug.png");
     enemy->RegisterComponent(enemyRenderer);
 
     std::shared_ptr<KinematicBehavior> enemyKinematics =
