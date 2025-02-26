@@ -137,7 +137,7 @@ prepare-appimage:
 	@cp -v ./icon.png $(APPIMAGEDIR)/$(PROJ).png || echo "Icon not found, skipping..."
 	
 	@echo "Copying required libraries..."
-	@ldd $(BINDIR)/$(PROJ) | grep -E "=> /.*SDL.*" | awk '{print $$3}' | xargs -I '{}' cp -v '{}' $(APPIMAGEDIR)/usr/lib/ || echo "No libraries to copy."
+	@ldd $(BINDIR)/$(PROJ) | grep -E "=> /(.*SDL.*)|(.*freetype.*)|(.*libpng.*)|(.*libbrot.*)|(.*libgraphite.*)|(.*libbz2.*)|(.*libpcre2.*)|(.*libharfbuzz.*)" | awk '{print $$3}' | xargs -I '{}' cp -v '{}' $(APPIMAGEDIR)/usr/lib/ || echo "No libraries to copy."
 	
 
 
