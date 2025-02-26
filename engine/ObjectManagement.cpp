@@ -1,5 +1,4 @@
 #include "ObjectManagement.hpp"
-#include "GameManagement.hpp"
 #include "components/GameObjectComponent.hpp"
 #include "exceptions/GameObjectNotFoundException.hpp"
 #include <queue>

@@ -1,5 +1,4 @@
 #include "CollisionBehavior.hpp"
-#include "../../GameManagement.hpp"
 #include "../../ObjectManagement.hpp"
 #include "../../Time.hpp"
 #include <cstdio>

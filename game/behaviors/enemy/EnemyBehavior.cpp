@@ -1,5 +1,4 @@
 #include "EnemyBehavior.hpp"
-#include "../../../engine/GameManagement.hpp"
 #include "../../../engine/ObjectManagement.hpp"
 
 void EnemyBehavior::OnTick() {

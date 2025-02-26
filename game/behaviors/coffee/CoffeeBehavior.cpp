@@ -1,5 +1,4 @@
 #include "CoffeeBehavior.hpp"
-#include "../../../engine/GameManagement.hpp"
 #include "../../../engine/ObjectManagement.hpp"
 
 void CoffeeBehavior::OnTick() {

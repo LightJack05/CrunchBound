@@ -3,7 +3,6 @@
 #include "../engine/ObjectManagement.hpp"
 #include "../engine/Time.hpp"
 #include "Init.hpp"
-#include <iostream>
 
 void InitializeGame() {
     CreateGameManager();

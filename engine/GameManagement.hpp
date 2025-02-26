@@ -1,11 +1,8 @@
 #ifndef GAMEMANAGEMENT_HPP
 #define GAMEMANAGEMENT_HPP
 
-#include "GameObject.hpp"
 #include <SDL3/SDL_pixels.h>
 #include <SDL3/SDL_render.h>
-#include <memory>
-#include <vector>
 
 
 /**
