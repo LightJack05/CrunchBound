@@ -14,7 +14,7 @@
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="509,71,475,71,475,66,509,66"/>
 <area shape="rect" id="Node000008" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="247,56,308,81"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="342,71,308,71,308,66,342,66"/>
-<area shape="rect" id="Node000009" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true." alt="" coords="108,56,199,81"/>
+<area shape="rect" id="Node000009" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,56,199,81"/>
 <area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="233,71,199,71,199,66,233,66"/>
 <area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="94,59,60,52,61,46,95,54"/>
 </map>

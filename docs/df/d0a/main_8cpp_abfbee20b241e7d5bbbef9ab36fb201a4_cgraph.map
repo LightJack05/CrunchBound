@@ -1,5 +1,5 @@
 <map id="gameLoop" name="gameLoop">
-<area shape="rect" id="Node000001" title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true." alt="" coords="5,184,96,209"/>
+<area shape="rect" id="Node000001" title="The main game loop, runs until QuitGame is set to true." alt="" coords="5,184,96,209"/>
 <area shape="rect" id="Node000002" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="182,115,243,140"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,182,168,143,170,148,82,186"/>
 <area shape="rect" id="Node000024" href="$de/db0/Events_8cpp.html#a26867d84edb0f52a75127cf66c64c9a9" title="Handles an event that has occoured." alt="" coords="160,184,265,209"/>

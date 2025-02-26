@@ -125,17 +125,63 @@ Include dependency graph for main.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aed6a965c795e2202196ce9dc698d8046" id="r_aed6a965c795e2202196ce9dc698d8046"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6a965c795e2202196ce9dc698d8046">CleanupBeforeExit</a> (SDL_Window *&amp;win, SDL_Renderer *&amp;ren)</td></tr>
+<tr class="memdesc:aed6a965c795e2202196ce9dc698d8046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy all objects, the renderer and window, and quit SDL and TTF.  <br /></td></tr>
+<tr class="separator:aed6a965c795e2202196ce9dc698d8046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8fa368bbea5177612cd2cf333448c66" id="r_ae8fa368bbea5177612cd2cf333448c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8fa368bbea5177612cd2cf333448c66">frame</a> ()</td></tr>
 <tr class="memdesc:ae8fa368bbea5177612cd2cf333448c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed every frame.  <br /></td></tr>
 <tr class="separator:ae8fa368bbea5177612cd2cf333448c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfbee20b241e7d5bbbef9ab36fb201a4" id="r_abfbee20b241e7d5bbbef9ab36fb201a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfbee20b241e7d5bbbef9ab36fb201a4">gameLoop</a> ()</td></tr>
-<tr class="memdesc:abfbee20b241e7d5bbbef9ab36fb201a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main game loop, runs until an exit event is sensed, and QuitGame is set to true.  <br /></td></tr>
+<tr class="memdesc:abfbee20b241e7d5bbbef9ab36fb201a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main game loop, runs until QuitGame is set to true.  <br /></td></tr>
 <tr class="separator:abfbee20b241e7d5bbbef9ab36fb201a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4" id="r_ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry point of the program.  <br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aed6a965c795e2202196ce9dc698d8046" name="aed6a965c795e2202196ce9dc698d8046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed6a965c795e2202196ce9dc698d8046">&#9670;&#160;</a></span>CleanupBeforeExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CleanupBeforeExit </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Window *&amp;</td>          <td class="paramname"><span class="paramname"><em>win</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Renderer *&amp;</td>          <td class="paramname"><span class="paramname"><em>ren</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destroy all objects, the renderer and window, and quit SDL and TTF. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">win</td><td>The window of the application. </td></tr>
+    <tr><td class="paramname">ren</td><td>The renderer to destroy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_aed6a965c795e2202196ce9dc698d8046_icgraph.svg" width="256" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ae8fa368bbea5177612cd2cf333448c66" name="ae8fa368bbea5177612cd2cf333448c66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae8fa368bbea5177612cd2cf333448c66">&#9670;&#160;</a></span>frame()</h2>
 
@@ -180,7 +226,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>The main game loop, runs until an exit event is sensed, and QuitGame is set to true. </p>
+<p>The main game loop, runs until QuitGame is set to true. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -225,7 +271,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d0a/main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 26 2025 11:23:30 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Wed Feb 26 2025 12:59:42 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

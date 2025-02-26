@@ -283,7 +283,7 @@ var sectionId = 'dynsection-2';
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="../../df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" target="_top" xlink:title="The main game loop, runs until an exit event is sensed, and QuitGame is set to true.">
+<g id="a_Node000011"><a xlink:href="../../df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" target="_top" xlink:title="The main game loop, runs until QuitGame is set to true.">
 <polygon fill="white" stroke="#666666" points="145,-111 77,-111 77,-92 145,-92 145,-111"/>
 <text text-anchor="middle" x="111" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">gameLoop</text>
 </a>
