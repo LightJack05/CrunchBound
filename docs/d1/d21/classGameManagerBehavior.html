@@ -99,6 +99,8 @@ $(function(){initNavTree('d1/d21/classGameManagerBehavior.html','../../'); initR
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d9/d7c/classGameManagerBehavior-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">GameManagerBehavior Class Reference</div></div>
 </div><!--header-->
@@ -111,7 +113,7 @@ $(function(){initNavTree('d1/d21/classGameManagerBehavior.html','../../'); initR
 <div class="dynheader">
 Inheritance diagram for GameManagerBehavior:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/de5/classGameManagerBehavior__inherit__graph.svg" width="263" height="502"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/de5/classGameManagerBehavior__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for GameManagerBehavior:</div>
@@ -135,8 +137,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3ea3835b942a9ff0ebad8acd29a15d7 inherit pub_methods_classGameObjectComponent" id="r_ac3ea3835b942a9ff0ebad8acd29a15d7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/classGameObjectComponent.html#ac3ea3835b942a9ff0ebad8acd29a15d7">~GameObjectComponent</a> ()</td></tr>
 <tr class="separator:ac3ea3835b942a9ff0ebad8acd29a15d7 inherit pub_methods_classGameObjectComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a03f055b9130a3014a32bf722ba48eebf" id="r_a03f055b9130a3014a32bf722ba48eebf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03f055b9130a3014a32bf722ba48eebf">GetObjectVelocity</a> ()</td></tr>
+<tr class="memdesc:a03f055b9130a3014a32bf722ba48eebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the velocity of an object at the current time.  <br /></td></tr>
+<tr class="separator:a03f055b9130a3014a32bf722ba48eebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a1baf0b3e0c4fb60b580b1e1f19628ab3" id="r_a1baf0b3e0c4fb60b580b1e1f19628ab3"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1baf0b3e0c4fb60b580b1e1f19628ab3">timeSinceGameStart</a> = 0</td></tr>
+<tr class="memdesc:a1baf0b3e0c4fb60b580b1e1f19628ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time since the game has started.  <br /></td></tr>
+<tr class="separator:a1baf0b3e0c4fb60b580b1e1f19628ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33c804eb078d9319d3979784868f6082" id="r_a33c804eb078d9319d3979784868f6082"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33c804eb078d9319d3979784868f6082">timeOfLastEnemy</a> = 0</td></tr>
+<tr class="memdesc:a33c804eb078d9319d3979784868f6082"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time the last enemy has been spawned at.  <br /></td></tr>
+<tr class="separator:a33c804eb078d9319d3979784868f6082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad762da15aa8c154acac06c086912682b" id="r_ad762da15aa8c154acac06c086912682b"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad762da15aa8c154acac06c086912682b">enemySpawnDelay</a> = 3000</td></tr>
+<tr class="memdesc:ad762da15aa8c154acac06c086912682b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The delay until the next enemy will be spawned, from the last enemy spawn.  <br /></td></tr>
+<tr class="separator:ad762da15aa8c154acac06c086912682b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f857c7ea0be67c937233ead9c76691" id="r_a48f857c7ea0be67c937233ead9c76691"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48f857c7ea0be67c937233ead9c76691">timeOfLastCoffee</a> = 0</td></tr>
+<tr class="memdesc:a48f857c7ea0be67c937233ead9c76691"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time the last coffee has been spawned at.  <br /></td></tr>
+<tr class="separator:a48f857c7ea0be67c937233ead9c76691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a79d0f8e717aa85e30c20affdd938f3" id="r_a7a79d0f8e717aa85e30c20affdd938f3"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a79d0f8e717aa85e30c20affdd938f3">coffeeSpawnDelay</a> = 3000</td></tr>
+<tr class="memdesc:a7a79d0f8e717aa85e30c20affdd938f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The delay until the next coffee will be spawned, from the last coffee spawn.  <br /></td></tr>
+<tr class="separator:a7a79d0f8e717aa85e30c20affdd938f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classGameObjectComponent"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classGameObjectComponent')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d9/df7/classGameObjectComponent.html">GameObjectComponent</a></td></tr>
 <tr class="memitem:aaa4f0fce8c959843e626a20603eb6d55 inherit pro_attribs_classGameObjectComponent" id="r_aaa4f0fce8c959843e626a20603eb6d55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/classGameObjectComponent.html#aaa4f0fce8c959843e626a20603eb6d55">enabled</a> = true</td></tr>
 <tr class="separator:aaa4f0fce8c959843e626a20603eb6d55 inherit pro_attribs_classGameObjectComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +169,44 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The base game manager behavior. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a03f055b9130a3014a32bf722ba48eebf" name="a03f055b9130a3014a32bf722ba48eebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f055b9130a3014a32bf722ba48eebf">&#9670;&#160;</a></span>GetObjectVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameManagerBehavior::GetObjectVelocity </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the velocity of an object at the current time. </p>
+<dl class="section return"><dt>Returns</dt><dd>A slightly randomized velocity of an object that should be spawned. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d21/classGameManagerBehavior_a03f055b9130a3014a32bf722ba48eebf_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d21/classGameManagerBehavior_a03f055b9130a3014a32bf722ba48eebf_icgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a44ddde99ed4360387e2275f3f1a41b7d" name="a44ddde99ed4360387e2275f3f1a41b7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44ddde99ed4360387e2275f3f1a41b7d">&#9670;&#160;</a></span>OnStart()</h2>
 
@@ -200,8 +261,129 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d21/classGameManagerBehavior_a432014bfe65aa92c7f74b7e6e88c475a_cgraph.svg" width="100%" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d21/classGameManagerBehavior_a432014bfe65aa92c7f74b7e6e88c475a_cgraph.svg" width="100%" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7a79d0f8e717aa85e30c20affdd938f3" name="a7a79d0f8e717aa85e30c20affdd938f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a79d0f8e717aa85e30c20affdd938f3">&#9670;&#160;</a></span>coffeeSpawnDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long GameManagerBehavior::coffeeSpawnDelay = 3000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The delay until the next coffee will be spawned, from the last coffee spawn. </p>
+
+</div>
+</div>
+<a id="ad762da15aa8c154acac06c086912682b" name="ad762da15aa8c154acac06c086912682b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad762da15aa8c154acac06c086912682b">&#9670;&#160;</a></span>enemySpawnDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long GameManagerBehavior::enemySpawnDelay = 3000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The delay until the next enemy will be spawned, from the last enemy spawn. </p>
+
+</div>
+</div>
+<a id="a48f857c7ea0be67c937233ead9c76691" name="a48f857c7ea0be67c937233ead9c76691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f857c7ea0be67c937233ead9c76691">&#9670;&#160;</a></span>timeOfLastCoffee</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long GameManagerBehavior::timeOfLastCoffee = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The time the last coffee has been spawned at. </p>
+
+</div>
+</div>
+<a id="a33c804eb078d9319d3979784868f6082" name="a33c804eb078d9319d3979784868f6082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33c804eb078d9319d3979784868f6082">&#9670;&#160;</a></span>timeOfLastEnemy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long GameManagerBehavior::timeOfLastEnemy = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The time the last enemy has been spawned at. </p>
+
+</div>
+</div>
+<a id="a1baf0b3e0c4fb60b580b1e1f19628ab3" name="a1baf0b3e0c4fb60b580b1e1f19628ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1baf0b3e0c4fb60b580b1e1f19628ab3">&#9670;&#160;</a></span>timeSinceGameStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long GameManagerBehavior::timeSinceGameStart = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The time since the game has started. </p>
 
 </div>
 </div>
@@ -215,7 +397,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d21/classGameManagerBehavior.html">GameManagerBehavior</a></li>
-    <li class="footer">Generated on Tue Feb 25 2025 09:32:24 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Wed Feb 26 2025 08:07:24 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

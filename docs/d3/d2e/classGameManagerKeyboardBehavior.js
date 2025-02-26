@@ -5,5 +5,6 @@ var classGameManagerKeyboardBehavior =
     [ "OnKeyDown", "d3/d2e/classGameManagerKeyboardBehavior.html#a5531c79b138f1862a4ddf4bfac36f11e", null ],
     [ "OnKeyUp", "d3/d2e/classGameManagerKeyboardBehavior.html#abeaecdc46b185ecc4c63eac321134d91", null ],
     [ "OnStart", "d3/d2e/classGameManagerKeyboardBehavior.html#afde9880af7712881bbde938589035057", null ],
-    [ "OnTick", "d3/d2e/classGameManagerKeyboardBehavior.html#a937c824acc2bb8d97aef70f1bd4bd4ab", null ]
+    [ "OnTick", "d3/d2e/classGameManagerKeyboardBehavior.html#a937c824acc2bb8d97aef70f1bd4bd4ab", null ],
+    [ "isRDown", "d3/d2e/classGameManagerKeyboardBehavior.html#a0c2050b96aa9616b3792423eb2b40c70", null ]
 ];

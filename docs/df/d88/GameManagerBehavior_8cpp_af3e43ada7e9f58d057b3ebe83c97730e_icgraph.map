@@ -1,5 +1,0 @@
-<map id="GetObjectVelocity" name="GetObjectVelocity">
-<area shape="rect" id="Node000001" title="Return the velocity of an object at the current time." alt="" coords="229,13,368,38"/>
-<area shape="rect" id="Node000002" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,5,181,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,28,182,28,182,23,216,23"/>
-</map>

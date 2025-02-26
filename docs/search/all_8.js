@@ -9,10 +9,10 @@ var searchData=
   ['installedassetpath_6',['InstalledAssetPath',['../d1/da9/AssetLoading_8cpp.html#a43579e609c1104c580e643cdf91d88ed',1,'AssetLoading.cpp']]],
   ['intact_7',['Remove all build files, leave makedepends intact',['../d6/dd0/md_BUILDING.html#autotoc_md7',1,'']]],
   ['into_20an_20elf_20binary_20with_20debug_20info_8',['Building the Project into an ELF binary (with debug info)',['../d6/dd0/md_BUILDING.html#autotoc_md4',1,'']]],
-  ['isadown_9',['IsADown',['../dd/d4b/PlayerKeyboardBehavior_8cpp.html#a856d81e50a1d0ca4018a879f8721e6d0',1,'PlayerKeyboardBehavior.cpp']]],
-  ['isddown_10',['IsDDown',['../dd/d4b/PlayerKeyboardBehavior_8cpp.html#a71d7bd755624f1d6930b66911153061f',1,'PlayerKeyboardBehavior.cpp']]],
+  ['isadown_9',['isADown',['../d9/d2c/classPlayerKeyboardBehavior.html#a7172123b16b0e9eaf544d336926769ec',1,'PlayerKeyboardBehavior']]],
+  ['isddown_10',['isDDown',['../d9/d2c/classPlayerKeyboardBehavior.html#a1fe21dba2b493f29bb3c344679023b20',1,'PlayerKeyboardBehavior']]],
   ['ispointinsidecollider_11',['IsPointInsideCollider',['../d9/df0/classCollisionBehavior.html#a8a037ad8f82ae70b8251e6f9f62008f5',1,'CollisionBehavior']]],
-  ['isrdown_12',['IsRDown',['../d8/d23/GameManagerKeyboardHandler_8cpp.html#a71d83d0929d029ccc2ed9563a4678256',1,'GameManagerKeyboardHandler.cpp']]],
+  ['isrdown_12',['isRDown',['../d3/d2e/classGameManagerKeyboardBehavior.html#a0c2050b96aa9616b3792423eb2b40c70',1,'GameManagerKeyboardBehavior']]],
   ['isresetenqueued_13',['IsResetEnqueued',['../de/dfd/GameManagement_8cpp.html#a347d00e4dd0930e86e11873cb34cd7a3',1,'GameManagement.cpp']]],
-  ['isspacedown_14',['IsSpaceDown',['../dd/d4b/PlayerKeyboardBehavior_8cpp.html#ab784440b1debcdfca7b99beb28e75732',1,'PlayerKeyboardBehavior.cpp']]]
+  ['isspacedown_14',['isSpaceDown',['../d9/d2c/classPlayerKeyboardBehavior.html#a996d080ef3c11f3681df4bff0ad83ea7',1,'PlayerKeyboardBehavior']]]
 ];

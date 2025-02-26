@@ -1,8 +1,8 @@
 <map id="GetGameDifficultyAtTime" name="GetGameDifficultyAtTime">
-<area shape="rect" id="Node000001" title="Calculate the difficulty at the specified game uptime." alt="" coords="416,31,607,56"/>
-<area shape="rect" id="Node000002" href="$df/d88/GameManagerBehavior_8cpp.html#af3e43ada7e9f58d057b3ebe83c97730e" title="Return the velocity of an object at the current time." alt="" coords="229,5,368,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="402,33,368,29,369,24,402,28"/>
-<area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,23,181,63"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="402,46,181,46,181,41,402,41"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,31,182,35,181,30,215,26"/>
+<area shape="rect" id="Node000001" title="Calculate the difficulty at the specified game uptime." alt="" coords="453,42,644,67"/>
+<area shape="rect" id="Node000002" href="$d1/d21/classGameManagerBehavior.html#a03f055b9130a3014a32bf722ba48eebf" title="Return the velocity of an object at the current time." alt="" coords="229,5,405,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="439,43,405,39,406,34,440,38"/>
+<area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,35,181,75"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="440,60,405,60,229,60,182,59,182,54,229,55,405,55,439,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,41,182,46,181,40,215,36"/>
 </map>

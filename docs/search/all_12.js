@@ -15,7 +15,7 @@ var searchData=
   ['time_20dependencies_12',['Build time dependencies',['../d6/dd0/md_BUILDING.html#autotoc_md1',1,'']]],
   ['time_2ecpp_13',['Time.cpp',['../d8/d38/Time_8cpp.html',1,'']]],
   ['time_2ehpp_14',['Time.hpp',['../d9/de7/Time_8hpp.html',1,'']]],
-  ['timeoflastcoffee_15',['TimeOfLastCoffee',['../df/d88/GameManagerBehavior_8cpp.html#ae5991524d222b8deb7c606bdeb247d84',1,'GameManagerBehavior.cpp']]],
-  ['timeoflastenemy_16',['TimeOfLastEnemy',['../df/d88/GameManagerBehavior_8cpp.html#a4d43a1a83cdd3dfb3c242cbff67c5e9a',1,'GameManagerBehavior.cpp']]],
-  ['timesincegamestart_17',['TimeSinceGameStart',['../df/d88/GameManagerBehavior_8cpp.html#a37983d17458a4c6fc4bf84c33bef94cc',1,'TimeSinceGameStart:&#160;GameManagerBehavior.cpp'],['../dc/dda/ScoreCounterBehavior_8cpp.html#a37983d17458a4c6fc4bf84c33bef94cc',1,'TimeSinceGameStart:&#160;ScoreCounterBehavior.cpp']]]
+  ['timeoflastcoffee_15',['timeOfLastCoffee',['../d1/d21/classGameManagerBehavior.html#a48f857c7ea0be67c937233ead9c76691',1,'GameManagerBehavior']]],
+  ['timeoflastenemy_16',['timeOfLastEnemy',['../d1/d21/classGameManagerBehavior.html#a33c804eb078d9319d3979784868f6082',1,'GameManagerBehavior']]],
+  ['timesincegamestart_17',['timeSinceGameStart',['../d1/d21/classGameManagerBehavior.html#a1baf0b3e0c4fb60b580b1e1f19628ab3',1,'GameManagerBehavior::timeSinceGameStart'],['../db/d44/classScoreCounterBehavior.html#a6571a89a797f57421194bac261762f50',1,'ScoreCounterBehavior::timeSinceGameStart']]]
 ];
