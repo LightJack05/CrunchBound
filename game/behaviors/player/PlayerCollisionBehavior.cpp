@@ -1,5 +1,6 @@
 #include "PlayerCollisionBehavior.hpp"
 #include "../../../engine/GameManagement.hpp"
+#include "../../../engine/ObjectManagement.hpp"
 #include "../../../engine/components/behaviors/GravityBehavior.hpp"
 #include "../../Lifecycle.hpp"
 #include "../coffeeMeter/CoffeeMeterBehavior.hpp"
