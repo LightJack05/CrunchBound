@@ -1,4 +1,5 @@
 #include "TextureRenderer.hpp"
+#include "../../AssetLoading.hpp"
 #include <SDL3/SDL_oldnames.h>
 #include <SDL3/SDL_render.h>
 #include <SDL3/SDL_surface.h>
@@ -7,7 +8,7 @@
 TextureRenderer::TextureRenderer(float width, float height,
                                  std::string pathToTexture) {
     this->renderable = std::make_shared<SDL_FRect>();
-    this->texture = IMG_LoadTexture(this->renderer, pathToTexture.c_str());
+    this->texture = IMG_LoadTexture(this->renderer, GetAssetPath(pathToTexture).c_str());
     SDL_SetTextureScaleMode(this->texture, SDL_SCALEMODE_NEAREST);
     this->size->setX(width);
     this->size->setY(height);

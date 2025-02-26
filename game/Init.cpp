@@ -17,8 +17,8 @@
 #include "behaviors/scoreCounter/ScoreCounterBehavior.hpp"
 #include <memory>
 
-static const int PlayerHeight = 150;
-static const int PlayerWidth = 50;
+static const int PlayerHeight = 200;
+static const int PlayerWidth = 100;
 
 /**
  * @brief Create the icon next to the coffee meter
@@ -31,7 +31,7 @@ static void CreateCoffeeMeterIcon() {
 
     std::shared_ptr<TextureRenderer> coffeeMeterIconRenderer =
         std::make_shared<TextureRenderer>(
-            64, 64, GetAssetPath("textures/objects/coffee_paper_cup.png"));
+            64, 64, "textures/objects/coffee_paper_cup.png");
     coffeeMeterIcon->RegisterComponent(coffeeMeterIconRenderer);
 
     EnqueueRegisterGameObject(coffeeMeterIcon);
@@ -113,8 +113,9 @@ static void SpawnPlayer() {
         std::make_shared<KinematicBehavior>();
     player->RegisterComponent(playerKinematic);
 
-    std::shared_ptr<RectangleRenderer> playerRenderer =
-        std::make_shared<RectangleRenderer>(PlayerWidth, PlayerHeight);
+    std::shared_ptr<TextureRenderer> playerRenderer =
+        std::make_shared<TextureRenderer>(PlayerWidth, PlayerHeight,
+                                          "textures/player.png");
     player->RegisterComponent(playerRenderer);
 
     std::shared_ptr<PlayerCollisionBehavior> playerCollider =
