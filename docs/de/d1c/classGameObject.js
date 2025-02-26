@@ -2,6 +2,7 @@ var classGameObject =
 [
     [ "GameObject", "de/d1c/classGameObject.html#a0348e3ee2e83d56eafca7a3547f432c4", null ],
     [ "~GameObject", "de/d1c/classGameObject.html#ab82dfdb656f9051c0587e6593b2dda97", null ],
+    [ "getComponents", "de/d1c/classGameObject.html#a68c377ee6cbb9633431c88fcb58265ce", null ],
     [ "getEnabled", "de/d1c/classGameObject.html#abff095300779ab83a30dd21120271d9e", null ],
     [ "GetFirstComponent", "de/d1c/classGameObject.html#add821214112e834e8c5800142fe31a0e", null ],
     [ "getPosition", "de/d1c/classGameObject.html#a42b10b3fba8be162e913bd8191a22adb", null ],

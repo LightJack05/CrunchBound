@@ -1,11 +1,11 @@
 <map id="GameManagerKeyboardBehavior" name="GameManagerKeyboardBehavior">
-<area shape="rect" id="Node000001" title="The game managers keyboard handler for general handling." alt="" coords="5,1433,271,1687"/>
-<area shape="rect" id="Node000002" href="$de/d47/classKeyboardHandlerBehavior.html" title="An abstract class for handling keyboard inputs." alt="" coords="33,1269,243,1384"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,1398,141,1433,135,1433,135,1398"/>
-<area shape="rect" id="Node000003" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="102,1155,174,1220"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,1234,141,1269,135,1269,135,1234"/>
-<area shape="rect" id="Node000004" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="12,911,264,1105"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,1119,141,1155,135,1155,135,1119"/>
-<area shape="rect" id="Node000005" href="$de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game." alt="" coords="25,5,251,848"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="141,848,141,894,135,894,135,848"/>
+<area shape="rect" id="Node000001" title="The game managers keyboard handler for general handling." alt="" coords="5,1497,271,1751"/>
+<area shape="rect" id="Node000002" href="$de/d47/classKeyboardHandlerBehavior.html" title="An abstract class for handling keyboard inputs." alt="" coords="33,1333,243,1448"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,1462,141,1497,135,1497,135,1462"/>
+<area shape="rect" id="Node000003" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="102,1219,174,1284"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,1298,141,1333,135,1333,135,1298"/>
+<area shape="rect" id="Node000004" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="12,975,264,1169"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,1183,141,1219,135,1219,135,1183"/>
+<area shape="rect" id="Node000005" href="$de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game." alt="" coords="11,5,265,912"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="141,912,141,958,135,958,135,912"/>
 </map>
