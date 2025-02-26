@@ -48,7 +48,7 @@ void UpdateObjects() {
     WorkThroughFrameQueue();
     for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
         for (const std::shared_ptr<GameObjectComponent> component :
-             gameObject->components) {
+             gameObject->getComponents()) {
             if (component->getEnabled())
                 HandleComponentUpdate(component);
         }
@@ -66,7 +66,7 @@ void EnqueueDestroyGameObject(GameObject *object) {
 void OnGameStart() {
     for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
         for (const std::shared_ptr<GameObjectComponent> component :
-             gameObject->components) {
+             gameObject->getComponents()) {
             component->OnStart();
         }
     }
