@@ -43,12 +43,12 @@ inline void CleanupBeforeExit(SDL_Window *&win, SDL_Renderer *&ren) {
 /**
  * @brief Executed every frame.
  */
-void frame() { RunFrameActions(); }
+void Frame() { RunFrameActions(); }
 
 /**
  * @brief The main game loop, runs until QuitGame is set to true.
  */
-void gameLoop() {
+void GameLoop() {
     // Run in a loop until the game exits
     SDL_Event e;
     while (!QuitGame) {
@@ -66,7 +66,7 @@ void gameLoop() {
         // Clear the screen
         SDL_RenderClear(GlobalRenderer);
         // Run the frame actions
-        frame();
+        Frame();
         // Render any objects that have been passed to SDL
         SDL_RenderPresent(GlobalRenderer);
         // avoid windows thinking the window has crashed.
@@ -108,7 +108,7 @@ int main() {
     InitializeGame();
 
     // Enter the game loop that runs until the game exits
-    gameLoop();
+    GameLoop();
 
     // Before exiting, clean up any allocated resources, exit SDL, and clear the
     // pointers.
