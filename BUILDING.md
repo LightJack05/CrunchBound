@@ -6,7 +6,7 @@ If you would like to build crunchbound from source, please follow the instructio
 CrunchBound uses shared libraries and needs them installed at compile- and runtime. 
 The required libraries are:
 - glibc / glibc++
-- sdl3 [PKGBUILD](https://gitlab.archlinux.org/archlinux/packaging/packages/sdl3/-/blob/main/PKGBUILD?ref_type=heads)
+- sdl3 [[PKGBUILD](https://gitlab.archlinux.org/archlinux/packaging/packages/sdl3/-/blob/main/PKGBUILD?ref_type=heads)]
     - glibc
     - libxext
     - libxrender
@@ -15,14 +15,14 @@ The required libraries are:
     - libxcursor
     - hidapi
     - libusb
-- sdl3-image [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=sdl3_image)
+- sdl3-image [[PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=sdl3_image)]
     - libpng
     - libtiff
     - libjpeg
     - libwebp
     - libavif
     - libjxl
-- sdl3-ttf [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=sdl3_ttf-git)
+- sdl3-ttf [[PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=sdl3_ttf-git)]
     - freetype2
     - harfbuzz
 
