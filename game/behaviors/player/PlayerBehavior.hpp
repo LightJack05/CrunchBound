@@ -16,6 +16,9 @@ class PlayerBehavior : public Behavior {
   public:
     unsigned int getJumpPoints() const { return jumpPoints; };
     void setJumpPoints(unsigned int value) { jumpPoints = value; };
+    /**
+     * @brief Reset the players jump points to the default number.
+     */
     void ResetJumpPoints();
     void OnTick() override;
     void OnStart() override;

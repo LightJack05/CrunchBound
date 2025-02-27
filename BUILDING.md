@@ -4,6 +4,33 @@ If you would like to build crunchbound from source, please follow the instructio
 
 ## Build time dependencies
 CrunchBound uses shared libraries and needs them installed at compile- and runtime. 
+The required libraries are:
+- glibc / glibc++
+- sdl3 [[PKGBUILD](https://gitlab.archlinux.org/archlinux/packaging/packages/sdl3/-/blob/main/PKGBUILD?ref_type=heads)]
+    - glibc
+    - libxext
+    - libxrender
+    - libx11
+    - libgl
+    - libxcursor
+    - hidapi
+    - libusb
+- sdl3-image [[PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=sdl3_image)]
+    - libpng
+    - libtiff
+    - libjpeg
+    - libwebp
+    - libavif
+    - libjxl
+- sdl3-ttf [[PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=sdl3_ttf-git)]
+    - freetype2
+    - harfbuzz
+
+> [!IMPORTANT]
+> This does not include makedepends for the libraries, such as cmake or ninja! Please aquire those from the library documentation page. 
+> The PKGBUILD has those packages listed for Arch Linux.
+
+
 To install these libraries, we will use the yay AUR helper. (If you are not on Arch Linux, please consult your distributions instructions for installing these libraries.)
 Please install yay according to these instructions, and then continue here:
 [Yay Installation](https://github.com/Jguer/yay?tab=readme-ov-file#installation)

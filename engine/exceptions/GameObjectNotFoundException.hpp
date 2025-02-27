@@ -4,7 +4,7 @@
 #include <exception>
 /**
  * @class ComponentNotFoundException
- * @brief An exception indicating that the requested gameobject has not been found.
+ * @brief An exception indicating that the requested GameObject has not been found.
  *
  */
 class GameObjectNotFoundException : public std::exception {

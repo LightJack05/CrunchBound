@@ -4,6 +4,7 @@
 
 void EnemyCollisionBehavior::BeforeCollision(
     std::shared_ptr<GameObject> other) {
+    // On collision with a player, the game is over.
     if (other->getTag() == "player") {
         GameOver();
     }

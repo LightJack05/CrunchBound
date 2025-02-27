@@ -5,8 +5,10 @@
 #include "Init.hpp"
 
 void InitializeGame() {
+    // Create the initial gameobjects, including the game manager
     CreateGameManager();
     CreateInitialGameObjects();
+    // Run the OnStart method on all components
     OnGameStart();
 }
 

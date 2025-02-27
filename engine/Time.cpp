@@ -8,6 +8,7 @@ static unsigned long long timeSinceGameStart = 0;
 unsigned int GetDeltaTime() { return deltaTime; }
 
 void UpdateDeltaTime() {
+    // get the current time, and store the difference to the last frame in deltaTime
     unsigned int currentFrameTime = SDL_GetTicks();
     deltaTime = currentFrameTime - lastFrameTime;
     lastFrameTime = currentFrameTime;
@@ -15,6 +16,7 @@ void UpdateDeltaTime() {
 }
 
 unsigned long long GetTimeSinceGameStart() { return timeSinceGameStart; }
+
 void ResetTimeSinceGameStart() {
     timeSinceGameStart = 0;
 }

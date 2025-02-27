@@ -15,6 +15,7 @@ float GameManagerBehavior::GetObjectVelocity() {
 }
 
 void GameManagerBehavior::OnTick() {
+    // If it is time to spawn a new enemy, do so.
     if (GetTimeSinceGameStart() - timeOfLastEnemy > enemySpawnDelay) {
         SpawnEnemy(GetObjectVelocity());
         timeOfLastEnemy = GetTimeSinceGameStart();
@@ -22,8 +23,11 @@ void GameManagerBehavior::OnTick() {
                            GetGameDifficultyAtTime(GetTimeSinceGameStart())) *
                           50;
     }
+    // If it is time to spawn a new coffee, do so.
     if (GetTimeSinceGameStart() - timeOfLastCoffee > coffeeSpawnDelay) {
         SpawnCoffee(GetObjectVelocity());
+        // Set the time of the last coffee to now, and generate a new random
+        // spawn delay, based on the difficulty curve.
         timeOfLastCoffee = GetTimeSinceGameStart();
         coffeeSpawnDelay = (GetRandomInt(15000, 20000) /
                             GetGameDifficultyAtTime(GetTimeSinceGameStart())) *

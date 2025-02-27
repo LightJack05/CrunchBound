@@ -1,5 +1,4 @@
 #include "Init.hpp"
-#include "../engine/AssetLoading.hpp"
 #include "../engine/EngineState.hpp"
 #include "../engine/GameObject.hpp"
 #include "../engine/ObjectManagement.hpp"
@@ -17,7 +16,13 @@
 #include "behaviors/scoreCounter/ScoreCounterBehavior.hpp"
 #include <memory>
 
+/**
+ * @brief The height of the player
+ */
 static const int PlayerHeight = 200;
+/**
+ * @brief The width of the player
+ */
 static const int PlayerWidth = 100;
 
 /**
@@ -81,6 +86,7 @@ static void SpawnLeftWall() {
     std::shared_ptr<GameObject> leftWall = std::make_shared<GameObject>();
     leftWall->setTag("left-wall");
     leftWall->setPosition(std::make_shared<Vector2>(-80, -80));
+
     std::shared_ptr<CollisionBehavior> leftWallCollider =
         std::make_shared<CollisionBehavior>(80, ScreenHeight + 80);
     leftWall->RegisterComponent(leftWallCollider);
@@ -94,6 +100,7 @@ static void SpawnRightWall() {
     std::shared_ptr<GameObject> rightWall = std::make_shared<GameObject>();
     rightWall->setTag("right-wall");
     rightWall->setPosition(std::make_shared<Vector2>(ScreenWidth + 1, -80));
+
     std::shared_ptr<CollisionBehavior> rightWallCollider =
         std::make_shared<CollisionBehavior>(80, ScreenHeight + 80);
     rightWall->RegisterComponent(rightWallCollider);
@@ -143,10 +150,12 @@ static void SpawnPlayer() {
 static void CreateFloor() {
     std::shared_ptr<GameObject> floor = std::make_shared<GameObject>();
     floor->setPosition(std::make_shared<Vector2>(0, ScreenHeight - 50));
+
     std::shared_ptr<RectangleRenderer> floorRenderer =
         std::make_shared<RectangleRenderer>(ScreenWidth, 50);
     floorRenderer->setColor(0, 255, 0, 255);
     floor->RegisterComponent(floorRenderer);
+
     std::shared_ptr<CollisionBehavior> floorCollider =
         std::make_shared<CollisionBehavior>(ScreenWidth, 50);
     floor->RegisterComponent(floorCollider);
@@ -169,6 +178,7 @@ static void SetupWindowbackground() {
  * @brief Create the game manager object and register it.
  */
 void CreateGameManager() {
+    // Create a new GameObject and register the GameManager components to it
     std::shared_ptr<GameObject> gameManager = std::make_shared<GameObject>();
     gameManager->setTag("GameManager");
 
@@ -180,16 +190,22 @@ void CreateGameManager() {
         std::make_shared<GameManagerBehavior>();
     gameManager->RegisterComponent(gbBehavior);
 
+    // Make the gamemanager globally accessible
     GameManager = gameManager;
 }
 
 void CreateInitialGameObjects() {
+    // Register the GameManger for Update cycles
     EnqueueRegisterGameObject(GameManager);
+    // Set the initial Window background color
+    // TODO: Move this somewhere else!
     SetupWindowbackground();
+    // Create the basic objects required for gameplay
     CreateFloor();
     SpawnPlayer();
     SpawnLeftWall();
     SpawnRightWall();
+    // Create the HUD
     CreateScoreCounter();
     CreateCoffeeMeter();
     CreateCoffeeMeterIcon();
