@@ -9,10 +9,12 @@ static std::queue<GameObject *> DestroyObjectsQueue;
 
 static void
 HandleComponentUpdate(std::shared_ptr<GameObjectComponent> component) {
+    // Run the OnTick handler on the component
     component->OnTick();
 }
 
 static void DestroyGameObject(GameObject *object) {
+    // Find the index in the vector matching the pointer address passed, and erase that in the vector
     for (int i = 0; i < GameObjects.size(); i++) {
         if (GameObjects.at(i).get() == object) {
             GameObjects.erase(GameObjects.begin() + i);
@@ -40,12 +42,15 @@ static void DestroyEnqueuedObjects() {
 }
 
 static void WorkThroughFrameQueue() {
+    // Register or Destroy any objects queued
     RegisterEnqueuedObjects();
     DestroyEnqueuedObjects();
 }
 
 void UpdateObjects() {
+    // Work through any queued objects before starting the loop
     WorkThroughFrameQueue();
+    // On all objects and components, perform a component update
     for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
         for (const std::shared_ptr<GameObjectComponent> component :
              gameObject->getComponents()) {
@@ -64,6 +69,7 @@ void EnqueueDestroyGameObject(GameObject *object) {
 }
 
 void OnGameStart() {
+    // Iterate over all gameobjects and components, and run OnStart
     for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
         for (const std::shared_ptr<GameObjectComponent> component :
              gameObject->getComponents()) {
@@ -73,6 +79,7 @@ void OnGameStart() {
 }
 
 std::shared_ptr<GameObject> GetGameObjectByTag(std::string tag) {
+    // Iterate through all objects until a gameobject with a matching tag is found, and then return it
     for (const std::shared_ptr<GameObject> gameObject : GameObjects) {
         if (gameObject->getTag() == tag) {
             return gameObject;

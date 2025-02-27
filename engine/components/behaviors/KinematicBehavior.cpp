@@ -2,6 +2,7 @@
 #include "../../Time.hpp"
 
 void KinematicBehavior::OnTick() {
+    // On every frame, update the position of the object by it's velocity, depeding on DeltaTime
     parent->getPosition()->setX(
         this->parent->getPosition()->getX() +
         (this->parent->getVelocity()->getX() * GetDeltaTime()));

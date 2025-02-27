@@ -8,7 +8,9 @@
 TextureRenderer::TextureRenderer(float width, float height,
                                  std::string pathToTexture) {
     this->renderable = std::make_shared<SDL_FRect>();
+    // Load the texture from the appropriate path
     this->texture = IMG_LoadTexture(this->renderer, GetAssetPath(pathToTexture).c_str());
+    // Use nearest neighbour scaling to avoid Anti-Aliasing / bluryness
     SDL_SetTextureScaleMode(this->texture, SDL_SCALEMODE_NEAREST);
     this->size->setX(width);
     this->size->setY(height);
@@ -17,6 +19,7 @@ TextureRenderer::TextureRenderer(float width, float height,
 }
 
 TextureRenderer::~TextureRenderer() {
+    // Destroy the texture to avoid leaks
     if (this->texture != nullptr) {
         SDL_DestroyTexture(this->texture);
         this->texture = nullptr;
@@ -28,6 +31,7 @@ void TextureRenderer::OnTick() {
     this->renderable->w = this->size->getX() * this->parent->getScale()->getX();
     this->renderable->x = this->parent->getPosition()->getX();
     this->renderable->y = this->parent->getPosition()->getY();
+    // Render the texture
     SDL_RenderTexture(renderer, texture, nullptr, this->renderable.get());
 }
 

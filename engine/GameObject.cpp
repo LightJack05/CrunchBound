@@ -26,11 +26,13 @@ void GameObject::setVelocity(std::shared_ptr<Vector2> value) {
 void GameObject::RegisterComponent(
     std::shared_ptr<GameObjectComponent> component) {
     this->components.push_back(component);
+    // Set the GameObjectComponent's parent to allow it to refrence back
     component->setParent(this);
 }
 
 void GameObject::RemoveComponent(
     std::shared_ptr<GameObjectComponent> component) {
+    // Remove the component that matches the pointer address passed.
     for (int i = 0; i < this->components.size(); i++) {
         if (components.at(i) == component) {
             components.erase(components.begin() + i);

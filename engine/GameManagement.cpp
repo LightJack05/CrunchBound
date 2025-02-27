@@ -13,10 +13,12 @@ static void ResetGameIfRequired() {
     }
 }
 
-
 void EnqueueGameReset() { IsResetEnqueued = true; }
 
 void RunFrameActions() {
+    // Update the objects registered and work through the frame queue
     UpdateObjects();
+    // If there has been a reset requested during this update cycle, run the
+    // reset.
     ResetGameIfRequired();
 }

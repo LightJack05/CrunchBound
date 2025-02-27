@@ -5,6 +5,7 @@
 #include <memory>
 
 RectangleRenderer::RectangleRenderer(float width, float height) {
+    // Set up the rectangle with position, size etc.
     this->renderable = std::make_shared<SDL_FRect>();
     this->size->setX(width);
     this->size->setY(height);
@@ -15,6 +16,7 @@ RectangleRenderer::RectangleRenderer(float width, float height) {
 RectangleRenderer::~RectangleRenderer() {}
 
 void RectangleRenderer::OnTick() {
+    // Update the rectangle to match the data and render it out
     this->renderable->h = this->size->getY() * this->parent->getScale()->getY();
     this->renderable->w = this->size->getX() * this->parent->getScale()->getX();
     this->renderable->x = this->parent->getPosition()->getX();

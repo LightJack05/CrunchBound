@@ -4,6 +4,7 @@
 #include <SDL3/SDL_keycode.h>
 
 void GameManagerKeyboardBehavior::OnKeyDown(SDL_KeyboardEvent &e) {
+    // reset the game when R is pressed.
     if (e.key == SDLK_R && !isRDown) {
         isRDown = true;
         EnqueueGameReset();

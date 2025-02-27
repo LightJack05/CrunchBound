@@ -4,6 +4,8 @@
 #include <memory>
 
 void CoffeeCollisionBehavior::BeforeCollision(
+    // On collsion with the player, increase their coffee level, and destroy
+    // this object
     std::shared_ptr<GameObject> other) {
     if (other->getTag() == "player") {
         GetGameObjectByTag("coffee-meter")
