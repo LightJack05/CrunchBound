@@ -32,7 +32,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232" target="_top" xlink:title="Executed every frame.">
 <polygon fill="white" stroke="#666666" points="125,-30 0,-30 0,0 125,0 125,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ScoreCounterBehavior</text>
 <text text-anchor="middle" x="62.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::OnTick</text>

@@ -1,5 +1,5 @@
-<map id="gameLoop" name="gameLoop">
-<area shape="rect" id="Node000001" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,5,199,31"/>
+<map id="GameLoop" name="GameLoop">
+<area shape="rect" id="Node000001" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,5,200,31"/>
 <area shape="rect" id="Node000002" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,5,60,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
 </map>

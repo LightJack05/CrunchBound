@@ -1,5 +1,5 @@
 <map id="RunFrameActions" name="RunFrameActions">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,372,141,397"/>
+<area shape="rect" id="Node000001" title="Run the actions that have to be run every frame." alt="" coords="5,372,141,397"/>
 <area shape="rect" id="Node000002" href="$de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6" title=" " alt="" coords="189,335,355,360"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,369,190,360,191,365,142,375"/>
 <area shape="rect" id="Node000016" href="$d2/d41/ObjectManagement_8cpp.html#a522912d67446895b0a03d01837b75a99" title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods." alt="" coords="213,396,331,421"/>

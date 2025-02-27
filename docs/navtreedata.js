@@ -25,6 +25,13 @@
 var NAVTREE =
 [
   [ "CrunchBound", "index.html", [
+    [ "How to play", "index.html#autotoc_md17", null ],
+    [ "Controls", "index.html#autotoc_md18", null ],
+    [ "Installation", "index.html#autotoc_md19", [
+      [ "AppImage", "index.html#autotoc_md20", null ],
+      [ "Arch Linux Package", "index.html#autotoc_md21", null ],
+      [ "Building from source", "index.html#autotoc_md22", null ]
+    ] ],
     [ "CrunchBound compilation guide", "d6/dd0/md_BUILDING.html", [
       [ "Build time dependencies", "d6/dd0/md_BUILDING.html#autotoc_md1", null ],
       [ "Cloning the Repository", "d6/dd0/md_BUILDING.html#autotoc_md2", null ],
@@ -43,13 +50,6 @@ var NAVTREE =
       ] ],
       [ "Release and Debug", "d6/dd0/md_BUILDING.html#autotoc_md14", null ],
       [ "Documentation", "d6/dd0/md_BUILDING.html#autotoc_md15", null ]
-    ] ],
-    [ "CrunchBound", "d0/d30/md_README.html", [
-      [ "Installation", "d0/d30/md_README.html#autotoc_md17", [
-        [ "AppImage", "d0/d30/md_README.html#autotoc_md18", null ],
-        [ "Arch Linux Package", "d0/d30/md_README.html#autotoc_md19", null ],
-        [ "Building from source", "d0/d30/md_README.html#autotoc_md20", null ]
-      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -75,7 +75,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d9/ddc/classEnemyBehavior.html#a0403bfd2a3371ba5c4e66b0cf7f17763"
+"d9/de7/Time_8hpp.html#a150f12b48e13e1c14a4e7646137c74a4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

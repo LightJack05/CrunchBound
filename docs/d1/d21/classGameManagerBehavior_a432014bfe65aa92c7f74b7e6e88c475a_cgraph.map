@@ -1,5 +1,5 @@
 <map id="GameManagerBehavior::OnTick" name="GameManagerBehavior::OnTick">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,181,169"/>
+<area shape="rect" id="Node000001" title="Executed every frame." alt="" coords="5,129,181,169"/>
 <area shape="rect" id="Node000002" href="$d1/d21/classGameManagerBehavior.html#a1adb4bebf7b769bfec9bcb7629c0c8c9" title="Calculate the difficulty at the specified game uptime." alt="" coords="461,5,659,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,127,167,93,228,63,283,47,339,36,446,24,447,30,340,41,284,52,230,68,170,98,121,132"/>
 <area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a03f055b9130a3014a32bf722ba48eebf" title="Return the velocity of an object at the current time." alt="" coords="229,100,405,140"/>
@@ -17,7 +17,7 @@
 <area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="364,138,519,207,517,212,362,142"/>
 <area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="406,113,455,111,455,116,406,118"/>
 <area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="664,213,700,209,701,214,664,218"/>
-<area shape="rect" id="Node000006" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title=" " alt="" coords="879,190,995,215"/>
+<area shape="rect" id="Node000006" href="$d4/d63/RandomNumberGenerator_8cpp.html#af6fa6d283a85410eb131612aa6ae9a6f" title="The random engine created from the randomDevice." alt="" coords="879,190,995,215"/>
 <area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="831,200,865,200,865,205,831,205"/>
 <area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="370,264,483,241,484,246,371,269"/>
 <area shape="rect" id="Node000009" href="$d2/d41/ObjectManagement_8cpp.html#a9f8d0a459a7758c8b2d0b72cdd8adad0" title="Enqueue an object to be registered on the next frame." alt="" coords="453,265,667,290"/>

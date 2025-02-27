@@ -134,8 +134,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a47418bf78d1b9a7eefad3172f4762138" id="r_a47418bf78d1b9a7eefad3172f4762138"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d8/d0d/classVector2.html">Vector2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47418bf78d1b9a7eefad3172f4762138">getSize</a> () const</td></tr>
 <tr class="separator:a47418bf78d1b9a7eefad3172f4762138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74ae4a700b8af1eccc8c845cefc22d6e" id="r_a74ae4a700b8af1eccc8c845cefc22d6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74ae4a700b8af1eccc8c845cefc22d6e">OnTick</a> () override</td></tr>
+<tr class="memdesc:a74ae4a700b8af1eccc8c845cefc22d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed every frame.  <br /></td></tr>
 <tr class="separator:a74ae4a700b8af1eccc8c845cefc22d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac51ca99297c7e6082053161594dbc513" id="r_ac51ca99297c7e6082053161594dbc513"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac51ca99297c7e6082053161594dbc513">OnStart</a> () override</td></tr>
+<tr class="memdesc:ac51ca99297c7e6082053161594dbc513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed on game start.  <br /></td></tr>
 <tr class="separator:ac51ca99297c7e6082053161594dbc513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classRenderer"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classRenderer')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d1/d52/classRenderer.html">Renderer</a></td></tr>
 <tr class="memitem:a7ebf46f54dab9905f79b80f7fddb76a6 inherit pub_methods_classRenderer" id="r_a7ebf46f54dab9905f79b80f7fddb76a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d52/classRenderer.html#a7ebf46f54dab9905f79b80f7fddb76a6">Renderer</a> ()</td></tr>
@@ -170,8 +172,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a4a9e4d101b69f92bf17877079ab72254 inherit pro_attribs_classRenderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classGameObjectComponent"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classGameObjectComponent')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d9/df7/classGameObjectComponent.html">GameObjectComponent</a></td></tr>
 <tr class="memitem:aaa4f0fce8c959843e626a20603eb6d55 inherit pro_attribs_classGameObjectComponent" id="r_aaa4f0fce8c959843e626a20603eb6d55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/classGameObjectComponent.html#aaa4f0fce8c959843e626a20603eb6d55">enabled</a> = true</td></tr>
+<tr class="memdesc:aaa4f0fce8c959843e626a20603eb6d55 inherit pro_attribs_classGameObjectComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider the component in Updates.  <br /></td></tr>
 <tr class="separator:aaa4f0fce8c959843e626a20603eb6d55 inherit pro_attribs_classGameObjectComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4721fe806010713bb031ff271ab6731a inherit pro_attribs_classGameObjectComponent" id="r_a4721fe806010713bb031ff271ab6731a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d1c/classGameObject.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/classGameObjectComponent.html#a4721fe806010713bb031ff271ab6731a">parent</a> = NULL</td></tr>
+<tr class="memdesc:a4721fe806010713bb031ff271ab6731a inherit pro_attribs_classGameObjectComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent <a class="el" href="../../de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game.">GameObject</a> of the component.  <br /></td></tr>
 <tr class="separator:a4721fe806010713bb031ff271ab6731a inherit pro_attribs_classGameObjectComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -264,6 +268,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Executed on game start. </p>
+
 <p>Implements <a class="el" href="../../d9/df7/classGameObjectComponent.html#a81284c448b96c2004fa19252269184a9">GameObjectComponent</a>.</p>
 
 </div>
@@ -290,6 +296,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Executed every frame. </p>
 
 <p>Implements <a class="el" href="../../d9/df7/classGameObjectComponent.html#ade2db51ea6caeaa80b1a80395ffbb779">GameObjectComponent</a>.</p>
 
@@ -445,7 +453,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d0f/classRectangleRenderer.html">RectangleRenderer</a></li>
-    <li class="footer">Generated on Wed Feb 26 2025 18:46:01 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu Feb 27 2025 10:05:17 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

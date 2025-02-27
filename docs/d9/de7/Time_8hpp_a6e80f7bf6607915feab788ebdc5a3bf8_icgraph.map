@@ -2,11 +2,11 @@
 <area shape="rect" id="Node000001" title=" " alt="" coords="453,70,636,95"/>
 <area shape="rect" id="Node000002" href="$d1/d21/classGameManagerBehavior.html#a03f055b9130a3014a32bf722ba48eebf" title="Return the velocity of an object at the current time." alt="" coords="229,5,405,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="480,69,396,48,398,43,481,64"/>
-<area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,31,181,71"/>
+<area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title="Executed every frame." alt="" coords="5,31,181,71"/>
 <area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="439,78,181,60,182,54,439,73"/>
 <area shape="rect" id="Node000004" href="$db/d44/classScoreCounterBehavior.html#ac6f6d04e0ea1b2f196440dd66eab66b9" title="Get the player score at the current time." alt="" coords="234,120,401,160"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,101,398,123,396,117,480,96"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,39,182,43,181,38,216,34"/>
-<area shape="rect" id="Node000005" href="$db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232" title=" " alt="" coords="10,120,177,160"/>
+<area shape="rect" id="Node000005" href="$db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232" title="Executed every frame." alt="" coords="10,120,177,160"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="220,143,177,143,177,137,220,137"/>
 </map>

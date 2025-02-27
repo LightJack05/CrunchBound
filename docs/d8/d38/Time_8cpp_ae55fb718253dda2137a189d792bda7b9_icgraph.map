@@ -1,15 +1,15 @@
 <map id="ResetTimeSinceGameStart" name="ResetTimeSinceGameStart">
-<area shape="rect" id="Node000001" title="Reset the time since the game has started." alt="" coords="900,5,1097,31"/>
-<area shape="rect" id="Node000002" href="$d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf" title="Reset the game to the initial state." alt="" coords="753,5,852,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="886,21,852,21,852,15,886,15"/>
-<area shape="rect" id="Node000003" href="$de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6" title=" " alt="" coords="540,5,705,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="739,21,705,21,705,15,739,15"/>
-<area shape="rect" id="Node000004" href="$de/dfd/GameManagement_8cpp.html#a96314a1ad91ef741694603ff58e7bee7" title=" " alt="" coords="356,5,492,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="527,21,493,21,493,15,527,15"/>
-<area shape="rect" id="Node000005" href="$df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" title="Executed every frame." alt="" coords="247,5,308,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="342,21,308,21,308,15,342,15"/>
-<area shape="rect" id="Node000006" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,5,199,31"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="233,21,199,21,199,15,233,15"/>
+<area shape="rect" id="Node000001" title="Reset the time since the game has started." alt="" coords="903,5,1100,31"/>
+<area shape="rect" id="Node000002" href="$d1/d99/Lifecycle_8cpp.html#a7be4f604c1baeb7cac84122a7f2438cf" title="Reset the game to the initial state." alt="" coords="756,5,855,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="889,21,855,21,855,15,889,15"/>
+<area shape="rect" id="Node000003" href="$de/dfd/GameManagement_8cpp.html#a2877bc3a946eb46940e5cdedcaf4e3f6" title=" " alt="" coords="543,5,708,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="742,21,708,21,708,15,742,15"/>
+<area shape="rect" id="Node000004" href="$de/dfd/GameManagement_8cpp.html#a96314a1ad91ef741694603ff58e7bee7" title="Run the actions that have to be run every frame." alt="" coords="359,5,495,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="529,21,495,21,495,15,529,15"/>
+<area shape="rect" id="Node000005" href="$df/d0a/main_8cpp.html#a7086da5d86cc10820ea267aaef1e8439" title="Executed every frame." alt="" coords="248,5,311,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="345,21,311,21,311,15,345,15"/>
+<area shape="rect" id="Node000006" href="$df/d0a/main_8cpp.html#a1ccba604c34743e18775c4c72ff36948" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,5,200,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="234,21,200,21,200,15,234,15"/>
 <area shape="rect" id="Node000007" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,5,60,31"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
 </map>

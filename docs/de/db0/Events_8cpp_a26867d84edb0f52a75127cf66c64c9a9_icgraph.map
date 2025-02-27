@@ -1,7 +1,7 @@
 <map id="HandleEvent" name="HandleEvent">
-<area shape="rect" id="Node000001" title="Handles an event that has occoured." alt="" coords="247,5,352,31"/>
-<area shape="rect" id="Node000002" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,5,199,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,21,199,21,199,15,233,15"/>
+<area shape="rect" id="Node000001" title="Handles an event that has occoured." alt="" coords="248,5,353,31"/>
+<area shape="rect" id="Node000002" href="$df/d0a/main_8cpp.html#a1ccba604c34743e18775c4c72ff36948" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,5,200,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,21,200,21,200,15,234,15"/>
 <area shape="rect" id="Node000003" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,5,60,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
 </map>

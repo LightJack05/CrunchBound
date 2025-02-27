@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 853;
+var viewWidth = 855;
 var viewHeight = 27;
 var sectionId = 'dynsection-2';
 </script>
@@ -59,8 +59,8 @@ var sectionId = 'dynsection-2';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="845,-19 705,-19 705,0 845,0 845,-19"/>
-<text text-anchor="middle" x="775" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">DestroyEnqueuedObjects</text>
+<polygon fill="#999999" stroke="#666666" points="847,-19 707,-19 707,0 847,0 847,-19"/>
+<text text-anchor="middle" x="777" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">DestroyEnqueuedObjects</text>
 </a>
 </g>
 </g>
@@ -68,8 +68,8 @@ var sectionId = 'dynsection-2';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#a95ff1ee6a57e678376b2eae2ef499ab3" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="669,-19 526,-19 526,0 669,0 669,-19"/>
-<text text-anchor="middle" x="597.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">WorkThroughFrameQueue</text>
+<polygon fill="white" stroke="#666666" points="671,-19 528,-19 528,0 671,0 671,-19"/>
+<text text-anchor="middle" x="599.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">WorkThroughFrameQueue</text>
 </a>
 </g>
 </g>
@@ -77,8 +77,8 @@ var sectionId = 'dynsection-2';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M694.65,-9.5C686.19,-9.5 677.63,-9.5 669.28,-9.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="694.89,-13 704.89,-9.5 694.89,-6 694.89,-13"/>
+<path fill="none" stroke="#63b8ff" d="M696.65,-9.5C688.19,-9.5 679.63,-9.5 671.28,-9.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="696.89,-13 706.89,-9.5 696.89,-6 696.89,-13"/>
 </a>
 </g>
 </g>
@@ -86,8 +86,8 @@ var sectionId = 'dynsection-2';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="../../d2/d41/ObjectManagement_8cpp.html#a522912d67446895b0a03d01837b75a99" target="_top" xlink:title="Iterate over all objects, and update the appropriately, using OnTick() or Component specific methods.">
-<polygon fill="white" stroke="#666666" points="490,-19 401,-19 401,0 490,0 490,-19"/>
-<text text-anchor="middle" x="445.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateObjects</text>
+<polygon fill="white" stroke="#666666" points="492,-19 403,-19 403,0 492,0 492,-19"/>
+<text text-anchor="middle" x="447.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateObjects</text>
 </a>
 </g>
 </g>
@@ -95,17 +95,17 @@ var sectionId = 'dynsection-2';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M515.63,-9.5C506.9,-9.5 498.28,-9.5 490.24,-9.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="515.89,-13 525.89,-9.5 515.89,-6 515.89,-13"/>
+<path fill="none" stroke="#63b8ff" d="M517.63,-9.5C508.9,-9.5 500.28,-9.5 492.24,-9.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="517.89,-13 527.89,-9.5 517.89,-6 517.89,-13"/>
 </a>
 </g>
 </g>
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../de/dfd/GameManagement_8cpp.html#a96314a1ad91ef741694603ff58e7bee7" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="365,-19 263,-19 263,0 365,0 365,-19"/>
-<text text-anchor="middle" x="314" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">RunFrameActions</text>
+<g id="a_Node000004"><a xlink:href="../../de/dfd/GameManagement_8cpp.html#a96314a1ad91ef741694603ff58e7bee7" target="_top" xlink:title="Run the actions that have to be run every frame.">
+<polygon fill="white" stroke="#666666" points="367,-19 265,-19 265,0 367,0 367,-19"/>
+<text text-anchor="middle" x="316" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">RunFrameActions</text>
 </a>
 </g>
 </g>
@@ -113,17 +113,17 @@ var sectionId = 'dynsection-2';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M390.53,-9.5C382.09,-9.5 373.39,-9.5 365.04,-9.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="390.66,-13 400.66,-9.5 390.66,-6 390.66,-13"/>
+<path fill="none" stroke="#63b8ff" d="M392.53,-9.5C384.09,-9.5 375.39,-9.5 367.04,-9.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="392.66,-13 402.66,-9.5 392.66,-6 392.66,-13"/>
 </a>
 </g>
 </g>
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../df/d0a/main_8cpp.html#ae8fa368bbea5177612cd2cf333448c66" target="_top" xlink:title="Executed every frame.">
-<polygon fill="white" stroke="#666666" points="227,-19 181,-19 181,0 227,0 227,-19"/>
-<text text-anchor="middle" x="204" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">frame</text>
+<g id="a_Node000005"><a xlink:href="../../df/d0a/main_8cpp.html#a7086da5d86cc10820ea267aaef1e8439" target="_top" xlink:title="Executed every frame.">
+<polygon fill="white" stroke="#666666" points="229,-19 182,-19 182,0 229,0 229,-19"/>
+<text text-anchor="middle" x="205.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Frame</text>
 </a>
 </g>
 </g>
@@ -131,17 +131,17 @@ var sectionId = 'dynsection-2';
 <g id="edge4_Node000004_Node000005" class="edge">
 <title>Node4&#45;&gt;Node5</title>
 <g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M252.78,-9.5C243.59,-9.5 234.64,-9.5 227.03,-9.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="252.79,-13 262.79,-9.5 252.79,-6 252.79,-13"/>
+<path fill="none" stroke="#63b8ff" d="M254.87,-9.5C245.68,-9.5 236.71,-9.5 229.05,-9.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="254.88,-13 264.88,-9.5 254.88,-6 254.88,-13"/>
 </a>
 </g>
 </g>
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" target="_top" xlink:title="The main game loop, runs until QuitGame is set to true.">
-<polygon fill="white" stroke="#666666" points="145,-19 77,-19 77,0 145,0 145,-19"/>
-<text text-anchor="middle" x="111" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">gameLoop</text>
+<g id="a_Node000006"><a xlink:href="../../df/d0a/main_8cpp.html#a1ccba604c34743e18775c4c72ff36948" target="_top" xlink:title="The main game loop, runs until QuitGame is set to true.">
+<polygon fill="white" stroke="#666666" points="146,-19 77,-19 77,0 146,0 146,-19"/>
+<text text-anchor="middle" x="111.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">GameLoop</text>
 </a>
 </g>
 </g>
@@ -149,8 +149,8 @@ var sectionId = 'dynsection-2';
 <g id="edge5_Node000005_Node000006" class="edge">
 <title>Node5&#45;&gt;Node6</title>
 <g id="a_edge5_Node000005_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M170.87,-9.5C162.55,-9.5 153.58,-9.5 145.2,-9.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="170.97,-13 180.97,-9.5 170.97,-6 170.97,-13"/>
+<path fill="none" stroke="#63b8ff" d="M171.67,-9.5C163.37,-9.5 154.44,-9.5 146.1,-9.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="171.76,-13 181.76,-9.5 171.76,-6 171.76,-13"/>
 </a>
 </g>
 </g>
@@ -167,8 +167,8 @@ var sectionId = 'dynsection-2';
 <g id="edge6_Node000006_Node000007" class="edge">
 <title>Node6&#45;&gt;Node7</title>
 <g id="a_edge6_Node000006_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M66.51,-9.5C57.66,-9.5 48.77,-9.5 41.25,-9.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="66.79,-13 76.79,-9.5 66.79,-6 66.79,-13"/>
+<path fill="none" stroke="#63b8ff" d="M66.83,-9.5C57.86,-9.5 48.85,-9.5 41.25,-9.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="66.85,-13 76.85,-9.5 66.85,-6 66.85,-13"/>
 </a>
 </g>
 </g>

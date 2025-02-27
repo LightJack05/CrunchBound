@@ -1,5 +1,5 @@
 <map id="CoffeeMeterBehavior::OnTick" name="CoffeeMeterBehavior::OnTick">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,165,63"/>
+<area shape="rect" id="Node000001" title="Executed every frame." alt="" coords="5,23,165,63"/>
 <area shape="rect" id="Node000002" href="$d1/d99/Lifecycle_8cpp.html#ad536aa20f0ce6646cd9226485b75fe7d" title="Perform actions for player death." alt="" coords="224,5,316,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,30,210,23,211,29,166,35"/>
 <area shape="rect" id="Node000004" href="$d8/d38/Time_8cpp.html#a5da05cbf25fbfbc8a9c6b8481ad23664" title="Return the time it took to render the last frame in milliseconds." alt="" coords="213,55,327,80"/>

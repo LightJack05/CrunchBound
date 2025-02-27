@@ -7,7 +7,7 @@ var searchData=
   ['build_20files_20leave_20makedepends_20intact_4',['Remove all build files, leave makedepends intact',['../d6/dd0/md_BUILDING.html#autotoc_md7',1,'']]],
   ['build_20time_20dependencies_5',['Build time dependencies',['../d6/dd0/md_BUILDING.html#autotoc_md1',1,'']]],
   ['building_20all_20packaging_20formats_20at_20once_6',['Building all packaging formats at once',['../d6/dd0/md_BUILDING.html#autotoc_md13',1,'']]],
-  ['building_20from_20source_7',['Building from source',['../d0/d30/md_README.html#autotoc_md20',1,'']]],
+  ['building_20from_20source_7',['Building from source',['../index.html#autotoc_md22',1,'']]],
   ['building_20the_20project_20into_20an_20elf_20binary_20with_20debug_20info_8',['Building the Project into an ELF binary (with debug info)',['../d6/dd0/md_BUILDING.html#autotoc_md4',1,'']]],
   ['building_2emd_9',['BUILDING.md',['../db/d27/BUILDING_8md.html',1,'']]],
   ['built_10',['Remove any and all files built',['../d6/dd0/md_BUILDING.html#autotoc_md6',1,'']]]

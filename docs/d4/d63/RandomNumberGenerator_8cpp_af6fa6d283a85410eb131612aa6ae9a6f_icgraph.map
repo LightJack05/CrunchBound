@@ -1,10 +1,10 @@
 <map id="randomEngine" name="randomEngine">
-<area shape="rect" id="Node000001" title=" " alt="" coords="872,145,988,170"/>
+<area shape="rect" id="Node000001" title="The random engine created from the randomDevice." alt="" coords="872,145,988,170"/>
 <area shape="rect" id="Node000002" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab3b4d2c18f8ed2adbded9e672d49418a" title="Generate a random integer in bounds." alt="" coords="708,145,824,170"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="858,160,824,160,824,155,858,155"/>
 <area shape="rect" id="Node000003" href="$d4/d63/RandomNumberGenerator_8cpp.html#ab41bae80bddaf892520d0c17bcfc873b" title="Generate a random float between 0 and 1." alt="" coords="453,95,660,121"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="698,144,611,123,612,118,699,139"/>
-<area shape="rect" id="Node000005" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,88,181,128"/>
+<area shape="rect" id="Node000005" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title="Executed every frame." alt="" coords="5,88,181,128"/>
 <area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="695,168,602,175,485,178,357,175,229,160,181,147,137,131,139,126,182,142,230,155,357,170,485,173,601,169,694,162"/>
 <area shape="rect" id="Node000004" href="$d1/d21/classGameManagerBehavior.html#a03f055b9130a3014a32bf722ba48eebf" title="Return the velocity of an object at the current time." alt="" coords="229,5,405,45"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="505,93,375,48,377,43,507,88"/>

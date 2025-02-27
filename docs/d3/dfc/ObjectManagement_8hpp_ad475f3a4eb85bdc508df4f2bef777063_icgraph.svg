@@ -69,7 +69,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d1/d43/classCoffeeBehavior.html#a5281f75fb5ece45513090cbc74636eb9" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d1/d43/classCoffeeBehavior.html#a5281f75fb5ece45513090cbc74636eb9" target="_top" xlink:title="Executed every frame.">
 <polygon fill="white" stroke="#666666" points="132.5,-56 1.5,-56 1.5,-37 132.5,-37 132.5,-56"/>
 <text text-anchor="middle" x="67" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeBehavior::OnTick</text>
 </a>
@@ -87,7 +87,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../d9/ddc/classEnemyBehavior.html#aa2e0ea0a9d02dcda1df5c90ac552e654" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d9/ddc/classEnemyBehavior.html#aa2e0ea0a9d02dcda1df5c90ac552e654" target="_top" xlink:title="Executed every frame.">
 <polygon fill="white" stroke="#666666" points="134,-19 0,-19 0,0 134,0 134,-19"/>
 <text text-anchor="middle" x="67" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">EnemyBehavior::OnTick</text>
 </a>

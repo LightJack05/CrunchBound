@@ -70,7 +70,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d9/df0/classCollisionBehavior.html#a687307bfe48808fb9b86434874368af8" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d9/df0/classCollisionBehavior.html#a687307bfe48808fb9b86434874368af8" target="_top" xlink:title="Executed every frame.">
 <polygon fill="white" stroke="#666666" points="108,-30 0,-30 0,0 108,0 108,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionBehavior::</text>
 <text text-anchor="middle" x="54" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">OnTick</text>

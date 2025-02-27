@@ -58,7 +58,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d4/dd8/classCoffeeMeterBehavior.html#ad649e271bb71e75dc7ffa5a3d458aa81" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d4/dd8/classCoffeeMeterBehavior.html#ad649e271bb71e75dc7ffa5a3d458aa81" target="_top" xlink:title="Executed every frame.">
 <polygon fill="white" stroke="#666666" points="128,-30 8,-30 8,0 128,0 128,-30"/>
 <text text-anchor="start" x="16" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">CoffeeMeterBehavior</text>
 <text text-anchor="middle" x="68" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::OnTick</text>

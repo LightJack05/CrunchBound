@@ -105,7 +105,7 @@ $(function(){initNavTree('d9/df7/classGameObjectComponent.html','../../'); initR
 </div><!--header-->
 <div class="contents">
 
-<p>An abstract gameobject component.  
+<p>An abstract gameobject component. Has an OnTick and OnStart method. Subclasses may be registered to a <a class="el" href="../../de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game.">GameObject</a> to perform certain actions.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d2/d69/GameObjectComponent_8hpp_source.html">GameObjectComponent.hpp</a>&gt;</code></p>
@@ -131,19 +131,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3ea3835b942a9ff0ebad8acd29a15d7" id="r_ac3ea3835b942a9ff0ebad8acd29a15d7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3ea3835b942a9ff0ebad8acd29a15d7">~GameObjectComponent</a> ()</td></tr>
 <tr class="separator:ac3ea3835b942a9ff0ebad8acd29a15d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade2db51ea6caeaa80b1a80395ffbb779" id="r_ade2db51ea6caeaa80b1a80395ffbb779"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade2db51ea6caeaa80b1a80395ffbb779">OnTick</a> ()=0</td></tr>
+<tr class="memdesc:ade2db51ea6caeaa80b1a80395ffbb779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed every frame.  <br /></td></tr>
 <tr class="separator:ade2db51ea6caeaa80b1a80395ffbb779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81284c448b96c2004fa19252269184a9" id="r_a81284c448b96c2004fa19252269184a9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81284c448b96c2004fa19252269184a9">OnStart</a> ()=0</td></tr>
+<tr class="memdesc:a81284c448b96c2004fa19252269184a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed on game start.  <br /></td></tr>
 <tr class="separator:a81284c448b96c2004fa19252269184a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aaa4f0fce8c959843e626a20603eb6d55" id="r_aaa4f0fce8c959843e626a20603eb6d55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa4f0fce8c959843e626a20603eb6d55">enabled</a> = true</td></tr>
+<tr class="memdesc:aaa4f0fce8c959843e626a20603eb6d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider the component in Updates.  <br /></td></tr>
 <tr class="separator:aaa4f0fce8c959843e626a20603eb6d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4721fe806010713bb031ff271ab6731a" id="r_a4721fe806010713bb031ff271ab6731a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d1c/classGameObject.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4721fe806010713bb031ff271ab6731a">parent</a> = NULL</td></tr>
+<tr class="memdesc:a4721fe806010713bb031ff271ab6731a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent <a class="el" href="../../de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game.">GameObject</a> of the component.  <br /></td></tr>
 <tr class="separator:a4721fe806010713bb031ff271ab6731a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An abstract gameobject component. </p>
+<div class="textblock"><p>An abstract gameobject component. Has an OnTick and OnStart method. Subclasses may be registered to a <a class="el" href="../../de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game.">GameObject</a> to perform certain actions. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac3ea3835b942a9ff0ebad8acd29a15d7" name="ac3ea3835b942a9ff0ebad8acd29a15d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3ea3835b942a9ff0ebad8acd29a15d7">&#9670;&#160;</a></span>~GameObjectComponent()</h2>
@@ -219,6 +223,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Executed on game start. </p>
+
 <p>Implemented in <a class="el" href="../../d1/d43/classCoffeeBehavior.html#adfa0e237ba6feffc7d8a645ecf010cbd">CoffeeBehavior</a>, <a class="el" href="../../d4/dd8/classCoffeeMeterBehavior.html#a0e5f97cce005a549cca7d62cfef1c32a">CoffeeMeterBehavior</a>, <a class="el" href="../../d9/df0/classCollisionBehavior.html#a3927be3920125d4363d066ccd3d88930">CollisionBehavior</a>, <a class="el" href="../../d9/ddc/classEnemyBehavior.html#a0403bfd2a3371ba5c4e66b0cf7f17763">EnemyBehavior</a>, <a class="el" href="../../dd/d7f/classFontRenderer.html#aeee33563f86a299b855445c16b65236b">FontRenderer</a>, <a class="el" href="../../d1/d21/classGameManagerBehavior.html#a44ddde99ed4360387e2275f3f1a41b7d">GameManagerBehavior</a>, <a class="el" href="../../d3/d2e/classGameManagerKeyboardBehavior.html#afde9880af7712881bbde938589035057">GameManagerKeyboardBehavior</a>, <a class="el" href="../../d8/d05/classGravityBehavior.html#acadf254085fbeb66205ef75a21ac023c">GravityBehavior</a>, <a class="el" href="../../dd/df8/classKinematicBehavior.html#aca1881c9b11aa4da5c7a21872afa7b85">KinematicBehavior</a>, <a class="el" href="../../d3/dc0/classPlayerBehavior.html#a4d9ce17a8b97d6c2f853e275858a80b0">PlayerBehavior</a>, <a class="el" href="../../d9/d2c/classPlayerKeyboardBehavior.html#ae7d0f52b991516d61159f682a911d02c">PlayerKeyboardBehavior</a>, <a class="el" href="../../d0/d0f/classRectangleRenderer.html#ac51ca99297c7e6082053161594dbc513">RectangleRenderer</a>, <a class="el" href="../../db/d44/classScoreCounterBehavior.html#a666a75af58c0eb9e0e20b16d0e765b82">ScoreCounterBehavior</a>, and <a class="el" href="../../d1/dff/classTextureRenderer.html#ae69b12fb84b6fd016cd82b671444503e">TextureRenderer</a>.</p>
 
 </div>
@@ -246,12 +252,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Executed every frame. </p>
+
 <p>Implemented in <a class="el" href="../../d1/d43/classCoffeeBehavior.html#a5281f75fb5ece45513090cbc74636eb9">CoffeeBehavior</a>, <a class="el" href="../../d4/dd8/classCoffeeMeterBehavior.html#ad649e271bb71e75dc7ffa5a3d458aa81">CoffeeMeterBehavior</a>, <a class="el" href="../../d9/df0/classCollisionBehavior.html#a687307bfe48808fb9b86434874368af8">CollisionBehavior</a>, <a class="el" href="../../d9/ddc/classEnemyBehavior.html#aa2e0ea0a9d02dcda1df5c90ac552e654">EnemyBehavior</a>, <a class="el" href="../../dd/d7f/classFontRenderer.html#ad2dae296ab9eea8372ae6984e39a6774">FontRenderer</a>, <a class="el" href="../../d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a">GameManagerBehavior</a>, <a class="el" href="../../d3/d2e/classGameManagerKeyboardBehavior.html#a937c824acc2bb8d97aef70f1bd4bd4ab">GameManagerKeyboardBehavior</a>, <a class="el" href="../../d8/d05/classGravityBehavior.html#aa007d1996c5a1c0840f3957c724a4dee">GravityBehavior</a>, <a class="el" href="../../dd/df8/classKinematicBehavior.html#a05b908feb480544ba5df204f4ea23f55">KinematicBehavior</a>, <a class="el" href="../../d3/dc0/classPlayerBehavior.html#af8d49c6e5e8cbdf5112b44887e9c5e37">PlayerBehavior</a>, <a class="el" href="../../d9/d2c/classPlayerKeyboardBehavior.html#a3a6a5792d2a2fa5097baa8fa0eacc654">PlayerKeyboardBehavior</a>, <a class="el" href="../../d0/d0f/classRectangleRenderer.html#a74ae4a700b8af1eccc8c845cefc22d6e">RectangleRenderer</a>, <a class="el" href="../../db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232">ScoreCounterBehavior</a>, and <a class="el" href="../../d1/dff/classTextureRenderer.html#a90fb55b10b8b9e342b4ef226e92f42c3">TextureRenderer</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/df7/classGameObjectComponent_ade2db51ea6caeaa80b1a80395ffbb779_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -331,6 +334,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Whether to consider the component in Updates. </p>
+
 </div>
 </div>
 <a id="a4721fe806010713bb031ff271ab6731a" name="a4721fe806010713bb031ff271ab6731a"></a>
@@ -353,6 +358,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>The parent <a class="el" href="../../de/d1c/classGameObject.html" title="A GameObject that represents an individual object in the game.">GameObject</a> of the component. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -365,7 +372,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/df7/classGameObjectComponent.html">GameObjectComponent</a></li>
-    <li class="footer">Generated on Wed Feb 26 2025 18:46:01 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu Feb 27 2025 10:05:17 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

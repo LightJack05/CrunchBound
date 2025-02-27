@@ -17,5 +17,6 @@ var searchData=
   ['time_2ehpp_14',['Time.hpp',['../d9/de7/Time_8hpp.html',1,'']]],
   ['timeoflastcoffee_15',['timeOfLastCoffee',['../d1/d21/classGameManagerBehavior.html#a48f857c7ea0be67c937233ead9c76691',1,'GameManagerBehavior']]],
   ['timeoflastenemy_16',['timeOfLastEnemy',['../d1/d21/classGameManagerBehavior.html#a33c804eb078d9319d3979784868f6082',1,'GameManagerBehavior']]],
-  ['timesincegamestart_17',['timeSinceGameStart',['../d8/d38/Time_8cpp.html#a62328ac165f66e0810a9c17b83c66ece',1,'Time.cpp']]]
+  ['timesincegamestart_17',['timeSinceGameStart',['../d8/d38/Time_8cpp.html#a62328ac165f66e0810a9c17b83c66ece',1,'Time.cpp']]],
+  ['to_20play_18',['How to play',['../index.html#autotoc_md17',1,'']]]
 ];

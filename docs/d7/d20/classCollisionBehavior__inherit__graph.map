@@ -8,6 +8,6 @@
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="494,685,559,760,555,764,490,688"/>
 <area shape="rect" id="Node000002" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="333,268,405,333"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="372,347,372,381,367,381,367,347"/>
-<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component." alt="" coords="243,5,495,220"/>
+<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component. Has an OnTick and OnStart method. Subclasses may be registered to a..." alt="" coords="243,5,495,220"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,234,372,268,367,268,367,234"/>
 </map>

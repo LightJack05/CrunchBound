@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="The random engine created from the randomDevice.">
 <polygon fill="#999999" stroke="#666666" points="737,-23.52 650,-23.52 650,-4.52 737,-4.52 737,-23.52"/>
 <text text-anchor="middle" x="693.5" y="-11.52" font-family="Helvetica,sans-Serif" font-size="10.00">randomEngine</text>
 </a>
@@ -56,7 +56,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" target="_top" xlink:title="Executed every frame.">
 <polygon fill="white" stroke="#666666" points="132,-66.02 0,-66.02 0,-36.02 132,-36.02 132,-66.02"/>
 <text text-anchor="start" x="8" y="-54.02" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerBehavior</text>
 <text text-anchor="middle" x="66" y="-43.02" font-family="Helvetica,sans-Serif" font-size="10.00">::OnTick</text>

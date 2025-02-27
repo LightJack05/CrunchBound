@@ -102,9 +102,9 @@ $(function(){initNavTree('df/d0a/main_8cpp.html','../../'); initResizable(true);
   <div class="headertitle"><div class="title">main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d0/d4e/Events_8hpp_source.html">engine/Events.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/db4/EngineState_8hpp_source.html">engine/EngineState.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d4e/Events_8hpp_source.html">engine/Events.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/dd0/GameManagement_8hpp_source.html">engine/GameManagement.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/db4/EngineState_8hpp_source.html">engine/EngineState.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/dfc/ObjectManagement_8hpp_source.html">engine/ObjectManagement.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/de7/Time_8hpp_source.html">engine/Time.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d67/Lifecycle_8hpp_source.html">game/Lifecycle.hpp</a>&quot;</code><br />
@@ -130,12 +130,12 @@ Functions</h2></td></tr>
 <tr class="memitem:aed6a965c795e2202196ce9dc698d8046" id="r_aed6a965c795e2202196ce9dc698d8046"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6a965c795e2202196ce9dc698d8046">CleanupBeforeExit</a> (SDL_Window *&amp;win, SDL_Renderer *&amp;ren)</td></tr>
 <tr class="memdesc:aed6a965c795e2202196ce9dc698d8046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy all objects, the renderer and window, and quit SDL and TTF.  <br /></td></tr>
 <tr class="separator:aed6a965c795e2202196ce9dc698d8046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8fa368bbea5177612cd2cf333448c66" id="r_ae8fa368bbea5177612cd2cf333448c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8fa368bbea5177612cd2cf333448c66">frame</a> ()</td></tr>
-<tr class="memdesc:ae8fa368bbea5177612cd2cf333448c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed every frame.  <br /></td></tr>
-<tr class="separator:ae8fa368bbea5177612cd2cf333448c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfbee20b241e7d5bbbef9ab36fb201a4" id="r_abfbee20b241e7d5bbbef9ab36fb201a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfbee20b241e7d5bbbef9ab36fb201a4">gameLoop</a> ()</td></tr>
-<tr class="memdesc:abfbee20b241e7d5bbbef9ab36fb201a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main game loop, runs until QuitGame is set to true.  <br /></td></tr>
-<tr class="separator:abfbee20b241e7d5bbbef9ab36fb201a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7086da5d86cc10820ea267aaef1e8439" id="r_a7086da5d86cc10820ea267aaef1e8439"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7086da5d86cc10820ea267aaef1e8439">Frame</a> ()</td></tr>
+<tr class="memdesc:a7086da5d86cc10820ea267aaef1e8439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed every frame.  <br /></td></tr>
+<tr class="separator:a7086da5d86cc10820ea267aaef1e8439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ccba604c34743e18775c4c72ff36948" id="r_a1ccba604c34743e18775c4c72ff36948"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ccba604c34743e18775c4c72ff36948">GameLoop</a> ()</td></tr>
+<tr class="memdesc:a1ccba604c34743e18775c4c72ff36948"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main game loop, runs until QuitGame is set to true.  <br /></td></tr>
+<tr class="separator:a1ccba604c34743e18775c4c72ff36948"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4" id="r_ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry point of the program.  <br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,14 +184,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae8fa368bbea5177612cd2cf333448c66" name="ae8fa368bbea5177612cd2cf333448c66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8fa368bbea5177612cd2cf333448c66">&#9670;&#160;</a></span>frame()</h2>
+<a id="a7086da5d86cc10820ea267aaef1e8439" name="a7086da5d86cc10820ea267aaef1e8439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7086da5d86cc10820ea267aaef1e8439">&#9670;&#160;</a></span>Frame()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void frame </td>
+          <td class="memname">void Frame </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -203,24 +203,24 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_ae8fa368bbea5177612cd2cf333448c66_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_a7086da5d86cc10820ea267aaef1e8439_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_ae8fa368bbea5177612cd2cf333448c66_icgraph.svg" width="314" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_a7086da5d86cc10820ea267aaef1e8439_icgraph.svg" width="316" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="abfbee20b241e7d5bbbef9ab36fb201a4" name="abfbee20b241e7d5bbbef9ab36fb201a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfbee20b241e7d5bbbef9ab36fb201a4">&#9670;&#160;</a></span>gameLoop()</h2>
+<a id="a1ccba604c34743e18775c4c72ff36948" name="a1ccba604c34743e18775c4c72ff36948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ccba604c34743e18775c4c72ff36948">&#9670;&#160;</a></span>GameLoop()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void gameLoop </td>
+          <td class="memname">void GameLoop </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -232,12 +232,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_abfbee20b241e7d5bbbef9ab36fb201a4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_a1ccba604c34743e18775c4c72ff36948_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_abfbee20b241e7d5bbbef9ab36fb201a4_icgraph.svg" width="204" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_a1ccba604c34743e18775c4c72ff36948_icgraph.svg" width="206" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -273,7 +273,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d0a/main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 26 2025 18:46:01 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu Feb 27 2025 10:05:17 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

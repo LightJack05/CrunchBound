@@ -50,7 +50,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" target="_top" xlink:title="Executed every frame.">
 <polygon fill="white" stroke="#666666" points="132,-97 0,-97 0,-67 132,-67 132,-97"/>
 <text text-anchor="start" x="8" y="-85" font-family="Helvetica,sans-Serif" font-size="10.00">GameManagerBehavior</text>
 <text text-anchor="middle" x="66" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00">::OnTick</text>
@@ -97,7 +97,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../db/d44/classScoreCounterBehavior.html#a33d6680553208e93fc39a4edc9946232" target="_top" xlink:title="Executed every frame.">
 <polygon fill="white" stroke="#666666" points="128.5,-30 3.5,-30 3.5,0 128.5,0 128.5,-30"/>
 <text text-anchor="start" x="11.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ScoreCounterBehavior</text>
 <text text-anchor="middle" x="66" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::OnTick</text>

@@ -1,5 +1,5 @@
 <map id="GameObjectComponent" name="GameObjectComponent">
-<area shape="rect" id="Node000001" title="An abstract gameobject component." alt="" coords="1619,5,1871,220"/>
+<area shape="rect" id="Node000001" title="An abstract gameobject component. Has an OnTick and OnStart method. Subclasses may be registered to a..." alt="" coords="1619,5,1871,220"/>
 <area shape="rect" id="Node000002" href="$df/dc1/classBehavior.html" title="An abstract gameobject behavior." alt="" coords="1153,295,1225,361"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1607,170,1226,315,1224,310,1605,165"/>
 <area shape="rect" id="Node000018" href="$d1/d52/classRenderer.html" title="Abstract renderer component." alt="" coords="2318,268,2507,388"/>

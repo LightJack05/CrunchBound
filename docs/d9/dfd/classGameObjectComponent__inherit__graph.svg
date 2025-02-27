@@ -58,7 +58,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="An abstract gameobject component.">
+<g id="a_Node000001"><a xlink:title="An abstract gameobject component. Has an OnTick and OnStart method. Subclasses may be registered to a...">
 <polygon fill="#999999" stroke="transparent" points="1399,-963 1210,-963 1210,-802 1399,-802 1399,-963"/>
 <text text-anchor="start" x="1246" y="-950.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameObjectComponent</text>
 <text text-anchor="start" x="1214.5" y="-935.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>

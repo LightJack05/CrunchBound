@@ -1,11 +1,11 @@
 <map id="KeyboardHandlerBehavior::OnKeyDown" name="KeyboardHandlerBehavior::OnKeyDown">
-<area shape="rect" id="Node000001" title="Called when a key is pressed (or held) down." alt="" coords="615,5,807,45"/>
-<area shape="rect" id="Node000002" href="$d2/d3b/KeyboardHandling_8cpp.html#a2b6d8aae8fe15780544c6ada95a93033" title="Handle a keyboard event." alt="" coords="400,13,567,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="600,28,567,28,567,23,600,23"/>
-<area shape="rect" id="Node000003" href="$de/db0/Events_8cpp.html#a26867d84edb0f52a75127cf66c64c9a9" title="Handles an event that has occoured." alt="" coords="247,13,352,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,28,352,28,352,23,386,23"/>
-<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#abfbee20b241e7d5bbbef9ab36fb201a4" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,13,199,38"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="233,28,199,28,199,23,233,23"/>
+<area shape="rect" id="Node000001" title="Called when a key is pressed (or held) down." alt="" coords="616,5,808,45"/>
+<area shape="rect" id="Node000002" href="$d2/d3b/KeyboardHandling_8cpp.html#a2b6d8aae8fe15780544c6ada95a93033" title="Handle a keyboard event." alt="" coords="401,13,568,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="602,28,568,28,568,23,602,23"/>
+<area shape="rect" id="Node000003" href="$de/db0/Events_8cpp.html#a26867d84edb0f52a75127cf66c64c9a9" title="Handles an event that has occoured." alt="" coords="248,13,353,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,28,354,28,354,23,388,23"/>
+<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#a1ccba604c34743e18775c4c72ff36948" title="The main game loop, runs until QuitGame is set to true." alt="" coords="108,13,200,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="234,28,200,28,200,23,234,23"/>
 <area shape="rect" id="Node000005" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Entry point of the program." alt="" coords="5,13,60,38"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
 </map>

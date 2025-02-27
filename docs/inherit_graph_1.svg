@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="d9/df7/classGameObjectComponent.html" target="_top" xlink:title="An abstract gameobject component.">
+<g id="a_Node000000"><a xlink:href="d9/df7/classGameObjectComponent.html" target="_top" xlink:title="An abstract gameobject component. Has an OnTick and OnStart method. Subclasses may be registered to a...">
 <polygon fill="white" stroke="#666666" points="134,-167 0,-167 0,-148 134,-148 134,-167"/>
 <text text-anchor="middle" x="67" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">GameObjectComponent</text>
 </a>

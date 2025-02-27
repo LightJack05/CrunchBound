@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CrunchBound: Main Page</title>
+<title>CrunchBound: CrunchBound</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,17 +96,44 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">CrunchBound Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">CrunchBound </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_README"></a></p>
+<p>CrunchBound is a game made with SDL3 in C++.</p>
+<h1><a class="anchor" id="autotoc_md17"></a>
+How to play</h1>
+<p>You have to handle the crunch! Collect coffee to prevent your Coffee Meter from dropping to 0, and avoid bugs at the same time! If you hit a bug, it's game over, nobody has time to fix them!</p>
+<h1><a class="anchor" id="autotoc_md18"></a>
+Controls</h1>
+<p>A and D to move left and right SPACE to jump (you have a double jump) R to restart</p>
+<h1><a class="anchor" id="autotoc_md19"></a>
+Installation</h1>
+<p>Depending on your preferences, the game can be built from source, or you can use either the Arch Linux Package, or the AppImage file provided.</p>
+<h2><a class="anchor" id="autotoc_md20"></a>
+AppImage</h2>
+<p>The easiest one is the x86_64 appimage. Just download the file from the releases page and run the file:</p>
+<div class="fragment"><div class="line">./crunchbound.AppImage</div>
+</div><!-- fragment --><dl class="section important"><dt>Important</dt><dd>Appimages require fuse to run. Install fuse on the system before executing it. On Ubuntu run <code>sudo apt install libfuse2</code> and on Arch <code>sudo pacman -S fuse2</code>. On other distributions, please consult their instructions.</dd></dl>
+<p>All other dependencies are packaged directly into the AppImage file, so there is no need to install anything, aside from a GUI to render the window and a basic Linux system.</p>
+<h2><a class="anchor" id="autotoc_md21"></a>
+Arch Linux Package</h2>
+<p>If you use a built Arch Linux Package, you will need to install the dependencies onto your system. CrunchBound uses some libraries currently only available on the AUR. I will be using yay as an AUR helper. Installation instructions for yay can be found here: <a href="https://github.com/Jguer/yay?tab=readme-ov-file#installation">Yay Installation</a></p>
+<p>Install the packages using yay (as always, check PKGBUILD before downloading things from the AUR): </p><div class="fragment"><div class="line">yay -S sdl3 sdl3_image sdl3_ttf-git</div>
+</div><!-- fragment --><p>Then install the downloaded Arch Package: </p><div class="fragment"><div class="line">sudo pacman -U crunchbound-{version}-{arch}.pkg.tar.zst</div>
+</div><!-- fragment --><p> (Replace {version} and {arch} with appropriate values)</p>
+<h2><a class="anchor" id="autotoc_md22"></a>
+Building from source</h2>
+<p>To build from source, please check out the <a href="https://lightjack05.github.io/CrunchBound/docs/d6/dd0/md_BUILDING.html">compilation guide</a>. </p>
+</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 26 2025 18:46:01 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu Feb 27 2025 10:05:17 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

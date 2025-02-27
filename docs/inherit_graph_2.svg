@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="d7/d39/classComponentNotFoundException.html" target="_top" xlink:title="An exception indicating that the requested component has not been found on the object.">
+<g id="a_Node000001"><a xlink:href="d7/d39/classComponentNotFoundException.html" target="_top" xlink:title="An exception indicating that the requested GameObjectComponent has not been found on the GameObject.">
 <polygon fill="white" stroke="#666666" points="291.5,-56 124.5,-56 124.5,-37 291.5,-37 291.5,-56"/>
 <text text-anchor="middle" x="208" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">ComponentNotFoundException</text>
 </a>

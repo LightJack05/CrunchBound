@@ -6,7 +6,7 @@
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="440,85,371,85,371,80,440,80"/>
 <area shape="rect" id="Node000005" href="$d5/dda/ObjectSpawning_8cpp.html#abb03ee227a4d9759be2916f379f21c86" title="Spawn a new enemy." alt="" coords="262,119,373,145"/>
 <area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="482,101,373,123,372,118,481,95"/>
-<area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title=" " alt="" coords="5,63,181,103"/>
+<area shape="rect" id="Node000003" href="$d1/d21/classGameManagerBehavior.html#a432014bfe65aa92c7f74b7e6e88c475a" title="Executed every frame." alt="" coords="5,63,181,103"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,51,173,65,171,60,225,46"/>
 <area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="250,85,181,85,181,80,250,80"/>
 <area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="248,120,181,105,182,99,249,114"/>
