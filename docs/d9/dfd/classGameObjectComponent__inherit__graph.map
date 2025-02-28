@@ -24,16 +24,16 @@
 <area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="1238,331,1353,343,1497,364,1568,378,1633,394,1687,413,1725,434,1756,464,1781,499,1801,538,1816,576,1811,578,1796,540,1776,502,1752,467,1722,438,1684,418,1631,399,1567,383,1496,369,1353,348,1238,336"/>
 <area shape="rect" id="Node000017" href="$db/d44/classScoreCounterBehavior.html" title="Controlls the behavior of the score counter." alt="" coords="1967,615,2170,749"/>
 <area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="1239,328,1398,334,1611,350,1718,364,1816,382,1898,405,1930,419,1956,434,1994,472,2024,519,2045,568,2059,614,2053,615,2040,570,2019,521,1990,476,1952,438,1928,423,1896,410,1815,387,1717,369,1610,355,1398,339,1239,333"/>
-<area shape="rect" id="Node000006" href="$dd/dcf/classCoffeeCollisionBehavior.html" title="Controlls the behavior of a coffee on collision." alt="" coords="153,1048,379,1217"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="432,857,392,929,321,1049,317,1046,388,927,427,854"/>
-<area shape="rect" id="Node000007" href="$d1/d1b/classEnemyCollisionBehavior.html" title="Controlls the behavior of an enemy on collision." alt="" coords="403,1058,630,1207"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="519,857,519,1058,514,1058,514,857"/>
-<area shape="rect" id="Node000008" href="$d0/d31/classPlayerCollisionBehavior.html" title="The players collision behavior." alt="" coords="654,1058,881,1207"/>
-<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="605,854,644,927,722,1056,718,1059,640,929,600,857"/>
-<area shape="rect" id="Node000013" href="$d3/d2e/classGameManagerKeyboardBehavior.html" title="The game managers keyboard handler for general handling." alt="" coords="1141,1006,1407,1259"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1388,753,1314,1007,1308,1005,1383,752"/>
-<area shape="rect" id="Node000014" href="$d9/d2c/classPlayerKeyboardBehavior.html" title="The keyboard handler for the player." alt="" coords="1431,976,1643,1289"/>
-<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="1429,752,1494,975,1489,976,1424,753"/>
+<area shape="rect" id="Node000006" href="$dd/dcf/classCoffeeCollisionBehavior.html" title="Controlls the behavior of a coffee on collision." alt="" coords="153,1128,379,1297"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="437,857,308,1129,303,1127,432,855"/>
+<area shape="rect" id="Node000007" href="$d1/d1b/classEnemyCollisionBehavior.html" title="Controlls the behavior of an enemy on collision." alt="" coords="403,1138,630,1287"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="519,857,519,1138,514,1138,514,857"/>
+<area shape="rect" id="Node000008" href="$d0/d31/classPlayerCollisionBehavior.html" title="The players collision behavior." alt="" coords="654,1138,881,1287"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="601,855,735,1137,730,1139,596,857"/>
+<area shape="rect" id="Node000013" href="$d3/d2e/classGameManagerKeyboardBehavior.html" title="The game managers keyboard handler for general handling." alt="" coords="1141,1086,1407,1339"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1391,753,1308,1086,1303,1085,1386,752"/>
+<area shape="rect" id="Node000014" href="$d9/d2c/classPlayerKeyboardBehavior.html" title="The keyboard handler for the player." alt="" coords="1431,976,1643,1449"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="1426,752,1481,975,1476,976,1421,753"/>
 <area shape="rect" id="Node000019" href="$dd/d7f/classFontRenderer.html" title="A component to render text to the screen on a GameObject." alt="" coords="2194,436,2407,928"/>
 <area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="2392,402,2381,437,2376,435,2387,400"/>
 <area shape="rect" id="Node000020" href="$d0/d0f/classRectangleRenderer.html" title="A renderer for simple rectangles." alt="" coords="2431,503,2621,861"/>

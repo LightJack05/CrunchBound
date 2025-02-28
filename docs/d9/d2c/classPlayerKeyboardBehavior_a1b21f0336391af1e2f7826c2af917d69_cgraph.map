@@ -1,0 +1,5 @@
+<map id="PlayerKeyboardBehavior::OnJump" name="PlayerKeyboardBehavior::OnJump">
+<area shape="rect" id="Node000001" title="Called when the player jumps." alt="" coords="5,5,188,45"/>
+<area shape="rect" id="Node000002" href="$d9/df7/classGameObjectComponent.html#adff0c3c42b08247174024aadcf5f0942" title=" " alt="" coords="236,5,415,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,23,222,23,222,28,189,28"/>
+</map>

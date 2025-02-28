@@ -22,14 +22,14 @@
 <area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1127,298,1305,299,1549,307,1673,317,1788,332,1885,352,1924,364,1955,379,1982,398,2005,422,2041,474,2036,477,2001,425,1978,402,1953,384,1922,369,1884,357,1787,337,1673,322,1548,313,1305,304,1127,304"/>
 <area shape="rect" id="Node000002" href="$d9/df7/classGameObjectComponent.html" title="An abstract gameobject component. Has an OnTick and OnStart method. Subclasses may be registered to a..." alt="" coords="951,5,1203,220"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1079,234,1079,268,1074,268,1074,234"/>
-<area shape="rect" id="Node000006" href="$dd/dcf/classCoffeeCollisionBehavior.html" title="Controlls the behavior of a coffee on collision." alt="" coords="153,824,379,993"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="400,717,326,825,321,822,396,714"/>
-<area shape="rect" id="Node000007" href="$d1/d1b/classEnemyCollisionBehavior.html" title="Controlls the behavior of an enemy on collision." alt="" coords="403,834,630,983"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="519,718,519,834,514,834,514,718"/>
-<area shape="rect" id="Node000008" href="$d0/d31/classPlayerCollisionBehavior.html" title="The players collision behavior." alt="" coords="654,834,881,983"/>
-<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="637,714,719,832,714,835,633,717"/>
-<area shape="rect" id="Node000013" href="$d3/d2e/classGameManagerKeyboardBehavior.html" title="The game managers keyboard handler for general handling." alt="" coords="1141,782,1407,1035"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1383,614,1322,783,1317,781,1378,612"/>
-<area shape="rect" id="Node000014" href="$d9/d2c/classPlayerKeyboardBehavior.html" title="The keyboard handler for the player." alt="" coords="1431,752,1643,1065"/>
-<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="1433,612,1483,751,1478,753,1428,614"/>
+<area shape="rect" id="Node000006" href="$dd/dcf/classCoffeeCollisionBehavior.html" title="Controlls the behavior of a coffee on collision." alt="" coords="153,904,379,1073"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="414,717,394,753,311,905,307,903,389,751,410,715"/>
+<area shape="rect" id="Node000007" href="$d1/d1b/classEnemyCollisionBehavior.html" title="Controlls the behavior of an enemy on collision." alt="" coords="403,914,630,1063"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="519,718,519,914,514,914,514,718"/>
+<area shape="rect" id="Node000008" href="$d0/d31/classPlayerCollisionBehavior.html" title="The players collision behavior." alt="" coords="654,914,881,1063"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="624,715,644,751,732,912,727,915,640,753,619,717"/>
+<area shape="rect" id="Node000013" href="$d3/d2e/classGameManagerKeyboardBehavior.html" title="The game managers keyboard handler for general handling." alt="" coords="1141,862,1407,1115"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1388,614,1314,863,1309,861,1383,612"/>
+<area shape="rect" id="Node000014" href="$d9/d2c/classPlayerKeyboardBehavior.html" title="The keyboard handler for the player." alt="" coords="1431,752,1643,1225"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="1429,612,1470,751,1465,753,1424,614"/>
 </map>

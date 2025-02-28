@@ -11,8 +11,11 @@ var searchData=
   ['into_20an_20elf_20binary_20with_20debug_20info_8',['Building the Project into an ELF binary (with debug info)',['../d6/dd0/md_BUILDING.html#autotoc_md4',1,'']]],
   ['isadown_9',['isADown',['../d9/d2c/classPlayerKeyboardBehavior.html#a7172123b16b0e9eaf544d336926769ec',1,'PlayerKeyboardBehavior']]],
   ['isddown_10',['isDDown',['../d9/d2c/classPlayerKeyboardBehavior.html#a1fe21dba2b493f29bb3c344679023b20',1,'PlayerKeyboardBehavior']]],
-  ['ispointinsidecollider_11',['IsPointInsideCollider',['../d9/df0/classCollisionBehavior.html#a8a037ad8f82ae70b8251e6f9f62008f5',1,'CollisionBehavior']]],
-  ['isrdown_12',['isRDown',['../d3/d2e/classGameManagerKeyboardBehavior.html#a0c2050b96aa9616b3792423eb2b40c70',1,'GameManagerKeyboardBehavior']]],
-  ['isresetenqueued_13',['IsResetEnqueued',['../de/dfd/GameManagement_8cpp.html#a347d00e4dd0930e86e11873cb34cd7a3',1,'GameManagement.cpp']]],
-  ['isspacedown_14',['isSpaceDown',['../d9/d2c/classPlayerKeyboardBehavior.html#a996d080ef3c11f3681df4bff0ad83ea7',1,'PlayerKeyboardBehavior']]]
+  ['isleftdown_11',['isLeftDown',['../d9/d2c/classPlayerKeyboardBehavior.html#a646f398d26ce86437a279a2e409d5ee2',1,'PlayerKeyboardBehavior']]],
+  ['ispointinsidecollider_12',['IsPointInsideCollider',['../d9/df0/classCollisionBehavior.html#a8a037ad8f82ae70b8251e6f9f62008f5',1,'CollisionBehavior']]],
+  ['isrdown_13',['isRDown',['../d3/d2e/classGameManagerKeyboardBehavior.html#a0c2050b96aa9616b3792423eb2b40c70',1,'GameManagerKeyboardBehavior']]],
+  ['isresetenqueued_14',['IsResetEnqueued',['../de/dfd/GameManagement_8cpp.html#a347d00e4dd0930e86e11873cb34cd7a3',1,'GameManagement.cpp']]],
+  ['isrightdown_15',['isRightDown',['../d9/d2c/classPlayerKeyboardBehavior.html#aafd0fb2db4aefa15758759e428834ee1',1,'PlayerKeyboardBehavior']]],
+  ['isspacedown_16',['isSpaceDown',['../d9/d2c/classPlayerKeyboardBehavior.html#a996d080ef3c11f3681df4bff0ad83ea7',1,'PlayerKeyboardBehavior']]],
+  ['isupdown_17',['isUpDown',['../d9/d2c/classPlayerKeyboardBehavior.html#ae8b7c116c919c397a970aca427c9d5ed',1,'PlayerKeyboardBehavior']]]
 ];

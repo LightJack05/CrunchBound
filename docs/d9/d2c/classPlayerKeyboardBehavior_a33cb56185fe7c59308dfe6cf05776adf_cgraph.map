@@ -1,7 +1,13 @@
 <map id="PlayerKeyboardBehavior::OnKeyDown" name="PlayerKeyboardBehavior::OnKeyDown">
-<area shape="rect" id="Node000001" title="Called when a key is pressed (or held) down." alt="" coords="5,37,188,77"/>
-<area shape="rect" id="Node000002" href="$d9/df0/classCollisionBehavior.html#a9f12b7818bb5e34ee88d3203da141f5e" title=" " alt="" coords="253,5,397,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,42,240,35,240,40,189,47"/>
-<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html#adff0c3c42b08247174024aadcf5f0942" title=" " alt="" coords="236,69,415,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,68,223,72,222,78,188,73"/>
+<area shape="rect" id="Node000001" title="Called when a key is pressed (or held) down." alt="" coords="5,69,188,109"/>
+<area shape="rect" id="Node000002" href="$d9/d2c/classPlayerKeyboardBehavior.html#a1b21f0336391af1e2f7826c2af917d69" title="Called when the player jumps." alt="" coords="236,5,419,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,67,241,46,242,52,170,72"/>
+<area shape="rect" id="Node000004" href="$d9/d2c/classPlayerKeyboardBehavior.html#a99b8a8f58a9642484ab4b953eeed8592" title="Called when the left key goes down." alt="" coords="236,69,419,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,87,222,87,222,92,188,92"/>
+<area shape="rect" id="Node000005" href="$d9/d2c/classPlayerKeyboardBehavior.html#a3035cde4ec7993ca65cd6d74bd160bea" title="Called when the right key goes down." alt="" coords="236,133,419,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="170,107,242,127,241,132,169,112"/>
+<area shape="rect" id="Node000003" href="$d9/df7/classGameObjectComponent.html#adff0c3c42b08247174024aadcf5f0942" title=" " alt="" coords="467,5,645,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="419,23,453,23,453,28,419,28"/>
+<area shape="rect" id="Node000006" href="$d9/df0/classCollisionBehavior.html#a9f12b7818bb5e34ee88d3203da141f5e" title=" " alt="" coords="484,133,628,173"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="419,151,470,151,470,156,419,156"/>
 </map>

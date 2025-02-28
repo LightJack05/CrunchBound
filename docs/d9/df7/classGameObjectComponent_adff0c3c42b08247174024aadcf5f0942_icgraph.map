@@ -1,7 +1,9 @@
 <map id="GameObjectComponent::setEnabled" name="GameObjectComponent::setEnabled">
-<area shape="rect" id="Node000001" title=" " alt="" coords="236,37,415,77"/>
-<area shape="rect" id="Node000002" href="$d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" title="The action to be taken when the object will collide next frame." alt="" coords="8,5,185,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,46,185,40,186,35,223,40"/>
-<area shape="rect" id="Node000003" href="$d9/d2c/classPlayerKeyboardBehavior.html#a33cb56185fe7c59308dfe6cf05776adf" title="Called when a key is pressed (or held) down." alt="" coords="5,69,188,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,74,188,79,188,74,222,69"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="467,37,645,77"/>
+<area shape="rect" id="Node000002" href="$d0/d31/classPlayerCollisionBehavior.html#a37d78c9ec93b470831ce124b74423ff5" title="The action to be taken when the object will collide next frame." alt="" coords="239,5,416,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="453,46,416,40,416,35,454,40"/>
+<area shape="rect" id="Node000003" href="$d9/d2c/classPlayerKeyboardBehavior.html#a1b21f0336391af1e2f7826c2af917d69" title="Called when the player jumps." alt="" coords="236,69,419,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="454,74,419,79,418,74,453,69"/>
+<area shape="rect" id="Node000004" href="$d9/d2c/classPlayerKeyboardBehavior.html#a33cb56185fe7c59308dfe6cf05776adf" title="Called when a key is pressed (or held) down." alt="" coords="5,69,188,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="223,92,188,92,188,87,223,87"/>
 </map>

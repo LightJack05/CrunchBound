@@ -1,0 +1,7 @@
+<map id="PlayerKeyboardBehavior::OnKeyUp" name="PlayerKeyboardBehavior::OnKeyUp">
+<area shape="rect" id="Node000001" title="Called when a key is released." alt="" coords="5,37,188,77"/>
+<area shape="rect" id="Node000002" href="$d9/d2c/classPlayerKeyboardBehavior.html#abae040f1a698272dcea94ccaecc1b597" title="Called when the left key goes up." alt="" coords="236,5,419,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,42,222,37,223,43,188,47"/>
+<area shape="rect" id="Node000003" href="$d9/d2c/classPlayerKeyboardBehavior.html#a3cc4e51978096131bb7fef11e082ff44" title="Called when the right key goes up." alt="" coords="236,69,419,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,67,223,72,222,77,188,73"/>
+</map>
