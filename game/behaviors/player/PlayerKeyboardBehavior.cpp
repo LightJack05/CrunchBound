@@ -7,39 +7,73 @@
 #include <SDL3/SDL_keycode.h>
 #include <memory>
 
-void PlayerKeyboardBehavior::OnKeyDown(SDL_KeyboardEvent &e) {
+void PlayerKeyboardBehavior::OnLeftDown() {
+    if (!(this->parent->getPosition()->getX() < 1)) {
+        this->parent->getVelocity()->setX(-movementSpeed);
+    }
+}
+void PlayerKeyboardBehavior::OnRightDown() {
+    if (!((this->parent->getPosition()->getX() +
+           this->parent->GetFirstComponent<PlayerCollisionBehavior>()
+               ->getColliderSize()
+               ->getX()) > ScreenWidth + 1)) {
+        this->parent->getVelocity()->setX(movementSpeed);
+    }
+}
+void PlayerKeyboardBehavior::OnJump() {
     std::shared_ptr<PlayerBehavior> playerBehavior =
         this->parent->GetFirstComponent<PlayerBehavior>();
+    // .. if the player still has jump points...
+    if (playerBehavior->getJumpPoints() > 0) {
+        // ... jump and reenable gravity ...
+        this->parent->getVelocity()->setY(-2);
+        this->parent->GetFirstComponent<GravityBehavior>()->setEnabled(true);
+        // ... and decrease the jump points.
+        playerBehavior->setJumpPoints(playerBehavior->getJumpPoints() - 1);
+    }
+}
+
+void PlayerKeyboardBehavior::OnKeyDown(SDL_KeyboardEvent &e) {
     // On space down...
     if (e.key == SDLK_SPACE && !isSpaceDown) {
         isSpaceDown = true;
-        // .. if the player still has jump points...
-        if (playerBehavior->getJumpPoints() > 0) {
-            // ... jump and reenable gravity ...
-            this->parent->getVelocity()->setY(-2);
-            this->parent->GetFirstComponent<GravityBehavior>()->setEnabled(
-                true);
-            // ... and decrease the jump points.
-            playerBehavior->setJumpPoints(playerBehavior->getJumpPoints() - 1);
-        }
+        OnJump();
+    }
+    if (e.key == SDLK_UP && !isUpDown) {
+        isUpDown = true;
+        OnJump();
     }
     // move left and right with A and D, and make sure the player doesn't go off
     // screen.
     if (e.key == SDLK_A && !isADown) {
         isADown = true;
-        if (!(this->parent->getPosition()->getX() < 1)) {
-            this->parent->getVelocity()->setX(-movementSpeed);
-        }
+        OnLeftDown();
+    }
+    if (e.key == SDLK_LEFT && !isLeftDown) {
+        isLeftDown = true;
+        OnLeftDown();
     }
     if (e.key == SDLK_D && !isDDown) {
         isDDown = true;
-        if (!((this->parent->getPosition()->getX() +
-               this->parent->GetFirstComponent<PlayerCollisionBehavior>()
-                   ->getColliderSize()
-                   ->getX()) > ScreenWidth + 1)) {
-            this->parent->getVelocity()->setX(movementSpeed);
-        }
+        OnRightDown();
     }
+    if (e.key == SDLK_RIGHT && !isRightDown) {
+        isRightDown = true;
+        OnRightDown();
+    }
+}
+
+void PlayerKeyboardBehavior::OnRightUp() {
+    if (!isADown && !isLeftDown)
+        this->parent->getVelocity()->setX(0);
+    else
+        this->parent->getVelocity()->setX(-movementSpeed);
+}
+void PlayerKeyboardBehavior::OnLeftUp() {
+    if (!isDDown && !isRightDown)
+        this->parent->getVelocity()->setX(0);
+    else
+        this->parent->getVelocity()->setX(movementSpeed);
 }
 
 void PlayerKeyboardBehavior::OnKeyUp(SDL_KeyboardEvent &e) {
@@ -47,21 +81,26 @@ void PlayerKeyboardBehavior::OnKeyUp(SDL_KeyboardEvent &e) {
     if (e.key == SDLK_SPACE) {
         isSpaceDown = false;
     }
+    if (e.key == SDLK_UP) {
+        isUpDown = false;
+    }
     // Reset movement speeds if no key is pressed, or invert it if the other key
     // is still down.
     if (e.key == SDLK_A) {
         isADown = false;
-        if (!isDDown)
-            this->parent->getVelocity()->setX(0);
-        else
-            this->parent->getVelocity()->setX(movementSpeed);
+        OnLeftUp();
+    }
+    if (e.key == SDLK_LEFT) {
+        isLeftDown = false;
+        OnLeftUp();
     }
     if (e.key == SDLK_D) {
         isDDown = false;
-        if (!isADown)
-            this->parent->getVelocity()->setX(0);
-        else
-            this->parent->getVelocity()->setX(-movementSpeed);
+        OnRightUp();
+    }
+    if (e.key == SDLK_RIGHT) {
+        isRightDown = false;
+        OnRightUp();
     }
 }
 
