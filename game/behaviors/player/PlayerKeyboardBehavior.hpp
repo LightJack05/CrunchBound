@@ -23,9 +23,41 @@ class PlayerKeyboardBehavior : public KeyboardHandlerBehavior {
      */
     bool isDDown = false;
     /**
+     * @brief Whether the Left key is down
+     */
+    bool isLeftDown = false;
+    /**
+     * @brief Whether the Right key is down
+     */
+    bool isRightDown = false;
+    /**
+     * @brief Whether the Up key is down
+     */
+    bool isUpDown = false;
+    /**
      * @brief The movement speed of the player
      */
     const float movementSpeed = 1;
+    /**
+     * @brief Called when the left key goes down
+     */
+    void OnLeftDown();
+    /**
+     * @brief Called when the right key goes down
+     */
+    void OnRightDown();
+    /**
+     * @brief Called when the left key goes up
+     */
+    void OnLeftUp();
+    /**
+     * @brief Called when the right key goes up
+     */
+    void OnRightUp();
+    /**
+     * @brief Called when the player jumps
+     */
+    void OnJump();
 
   public:
     PlayerKeyboardBehavior();
