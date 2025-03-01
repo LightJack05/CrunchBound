@@ -27,6 +27,9 @@ The easiest one is the x86_64 appimage. Just download the file from the releases
 > [!IMPORTANT]
 > Appimages require fuse to run. Install fuse on the system before executing it. On Ubuntu run `sudo apt install libfuse2` and on Arch `sudo pacman -S fuse2`. On other distributions, please consult their instructions.
 
+> [!WARNING]
+> If your GLIBC version is very old (such as on a Debian 11 system) you may not be able to run the image compiled against a newer version. Currently, all AppImages on the releases page are built on Ubuntu 20.04 LTS. Anything that uses an older glibc version may be incompatible, although the interface is generally pretty stable. If you encounter issues, try updating to a newer glibc version.
+
 All other dependencies are packaged directly into the AppImage file, so there is no need to install anything, aside from a GUI to render the window and a basic Linux system.
 
 ### Arch Linux Package
