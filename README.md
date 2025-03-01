@@ -8,7 +8,9 @@ If you hit a bug, it's game over, nobody has time to fix them!
 
 ## Controls
 A and D to move left and right
+
 SPACE to jump (you have a double jump)
+
 R to restart
 
 ## Installation
