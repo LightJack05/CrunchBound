@@ -1,9 +1,9 @@
 var searchData=
 [
   ['checkforcollision_0',['CheckForCollision',['../d9/df0/classCollisionBehavior.html#ac109e777e29c737c0454464e611a7449',1,'CollisionBehavior']]],
-  ['cleaning_20the_20project_20of_20compiled_20files_1',['Cleaning the project of compiled files',['../d6/dd0/md_BUILDING.html#autotoc_md5',1,'']]],
+  ['cleaning_20the_20project_20of_20compiled_20files_1',['Cleaning the project of compiled files',['../d6/dd0/md_BUILDING.html#autotoc_md6',1,'']]],
   ['cleanupbeforeexit_2',['CleanupBeforeExit',['../df/d0a/main_8cpp.html#aed6a965c795e2202196ce9dc698d8046',1,'main.cpp']]],
-  ['cloning_20the_20repository_3',['Cloning the Repository',['../d6/dd0/md_BUILDING.html#autotoc_md2',1,'']]],
+  ['cloning_20the_20repository_3',['Cloning the Repository',['../d6/dd0/md_BUILDING.html#autotoc_md3',1,'']]],
   ['coffeebehavior_4',['CoffeeBehavior',['../d1/d43/classCoffeeBehavior.html',1,'']]],
   ['coffeebehavior_2ecpp_5',['CoffeeBehavior.cpp',['../d0/d19/CoffeeBehavior_8cpp.html',1,'']]],
   ['coffeebehavior_2ehpp_6',['CoffeeBehavior.hpp',['../db/d99/CoffeeBehavior_8hpp.html',1,'']]],
@@ -21,12 +21,12 @@ var searchData=
   ['collisionbehavior_2ehpp_18',['CollisionBehavior.hpp',['../dc/d19/CollisionBehavior_8hpp.html',1,'']]],
   ['color_19',['color',['../dd/d7f/classFontRenderer.html#acaec63b3765f923cea35a3d1978845d2',1,'FontRenderer::color'],['../d0/d0f/classRectangleRenderer.html#a200298241c3ebc624839ba99dddf3793',1,'RectangleRenderer::color']]],
   ['compilation_20guide_20',['CrunchBound compilation guide',['../d6/dd0/md_BUILDING.html',1,'']]],
-  ['compiled_20files_21',['Cleaning the project of compiled files',['../d6/dd0/md_BUILDING.html#autotoc_md5',1,'']]],
+  ['compiled_20files_21',['Cleaning the project of compiled files',['../d6/dd0/md_BUILDING.html#autotoc_md6',1,'']]],
   ['componentnotfoundexception_22',['ComponentNotFoundException',['../d7/d39/classComponentNotFoundException.html',1,'']]],
   ['componentnotfoundexception_2ecpp_23',['ComponentNotFoundException.cpp',['../dd/dc5/ComponentNotFoundException_8cpp.html',1,'']]],
   ['componentnotfoundexception_2ehpp_24',['ComponentNotFoundException.hpp',['../d4/d71/ComponentNotFoundException_8hpp.html',1,'']]],
   ['components_25',['components',['../de/d1c/classGameObject.html#a1aa280976fc2780fc1aff01ae642aae0',1,'GameObject']]],
-  ['controls_26',['Controls',['../index.html#autotoc_md18',1,'']]],
+  ['controls_26',['Controls',['../index.html#autotoc_md19',1,'']]],
   ['createcoffeemeter_27',['CreateCoffeeMeter',['../d9/dfa/Init_8cpp.html#a3ff595c2af791c369e2318510062ce14',1,'Init.cpp']]],
   ['createcoffeemetericon_28',['CreateCoffeeMeterIcon',['../d9/dfa/Init_8cpp.html#a1bfb628b6cd503e396bae0796f2051c1',1,'Init.cpp']]],
   ['createfloor_29',['CreateFloor',['../d9/dfa/Init_8cpp.html#a7577908172d93807ef67f163f851fe5e',1,'Init.cpp']]],
@@ -36,5 +36,5 @@ var searchData=
   ['createscorecounter_33',['CreateScoreCounter',['../d9/dfa/Init_8cpp.html#a8ad8206fa2846739c5e76ce97b6b2783',1,'Init.cpp']]],
   ['crunchbound_34',['CrunchBound',['../index.html',1,'']]],
   ['crunchbound_20compilation_20guide_35',['CrunchBound compilation guide',['../d6/dd0/md_BUILDING.html',1,'']]],
-  ['crunchbound_20for_20distribution_36',['Packaging CrunchBound for distribution',['../d6/dd0/md_BUILDING.html#autotoc_md10',1,'']]]
+  ['crunchbound_20for_20distribution_36',['Packaging CrunchBound for distribution',['../d6/dd0/md_BUILDING.html#autotoc_md11',1,'']]]
 ];

@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['package_0',['Arch Linux Package',['../index.html#autotoc_md21',1,'']]],
-  ['package_20files_1',['Remove only the package files',['../d6/dd0/md_BUILDING.html#autotoc_md8',1,'']]],
-  ['packaging_20crunchbound_20for_20distribution_2',['Packaging CrunchBound for distribution',['../d6/dd0/md_BUILDING.html#autotoc_md10',1,'']]],
-  ['packaging_20formats_20at_20once_3',['Building all packaging formats at once',['../d6/dd0/md_BUILDING.html#autotoc_md13',1,'']]],
+  ['package_0',['Arch Linux Package',['../index.html#autotoc_md22',1,'']]],
+  ['package_20files_1',['Remove only the package files',['../d6/dd0/md_BUILDING.html#autotoc_md9',1,'']]],
+  ['packaging_20crunchbound_20for_20distribution_2',['Packaging CrunchBound for distribution',['../d6/dd0/md_BUILDING.html#autotoc_md11',1,'']]],
+  ['packaging_20formats_20at_20once_3',['Building all packaging formats at once',['../d6/dd0/md_BUILDING.html#autotoc_md14',1,'']]],
   ['parent_4',['parent',['../d9/df7/classGameObjectComponent.html#a4721fe806010713bb031ff271ab6731a',1,'GameObjectComponent']]],
-  ['pkgbuild_5',['Arch Linux PKGBUILD',['../d6/dd0/md_BUILDING.html#autotoc_md11',1,'']]],
-  ['play_6',['How to play',['../index.html#autotoc_md17',1,'']]],
+  ['pkgbuild_5',['Arch Linux PKGBUILD',['../d6/dd0/md_BUILDING.html#autotoc_md12',1,'']]],
+  ['play_6',['How to play',['../index.html#autotoc_md18',1,'']]],
   ['playerbehavior_7',['PlayerBehavior',['../d3/dc0/classPlayerBehavior.html',1,'']]],
   ['playerbehavior_2ecpp_8',['PlayerBehavior.cpp',['../d8/dea/PlayerBehavior_8cpp.html',1,'']]],
   ['playerbehavior_2ehpp_9',['PlayerBehavior.hpp',['../dd/da3/PlayerBehavior_8hpp.html',1,'']]],
@@ -19,7 +19,7 @@ var searchData=
   ['playerkeyboardbehavior_2ehpp_16',['PlayerKeyboardBehavior.hpp',['../d0/dd8/PlayerKeyboardBehavior_8hpp.html',1,'']]],
   ['playerwidth_17',['PlayerWidth',['../d9/dfa/Init_8cpp.html#a42d1ad2ec90e13991389d45483f8d995',1,'Init.cpp']]],
   ['position_18',['position',['../de/d1c/classGameObject.html#ac4a579a984153f3317ddc794cadc531c',1,'GameObject']]],
-  ['project_19',['Quickly rebuild the project',['../d6/dd0/md_BUILDING.html#autotoc_md9',1,'']]],
-  ['project_20into_20an_20elf_20binary_20with_20debug_20info_20',['Building the Project into an ELF binary (with debug info)',['../d6/dd0/md_BUILDING.html#autotoc_md4',1,'']]],
-  ['project_20of_20compiled_20files_21',['Cleaning the project of compiled files',['../d6/dd0/md_BUILDING.html#autotoc_md5',1,'']]]
+  ['project_19',['Quickly rebuild the project',['../d6/dd0/md_BUILDING.html#autotoc_md10',1,'']]],
+  ['project_20into_20an_20elf_20binary_20with_20debug_20info_20',['Building the Project into an ELF binary (with debug info)',['../d6/dd0/md_BUILDING.html#autotoc_md5',1,'']]],
+  ['project_20of_20compiled_20files_21',['Cleaning the project of compiled files',['../d6/dd0/md_BUILDING.html#autotoc_md6',1,'']]]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"d9/d4a/Vector2_8hpp.html":[5,0,0,21],
 "d9/d4a/Vector2_8hpp_source.html":[5,0,0,21],
 "d9/d5f/PlayerCollisionBehavior_8cpp.html":[5,0,1,0,4,2],
 "d9/ddc/classEnemyBehavior.html":[4,0,6],
@@ -178,11 +179,11 @@ var NAVTREEINDEX1 =
 "globals_vars.html":[5,1,2],
 "hierarchy.html":[4,2],
 "index.html":[],
-"index.html#autotoc_md17":[0],
-"index.html#autotoc_md18":[1],
-"index.html#autotoc_md19":[2],
-"index.html#autotoc_md20":[2,0],
-"index.html#autotoc_md21":[2,1],
-"index.html#autotoc_md22":[2,2],
+"index.html#autotoc_md18":[0],
+"index.html#autotoc_md19":[1],
+"index.html#autotoc_md20":[2],
+"index.html#autotoc_md21":[2,0],
+"index.html#autotoc_md22":[2,1],
+"index.html#autotoc_md23":[2,2],
 "pages.html":[]
 };

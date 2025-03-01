@@ -102,6 +102,7 @@ $(function(){initNavTree('d6/dd0/md_BUILDING.html','../../'); initResizable(true
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="autotoc_md0"></a></p>
 <p>If you would like to build crunchbound from source, please follow the instructions in this file. If you encounter any issues, please do not hesitate to open an issue on GitHub.</p>
+<dl class="section note"><dt>Note</dt><dd>This guide will assume you are using an Arch Linux System. If you are not, please make sure you adapt the steps as needed to set up everything on your distro. The dependencies stay the same, but they may be installed in a different way. If your distribution does not provide you with a package for the dependencies, please refer directly to the library documentation for installation instructions.</dd></dl>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Build time dependencies</h1>
 <p>CrunchBound uses shared libraries and needs them installed at compile- and runtime. The required libraries are:</p><ul>
@@ -132,27 +133,74 @@ Build time dependencies</h1>
 </ul>
 </li>
 </ul>
-<dl class="section important"><dt>Important</dt><dd>This does not include makedepends for the libraries, such as cmake or ninja! Please aquire those from the library documentation page. The PKGBUILD has those packages listed for Arch Linux.</dd></dl>
-<p>To install these libraries, we will use the yay AUR helper. (If you are not on Arch Linux, please consult your distributions instructions for installing these libraries.) Please install yay according to these instructions, and then continue here: <a href="https://github.com/Jguer/yay?tab=readme-ov-file#installation">Yay Installation</a></p>
-<p>Install the build- and runtime dependencies using yay (as always, check PKGBUILD before downloading things from the AUR): </p><div class="fragment"><div class="line">yay -S sdl3 sdl3_image sdl3_ttf-git base-devel gcc make pkgconf</div>
+<p>In addition to the shared libraries, the following packages are required (these include configuration tools and compilers):</p><ul>
+<li>base-devel<ul>
+<li>This package includes the required tools:<ul>
+<li>gcc</li>
+<li>g++</li>
+<li>make</li>
+<li>pkgconf</li>
+<li>ldd</li>
+<li>sed</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>findutils<ul>
+<li>This package includes the required tools:<ul>
+<li>xargs</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>gawk<ul>
+<li>This package includes the required tools:<ul>
+<li>awk</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>tar</li>
+<li>grep</li>
+<li>Fundamental Linux system utilities, such as:<ul>
+<li>cp</li>
+<li>mv</li>
+<li>rm</li>
+<li>bash</li>
+<li>chmod</li>
+<li>mkdir</li>
+</ul>
+</li>
+</ul>
+<dl class="section important"><dt>Important</dt><dd>This list does not include makedepends for the libraries, such as cmake or ninja! Please aquire those from the library documentation page. The PKGBUILD has those packages listed for Arch Linux.</dd></dl>
+<p>To install these dependencies, we will use the yay AUR helper. Please install yay according to these instructions and then continue here: <a href="https://github.com/Jguer/yay?tab=readme-ov-file#installation">Yay Installation</a></p>
+<p>Install the build- and runtime dependencies using yay (as always, check PKGBUILD before downloading things from the AUR): </p><div class="fragment"><div class="line">yay -S sdl3 sdl3_image sdl3_ttf-git base-devel pkgconf findutils gawk tar grep</div>
 </div><!-- fragment --><p>That's it, you're all set up to build CrunchBound now!</p>
 <h1><a class="anchor" id="autotoc_md2"></a>
+Optional dependencies</h1>
+<p>The following optional dependencies can be installed to enable full tooling via the makefile and help with development:</p><ul>
+<li>heaptrack (C/C++ memory analysis tool)</li>
+<li>appimagetool-bin (for packaging the application to an appimage for distribution)</li>
+<li>doxygen + graphviz (for building the documentation)</li>
+</ul>
+<div class="fragment"><div class="line">yay -S heaptrack appimagetool-bin doxygen graphviz</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
 Cloning the Repository</h1>
 <p>To get the current version of the CrunchBound source code, clone the git repo to a location of your choice:</p>
 <div class="fragment"><div class="line">git clone https://github.com/LightJack05/CrunchBound.git</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md4"></a>
 The Makefile</h1>
 <p>CrunchBound is shipped with a Makefile that is used to automate several processes during development. Depending on what you want to achieve, you can execute a different target.</p>
 <p>The Makefile automatically detects cpp and hpp files in the working directory.</p>
-<h1><a class="anchor" id="autotoc_md4"></a>
-Building the Project into an ELF binary (with debug info)</h1>
+<h2><a class="anchor" id="autotoc_md5"></a>
+Building the Project into an ELF binary (with debug info)</h2>
 <p>This is probably the most common action. It will produce a binary at ./bin/crunchbound which you can then execute. To build the binary, simply execute the following command:</p>
 <div class="fragment"><div class="line">make</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md5"></a>
-Cleaning the project of compiled files</h1>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md6"></a>
+Cleaning the project of compiled files</h2>
 <p>If you want to remove any build files, and have a clean working area, you have multiple options. Some are more thourough that others.</p>
-<h2><a class="anchor" id="autotoc_md6"></a>
-Remove any and all files built</h2>
+<h3><a class="anchor" id="autotoc_md7"></a>
+Remove any and all files built</h3>
 <p>If you want to make sure there is nothing left of any builds, run the following command:</p>
 <div class="fragment"><div class="line">make distclean</div>
 </div><!-- fragment --><p>This will delete:</p><ul>
@@ -161,8 +209,8 @@ Remove any and all files built</h2>
 <li>The entire ./package/ directory</li>
 <li>The .depend file containing make dependencies</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md7"></a>
-Remove all build files, leave makedepends intact</h2>
+<h3><a class="anchor" id="autotoc_md8"></a>
+Remove all build files, leave makedepends intact</h3>
 <p>To only remove build files but leave makedepends intact, run:</p>
 <div class="fragment"><div class="line">make clean</div>
 </div><!-- fragment --><p>This will delete:</p><ul>
@@ -170,29 +218,29 @@ Remove all build files, leave makedepends intact</h2>
 <li>The generated ELF binary in ./bin/</li>
 <li>The entire ./package/ directory</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md8"></a>
-Remove only the package files</h2>
+<h3><a class="anchor" id="autotoc_md9"></a>
+Remove only the package files</h3>
 <p>To only remove the files from the packaging process, execute:</p>
 <div class="fragment"><div class="line">make cleanpackages</div>
 </div><!-- fragment --><p>This will delete:</p><ul>
 <li>The entire ./package/ directory</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md9"></a>
-Quickly rebuild the project</h1>
+<h2><a class="anchor" id="autotoc_md10"></a>
+Quickly rebuild the project</h2>
 <p>To combine <code>make distclean</code> and <code>make</code>, run:</p>
 <div class="fragment"><div class="line">make rebuild</div>
 </div><!-- fragment --><p>This is useful if you want to make sure the entire project is actually recompiled, as make sometimes does not notice changes in included files.</p>
-<h1><a class="anchor" id="autotoc_md10"></a>
-Packaging CrunchBound for distribution</h1>
 <h2><a class="anchor" id="autotoc_md11"></a>
-Arch Linux PKGBUILD</h2>
+Packaging CrunchBound for distribution</h2>
+<h3><a class="anchor" id="autotoc_md12"></a>
+Arch Linux PKGBUILD</h3>
 <p>To package the application using PKGBUILD into an Arch Linux package, run the following command:</p>
 <div class="fragment"><div class="line">make archpackage</div>
 </div><!-- fragment --><p>An Arch Linux package will be built to ./package/arch/</p>
 <dl class="section important"><dt>Important</dt><dd>Packaging for Arch Linux requires an Arch Linux system, including makepkg!</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Before packaging, the entire ./package directory will be deleted using <code>make clean</code>!</dd></dl>
-<h2><a class="anchor" id="autotoc_md12"></a>
-AppImage</h2>
+<h3><a class="anchor" id="autotoc_md13"></a>
+AppImage</h3>
 <dl class="section important"><dt>Important</dt><dd>Packaging to appimage requires the appimage tool installed. To install it with yay, execute: <code>yay -S appimagetool-bin</code>.</dd></dl>
 <p>To package the application into a fully self-contained AppImage file, execute the following command:</p>
 <div class="fragment"><div class="line">make appimage</div>
@@ -200,20 +248,20 @@ AppImage</h2>
 <p>Before the appimage is built, it will be organized into ./package/appimage/crunchbound.AppDir/. Any required libraries, as well as assets will be copied there, and then packaged into the AppImage file.</p>
 <dl class="section warning"><dt>Warning</dt><dd>Before packaging, the entire ./package directory will be deleted using <code>make clean</code>!</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>If you wish to modify the directory of the AppImage directory before it is built into the squashfs AppImage, you may use <code>make prepare-appimage</code>, and then modify the contents. To then build the appimage, run <code>make build-appimage</code>. This may be useful for testing purposes.</dd></dl>
-<h2><a class="anchor" id="autotoc_md13"></a>
-Building all packaging formats at once</h2>
+<h3><a class="anchor" id="autotoc_md14"></a>
+Building all packaging formats at once</h3>
 <p>To build all available packaging formats at once, run:</p>
 <div class="fragment"><div class="line">make package</div>
 </div><!-- fragment --><p>This will build both an AppImage and an Arch package.</p>
 <dl class="section warning"><dt>Warning</dt><dd>Before packaging, the entire ./package directory will be deleted using <code>make clean</code>!</dd></dl>
-<h1><a class="anchor" id="autotoc_md14"></a>
-Release and Debug</h1>
+<h2><a class="anchor" id="autotoc_md15"></a>
+Release and Debug</h2>
 <p>By default, <code>make</code> builds a debug version of the project using the gcc flags <code>-g -DDEVELOPMENT</code>. If you would like to build a release version, run <code>make release</code>.</p>
 <dl class="section attention"><dt>Attention</dt><dd>In a release build, assets will be loaded from <code>/usr/share/crunchbound/assets</code>, since the DEVELOPMENT macro is not set!</dd></dl>
 <p>By default, packaging always uses release, and all other profiles use debug.</p>
 <p>Release builds are stripped ELF binaries without debug symbols.</p>
-<h1><a class="anchor" id="autotoc_md15"></a>
-Documentation</h1>
+<h2><a class="anchor" id="autotoc_md16"></a>
+Documentation</h2>
 <p>The documentation is available on GitHub pages <a href="https://lightjack05.github.io/CrunchBound/docs/d0/d30/md_README.html">here</a>.</p>
 <p>To build the Doxygen documentation, you need doxygen and graphviz (dot) installed. To install them: </p><div class="fragment"><div class="line">sudo pacman -S graphviz doxygen</div>
 </div><!-- fragment --><p>Then, build the docs:</p>
@@ -225,7 +273,7 @@ Documentation</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Mar 1 2025 21:31:28 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Sat Mar 1 2025 22:28:50 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

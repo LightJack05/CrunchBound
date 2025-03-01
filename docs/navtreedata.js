@@ -25,31 +25,33 @@
 var NAVTREE =
 [
   [ "CrunchBound", "index.html", [
-    [ "How to play", "index.html#autotoc_md17", null ],
-    [ "Controls", "index.html#autotoc_md18", null ],
-    [ "Installation", "index.html#autotoc_md19", [
-      [ "AppImage", "index.html#autotoc_md20", null ],
-      [ "Arch Linux Package", "index.html#autotoc_md21", null ],
-      [ "Building from source", "index.html#autotoc_md22", null ]
+    [ "How to play", "index.html#autotoc_md18", null ],
+    [ "Controls", "index.html#autotoc_md19", null ],
+    [ "Installation", "index.html#autotoc_md20", [
+      [ "AppImage", "index.html#autotoc_md21", null ],
+      [ "Arch Linux Package", "index.html#autotoc_md22", null ],
+      [ "Building from source", "index.html#autotoc_md23", null ]
     ] ],
     [ "CrunchBound compilation guide", "d6/dd0/md_BUILDING.html", [
       [ "Build time dependencies", "d6/dd0/md_BUILDING.html#autotoc_md1", null ],
-      [ "Cloning the Repository", "d6/dd0/md_BUILDING.html#autotoc_md2", null ],
-      [ "The Makefile", "d6/dd0/md_BUILDING.html#autotoc_md3", null ],
-      [ "Building the Project into an ELF binary (with debug info)", "d6/dd0/md_BUILDING.html#autotoc_md4", null ],
-      [ "Cleaning the project of compiled files", "d6/dd0/md_BUILDING.html#autotoc_md5", [
-        [ "Remove any and all files built", "d6/dd0/md_BUILDING.html#autotoc_md6", null ],
-        [ "Remove all build files, leave makedepends intact", "d6/dd0/md_BUILDING.html#autotoc_md7", null ],
-        [ "Remove only the package files", "d6/dd0/md_BUILDING.html#autotoc_md8", null ]
-      ] ],
-      [ "Quickly rebuild the project", "d6/dd0/md_BUILDING.html#autotoc_md9", null ],
-      [ "Packaging CrunchBound for distribution", "d6/dd0/md_BUILDING.html#autotoc_md10", [
-        [ "Arch Linux PKGBUILD", "d6/dd0/md_BUILDING.html#autotoc_md11", null ],
-        [ "AppImage", "d6/dd0/md_BUILDING.html#autotoc_md12", null ],
-        [ "Building all packaging formats at once", "d6/dd0/md_BUILDING.html#autotoc_md13", null ]
-      ] ],
-      [ "Release and Debug", "d6/dd0/md_BUILDING.html#autotoc_md14", null ],
-      [ "Documentation", "d6/dd0/md_BUILDING.html#autotoc_md15", null ]
+      [ "Optional dependencies", "d6/dd0/md_BUILDING.html#autotoc_md2", null ],
+      [ "Cloning the Repository", "d6/dd0/md_BUILDING.html#autotoc_md3", null ],
+      [ "The Makefile", "d6/dd0/md_BUILDING.html#autotoc_md4", [
+        [ "Building the Project into an ELF binary (with debug info)", "d6/dd0/md_BUILDING.html#autotoc_md5", null ],
+        [ "Cleaning the project of compiled files", "d6/dd0/md_BUILDING.html#autotoc_md6", [
+          [ "Remove any and all files built", "d6/dd0/md_BUILDING.html#autotoc_md7", null ],
+          [ "Remove all build files, leave makedepends intact", "d6/dd0/md_BUILDING.html#autotoc_md8", null ],
+          [ "Remove only the package files", "d6/dd0/md_BUILDING.html#autotoc_md9", null ]
+        ] ],
+        [ "Quickly rebuild the project", "d6/dd0/md_BUILDING.html#autotoc_md10", null ],
+        [ "Packaging CrunchBound for distribution", "d6/dd0/md_BUILDING.html#autotoc_md11", [
+          [ "Arch Linux PKGBUILD", "d6/dd0/md_BUILDING.html#autotoc_md12", null ],
+          [ "AppImage", "d6/dd0/md_BUILDING.html#autotoc_md13", null ],
+          [ "Building all packaging formats at once", "d6/dd0/md_BUILDING.html#autotoc_md14", null ]
+        ] ],
+        [ "Release and Debug", "d6/dd0/md_BUILDING.html#autotoc_md15", null ],
+        [ "Documentation", "d6/dd0/md_BUILDING.html#autotoc_md16", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -75,7 +77,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d9/d4a/Vector2_8hpp_source.html"
+"d9/d4a/Vector2_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
