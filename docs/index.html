@@ -101,10 +101,10 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_README"></a></p>
-<p>CrunchBound is a game made with SDL3 in C++.</p>
+<p>CrunchBound is a game made with SDL3 in C++. The game can be run on x86_64 Linux Systems, provided that the GLIBC version is compatible with the build (see <b>Installation</b> for more information).</p>
 <h1><a class="anchor" id="autotoc_md18"></a>
 How to play</h1>
-<p>You have to handle the crunch! Collect coffee to prevent your Coffee Meter from dropping to 0, and avoid bugs at the same time! If you hit a bug, it's game over, nobody has time to fix them!</p>
+<p>You have to handle the crunch! Collect coffee to prevent your Coffee Meter from dropping to 0 and avoid bugs at the same time! If you hit a bug, it's game over, nobody has time to fix them!</p>
 <h1><a class="anchor" id="autotoc_md19"></a>
 Controls</h1>
 <p>A and D to move left and right</p>
@@ -112,7 +112,7 @@ Controls</h1>
 <p>R to restart</p>
 <h1><a class="anchor" id="autotoc_md20"></a>
 Installation</h1>
-<p>Depending on your preferences, the game can be built from source, or you can use either the Arch Linux Package, or the AppImage file provided.</p>
+<p>Depending on your preferences, the game can be built from source or you can use either the Arch Linux Package or the AppImage file provided.</p>
 <h2><a class="anchor" id="autotoc_md21"></a>
 AppImage</h2>
 <p>The easiest one is the x86_64 appimage. Just download the file from the releases page and run the file:</p>
@@ -128,7 +128,15 @@ Arch Linux Package</h2>
 </div><!-- fragment --><p> (Replace {version} and {arch} with appropriate values)</p>
 <h2><a class="anchor" id="autotoc_md23"></a>
 Building from source</h2>
-<p>To build from source, please check out the <a href="https://lightjack05.github.io/CrunchBound/docs/d6/dd0/md_BUILDING.html">compilation guide</a>. </p>
+<p>To build from source, please check out the <a href="https://lightjack05.github.io/CrunchBound/docs/d6/dd0/md_BUILDING.html">compilation guide</a>.</p>
+<h1><a class="anchor" id="autotoc_md24"></a>
+License information</h1>
+<p>The license can be found under LICENSE under the Repo root folder.</p>
+<p>During the development process, generative AI (including, but not limited to ChatGPT), has been used to create or partially create external tooling such as the Makefile, PKGBUILD and GH Actions. If generative AI was used in the Code itself, it has been made clear using comments around the generated part.</p>
+<p>I am not responsible for any external libraries used.</p>
+<h1><a class="anchor" id="autotoc_md25"></a>
+Architecture</h1>
+<p>Crunchbound uses a component model. That means the engine attaches certain components to GameObjects, which then provide certain interfaces or perform certain actions. The hierarchy of the components may be found on the documentation page of the <a class="el" href="d9/df7/classGameObjectComponent.html" title="An abstract gameobject component. Has an OnTick and OnStart method. Subclasses may be registered to a...">GameObjectComponent</a>, in the class diagram. </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
@@ -136,7 +144,7 @@ Building from source</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Mar 1 2025 22:28:50 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu Mar 13 2025 10:44:21 for CrunchBound by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

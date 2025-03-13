@@ -32,6 +32,8 @@ var NAVTREE =
       [ "Arch Linux Package", "index.html#autotoc_md22", null ],
       [ "Building from source", "index.html#autotoc_md23", null ]
     ] ],
+    [ "License information", "index.html#autotoc_md24", null ],
+    [ "Architecture", "index.html#autotoc_md25", null ],
     [ "CrunchBound compilation guide", "d6/dd0/md_BUILDING.html", [
       [ "Build time dependencies", "d6/dd0/md_BUILDING.html#autotoc_md1", null ],
       [ "Optional dependencies", "d6/dd0/md_BUILDING.html#autotoc_md2", null ],
