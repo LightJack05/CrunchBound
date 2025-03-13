@@ -1,9 +1,9 @@
 # CrunchBound
 
-CrunchBound is a game made with SDL3 in C++.
+CrunchBound is a game made with SDL3 in C++. The game can be run on x86_64 Linux Systems, provided that the GLIBC version is compatible with the build (see **Installation** for more information).
 
 ## How to play
-You have to handle the crunch! Collect coffee to prevent your Coffee Meter from dropping to 0, and avoid bugs at the same time!
+You have to handle the crunch! Collect coffee to prevent your Coffee Meter from dropping to 0 and avoid bugs at the same time!
 If you hit a bug, it's game over, nobody has time to fix them!
 
 ## Controls
@@ -15,7 +15,7 @@ R to restart
 
 ## Installation
 
-Depending on your preferences, the game can be built from source, or you can use either the Arch Linux Package, or the AppImage file provided.
+Depending on your preferences, the game can be built from source or you can use either the Arch Linux Package or the AppImage file provided.
 
 ### AppImage
 The easiest one is the x86_64 appimage. Just download the file from the releases page and run the file:
@@ -52,3 +52,14 @@ sudo pacman -U crunchbound-{version}-{arch}.pkg.tar.zst
 ### Building from source
 
 To build from source, please check out the [compilation guide](https://lightjack05.github.io/CrunchBound/docs/d6/dd0/md_BUILDING.html).
+
+## License information
+The license can be found under LICENSE under the Repo root folder.
+
+During the development process, generative AI (including, but not limited to ChatGPT), has been used to create or partially create external tooling such as the Makefile, PKGBUILD and GH Actions. If generative AI was used in the Code itself, it has been made clear using comments around the generated part.
+
+I am not responsible for any external libraries used.
+
+## Architecture
+
+Crunchbound uses a component model. That means the engine attaches certain components to GameObjects, which then provide certain interfaces or perform certain actions. The hierarchy of the components may be found on the documentation page of the GameObjectComponent, in the class diagram.
